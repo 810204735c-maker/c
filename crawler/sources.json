@@ -1,0 +1,87 @@
+{
+  "maxTotal": 500,
+  "retentionDays": 180,
+  "sources": [
+    {
+      "name": "国务院国资委招聘",
+      "kind": "html",
+      "url": "https://www.sasac.gov.cn/n2588035/n2588325/n2588350/index.html",
+      "category": "央国企",
+      "allowedDomains": ["sasac.gov.cn"],
+      "maxItems": 80,
+      "timeout": 25
+    },
+    {
+      "name": "中国公共招聘网事业单位",
+      "kind": "html",
+      "url": "https://job.mohrss.gov.cn/cjobs/institution/listInstitution",
+      "category": "事业单位",
+      "allowedDomains": ["mohrss.gov.cn"],
+      "maxItems": 80,
+      "timeout": 25
+    },
+    {
+      "name": "国家公务员局年度专题",
+      "kind": "html",
+      "url": "http://bm.scs.gov.cn/kl{year}",
+      "category": "公务员",
+      "allowedDomains": ["scs.gov.cn"],
+      "maxItems": 60,
+      "timeout": 25
+    },
+    {
+      "name": "国家统计局公务员招录",
+      "kind": "html",
+      "url": "https://www.stats.gov.cn/fw/gwyzl/zlgg/",
+      "category": "公务员",
+      "allowedDomains": ["stats.gov.cn"],
+      "maxItems": 50,
+      "timeout": 20
+    },
+    {
+      "name": "国家统计局企事业招聘",
+      "kind": "html",
+      "url": "https://www.stats.gov.cn/fw/gwyzl/sydwzl/",
+      "category": "事业单位",
+      "allowedDomains": ["stats.gov.cn"],
+      "maxItems": 50,
+      "timeout": 20
+    },
+    {
+      "name": "教育部公务员招录",
+      "kind": "html",
+      "url": "https://www.moe.gov.cn/s78/A04/gongzuo/moe_450/",
+      "category": "公务员",
+      "allowedDomains": ["moe.gov.cn"],
+      "maxItems": 50,
+      "timeout": 20
+    },
+    {
+      "name": "北京事业单位公开招聘",
+      "kind": "html",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/",
+      "category": "事业单位",
+      "allowedDomains": ["beijing.gov.cn"],
+      "maxItems": 50,
+      "timeout": 20
+    },
+    {
+      "name": "湖北事业单位招聘公告",
+      "kind": "html",
+      "url": "https://rst.hubei.gov.cn/hbrsksw/zlplks/hbssydwzpks/zkgg/",
+      "category": "事业单位",
+      "allowedDomains": ["hubei.gov.cn"],
+      "maxItems": 50,
+      "timeout": 20
+    },
+    {
+      "name": "湖北公务员重要通知",
+      "kind": "html",
+      "url": "https://rst.hubei.gov.cn/hbrsksw/zlplks/jglyks/hbsgwyks/zytz/",
+      "category": "公务员",
+      "allowedDomains": ["hubei.gov.cn"],
+      "maxItems": 50,
+      "timeout": 20
+    }
+  ]
+}

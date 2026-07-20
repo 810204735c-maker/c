@@ -1,0 +1,1 @@
+"""Recruitment listing collector package."""

@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="每日聚合公务员、事业单位与央国企公开招聘公告，支持搜索、筛选、收藏并直达官方来源。">
+  <meta name="theme-color" content="#17211b">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2317211b'/%3E%3Cpath d='M12 43h9V31h-9zm15 0h9V21h-9zm15 0h9V11h-9z' fill='%23d64b2a'/%3E%3C/svg%3E">
+  <title>招考雷达｜公开招考信息聚合</title>
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body class="view-editorial">
+  <!--
+    System: Chinese editorial newsroom utility
+    Type: 13 / 15 / 18 / 24 / 40 / 64; serif display + humanist Chinese sans
+    Color: warm paper #f3f0e8, ink #17211b, signal #d64b2a
+    Grid: 12 columns, 8px spacing rhythm, square rules, 2px functional radii
+    Variants: editorial / terminal intelligence desk / calm reading mode
+  -->
+  <a class="skip-link" href="#results">跳到招聘列表</a>
+
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="招考雷达首页">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>招考雷达</span>
+    </a>
+    <div class="header-status">
+      <span class="live-dot" aria-hidden="true"></span>
+      <span id="updateStatus">正在读取最新公告</span>
+    </div>
+    <div class="header-actions">
+      <button class="text-button" id="sourceButton" type="button">来源状态</button>
+      <button class="text-button" id="settingsButton" type="button">显示设置</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="masthead" aria-labelledby="pageTitle">
+      <p class="eyebrow">PUBLIC RECRUITMENT INTELLIGENCE / 公开招考情报</p>
+      <div class="masthead-grid">
+        <div>
+          <h1 id="pageTitle">把分散的招考公告，<br>收进一张每日清单。</h1>
+          <p class="intro">聚合考公、考编与央国企招聘信息。只保留可核验来源，点击即可回到原公告。</p>
+        </div>
+        <dl class="snapshot" aria-label="数据概览">
+          <div>
+            <dt>当前收录</dt>
+            <dd><strong id="totalCount">—</strong><span>条</span></dd>
+          </div>
+          <div>
+            <dt>近 7 日发布</dt>
+            <dd><strong id="weekCount">—</strong><span>条</span></dd>
+          </div>
+          <div>
+            <dt>可用来源</dt>
+            <dd><strong id="sourceCount">—</strong><span>个</span></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="search-deck" aria-label="搜索与筛选">
+      <form id="filters" role="search">
+        <label class="search-box" for="search">
+          <span>检索</span>
+          <input id="search" name="q" type="search" autocomplete="off" placeholder="输入单位、岗位、专业或地区">
+          <kbd>/</kbd>
+        </label>
+
+        <div class="category-row" id="categoryTabs" aria-label="招聘类型">
+          <button class="category-tab is-active" type="button" data-category="全部">全部 <span data-count="全部">0</span></button>
+          <button class="category-tab" type="button" data-category="公务员">公务员 <span data-count="公务员">0</span></button>
+          <button class="category-tab" type="button" data-category="事业单位">事业单位 <span data-count="事业单位">0</span></button>
+          <button class="category-tab" type="button" data-category="央国企">央国企 <span data-count="央国企">0</span></button>
+          <button class="saved-tab" id="savedOnly" type="button" aria-pressed="false">我的收藏 <span id="savedCount">0</span></button>
+        </div>
+
+        <div class="filter-row">
+          <label>
+            <span>地区</span>
+            <select id="location" name="location">
+              <option value="全部">全部地区</option>
+            </select>
+          </label>
+          <label>
+            <span>对象</span>
+            <select id="audience" name="audience">
+              <option value="全部">不限对象</option>
+              <option value="应届">应届 / 校招</option>
+              <option value="社会">社会招聘</option>
+            </select>
+          </label>
+          <label>
+            <span>发布时间</span>
+            <select id="freshness" name="freshness">
+              <option value="all">不限时间</option>
+              <option value="1">今天</option>
+              <option value="3">近 3 天</option>
+              <option value="7">近 7 天</option>
+              <option value="30">近 30 天</option>
+              <option value="90">近 90 天</option>
+            </select>
+          </label>
+          <label>
+            <span>排序</span>
+            <select id="sort" name="sort">
+              <option value="newest">最新发布</option>
+              <option value="deadline">截止时间</option>
+              <option value="source">信息来源</option>
+            </select>
+          </label>
+          <button id="clearFilters" class="clear-button" type="button">重置筛选</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="feed" aria-labelledby="feedTitle">
+      <div class="feed-heading">
+        <div>
+          <p class="section-index">01 / DAILY FEED</p>
+          <h2 id="feedTitle">最新公告</h2>
+        </div>
+        <p id="resultSummary" class="result-summary" aria-live="polite">正在加载…</p>
+      </div>
+
+      <div id="loadError" class="notice error-notice" hidden>
+        <strong>暂时无法读取数据。</strong>
+        <span>请确认你通过本地服务器或 GitHub Pages 打开此网站，然后刷新重试。</span>
+        <button id="retryButton" type="button">重新读取</button>
+      </div>
+
+      <ol id="results" class="job-list" aria-live="polite" aria-busy="true"></ol>
+
+      <div id="emptyState" class="empty-state" hidden>
+        <p class="empty-code">NO MATCH / 00</p>
+        <h3>没有符合当前条件的公告</h3>
+        <p>试试缩短关键词，或放宽地区和发布时间。</p>
+        <button id="emptyReset" type="button">查看全部公告</button>
+      </div>
+    </section>
+
+    <section class="method" aria-labelledby="methodTitle">
+      <p class="section-index">02 / METHOD</p>
+      <div class="method-grid">
+        <h2 id="methodTitle">信息如何到达这里</h2>
+        <ol>
+          <li><span>01</span><strong>每日发现</strong><p>定时检查国家与地方官方招聘栏目，持续补充新公告。</p></li>
+          <li><span>02</span><strong>校验去重</strong><p>按域名白名单过滤来源，相同公告只保留信息更完整的一条。</p></li>
+          <li><span>03</span><strong>直达原文</strong><p>网站不代替报名系统；资格、时间与岗位要求均以原公告为准。</p></li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>招考雷达 · 每日公开信息索引</p>
+    <p>本站仅聚合公开链接，不代表任何招录单位。报名前请务必核验原公告。</p>
+  </footer>
+
+  <dialog id="settingsDialog" class="utility-dialog" aria-labelledby="settingsTitle">
+    <form method="dialog">
+      <div class="dialog-head">
+        <div>
+          <p class="section-index">DISPLAY</p>
+          <h2 id="settingsTitle">选择阅读方式</h2>
+        </div>
+        <button class="dialog-close" value="close" aria-label="关闭">关闭</button>
+      </div>
+      <div class="view-options" id="viewOptions">
+        <label>
+          <input type="radio" name="view" value="editorial" checked>
+          <span><strong>编辑部</strong><small>均衡层级与信息密度</small></span>
+        </label>
+        <label>
+          <input type="radio" name="view" value="terminal">
+          <span><strong>情报台</strong><small>深色、紧凑、高密度</small></span>
+        </label>
+        <label>
+          <input type="radio" name="view" value="calm">
+          <span><strong>清爽</strong><small>更大留白，适合长时间阅读</small></span>
+        </label>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="sourceDialog" class="utility-dialog" aria-labelledby="sourceTitle">
+    <form method="dialog">
+      <div class="dialog-head">
+        <div>
+          <p class="section-index">SOURCES</p>
+          <h2 id="sourceTitle">来源运行状态</h2>
+        </div>
+        <button class="dialog-close" value="close" aria-label="关闭">关闭</button>
+      </div>
+      <p class="dialog-note">个别官网临时不可访问时，会保留上一次成功收录的内容。</p>
+      <ul id="sourceList" class="source-list"></ul>
+    </form>
+  </dialog>
+
+  <template id="jobTemplate">
+    <li class="job-item">
+      <article>
+        <div class="job-date">
+          <time></time>
+          <span class="relative-date"></span>
+        </div>
+        <div class="job-main">
+          <div class="job-kicker">
+            <span class="category-badge"></span>
+            <span class="source-name"></span>
+            <span class="official-badge">可核验来源</span>
+          </div>
+          <h3><a target="_blank" rel="noopener noreferrer"></a></h3>
+          <p class="job-summary"></p>
+          <ul class="job-meta"></ul>
+        </div>
+        <div class="job-actions">
+          <button class="save-button" type="button"></button>
+          <a class="open-link" target="_blank" rel="noopener noreferrer">查看原公告 <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+    </li>
+  </template>
+
+  <script type="module" src="./assets/app.js"></script>
+</body>
+</html>
