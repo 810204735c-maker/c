@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T19:39:55+08:00",
+  "generatedAt": "2026-07-20T19:59:30+08:00",
   "total": 25,
   "jobs": [
     {
@@ -16,7 +16,7 @@
       "deadline": null,
       "summary": "2026-07-17",
       "official": true,
-      "collectedAt": "2026-07-20T19:39:55+08:00"
+      "collectedAt": "2026-07-20T19:59:30+08:00"
     },
     {
       "id": "47b907079c2d051e",
@@ -32,7 +32,7 @@
       "deadline": null,
       "summary": "2026-07-17",
       "official": true,
-      "collectedAt": "2026-07-20T19:39:55+08:00"
+      "collectedAt": "2026-07-20T19:59:30+08:00"
     },
     {
       "id": "seed-sasac-hangkong-202607",
@@ -64,7 +64,7 @@
       "deadline": null,
       "summary": "2026-07-16",
       "official": true,
-      "collectedAt": "2026-07-20T19:39:55+08:00"
+      "collectedAt": "2026-07-20T19:59:30+08:00"
     },
     {
       "id": "1c4940df36b5dfa7",
@@ -80,7 +80,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-07-20T19:39:55+08:00"
+      "collectedAt": "2026-07-20T19:59:30+08:00"
     },
     {
       "id": "9dd5ce76b6ce62fe",
@@ -96,7 +96,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-07-20T19:39:55+08:00"
+      "collectedAt": "2026-07-20T19:59:30+08:00"
     },
     {
       "id": "e64d829ec8ac6dd3",
@@ -112,7 +112,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-07-20T19:39:55+08:00"
+      "collectedAt": "2026-07-20T19:59:30+08:00"
     },
     {
       "id": "9b59cba03bb8b2bc",
@@ -128,7 +128,7 @@
       "deadline": null,
       "summary": "2026-07-13",
       "official": true,
-      "collectedAt": "2026-07-20T19:39:55+08:00"
+      "collectedAt": "2026-07-20T19:59:30+08:00"
     },
     {
       "id": "b4749bea8f40e683",
@@ -144,7 +144,7 @@
       "deadline": null,
       "summary": "2026-07-13",
       "official": true,
-      "collectedAt": "2026-07-20T19:39:55+08:00"
+      "collectedAt": "2026-07-20T19:59:30+08:00"
     },
     {
       "id": "55f1dc754a426813",
@@ -160,7 +160,7 @@
       "deadline": null,
       "summary": "2026-07-10",
       "official": true,
-      "collectedAt": "2026-07-20T19:39:55+08:00"
+      "collectedAt": "2026-07-20T19:59:30+08:00"
     },
     {
       "id": "9881ddcb5bfcb93c",
@@ -176,7 +176,7 @@
       "deadline": null,
       "summary": "2026-07-10 var NowChnl = '事业单位公开招聘'; var ParNowChnl='信息公开栏目'; var GparNowChnl='事业单位公开招聘'; document.getElementById(NowChnl).className = \"nav_li\"; document.getElementById(ParNowChnl)",
       "official": true,
-      "collectedAt": "2026-07-20T19:39:55+08:00"
+      "collectedAt": "2026-07-20T19:59:30+08:00"
     },
     {
       "id": "seed-sasac-teleai-2027",
@@ -288,7 +288,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-20T19:39:55+08:00"
+      "collectedAt": "2026-07-20T19:59:30+08:00"
     },
     {
       "id": "c202818dbb703f2c",
@@ -304,7 +304,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-20T19:39:55+08:00"
+      "collectedAt": "2026-07-20T19:59:30+08:00"
     },
     {
       "id": "seed-nrta-2026",
@@ -336,7 +336,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-20T19:39:55+08:00"
+      "collectedAt": "2026-07-20T19:59:30+08:00"
     },
     {
       "id": "seed-mohrss-list",
@@ -368,7 +368,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-20T19:39:55+08:00"
+      "collectedAt": "2026-07-20T19:59:30+08:00"
     },
     {
       "id": "876741aeb78fb3bd",
@@ -384,7 +384,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-20T19:39:55+08:00"
+      "collectedAt": "2026-07-20T19:59:30+08:00"
     },
     {
       "id": "seed-hubei-2026",
