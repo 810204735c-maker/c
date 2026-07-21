@@ -410,6 +410,22 @@ def prune_old_jobs(jobs: list[dict], now: datetime, retention_days: int) -> list
     return kept
 
 
+def prune_expired_jobs(jobs: list[dict], now: datetime) -> list[dict]:
+    today = now.astimezone(SHANGHAI).date()
+    kept: list[dict] = []
+    for job in jobs:
+        deadline = job.get("deadline")
+        if not deadline:
+            kept.append(job)
+            continue
+        try:
+            if date.fromisoformat(deadline) >= today:
+                kept.append(job)
+        except (TypeError, ValueError):
+            kept.append(job)
+    return kept
+
+
 def fetch_text(url: str, timeout: int = 20, attempts: int = 2) -> str:
     last_error: Exception | None = None
     for attempt in range(attempts):
@@ -493,6 +509,7 @@ def crawl(config_path: Path, output_path: Path, now: datetime, dry_run: bool = F
     jobs = merge_with_previous(all_jobs, previous, failed_sources, now)
     jobs = dedupe_jobs([job for job in jobs if is_recruitment_title(job.get("title", ""))])
     jobs = prune_old_jobs(jobs, now, int(config.get("retentionDays", 180)))
+    jobs = prune_expired_jobs(jobs, now)
     for status in statuses:
         if status["status"] == "ok":
             status["count"] = sum(job.get("collector") == status["name"] for job in jobs)

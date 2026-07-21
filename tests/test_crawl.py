@@ -11,6 +11,7 @@ from crawler.crawl import (
     merge_with_previous,
     parse_html,
     parse_rss,
+    prune_expired_jobs,
     prune_old_jobs,
 )
 
@@ -163,6 +164,19 @@ class CrawlTests(unittest.TestCase):
             {"id": "old", "publishedAt": "2025-02-01"},
         ]
         self.assertEqual(prune_old_jobs(jobs, NOW, 180), [jobs[0]])
+
+    def test_prune_expired_jobs_keeps_today_and_unknown_deadlines(self):
+        jobs = [
+            {"id": "expired", "deadline": "2026-07-19"},
+            {"id": "today", "deadline": "2026-07-20"},
+            {"id": "future", "deadline": "2026-07-25"},
+            {"id": "unknown", "deadline": None},
+            {"id": "invalid", "deadline": "待公告确认"},
+        ]
+        self.assertEqual(
+            [job["id"] for job in prune_expired_jobs(jobs, NOW)],
+            ["today", "future", "unknown", "invalid"],
+        )
 
     def test_failed_source_keeps_its_previous_jobs(self):
         previous = {
