@@ -5,18 +5,20 @@
     {
       "name": "国务院国资委招聘",
       "kind": "html",
-      "url": "https://www.sasac.gov.cn/n2588035/n2588325/n2588350/index.html",
+      "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/index.html",
       "category": "央国企",
       "allowedDomains": ["sasac.gov.cn"],
+      "allowHttpReason": "官方 HTTPS 入口在 GitHub Actions 中持续握手失败；同域名公开 HTTP 移动页无需登录且可稳定读取",
       "maxItems": 80,
       "timeout": 25
     },
     {
       "name": "中国公共招聘网事业单位",
       "kind": "html",
-      "url": "https://job.mohrss.gov.cn/cjobs/institution/listInstitution",
+      "url": "http://job.mohrss.gov.cn/cjobs/institution/listInstitution",
       "category": "事业单位",
       "allowedDomains": ["mohrss.gov.cn"],
+      "allowHttpReason": "官方 HTTPS 入口在 GitHub Actions 中持续握手失败；同域名公开 HTTP 页面无需登录且可稳定读取",
       "maxItems": 80,
       "timeout": 25
     },
@@ -24,6 +26,8 @@
       "name": "国家公务员局年度专题",
       "kind": "html",
       "url": "http://bm.scs.gov.cn/kl{year}",
+      "enabled": false,
+      "disabledReason": "报名专题仅返回脚本跳转，官网栏目要求执行反爬 Cookie；遵守边界不绕过，待官方提供可直接读取入口后恢复",
       "category": "公务员",
       "allowedDomains": ["scs.gov.cn"],
       "maxItems": 60,
@@ -80,6 +84,8 @@
       "url": "https://rst.hubei.gov.cn/hbrsksw/zlplks/jglyks/hbsgwyks/zytz/",
       "category": "公务员",
       "allowedDomains": ["hubei.gov.cn"],
+      "allowEmpty": true,
+      "emptyPageMarker": "重要通知",
       "maxItems": 50,
       "timeout": 20
     }

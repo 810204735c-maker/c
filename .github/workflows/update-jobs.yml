@@ -32,14 +32,17 @@ jobs:
         run: node --test tests/core.test.mjs
 
       - name: 更新招聘数据
-        run: python crawler/crawl.py --config crawler/sources.json --output data/jobs.json
+        run: python crawler/crawl.py --config crawler/sources.json --output data/jobs.json --health-output data/health.json
+
+      - name: 检查数据快照质量
+        run: python scripts/check_snapshot.py --jobs data/jobs.json --health data/health.json
 
       - name: 保存最新数据快照
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/jobs.json
+          git add data/jobs.json data/health.json
           git diff --cached --quiet || git commit -m "data: refresh recruitment listings"
           git push origin "HEAD:${GITHUB_REF_NAME}"
 
@@ -65,7 +68,26 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: 部署到 GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  public-smoke:
+    needs: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v5
+
+      - name: 配置 Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: 检查公网首页和数据
+        run: python scripts/check_public_site.py --base-url "${{ needs.deploy.outputs.page_url }}"

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-21T12:07:14+08:00",
-  "total": 24,
+  "generatedAt": "2026-07-21T12:52:13+08:00",
+  "total": 45,
   "jobs": [
     {
       "id": "98561540804174e1",
@@ -16,7 +16,23 @@
       "deadline": null,
       "summary": "2026-07-21",
       "official": true,
-      "collectedAt": "2026-07-21T12:07:14+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "8d4b4d5e5a714260",
+      "title": "中国地质调查局局属单位2026年度公开招聘工作人员公告（第三批）",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260717_580418.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-07-20",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "2026-07-20",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
       "id": "89fe8245ec89f385",
@@ -32,7 +48,7 @@
       "deadline": null,
       "summary": "2026-07-17",
       "official": true,
-      "collectedAt": "2026-07-21T12:07:14+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
       "id": "47b907079c2d051e",
@@ -48,23 +64,39 @@
       "deadline": null,
       "summary": "2026-07-17",
       "official": true,
-      "collectedAt": "2026-07-21T12:07:14+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
-      "id": "seed-sasac-hangkong-202607",
+      "id": "7896f2424e88d46e",
       "title": "航空工业惠阳2026年设计岗位招募",
-      "url": "https://www.sasac.gov.cn/n2588035/n2588325/n2588350/index.html",
+      "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35610581/content.html",
       "source": "国务院国资委",
-      "collector": "初始官方数据",
+      "collector": "国务院国资委招聘",
       "publishedAt": "2026-07-16",
       "dateEstimated": false,
       "category": "央国企",
       "location": "全国",
       "audience": "不限",
       "deadline": null,
-      "summary": "国务院国资委招聘栏目发布的航空工业相关岗位信息。",
+      "summary": "[07-16]",
       "official": true,
-      "collectedAt": "2026-07-20T18:40:00+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "df9c6edfa5465ea8",
+      "title": "国家邮政局所属在京单位2026年度公开招聘公告",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260715_580262.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-07-16",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "2026-07-16",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
       "id": "4993836ea53079ca",
@@ -80,7 +112,7 @@
       "deadline": null,
       "summary": "2026-07-16",
       "official": true,
-      "collectedAt": "2026-07-21T12:07:14+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
       "id": "1c4940df36b5dfa7",
@@ -96,7 +128,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-07-21T12:07:14+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
       "id": "9dd5ce76b6ce62fe",
@@ -112,7 +144,39 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-07-21T12:07:14+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "cb638492c6bb1253",
+      "title": "中国网络安全审查认证和市场监管大数据中心2026年度公开招聘公告",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260714_580212.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-07-15",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "2026-07-15",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "f3e8e244ddaadc8e",
+      "title": "中国水产科学研究院2026年度第三批统一公开招聘公告",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260714_580213.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-07-15",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "2026-07-15",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
       "id": "e64d829ec8ac6dd3",
@@ -128,7 +192,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-07-21T12:07:14+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
       "id": "9b59cba03bb8b2bc",
@@ -144,7 +208,7 @@
       "deadline": null,
       "summary": "2026-07-13",
       "official": true,
-      "collectedAt": "2026-07-21T12:07:14+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
       "id": "b4749bea8f40e683",
@@ -160,7 +224,7 @@
       "deadline": null,
       "summary": "2026-07-13",
       "official": true,
-      "collectedAt": "2026-07-21T12:07:14+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
       "id": "55f1dc754a426813",
@@ -176,55 +240,183 @@
       "deadline": null,
       "summary": "2026-07-10 var NowChnl = '事业单位公开招聘'; var ParNowChnl='信息公开栏目'; var GparNowChnl='事业单位公开招聘'; document.getElementById(NowChnl).className = \"nav_li\"; document.getElementById(ParNowChnl)",
       "official": true,
-      "collectedAt": "2026-07-21T12:07:14+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
-      "id": "seed-sasac-teleai-2027",
-      "title": "中国电信天翼云2027届超级优才招聘正式启动",
-      "url": "https://www.sasac.gov.cn/n2588035/n2588325/n2588350/index.html",
+      "id": "823d5fed8a411262",
+      "title": "中国电信天翼云2027届超级优才招聘正式启动！",
+      "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35574598/content.html",
       "source": "国务院国资委",
-      "collector": "初始官方数据",
+      "collector": "国务院国资委招聘",
       "publishedAt": "2026-07-09",
       "dateEstimated": false,
       "category": "央国企",
       "location": "全国",
-      "audience": "应届",
+      "audience": "不限",
       "deadline": null,
-      "summary": "国务院国资委招聘栏目发布的央企校园招聘信息；进入栏目后可查看对应公告。",
+      "summary": "[07-09]",
       "official": true,
-      "collectedAt": "2026-07-20T18:40:00+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
-      "id": "seed-sasac-cee-202607",
+      "id": "d53069d62a6275e0",
+      "title": "水利部南水北调规划设计管理局2026年公开招聘工作人员公告",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260707_579747.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-07-08",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "2026-07-08",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "6587644d3a2dfca3",
+      "title": "国家文物局考古研究中心2026年公开招聘高层次人才（第二批）公告",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260707_579745.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-07-08",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "2026-07-08",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "e338139710f1ce6c",
       "title": "中国电气装备科学技术研究院有限公司2026年社会招聘",
-      "url": "https://www.sasac.gov.cn/n2588035/n2588325/n2588350/index.html",
+      "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35567377/content.html",
       "source": "国务院国资委",
-      "collector": "初始官方数据",
+      "collector": "国务院国资委招聘",
       "publishedAt": "2026-07-08",
       "dateEstimated": false,
       "category": "央国企",
       "location": "全国",
       "audience": "社会",
       "deadline": null,
-      "summary": "科研与产业岗位招聘信息，具体岗位、专业及报名材料请查看原公告。",
+      "summary": "[07-08]",
       "official": true,
-      "collectedAt": "2026-07-20T18:40:00+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
-      "id": "seed-sasac-yizhong-202607",
+      "id": "d0c93c3b730896bb",
+      "title": "中国地震局在京事业单位2026年度公开招聘人员公告",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260707_579743.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-07-08",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "2026-07-08",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "53bf686ab19e0235",
       "title": "中国一重融资租赁有限公司面向社会公开招聘法务合规人员公告",
-      "url": "https://www.sasac.gov.cn/n2588035/n2588325/n2588350/index.html",
+      "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35567440/content.html",
       "source": "国务院国资委",
-      "collector": "初始官方数据",
+      "collector": "国务院国资委招聘",
       "publishedAt": "2026-07-08",
       "dateEstimated": false,
       "category": "央国企",
       "location": "全国",
       "audience": "社会",
       "deadline": null,
-      "summary": "国务院国资委招聘栏目收录的社会招聘公告；岗位资格与报名方式以原文为准。",
+      "summary": "[07-08]",
       "official": true,
-      "collectedAt": "2026-07-20T18:40:00+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "6af7bc5d35e1a4bd",
+      "title": "航天通信本部部门副职岗位公开招聘启事",
+      "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35533449/content.html",
+      "source": "国务院国资委",
+      "collector": "国务院国资委招聘",
+      "publishedAt": "2026-07-03",
+      "dateEstimated": false,
+      "category": "央国企",
+      "location": "全国",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "[07-03]",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "200b4a852debc3c1",
+      "title": "北京体育大学2026年第二批公开招聘公告",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260702_579407.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-07-03",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "北京",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "2026-07-03",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "0fcc85e2e9a55986",
+      "title": "交通运输部所属事业单位2026年度第八批统一公开招聘公告",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260702_579408.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-07-03",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "2026-07-03",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "87bc9c90ce36d19d",
+      "title": "航空工业成都飞机设计研究所启动2026年社会招聘",
+      "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35528978/content.html",
+      "source": "国务院国资委",
+      "collector": "国务院国资委招聘",
+      "publishedAt": "2026-07-02",
+      "dateEstimated": false,
+      "category": "央国企",
+      "location": "全国",
+      "audience": "社会",
+      "deadline": null,
+      "summary": "[07-02]",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "451897d667b8f4c3",
+      "title": "中国兵器工业第二〇八研究所中层管理人员招聘公告",
+      "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35528950/content.html",
+      "source": "国务院国资委",
+      "collector": "国务院国资委招聘",
+      "publishedAt": "2026-07-02",
+      "dateEstimated": false,
+      "category": "央国企",
+      "location": "全国",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "[07-02]",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
       "id": "seed-hlj-202607",
@@ -243,20 +435,164 @@
       "collectedAt": "2026-07-20T18:40:00+08:00"
     },
     {
-      "id": "seed-sasac-institution-2026",
-      "title": "国务院国资委委属事业单位2026年度公开招聘公告",
-      "url": "https://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35428690/content.html",
+      "id": "d19e4bf380c3aa01",
+      "title": "航天科工2027届校园招聘全面启动",
+      "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35503679/content.html",
       "source": "国务院国资委",
-      "collector": "初始官方数据",
+      "collector": "国务院国资委招聘",
+      "publishedAt": "2026-06-29",
+      "dateEstimated": false,
+      "category": "央国企",
+      "location": "全国",
+      "audience": "应届",
+      "deadline": null,
+      "summary": "[06-29]",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "15cfdaca955d62c0",
+      "title": "文化和旅游部直属事业单位2026年度公开招聘应届毕业生公告（六）",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202606/t20260625_578992.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-06-26",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "应届",
+      "deadline": null,
+      "summary": "2026-06-26",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "974a38eabe03f6a2",
+      "title": "国家卫生健康委直属和联系单位2026年度第二批公开招聘人员公告",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202606/t20260625_578991.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-06-26",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "2026-06-26",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "9d77b8874fcf4ed4",
+      "title": "中国地质调查局局属单位2026年度公开招聘工作人员（第二批）补充招聘公告",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202606/t20260625_578977.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-06-26",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "2026-06-26",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "eed9dacb259947aa",
+      "title": "航空工业通飞2026届及2027届校园招聘",
+      "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35461352/content.html",
+      "source": "国务院国资委",
+      "collector": "国务院国资委招聘",
+      "publishedAt": "2026-06-22",
+      "dateEstimated": false,
+      "category": "央国企",
+      "location": "全国",
+      "audience": "应届",
+      "deadline": null,
+      "summary": "[06-22]",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "f72378cf98d0047d",
+      "title": "文化和旅游部直属事业单位2026年度公开招聘社会人员公告（三）",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202606/t20260617_578493.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-06-18",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "2026-06-18",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "87129ef9e962b5c2",
+      "title": "航天云网公司所属贵州公司、广东公司财务总监公开招聘启事",
+      "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35453701/content.html",
+      "source": "国务院国资委",
+      "collector": "国务院国资委招聘",
+      "publishedAt": "2026-06-17",
+      "dateEstimated": false,
+      "category": "央国企",
+      "location": "广东",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "[06-17] var purl=\"../../../n2588035/n2588325/n2588350/index_7325475\" var org= jQuery(\"#comp_7325475\").html(); function goPub(uu){ if(pageName==maxPageNum) { pageName=0;} if(pageNam",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "9a4dd6c07b1939c0",
+      "title": "中国东方航空技术有限公司2026年度夏季招聘",
+      "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35453721/content.html",
+      "source": "国务院国资委",
+      "collector": "国务院国资委招聘",
+      "publishedAt": "2026-06-17",
+      "dateEstimated": false,
+      "category": "央国企",
+      "location": "全国",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "[06-17]",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "80b6ead1a169c289",
+      "title": "中国水利水电科学研究院2026年度公开招聘工作人员公告",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202606/t20260612_578200.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-06-15",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "2026-06-15",
+      "official": true,
+      "collectedAt": "2026-07-21T12:52:13+08:00"
+    },
+    {
+      "id": "c439ba31a0550a65",
+      "title": "国务院国资委委属事业单位2026年度公开招聘公告",
+      "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35428690/content.html",
+      "source": "国务院国资委",
+      "collector": "国务院国资委招聘",
       "publishedAt": "2026-05-14",
       "dateEstimated": false,
       "category": "事业单位",
-      "location": "北京",
-      "audience": "应届",
+      "location": "全国",
+      "audience": "不限",
       "deadline": null,
-      "summary": "国务院国资委9家委属事业单位面向2026年高校应届毕业生公开招聘。",
+      "summary": "[05-14]",
       "official": true,
-      "collectedAt": "2026-07-20T18:40:00+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
       "id": "8450a63eff9323a0",
@@ -272,7 +608,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-21T12:07:14+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
       "id": "c202818dbb703f2c",
@@ -288,7 +624,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-21T12:07:14+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
       "id": "seed-nrta-2026",
@@ -320,7 +656,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-21T12:07:14+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
       "id": "seed-mohrss-list",
@@ -352,7 +688,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-21T12:07:14+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
       "id": "876741aeb78fb3bd",
@@ -368,7 +704,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-21T12:07:14+08:00"
+      "collectedAt": "2026-07-21T12:52:13+08:00"
     },
     {
       "id": "seed-hubei-2026",
@@ -390,21 +726,19 @@
   "sourceStatus": [
     {
       "name": "国务院国资委招聘",
-      "status": "error",
-      "count": 0,
-      "error": "<urlopen error [Errno 101] Network is unreachable>"
+      "status": "ok",
+      "count": 12
     },
     {
       "name": "中国公共招聘网事业单位",
-      "status": "error",
-      "count": 0,
-      "error": "<urlopen error [Errno 101] Network is unreachable>"
+      "status": "ok",
+      "count": 14
     },
     {
       "name": "国家公务员局年度专题",
-      "status": "error",
+      "status": "disabled",
       "count": 0,
-      "error": "source returned no matching official recruitment links"
+      "reason": "报名专题仅返回脚本跳转，官网栏目要求执行反爬 Cookie；遵守边界不绕过，待官方提供可直接读取入口后恢复"
     },
     {
       "name": "国家统计局公务员招录",
@@ -433,9 +767,8 @@
     },
     {
       "name": "湖北公务员重要通知",
-      "status": "error",
-      "count": 0,
-      "error": "source returned no matching official recruitment links"
+      "status": "empty",
+      "count": 0
     }
   ]
 }

@@ -29,6 +29,11 @@ from urllib.request import Request, urlopen
 from xml.etree import ElementTree
 from zoneinfo import ZoneInfo
 
+try:
+    from crawler.health import build_health, quality_violations, validate_health, validate_jobs
+except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
+    from health import build_health, quality_violations, validate_health, validate_jobs
+
 
 SHANGHAI = ZoneInfo("Asia/Shanghai")
 USER_AGENT = "Mozilla/5.0 (compatible; JobRadarCN/1.0; public-link-collector)"
@@ -481,6 +486,11 @@ def _collect_source(configured_source: dict, now: datetime) -> tuple[list[dict],
         else:
             jobs = parse_html(body, source, now)
         if not jobs:
+            if source.get("allowEmpty"):
+                marker = source.get("emptyPageMarker")
+                if marker and marker not in clean_text(body):
+                    raise RuntimeError("accessible empty page did not contain its expected marker")
+                return [], {"name": source["name"], "status": "empty", "count": 0}
             raise RuntimeError("source returned no matching official recruitment links")
         return jobs, {"name": source["name"], "status": "ok", "count": len(jobs)}
     except (RuntimeError, ElementTree.ParseError, ValueError) as error:
@@ -489,18 +499,36 @@ def _collect_source(configured_source: dict, now: datetime) -> tuple[list[dict],
         }
 
 
-def crawl(config_path: Path, output_path: Path, now: datetime, dry_run: bool = False) -> dict:
+def crawl(
+    config_path: Path,
+    output_path: Path,
+    now: datetime,
+    dry_run: bool = False,
+    health_output_path: Path | None = None,
+) -> dict:
     config = json.loads(config_path.read_text(encoding="utf-8"))
     previous = _read_previous(output_path)
+    health_output_path = health_output_path or output_path.with_name("health.json")
+    previous_health = _read_previous(health_output_path)
     all_jobs: list[dict] = []
     failed_sources: set[str] = set()
     statuses: list[dict] = []
 
     sources = config.get("sources", [])
-    worker_count = max(1, min(6, len(sources)))
+    enabled_sources = [source for source in sources if source.get("enabled", True)]
+    worker_count = max(1, min(6, len(enabled_sources)))
     with ThreadPoolExecutor(max_workers=worker_count) as executor:
-        results = executor.map(lambda source: _collect_source(source, now), sources)
-        for jobs, status in results:
+        results = iter(executor.map(lambda source: _collect_source(source, now), enabled_sources))
+        for source in sources:
+            if not source.get("enabled", True):
+                statuses.append({
+                    "name": source["name"],
+                    "status": "disabled",
+                    "count": 0,
+                    "reason": source.get("disabledReason", "disabled in source configuration"),
+                })
+                continue
+            jobs, status = next(results)
             all_jobs.extend(jobs)
             statuses.append(status)
             if status["status"] == "error":
@@ -521,13 +549,25 @@ def crawl(config_path: Path, output_path: Path, now: datetime, dry_run: bool = F
         "sourceStatus": statuses,
     }
     payload["total"] = len(payload["jobs"])
-    if not payload["jobs"] and statuses and all(status["status"] == "error" for status in statuses):
+    if not payload["jobs"] and enabled_sources and all(status["status"] == "error" for status in statuses if status["status"] != "disabled"):
         raise RuntimeError("all sources failed and no previous jobs are available")
+    health = build_health(payload, previous_health, now)
+    violations = quality_violations(payload, previous_health, health, now)
+    health["violations"] = violations
+    validation_errors = [*validate_jobs(payload), *validate_health(health)]
+    critical = [item for item in violations if item["severity"] == "critical"]
+    if validation_errors or critical:
+        messages = validation_errors + [item["message"] for item in critical]
+        raise RuntimeError("quality gate rejected snapshot: " + "; ".join(dict.fromkeys(messages)))
     if not dry_run:
         output_path.parent.mkdir(parents=True, exist_ok=True)
-        temporary = output_path.with_suffix(output_path.suffix + ".tmp")
-        temporary.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        temporary.replace(output_path)
+        health_output_path.parent.mkdir(parents=True, exist_ok=True)
+        jobs_temporary = output_path.with_suffix(output_path.suffix + ".tmp")
+        health_temporary = health_output_path.with_suffix(health_output_path.suffix + ".tmp")
+        jobs_temporary.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        health_temporary.write_text(json.dumps(health, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        health_temporary.replace(health_output_path)
+        jobs_temporary.replace(output_path)
     return payload
 
 
@@ -535,11 +575,12 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Collect public recruitment notices")
     parser.add_argument("--config", type=Path, default=Path("crawler/sources.json"))
     parser.add_argument("--output", type=Path, default=Path("data/jobs.json"))
+    parser.add_argument("--health-output", type=Path, default=Path("data/health.json"))
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args(argv)
     now = datetime.now(timezone.utc)
     try:
-        payload = crawl(args.config, args.output, now, args.dry_run)
+        payload = crawl(args.config, args.output, now, args.dry_run, args.health_output)
     except (OSError, ValueError, json.JSONDecodeError, RuntimeError) as error:
         print(f"collector failed: {error}", file=sys.stderr)
         return 1

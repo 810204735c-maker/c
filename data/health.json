@@ -1,0 +1,91 @@
+{
+  "generatedAt": "2026-07-21T12:52:13+08:00",
+  "currentTotal": 45,
+  "newLast7Days": 12,
+  "deadlineCoverage": 0.0,
+  "sourceSuccessRate": 1.0,
+  "enabledSourceCount": 8,
+  "disabledSourceCount": 1,
+  "failedSourceCount": 0,
+  "previousTotal": null,
+  "totalChangeRate": null,
+  "sources": [
+    {
+      "name": "国务院国资委招聘",
+      "status": "ok",
+      "count": 12,
+      "lastSuccessAt": "2026-07-21T12:52:13+08:00",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "中国公共招聘网事业单位",
+      "status": "ok",
+      "count": 14,
+      "lastSuccessAt": "2026-07-21T12:52:13+08:00",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "国家公务员局年度专题",
+      "status": "disabled",
+      "count": 0,
+      "lastSuccessAt": null,
+      "lastFailureAt": null,
+      "consecutiveFailures": 0,
+      "reason": "报名专题仅返回脚本跳转，官网栏目要求执行反爬 Cookie；遵守边界不绕过，待官方提供可直接读取入口后恢复"
+    },
+    {
+      "name": "国家统计局公务员招录",
+      "status": "ok",
+      "count": 0,
+      "lastSuccessAt": "2026-07-21T12:52:13+08:00",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "国家统计局企事业招聘",
+      "status": "ok",
+      "count": 5,
+      "lastSuccessAt": "2026-07-21T12:52:13+08:00",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "教育部公务员招录",
+      "status": "ok",
+      "count": 0,
+      "lastSuccessAt": "2026-07-21T12:52:13+08:00",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "北京事业单位公开招聘",
+      "status": "ok",
+      "count": 10,
+      "lastSuccessAt": "2026-07-21T12:52:13+08:00",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "湖北事业单位招聘公告",
+      "status": "ok",
+      "count": 0,
+      "lastSuccessAt": "2026-07-21T12:52:13+08:00",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "湖北公务员重要通知",
+      "status": "empty",
+      "count": 0,
+      "lastSuccessAt": "2026-07-21T12:52:13+08:00",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0
+    }
+  ],
+  "publicSite": {
+    "status": "pending"
+  },
+  "violations": []
+}

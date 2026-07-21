@@ -3,9 +3,11 @@ import tempfile
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
+from unittest.mock import patch
 
 from crawler.crawl import (
     classify,
+    crawl,
     dedupe_jobs,
     is_allowed_url,
     merge_with_previous,
@@ -85,6 +87,38 @@ class CrawlTests(unittest.TestCase):
         }
         html = '<a href="/category/">事业单位公开招聘</a><a href="/notice/">某医院公开招聘工作人员公告</a>'
         self.assertEqual(parse_html(html, source, NOW), [])
+
+    def test_collect_source_can_treat_an_accessible_empty_page_as_healthy(self):
+        source = {
+            "name": "当前暂无新公告",
+            "url": "https://example.gov.cn/list/",
+            "kind": "html",
+            "category": "公务员",
+            "allowedDomains": ["gov.cn"],
+            "allowEmpty": True,
+            "emptyPageMarker": "暂无新公告",
+        }
+        with patch("crawler.crawl.fetch_text", return_value="<html><body>暂无新公告</body></html>"):
+            from crawler.crawl import _collect_source
+            jobs, status = _collect_source(source, NOW)
+        self.assertEqual(jobs, [])
+        self.assertEqual(status["status"], "empty")
+
+    def test_accessible_empty_source_still_fails_when_page_marker_disappears(self):
+        source = {
+            "name": "当前暂无新公告",
+            "url": "https://example.gov.cn/list/",
+            "kind": "html",
+            "category": "公务员",
+            "allowedDomains": ["gov.cn"],
+            "allowEmpty": True,
+            "emptyPageMarker": "重要通知",
+        }
+        with patch("crawler.crawl.fetch_text", return_value="<html><body>网站维护中</body></html>"):
+            from crawler.crawl import _collect_source
+            jobs, status = _collect_source(source, NOW)
+        self.assertEqual(jobs, [])
+        self.assertEqual(status["status"], "error")
 
     def test_classification_prefers_specific_terms(self):
         self.assertEqual(classify("某市事业单位公开招聘公告", "公务员"), "事业单位")
@@ -250,6 +284,81 @@ class CrawlTests(unittest.TestCase):
         fresh = {**previous["jobs"][0], "id": "fresh", "title": "新公告", "collector": "成功来源"}
         result = merge_with_previous([fresh], previous, {"失败来源"}, NOW)
         self.assertEqual({job["id"] for job in result}, {"seed", "fresh"})
+
+    def test_crawl_writes_jobs_and_health_snapshots_together(self):
+        fresh = {
+            "id": "fresh",
+            "title": "测试单位2026年公开招聘公告",
+            "url": "https://example.gov.cn/fresh",
+            "source": "测试来源",
+            "collector": "测试来源",
+            "publishedAt": "2026-07-20",
+            "dateEstimated": False,
+            "category": "事业单位",
+            "location": "全国",
+            "audience": "不限",
+            "deadline": None,
+            "summary": "",
+            "official": True,
+            "collectedAt": "2026-07-20T10:30:00+08:00",
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            config = root / "sources.json"
+            jobs_path = root / "jobs.json"
+            health_path = root / "health.json"
+            config.write_text(json.dumps({"sources": [{"name": "测试来源"}]}), encoding="utf-8")
+            with patch("crawler.crawl._collect_source", return_value=(
+                [fresh], {"name": "测试来源", "status": "ok", "count": 1},
+            )):
+                crawl(config, jobs_path, NOW, health_output_path=health_path)
+
+            jobs = json.loads(jobs_path.read_text(encoding="utf-8"))
+            health = json.loads(health_path.read_text(encoding="utf-8"))
+            self.assertEqual(jobs["total"], 1)
+            self.assertEqual(health["currentTotal"], 1)
+            self.assertEqual(health["sourceSuccessRate"], 1.0)
+
+    def test_quality_gate_preserves_both_previous_snapshots(self):
+        previous_jobs = {
+            "generatedAt": "2026-07-19T10:00:00+08:00",
+            "total": 10,
+            "jobs": [{
+                "id": str(index),
+                "title": f"旧单位{index}公开招聘公告",
+                "url": f"https://example.gov.cn/{index}",
+                "source": "旧来源",
+                "collector": "旧来源",
+                "publishedAt": "2026-07-19",
+                "deadline": None,
+            } for index in range(10)],
+            "sourceStatus": [{"name": "旧来源", "status": "ok", "count": 10}],
+        }
+        previous_health = {
+            "generatedAt": "2026-07-19T10:00:00+08:00",
+            "currentTotal": 10,
+            "sourceSuccessRate": 1.0,
+            "sources": [],
+        }
+        fresh = {**previous_jobs["jobs"][0], "id": "fresh", "title": "新单位公开招聘公告", "collector": "测试来源"}
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            config = root / "sources.json"
+            jobs_path = root / "jobs.json"
+            health_path = root / "health.json"
+            config.write_text(json.dumps({"sources": [{"name": "测试来源"}]}), encoding="utf-8")
+            jobs_before = json.dumps(previous_jobs, ensure_ascii=False)
+            health_before = json.dumps(previous_health, ensure_ascii=False)
+            jobs_path.write_text(jobs_before, encoding="utf-8")
+            health_path.write_text(health_before, encoding="utf-8")
+            with patch("crawler.crawl._collect_source", return_value=(
+                [fresh], {"name": "测试来源", "status": "ok", "count": 1},
+            )):
+                with self.assertRaisesRegex(RuntimeError, "降幅超过 40%"):
+                    crawl(config, jobs_path, NOW, health_output_path=health_path)
+
+            self.assertEqual(jobs_path.read_text(encoding="utf-8"), jobs_before)
+            self.assertEqual(health_path.read_text(encoding="utf-8"), health_before)
 
 
 if __name__ == "__main__":
