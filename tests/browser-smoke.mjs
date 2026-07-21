@@ -19,6 +19,7 @@ await page.locator('.job-item').first().waitFor();
 const dataResponse = await page.request.get(`${baseUrl}/data/jobs.json`);
 const data = await dataResponse.json();
 assert.equal(await page.locator('.job-item').count(), data.total, 'every snapshot record should render');
+assert.equal(await page.locator('#loadError').isVisible(), false, 'load error should stay hidden after data loads');
 assert.match(await page.locator('.job-item h3 a').first().getAttribute('href'), /^https?:\/\//);
 
 await page.locator('#search').fill('电信');
