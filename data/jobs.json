@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-07-21T08:13:46+08:00",
-  "total": 25,
+  "generatedAt": "2026-07-21T11:34:15+08:00",
+  "total": 24,
   "jobs": [
+    {
+      "id": "98561540804174e1",
+      "title": "北京市体育局所属事业单位2026年下半年公开招聘教练员公告",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260721_4774395.html",
+      "source": "北京事业单位公开招聘",
+      "collector": "北京事业单位公开招聘",
+      "publishedAt": "2026-07-21",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "北京",
+      "audience": "不限",
+      "deadline": null,
+      "summary": "2026-07-21",
+      "official": true,
+      "collectedAt": "2026-07-21T11:34:15+08:00"
+    },
     {
       "id": "89fe8245ec89f385",
       "title": "首都医科大学附属北京中医医院公开招聘（第三批）公告",
@@ -16,7 +32,7 @@
       "deadline": null,
       "summary": "2026-07-17",
       "official": true,
-      "collectedAt": "2026-07-21T08:13:46+08:00"
+      "collectedAt": "2026-07-21T11:34:15+08:00"
     },
     {
       "id": "47b907079c2d051e",
@@ -32,7 +48,7 @@
       "deadline": null,
       "summary": "2026-07-17",
       "official": true,
-      "collectedAt": "2026-07-21T08:13:46+08:00"
+      "collectedAt": "2026-07-21T11:34:15+08:00"
     },
     {
       "id": "seed-sasac-hangkong-202607",
@@ -64,7 +80,7 @@
       "deadline": null,
       "summary": "2026-07-16",
       "official": true,
-      "collectedAt": "2026-07-21T08:13:46+08:00"
+      "collectedAt": "2026-07-21T11:34:15+08:00"
     },
     {
       "id": "1c4940df36b5dfa7",
@@ -80,7 +96,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-07-21T08:13:46+08:00"
+      "collectedAt": "2026-07-21T11:34:15+08:00"
     },
     {
       "id": "9dd5ce76b6ce62fe",
@@ -96,7 +112,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-07-21T08:13:46+08:00"
+      "collectedAt": "2026-07-21T11:34:15+08:00"
     },
     {
       "id": "e64d829ec8ac6dd3",
@@ -112,7 +128,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-07-21T08:13:46+08:00"
+      "collectedAt": "2026-07-21T11:34:15+08:00"
     },
     {
       "id": "9b59cba03bb8b2bc",
@@ -128,7 +144,7 @@
       "deadline": null,
       "summary": "2026-07-13",
       "official": true,
-      "collectedAt": "2026-07-21T08:13:46+08:00"
+      "collectedAt": "2026-07-21T11:34:15+08:00"
     },
     {
       "id": "b4749bea8f40e683",
@@ -144,7 +160,7 @@
       "deadline": null,
       "summary": "2026-07-13",
       "official": true,
-      "collectedAt": "2026-07-21T08:13:46+08:00"
+      "collectedAt": "2026-07-21T11:34:15+08:00"
     },
     {
       "id": "55f1dc754a426813",
@@ -158,25 +174,9 @@
       "location": "全国",
       "audience": "不限",
       "deadline": null,
-      "summary": "2026-07-10",
-      "official": true,
-      "collectedAt": "2026-07-21T08:13:46+08:00"
-    },
-    {
-      "id": "9881ddcb5bfcb93c",
-      "title": "北京农学院2026年第二批公开招聘工作人员公告",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260710_4756640.html",
-      "source": "北京事业单位公开招聘",
-      "collector": "北京事业单位公开招聘",
-      "publishedAt": "2026-07-10",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "北京",
-      "audience": "不限",
-      "deadline": null,
       "summary": "2026-07-10 var NowChnl = '事业单位公开招聘'; var ParNowChnl='信息公开栏目'; var GparNowChnl='事业单位公开招聘'; document.getElementById(NowChnl).className = \"nav_li\"; document.getElementById(ParNowChnl)",
       "official": true,
-      "collectedAt": "2026-07-21T08:13:46+08:00"
+      "collectedAt": "2026-07-21T11:34:15+08:00"
     },
     {
       "id": "seed-sasac-teleai-2027",
@@ -259,22 +259,6 @@
       "collectedAt": "2026-07-20T18:40:00+08:00"
     },
     {
-      "id": "seed-scs-2026-supplement",
-      "title": "中央机关及其直属机构2026年度补充录用公务员公告",
-      "url": "http://bm.scs.gov.cn/kl2026",
-      "source": "国家公务员局",
-      "collector": "初始官方数据",
-      "publishedAt": "2026-05-07",
-      "dateEstimated": false,
-      "category": "公务员",
-      "location": "全国",
-      "audience": "不限",
-      "deadline": "2026-05-10",
-      "summary": "中央机关及其直属机构2026年度考试录用公务员专题；补充录用职位、资格条件与后续安排均在专题网站发布。",
-      "official": true,
-      "collectedAt": "2026-07-20T18:40:00+08:00"
-    },
-    {
       "id": "8450a63eff9323a0",
       "title": "国家统计局在京直属企事业单位2026年公开招聘应届毕业生笔试公告",
       "url": "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260424_1963395.html",
@@ -288,7 +272,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-21T08:13:46+08:00"
+      "collectedAt": "2026-07-21T11:34:15+08:00"
     },
     {
       "id": "c202818dbb703f2c",
@@ -304,7 +288,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-21T08:13:46+08:00"
+      "collectedAt": "2026-07-21T11:34:15+08:00"
     },
     {
       "id": "seed-nrta-2026",
@@ -336,7 +320,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-21T08:13:46+08:00"
+      "collectedAt": "2026-07-21T11:34:15+08:00"
     },
     {
       "id": "seed-mohrss-list",
@@ -368,7 +352,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-21T08:13:46+08:00"
+      "collectedAt": "2026-07-21T11:34:15+08:00"
     },
     {
       "id": "876741aeb78fb3bd",
@@ -384,7 +368,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-21T08:13:46+08:00"
+      "collectedAt": "2026-07-21T11:34:15+08:00"
     },
     {
       "id": "seed-hubei-2026",
