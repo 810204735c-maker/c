@@ -7,6 +7,7 @@
   ol, ul { padding: 0; list-style: none; }
   button, input, select { font: inherit; }
   button, a { -webkit-tap-highlight-color: transparent; }
+  [hidden] { display: none !important; }
 }
 
 @layer base {
