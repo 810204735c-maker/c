@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T12:55:15+08:00",
+  "generatedAt": "2026-07-22T08:10:16+08:00",
   "total": 45,
   "jobs": [
     {
@@ -16,7 +16,7 @@
       "deadline": null,
       "summary": "2026-07-21",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "8d4b4d5e5a714260",
@@ -32,7 +32,7 @@
       "deadline": null,
       "summary": "2026-07-20",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "89fe8245ec89f385",
@@ -48,7 +48,7 @@
       "deadline": null,
       "summary": "2026-07-17",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "47b907079c2d051e",
@@ -64,7 +64,7 @@
       "deadline": null,
       "summary": "2026-07-17",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "7896f2424e88d46e",
@@ -80,7 +80,7 @@
       "deadline": null,
       "summary": "[07-16]",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "df9c6edfa5465ea8",
@@ -96,7 +96,7 @@
       "deadline": null,
       "summary": "2026-07-16",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "4993836ea53079ca",
@@ -112,7 +112,7 @@
       "deadline": null,
       "summary": "2026-07-16",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "1c4940df36b5dfa7",
@@ -128,7 +128,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "9dd5ce76b6ce62fe",
@@ -144,7 +144,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "cb638492c6bb1253",
@@ -160,7 +160,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "f3e8e244ddaadc8e",
@@ -176,7 +176,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "e64d829ec8ac6dd3",
@@ -192,7 +192,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "9b59cba03bb8b2bc",
@@ -208,7 +208,7 @@
       "deadline": null,
       "summary": "2026-07-13",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "b4749bea8f40e683",
@@ -224,7 +224,7 @@
       "deadline": null,
       "summary": "2026-07-13",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "55f1dc754a426813",
@@ -240,7 +240,7 @@
       "deadline": null,
       "summary": "2026-07-10 var NowChnl = '事业单位公开招聘'; var ParNowChnl='信息公开栏目'; var GparNowChnl='事业单位公开招聘'; document.getElementById(NowChnl).className = \"nav_li\"; document.getElementById(ParNowChnl)",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "823d5fed8a411262",
@@ -256,7 +256,7 @@
       "deadline": null,
       "summary": "[07-09]",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "d53069d62a6275e0",
@@ -272,7 +272,7 @@
       "deadline": null,
       "summary": "2026-07-08",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "6587644d3a2dfca3",
@@ -288,7 +288,7 @@
       "deadline": null,
       "summary": "2026-07-08",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "e338139710f1ce6c",
@@ -304,7 +304,7 @@
       "deadline": null,
       "summary": "[07-08]",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "d0c93c3b730896bb",
@@ -320,7 +320,7 @@
       "deadline": null,
       "summary": "2026-07-08",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "53bf686ab19e0235",
@@ -336,7 +336,7 @@
       "deadline": null,
       "summary": "[07-08]",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "6af7bc5d35e1a4bd",
@@ -352,7 +352,7 @@
       "deadline": null,
       "summary": "[07-03]",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "200b4a852debc3c1",
@@ -368,7 +368,7 @@
       "deadline": null,
       "summary": "2026-07-03",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "0fcc85e2e9a55986",
@@ -384,7 +384,7 @@
       "deadline": null,
       "summary": "2026-07-03",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "87bc9c90ce36d19d",
@@ -400,7 +400,7 @@
       "deadline": null,
       "summary": "[07-02]",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "451897d667b8f4c3",
@@ -416,7 +416,7 @@
       "deadline": null,
       "summary": "[07-02]",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "seed-hlj-202607",
@@ -448,7 +448,7 @@
       "deadline": null,
       "summary": "[06-29]",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "15cfdaca955d62c0",
@@ -464,7 +464,7 @@
       "deadline": null,
       "summary": "2026-06-26",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "974a38eabe03f6a2",
@@ -480,7 +480,7 @@
       "deadline": null,
       "summary": "2026-06-26",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "9d77b8874fcf4ed4",
@@ -496,7 +496,7 @@
       "deadline": null,
       "summary": "2026-06-26",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "eed9dacb259947aa",
@@ -512,7 +512,7 @@
       "deadline": null,
       "summary": "[06-22]",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "f72378cf98d0047d",
@@ -528,7 +528,7 @@
       "deadline": null,
       "summary": "2026-06-18",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "87129ef9e962b5c2",
@@ -544,7 +544,7 @@
       "deadline": null,
       "summary": "[06-17] var purl=\"../../../n2588035/n2588325/n2588350/index_7325475\" var org= jQuery(\"#comp_7325475\").html(); function goPub(uu){ if(pageName==maxPageNum) { pageName=0;} if(pageNam",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "9a4dd6c07b1939c0",
@@ -560,7 +560,7 @@
       "deadline": null,
       "summary": "[06-17]",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "80b6ead1a169c289",
@@ -576,7 +576,7 @@
       "deadline": null,
       "summary": "2026-06-15",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "c439ba31a0550a65",
@@ -592,7 +592,7 @@
       "deadline": null,
       "summary": "[05-14]",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "8450a63eff9323a0",
@@ -608,7 +608,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "c202818dbb703f2c",
@@ -624,7 +624,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "seed-nrta-2026",
@@ -656,7 +656,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "seed-mohrss-list",
@@ -688,7 +688,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "876741aeb78fb3bd",
@@ -704,7 +704,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-07-21T12:55:15+08:00"
+      "collectedAt": "2026-07-22T08:10:16+08:00"
     },
     {
       "id": "seed-hubei-2026",
