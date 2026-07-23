@@ -1,4 +1,405 @@
 {
   "version": 1,
-  "entries": {}
+  "entries": {
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777116.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777110.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": "2026-08-20",
+        "registrationEnd": "2026-08-20",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "五、报名时间及方式 自公告发布之日起至2026年8月20日中午12时止"
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777238.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-08-10",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "其中高层次人才岗位报名截止时间：2026年8月10日16:30 （三）资格审查 依据北京市相关政策及招聘公告要求"
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777150.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-07-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "（二）报名截止日期：岗位报名截止到2026年7月31日"
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777127.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777227.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-07-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "四、招聘程序 （一）报名时间及方式 1.报名时间：报名截止到2026年7月31日"
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260721_4774395.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": "2026-07-21",
+        "registrationEnd": "2026-07-29",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "1.报名时间：2026年7月21日至2026年7月29日"
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260717_580418.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260717_4768854.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": "2026-07-28",
+        "registrationEnd": "2026-07-28",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "三、招聘程序 （一）报名时间 即日起至2026年7月28日 （二）报名流程 应聘者须保证所填信息真实、完整、准确"
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260717_4768775.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": "2026-07-28",
+        "registrationEnd": "2026-07-28",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "三、招聘程序 （一）报名时间 即日起至2026年7月28日 （二）报名流程 每名应聘者只能填报一个岗位"
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35610581/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260715_580262.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260716_4766500.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": "2026-07-22",
+        "registrationEnd": "2026-07-28",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "（一）网上报名及资格初审 1.报名时间：2026年7月22日9:00至2026年7月28日17:00"
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260714_580212.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260714_580213.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260715_4764448.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": "2026-07-24",
+        "registrationEnd": "2026-07-24",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "三、招聘程序 （一）报名时间 自公告发布之日起至2026年7月24日17:00"
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35574598/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260707_579747.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260707_579745.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35567377/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260707_579743.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35567440/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35533449/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-07-15",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "六、报名及有关程序 （一）报名方式 1.报名时间：报名截止时间为2026年7月15日"
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260702_579407.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260702_579408.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35528978/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35528950/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-07-13",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "五、有关说明 （一）报名截止时间为2026年7月13日17:00"
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35503679/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202606/t20260625_578992.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202606/t20260625_578991.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202606/t20260625_578977.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35461352/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202606/t20260617_578493.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35453701/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-06-21",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "五、报名时间、方法及要求 （一）报名时间 报名截止时间为2026年6月21日"
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35453721/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202606/t20260612_578200.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35428690/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-05-29",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间从即日起至2026年5月29日17:00截止"
+      }
+    },
+    "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260424_1963395.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260416_1963335.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-04-22",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "三、以上岗位报名时间延长至2026年4月22日17：00"
+      }
+    },
+    "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260403_1962991.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fields": {
+        "registrationStart": "2026-04-20",
+        "registrationEnd": "2026-04-20",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "三、招聘程序 （一）网上报名 1.请考生在规定的报名时间内（自公告发布之日起至4月20日17：00）"
+      }
+    }
+  }
 }
