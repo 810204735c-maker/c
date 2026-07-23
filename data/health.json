@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T08:15:12+08:00",
+  "generatedAt": "2026-07-23T13:08:46+08:00",
   "currentTotal": 46,
   "newLast7Days": 10,
   "deadlineCoverage": 0.0,
@@ -7,14 +7,14 @@
   "enabledSourceCount": 8,
   "disabledSourceCount": 1,
   "failedSourceCount": 0,
-  "previousTotal": 45,
-  "totalChangeRate": 0.022222222222222223,
+  "previousTotal": 46,
+  "totalChangeRate": 0.0,
   "sources": [
     {
       "name": "国务院国资委招聘",
       "status": "ok",
       "count": 12,
-      "lastSuccessAt": "2026-07-23T08:15:12+08:00",
+      "lastSuccessAt": "2026-07-23T13:08:46+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -22,7 +22,7 @@
       "name": "中国公共招聘网事业单位",
       "status": "ok",
       "count": 14,
-      "lastSuccessAt": "2026-07-23T08:15:12+08:00",
+      "lastSuccessAt": "2026-07-23T13:08:46+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -39,7 +39,7 @@
       "name": "国家统计局公务员招录",
       "status": "ok",
       "count": 0,
-      "lastSuccessAt": "2026-07-23T08:15:12+08:00",
+      "lastSuccessAt": "2026-07-23T13:08:46+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -47,7 +47,7 @@
       "name": "国家统计局企事业招聘",
       "status": "ok",
       "count": 5,
-      "lastSuccessAt": "2026-07-23T08:15:12+08:00",
+      "lastSuccessAt": "2026-07-23T13:08:46+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -55,7 +55,7 @@
       "name": "教育部公务员招录",
       "status": "ok",
       "count": 0,
-      "lastSuccessAt": "2026-07-23T08:15:12+08:00",
+      "lastSuccessAt": "2026-07-23T13:08:46+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -63,7 +63,7 @@
       "name": "北京事业单位公开招聘",
       "status": "ok",
       "count": 11,
-      "lastSuccessAt": "2026-07-23T08:15:12+08:00",
+      "lastSuccessAt": "2026-07-23T13:08:46+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -71,7 +71,7 @@
       "name": "湖北事业单位招聘公告",
       "status": "ok",
       "count": 0,
-      "lastSuccessAt": "2026-07-23T08:15:12+08:00",
+      "lastSuccessAt": "2026-07-23T13:08:46+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -79,7 +79,7 @@
       "name": "湖北公务员重要通知",
       "status": "empty",
       "count": 0,
-      "lastSuccessAt": "2026-07-23T08:15:12+08:00",
+      "lastSuccessAt": "2026-07-23T13:08:46+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     }
