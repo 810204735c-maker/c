@@ -331,6 +331,56 @@ class CrawlTests(unittest.TestCase):
             self.assertEqual(health["currentTotal"], 1)
             self.assertEqual(health["sourceSuccessRate"], 1.0)
 
+    def test_crawl_enriches_deadline_and_writes_cache_atomically(self):
+        fresh = {
+            "id": "fresh",
+            "title": "测试单位2026年公开招聘公告",
+            "url": "https://example.gov.cn/fresh",
+            "source": "测试来源",
+            "collector": "测试来源",
+            "publishedAt": "2026-07-20",
+            "dateEstimated": False,
+            "category": "事业单位",
+            "location": "全国",
+            "audience": "不限",
+            "deadline": None,
+            "summary": "",
+            "official": True,
+            "collectedAt": "2026-07-20T10:30:00+08:00",
+        }
+        detail_html = "<main><p>报名时间为7月20日至7月25日。</p><p>8月2日笔试。</p></main>"
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            config = root / "sources.json"
+            jobs_path = root / "jobs.json"
+            health_path = root / "health.json"
+            cache_path = root / "cache" / "details.json"
+            config.write_text(json.dumps({
+                "detailMaxFetches": 1,
+                "detailCachePath": "cache/details.json",
+                "sources": [{
+                    "name": "测试来源",
+                    "allowedDomains": ["example.gov.cn"],
+                    "timeout": 10,
+                }],
+            }), encoding="utf-8")
+            with (
+                patch("crawler.crawl._collect_source", return_value=(
+                    [fresh], {"name": "测试来源", "status": "ok", "count": 1},
+                )),
+                patch("crawler.detail.fetch_detail_text", return_value=detail_html),
+            ):
+                crawl(config, jobs_path, NOW, health_output_path=health_path)
+
+            jobs = json.loads(jobs_path.read_text(encoding="utf-8"))
+            cache = json.loads(cache_path.read_text(encoding="utf-8"))
+            self.assertEqual(jobs["jobs"][0]["deadline"], "2026-07-25")
+            self.assertEqual(jobs["jobs"][0]["registrationEnd"], "2026-07-25")
+            self.assertEqual(
+                cache["entries"]["https://example.gov.cn/fresh"]["fields"]["registrationEnd"],
+                "2026-07-25",
+            )
+
     def test_quality_gate_preserves_both_previous_snapshots(self):
         previous_jobs = {
             "generatedAt": "2026-07-19T10:00:00+08:00",
@@ -358,19 +408,37 @@ class CrawlTests(unittest.TestCase):
             config = root / "sources.json"
             jobs_path = root / "jobs.json"
             health_path = root / "health.json"
-            config.write_text(json.dumps({"sources": [{"name": "测试来源"}]}), encoding="utf-8")
+            cache_path = root / "cache" / "details.json"
+            cache_path.parent.mkdir(parents=True)
+            cache_before = json.dumps({"version": 1, "entries": {}}, ensure_ascii=False)
+            cache_path.write_text(cache_before, encoding="utf-8")
+            config.write_text(json.dumps({
+                "detailMaxFetches": 1,
+                "detailCachePath": "cache/details.json",
+                "sources": [{
+                    "name": "测试来源",
+                    "allowedDomains": ["example.gov.cn"],
+                }],
+            }), encoding="utf-8")
             jobs_before = json.dumps(previous_jobs, ensure_ascii=False)
             health_before = json.dumps(previous_health, ensure_ascii=False)
             jobs_path.write_text(jobs_before, encoding="utf-8")
             health_path.write_text(health_before, encoding="utf-8")
-            with patch("crawler.crawl._collect_source", return_value=(
-                [fresh], {"name": "测试来源", "status": "ok", "count": 1},
-            )):
+            with (
+                patch("crawler.crawl._collect_source", return_value=(
+                    [fresh], {"name": "测试来源", "status": "ok", "count": 1},
+                )),
+                patch(
+                    "crawler.detail.fetch_detail_text",
+                    return_value="<p>报名时间为7月20日至7月25日。</p>",
+                ),
+            ):
                 with self.assertRaisesRegex(RuntimeError, "降幅超过 40%"):
                     crawl(config, jobs_path, NOW, health_output_path=health_path)
 
             self.assertEqual(jobs_path.read_text(encoding="utf-8"), jobs_before)
             self.assertEqual(health_path.read_text(encoding="utf-8"), health_before)
+            self.assertEqual(cache_path.read_text(encoding="utf-8"), cache_before)
 
 
 if __name__ == "__main__":

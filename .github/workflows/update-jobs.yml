@@ -42,7 +42,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/jobs.json data/health.json
+          git add data/jobs.json data/health.json crawler/cache/details.json
           git diff --cached --quiet || git commit -m "data: refresh recruitment listings"
           git push origin "HEAD:${GITHUB_REF_NAME}"
 

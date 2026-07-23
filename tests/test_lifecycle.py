@@ -47,6 +47,24 @@ class RegistrationWindowTests(unittest.TestCase):
         self.assertEqual(result["deadlineConfidence"], "unknown")
         self.assertEqual(result["deadlineEvidence"], "")
 
+    def test_exam_date_for_applicants_is_not_a_registration_deadline(self):
+        result = extract_registration_window(
+            "初审通过的报考人员请于2026年8月3日10:00至8月4日13:30前登录平台打印准考证。",
+            NOW,
+        )
+
+        self.assertIsNone(result["registrationEnd"])
+        self.assertEqual(result["deadlineConfidence"], "unknown")
+
+    def test_attachment_named_registration_form_does_not_create_deadline(self):
+        result = extract_registration_window(
+            "附件：公开招聘岗位需求表 公开招聘报名表 某单位2026年7月21日",
+            NOW,
+        )
+
+        self.assertIsNone(result["registrationEnd"])
+        self.assertEqual(result["deadlineEvidence"], "")
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -39,6 +39,11 @@ try:
 except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
     from lifecycle import extract_registration_window
 
+try:
+    from crawler.detail import enrich_jobs, load_detail_cache
+except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
+    from detail import enrich_jobs, load_detail_cache
+
 
 SHANGHAI = ZoneInfo("Asia/Shanghai")
 USER_AGENT = "Mozilla/5.0 (compatible; JobRadarCN/1.0; public-link-collector)"
@@ -224,6 +229,7 @@ def make_job(
     host = (urlparse(url).hostname or "").lower()
     official = host.endswith(".gov.cn") or host == "gov.cn" or host.endswith(".scs.gov.cn") or host.endswith(".iguopin.com")
     combined = f"{title} {summary}"
+    registration = extract_registration_window(combined, now)
     return {
         "id": _stable_id(title, url),
         "title": title,
@@ -235,7 +241,11 @@ def make_job(
         "category": classify(title, source.get("category", "事业单位")),
         "location": extract_location(combined),
         "audience": extract_audience(combined),
-        "deadline": extract_deadline(combined, now),
+        "registrationStart": registration["registrationStart"],
+        "registrationEnd": registration["registrationEnd"],
+        "deadlineConfidence": registration["deadlineConfidence"],
+        "deadlineEvidence": registration["deadlineEvidence"],
+        "deadline": registration["registrationEnd"],
         "summary": summary,
         "official": official,
         "collectedAt": now.astimezone(SHANGHAI).replace(microsecond=0).isoformat(),
@@ -509,6 +519,13 @@ def crawl(
     previous = _read_previous(output_path)
     health_output_path = health_output_path or output_path.with_name("health.json")
     previous_health = _read_previous(health_output_path)
+    configured_cache_path = Path(config.get("detailCachePath", "cache/details.json"))
+    detail_cache_path = (
+        configured_cache_path
+        if configured_cache_path.is_absolute()
+        else config_path.parent / configured_cache_path
+    )
+    detail_cache = load_detail_cache(detail_cache_path)
     all_jobs: list[dict] = []
     failed_sources: set[str] = set()
     statuses: list[dict] = []
@@ -535,6 +552,14 @@ def crawl(
 
     jobs = merge_with_previous(all_jobs, previous, failed_sources, now)
     jobs = dedupe_jobs([job for job in jobs if is_recruitment_title(job.get("title", ""))])
+    jobs, detail_cache = enrich_jobs(
+        jobs,
+        sources,
+        detail_cache,
+        now,
+        max_fetches=int(config.get("detailMaxFetches", 0)),
+        max_workers=int(config.get("detailMaxWorkers", 4)),
+    )
     jobs = prune_old_jobs(jobs, now, int(config.get("retentionDays", 180)))
     jobs = prune_expired_jobs(jobs, now)
     for status in statuses:
@@ -561,10 +586,14 @@ def crawl(
     if not dry_run:
         output_path.parent.mkdir(parents=True, exist_ok=True)
         health_output_path.parent.mkdir(parents=True, exist_ok=True)
+        detail_cache_path.parent.mkdir(parents=True, exist_ok=True)
         jobs_temporary = output_path.with_suffix(output_path.suffix + ".tmp")
         health_temporary = health_output_path.with_suffix(health_output_path.suffix + ".tmp")
+        cache_temporary = detail_cache_path.with_suffix(detail_cache_path.suffix + ".tmp")
         jobs_temporary.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         health_temporary.write_text(json.dumps(health, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        cache_temporary.write_text(json.dumps(detail_cache, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        cache_temporary.replace(detail_cache_path)
         health_temporary.replace(health_output_path)
         jobs_temporary.replace(output_path)
     return payload
@@ -586,7 +615,12 @@ def main(argv: list[str] | None = None) -> int:
     for status in payload["sourceStatus"]:
         suffix = f" ({status.get('error')})" if status["status"] == "error" else ""
         print(f"[{status['status']}] {status['name']}: {status['count']}{suffix}")
-    print(f"total: {payload['total']} | generated: {payload['generatedAt']} | dry-run: {args.dry_run}")
+    deadline_count = sum(bool(job.get("deadline")) for job in payload["jobs"])
+    deadline_coverage = deadline_count / payload["total"] if payload["total"] else 0.0
+    print(
+        f"total: {payload['total']} | deadline coverage: {deadline_count}/{payload['total']} "
+        f"({deadline_coverage:.1%}) | generated: {payload['generatedAt']} | dry-run: {args.dry_run}"
+    )
     return 0
 
 

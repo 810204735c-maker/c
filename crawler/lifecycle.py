@@ -12,9 +12,13 @@ _DATE_PATTERN = re.compile(
     r"(?P<month>\d{1,2})\s*[月./\-]\s*"
     r"(?P<day>\d{1,2})\s*日?"
 )
-_REGISTRATION_MARKERS = ("报名", "报考")
 _EXTENSION_MARKERS = ("延长至", "延期至", "顺延至")
 _CLAUSE_SEPARATOR = re.compile(r"[，,。；;\n\r]+")
+_REGISTRATION_CONTEXT = re.compile(
+    r"(?:网上|现场)?报名"
+    r"(?!表|材料|条件|资格|要求|流程|系统|入口)"
+    r"(?:时间|日期|期限|起止|截止|开始|结束|为|[:：])"
+)
 
 
 def _clean_text(value: str) -> str:
@@ -54,7 +58,7 @@ def _registration_clauses(text: str) -> list[str]:
     return [
         clause.strip()
         for clause in _CLAUSE_SEPARATOR.split(_clean_text(text))
-        if clause.strip() and any(marker in clause for marker in _REGISTRATION_MARKERS)
+        if clause.strip() and _REGISTRATION_CONTEXT.search(clause)
     ]
 
 

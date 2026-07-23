@@ -1,6 +1,9 @@
 {
   "maxTotal": 500,
   "retentionDays": 180,
+  "detailMaxFetches": 40,
+  "detailMaxWorkers": 4,
+  "detailCachePath": "cache/details.json",
   "sources": [
     {
       "name": "国务院国资委招聘",
