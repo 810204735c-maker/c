@@ -55,7 +55,7 @@ jobs:
           touch _site/.nojekyll
 
       - name: 上传 Pages 构建产物
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
@@ -73,7 +73,7 @@ jobs:
     steps:
       - name: 部署到 GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
   public-smoke:
     needs: deploy
