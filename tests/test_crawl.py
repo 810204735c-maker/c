@@ -63,6 +63,16 @@ class CrawlTests(unittest.TestCase):
         self.assertEqual(jobs[0]["deadline"], "2026-07-25")
         self.assertEqual(jobs[0]["location"], "全国")
 
+    def test_parse_rss_deadline_ignores_exam_dates_after_registration_range(self):
+        fixture = RSS_FIXTURE.replace(
+            "报名时间为7月20日至7月25日",
+            "报名时间为7月20日至7月25日，7月28日打印准考证，8月2日笔试",
+        )
+
+        jobs = parse_rss(fixture, SOURCE, NOW)
+
+        self.assertEqual(jobs[0]["deadline"], "2026-07-25")
+
     def test_parse_html_resolves_relative_urls_and_adjacent_dates(self):
         source = {
             "name": "国务院国资委",

@@ -34,6 +34,11 @@ try:
 except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
     from health import build_health, quality_violations, validate_health, validate_jobs
 
+try:
+    from crawler.lifecycle import extract_registration_window
+except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
+    from lifecycle import extract_registration_window
+
 
 SHANGHAI = ZoneInfo("Asia/Shanghai")
 USER_AGENT = "Mozilla/5.0 (compatible; JobRadarCN/1.0; public-link-collector)"
@@ -176,18 +181,7 @@ def extract_publication_date(text: str, url: str, now: datetime) -> tuple[str, b
 
 
 def extract_deadline(text: str, now: datetime) -> str | None:
-    compact = clean_text(text)
-    if not any(term in compact for term in ("截止", "截至", "报名时间", "报名日期", "报名为", "报名")):
-        return None
-    full_dates = re.findall(r"(20\d{2})[年./\-](\d{1,2})[月./\-](\d{1,2})日?", compact)
-    parsed_full = [_safe_date(int(y), int(m), int(d)) for y, m, d in full_dates]
-    parsed_full = [value for value in parsed_full if value]
-    if parsed_full:
-        return max(parsed_full).isoformat()
-    short_dates = re.findall(r"(?<!\d)(\d{1,2})月(\d{1,2})日", compact)
-    parsed_short = [_infer_year(int(m), int(d), now) for m, d in short_dates]
-    parsed_short = [value for value in parsed_short if value]
-    return max(parsed_short).isoformat() if parsed_short else None
+    return extract_registration_window(text, now)["registrationEnd"]
 
 
 def source_label(url: str, fallback: str) -> str:
