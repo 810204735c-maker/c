@@ -209,17 +209,19 @@ class CrawlTests(unittest.TestCase):
         ]
         self.assertEqual(prune_old_jobs(jobs, NOW, 180), [jobs[0]])
 
-    def test_prune_expired_jobs_keeps_today_and_unknown_deadlines(self):
+    def test_prune_expired_jobs_keeps_today_and_recent_unknown_deadlines(self):
         jobs = [
             {"id": "expired", "deadline": "2026-07-19"},
             {"id": "today", "deadline": "2026-07-20"},
             {"id": "future", "deadline": "2026-07-25"},
-            {"id": "unknown", "deadline": None},
+            {"id": "recent-unknown", "deadline": None, "publishedAt": "2026-07-01"},
+            {"id": "cutoff-unknown", "deadline": None, "publishedAt": "2026-06-05"},
+            {"id": "old-unknown", "deadline": None, "publishedAt": "2026-06-04"},
             {"id": "invalid", "deadline": "待公告确认"},
         ]
         self.assertEqual(
             [job["id"] for job in prune_expired_jobs(jobs, NOW)],
-            ["today", "future", "unknown", "invalid"],
+            ["today", "future", "recent-unknown", "cutoff-unknown", "invalid"],
         )
 
     def test_failed_source_keeps_its_previous_jobs(self):

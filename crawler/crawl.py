@@ -409,13 +409,18 @@ def prune_old_jobs(jobs: list[dict], now: datetime, retention_days: int) -> list
     return kept
 
 
-def prune_expired_jobs(jobs: list[dict], now: datetime) -> list[dict]:
+def prune_expired_jobs(jobs: list[dict], now: datetime, unknown_ttl_days: int = 45) -> list[dict]:
     today = now.astimezone(SHANGHAI).date()
+    unknown_cutoff = today - timedelta(days=unknown_ttl_days)
     kept: list[dict] = []
     for job in jobs:
         deadline = job.get("deadline")
         if not deadline:
-            kept.append(job)
+            try:
+                if date.fromisoformat(job.get("publishedAt", "")) >= unknown_cutoff:
+                    kept.append(job)
+            except (TypeError, ValueError):
+                kept.append(job)
             continue
         try:
             if date.fromisoformat(deadline) >= today:
