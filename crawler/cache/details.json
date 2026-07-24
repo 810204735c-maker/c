@@ -400,6 +400,56 @@
         "deadlineConfidence": "high",
         "deadlineEvidence": "三、招聘程序 （一）网上报名 1.请考生在规定的报名时间内（自公告发布之日起至4月20日17：00）"
       }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260722_580688.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-24T08:13:39+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/zpgg/202607/t20260723_5981936.shtml": {
+      "status": "ok",
+      "fetchedAt": "2026-07-24T08:13:39+08:00",
+      "fields": {
+        "registrationStart": "2026-07-24",
+        "registrationEnd": "2026-07-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间为2026年7月24日11:00至7月31日17:00"
+      }
+    },
+    "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202603/t20260316_1962788.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-24T08:13:39+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202602/t20260210_1962581.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-24T08:13:39+08:00",
+      "fields": {
+        "registrationStart": "2026-02-24",
+        "registrationEnd": "2026-02-24",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "三、招聘程序 （一）报名 1.报考人员在规定的报名时间内（自公告发布之日起至2月24日17:00）"
+      }
+    },
+    "https://www.moe.gov.cn/s78/A04/tongzhi/202601/t20260115_1426701.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-24T08:13:39+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
     }
   }
 }
