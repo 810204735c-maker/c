@@ -450,6 +450,36 @@
         "deadlineConfidence": "unknown",
         "deadlineEvidence": ""
       }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260724_4783689.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-25T08:17:45+08:00",
+      "fields": {
+        "registrationStart": "2026-08-06",
+        "registrationEnd": "2026-08-06",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "六、招聘程序 （一）报名与资格审查 1.报名时间：自公告发布之日起至2026年8月6日"
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260723_4781455.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-25T08:17:45+08:00",
+      "fields": {
+        "registrationStart": "2026-08-03",
+        "registrationEnd": "2026-08-03",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "三、招聘办法和程序 （一）应聘报名 1.报名时间为：自即日起至2026年8月3日"
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35666878/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-25T08:17:45+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
     }
   }
 }
