@@ -480,6 +480,56 @@
         "deadlineConfidence": "unknown",
         "deadlineEvidence": ""
       }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35687833/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-29T08:12:04+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-07-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "招聘概述 招聘单位：中铝财务有限责任公司 工作地点：北京市西城区 统一报名截止时间：2026年07月31日23:59:59 报名渠道：本次招聘统一通过国聘网线上报名 国聘网链接：https://www.iguopin.com/ 岗位一：数据"
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35687694/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-29T08:12:04+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35687717/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-29T08:12:04+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35687596/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-29T08:12:04+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/zpgg/202607/t20260727_5984486.shtml": {
+      "status": "ok",
+      "fetchedAt": "2026-07-29T08:12:04+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
     }
   }
 }
