@@ -530,6 +530,36 @@
         "deadlineConfidence": "unknown",
         "deadlineEvidence": ""
       }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260728_581063.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-30T08:13:47+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260728_581062.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-30T08:13:47+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35693219/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-30T08:13:47+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
     }
   }
 }
