@@ -3,7 +3,7 @@
   "entries": {
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777116.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -13,7 +13,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777110.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": "2026-08-20",
         "registrationEnd": "2026-08-20",
@@ -23,7 +23,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777238.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-08-10",
@@ -33,7 +33,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777150.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-07-31",
@@ -43,7 +43,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777127.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -53,7 +53,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777227.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-07-31",
@@ -63,7 +63,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260721_4774395.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": "2026-07-21",
         "registrationEnd": "2026-07-29",
@@ -73,7 +73,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260717_580418.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -83,7 +83,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260717_4768854.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": "2026-07-28",
         "registrationEnd": "2026-07-28",
@@ -103,7 +103,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35610581/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -113,7 +113,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260715_580262.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -133,7 +133,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260714_580212.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -143,7 +143,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260714_580213.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -163,7 +163,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35574598/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -173,7 +173,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260707_579747.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -183,7 +183,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260707_579745.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -193,7 +193,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35567377/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -203,7 +203,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260707_579743.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -213,7 +213,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35567440/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -223,7 +223,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35533449/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-07-15",
@@ -233,7 +233,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260702_579407.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -243,7 +243,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260702_579408.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -253,7 +253,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35528978/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -263,7 +263,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35528950/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-07-13",
@@ -283,7 +283,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202606/t20260625_578992.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -363,7 +363,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35428690/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-05-29",
@@ -373,7 +373,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260424_1963395.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -383,7 +383,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260416_1963335.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-04-22",
@@ -393,7 +393,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260403_1962991.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-23T14:40:03+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": "2026-04-20",
         "registrationEnd": "2026-04-20",
@@ -403,7 +403,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260722_580688.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-24T08:13:39+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -413,7 +413,7 @@
     },
     "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/zpgg/202607/t20260723_5981936.shtml": {
       "status": "ok",
-      "fetchedAt": "2026-07-24T08:13:39+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": "2026-07-24",
         "registrationEnd": "2026-07-31",
@@ -423,7 +423,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202603/t20260316_1962788.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-24T08:13:39+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -433,7 +433,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202602/t20260210_1962581.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-24T08:13:39+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": "2026-02-24",
         "registrationEnd": "2026-02-24",
@@ -443,7 +443,7 @@
     },
     "https://www.moe.gov.cn/s78/A04/tongzhi/202601/t20260115_1426701.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-24T08:13:39+08:00",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -554,6 +554,26 @@
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35693219/content.html": {
       "status": "ok",
       "fetchedAt": "2026-07-30T08:13:47+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35700418/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260729_581143.html": {
+      "status": "ok",
+      "fetchedAt": "2026-07-31T08:17:02+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
