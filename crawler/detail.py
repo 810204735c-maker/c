@@ -12,7 +12,10 @@ from threading import BoundedSemaphore
 from typing import Callable
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
-from zoneinfo import ZoneInfo
+try:
+    from crawler.timezone import shanghai_timezone
+except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
+    from timezone import shanghai_timezone
 
 try:
     from crawler.lifecycle import extract_registration_window
@@ -20,7 +23,7 @@ except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
     from lifecycle import extract_registration_window
 
 
-SHANGHAI = ZoneInfo("Asia/Shanghai")
+SHANGHAI = shanghai_timezone()
 USER_AGENT = "Mozilla/5.0 (compatible; JobRadarCN/1.0; public-detail-enricher)"
 SUCCESS_TTL = timedelta(days=7)
 FAILURE_TTL = timedelta(hours=6)

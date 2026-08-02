@@ -1,4 +1,6 @@
 import json
+import subprocess
+import sys
 import tempfile
 import unittest
 from datetime import datetime, timezone
@@ -51,6 +53,18 @@ HTML_FIXTURE = """<!doctype html><html><body>
 
 
 class CrawlTests(unittest.TestCase):
+    def test_collector_script_supports_direct_invocation(self):
+        result = subprocess.run(
+            [sys.executable, "crawler/crawl.py", "--help"],
+            cwd=Path(__file__).resolve().parents[1],
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn("Collect public recruitment notices", result.stdout)
+
     def test_allowed_domain_supports_subdomains_but_rejects_lookalikes(self):
         self.assertTrue(is_allowed_url("https://rsj.beijing.gov.cn/a", ["gov.cn"]))
         self.assertFalse(is_allowed_url("https://gov.cn.example.com/a", ["gov.cn"]))

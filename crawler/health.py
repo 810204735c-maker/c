@@ -9,10 +9,13 @@ from typing import Callable
 from urllib.error import HTTPError, URLError
 from urllib.parse import urljoin
 from urllib.request import Request, urlopen
-from zoneinfo import ZoneInfo
+try:
+    from crawler.timezone import shanghai_timezone
+except ModuleNotFoundError:  # Support direct module execution.
+    from timezone import shanghai_timezone
 
 
-SHANGHAI = ZoneInfo("Asia/Shanghai")
+SHANGHAI = shanghai_timezone()
 USER_AGENT = "Mozilla/5.0 (compatible; JobRadarCN/1.0; public-health-check)"
 SUCCESS_STATUSES = {"ok", "empty"}
 

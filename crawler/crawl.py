@@ -27,7 +27,10 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qs, quote, urlencode, urljoin, urlparse, urlunparse
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree
-from zoneinfo import ZoneInfo
+try:
+    from crawler.timezone import shanghai_timezone
+except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
+    from timezone import shanghai_timezone
 
 try:
     from crawler.health import build_health, quality_violations, validate_health, validate_jobs
@@ -45,7 +48,7 @@ except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
     from detail import enrich_jobs, load_detail_cache
 
 
-SHANGHAI = ZoneInfo("Asia/Shanghai")
+SHANGHAI = shanghai_timezone()
 USER_AGENT = "Mozilla/5.0 (compatible; JobRadarCN/1.0; public-link-collector)"
 RECRUITMENT_TERMS = (
     "招聘", "招募", "招考", "招录", "录用", "选调", "遴选", "校园招聘", "社会招聘", "补充录用",
