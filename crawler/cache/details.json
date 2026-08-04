@@ -610,6 +610,36 @@
         "deadlineConfidence": "high",
         "deadlineEvidence": "报名截止时间为2026年8月26日12:00"
       }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260803_4806021.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-04T08:16:38+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-08-21",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "2.报名截止日期： 2026年8月21日 （二）资格审核 医院按照公布的招聘岗位条件对应聘人员进行资格初审"
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260731_581269.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-04T08:16:38+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
+    },
+    "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/zpgg/202608/t20260803_5987944.shtml": {
+      "status": "ok",
+      "fetchedAt": "2026-08-04T08:16:38+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": ""
+      }
     }
   }
 }
