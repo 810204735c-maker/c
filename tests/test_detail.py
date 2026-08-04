@@ -23,6 +23,7 @@ DETAIL_HTML = """
   <nav>报名服务</nav>
   <main>
     <p>报名时间：2026年7月20日9:00至7月25日17:00。</p>
+    <p>请登录报名系统网上报名，上传报名表和身份证正反面。</p>
     <p>文字综合岗位负责文稿起草和宣传策划，专业要求中国语言文学，硕士研究生及以上。</p>
     <script>报名截止时间为2026年12月31日</script>
     <p>7月28日打印准考证，8月2日笔试。</p>
@@ -116,6 +117,11 @@ class DetailTests(unittest.TestCase):
             jobs[0]["profileHints"]["roleTags"],
             ["综合文字", "宣传文化"],
         )
+        self.assertEqual(jobs[0]["applicationHints"]["methods"], ["网上报名"])
+        self.assertEqual(
+            jobs[0]["applicationHints"]["materialTags"],
+            ["报名表", "身份证"],
+        )
         self.assertEqual(cache["entries"][JOB["url"]]["status"], "ok")
 
     def test_fresh_success_cache_enriches_without_network(self):
@@ -138,6 +144,12 @@ class DetailTests(unittest.TestCase):
                             "graduateYears": [],
                             "evidence": {"中国语言文学": "专业要求中国语言文学"},
                         },
+                        "applicationHints": {
+                            "schemaVersion": 1,
+                            "methods": ["网上报名"],
+                            "materialTags": ["报名表"],
+                            "evidence": {"网上报名": "请登录报名系统进行网上报名"},
+                        },
                     },
                 }
             },
@@ -153,6 +165,7 @@ class DetailTests(unittest.TestCase):
 
         self.assertEqual(jobs[0]["deadline"], "2026-07-25")
         self.assertEqual(jobs[0]["profileHints"]["majorTags"], ["中国语言文学"])
+        self.assertEqual(jobs[0]["applicationHints"]["methods"], ["网上报名"])
         self.assertEqual(updated, cache)
 
     def test_old_profile_hint_schema_refreshes_success_cache(self):
@@ -170,7 +183,13 @@ class DetailTests(unittest.TestCase):
                             "qualificationTags": [],
                             "graduateYears": [],
                             "evidence": {"新媒体": "关注微信公众号"},
-                        }
+                        },
+                        "applicationHints": {
+                            "schemaVersion": 1,
+                            "methods": [],
+                            "materialTags": [],
+                            "evidence": {},
+                        },
                     },
                 }
             },
@@ -188,6 +207,47 @@ class DetailTests(unittest.TestCase):
         self.assertEqual(
             updated["entries"][JOB["url"]]["fields"]["profileHints"]["schemaVersion"],
             3,
+        )
+
+    def test_old_application_hint_schema_refreshes_success_cache(self):
+        cache = {
+            "version": 1,
+            "entries": {
+                JOB["url"]: {
+                    "status": "ok",
+                    "fetchedAt": "2026-07-22T14:00:00+08:00",
+                    "fields": {
+                        "profileHints": {
+                            "schemaVersion": 3,
+                            "roleTags": [],
+                            "majorTags": [],
+                            "qualificationTags": [],
+                            "graduateYears": [],
+                            "evidence": {},
+                        },
+                        "applicationHints": {
+                            "schemaVersion": 0,
+                            "methods": ["邮箱报名"],
+                            "materialTags": [],
+                            "evidence": {},
+                        },
+                    },
+                }
+            },
+        }
+
+        jobs, updated = enrich_jobs(
+            [JOB],
+            [SOURCE],
+            cache,
+            NOW,
+            fetcher=lambda *args: "<main><p>请登录报名系统网上报名。</p></main>",
+        )
+
+        self.assertEqual(jobs[0]["applicationHints"]["methods"], ["网上报名"])
+        self.assertEqual(
+            updated["entries"][JOB["url"]]["fields"]["applicationHints"]["schemaVersion"],
+            1,
         )
 
     def test_profile_hints_apply_even_when_deadline_is_unknown(self):

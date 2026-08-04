@@ -27,6 +27,11 @@ try:
 except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
     from profile_hints import PROFILE_HINTS_SCHEMA_VERSION, extract_profile_hints
 
+try:
+    from crawler.application_hints import APPLICATION_HINTS_SCHEMA_VERSION, extract_application_hints
+except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
+    from application_hints import APPLICATION_HINTS_SCHEMA_VERSION, extract_application_hints
+
 
 SHANGHAI = shanghai_timezone()
 USER_AGENT = "Mozilla/5.0 (compatible; JobRadarCN/1.0; public-detail-enricher)"
@@ -175,6 +180,9 @@ def _cache_is_fresh(entry: object, now: datetime) -> bool:
         hints = fields.get("profileHints") if isinstance(fields, dict) else None
         if not isinstance(hints, dict) or hints.get("schemaVersion") != PROFILE_HINTS_SCHEMA_VERSION:
             return False
+        application = fields.get("applicationHints") if isinstance(fields, dict) else None
+        if not isinstance(application, dict) or application.get("schemaVersion") != APPLICATION_HINTS_SCHEMA_VERSION:
+            return False
     ttl = SUCCESS_TTL if entry.get("status") == "ok" else FAILURE_TTL
     return now.astimezone(timezone.utc) - fetched_at.astimezone(timezone.utc) <= ttl
 
@@ -196,6 +204,11 @@ def _apply_fields(job: dict, entry: object) -> dict:
         hints.get(key) for key in ("roleTags", "majorTags", "qualificationTags", "graduateYears")
     ):
         enriched["profileHints"] = hints
+    application = fields.get("applicationHints")
+    if isinstance(application, dict) and any(
+        application.get(key) for key in ("methods", "materialTags")
+    ):
+        enriched["applicationHints"] = application
     return enriched
 
 
@@ -219,7 +232,7 @@ def enrich_jobs(
     tasks: list[tuple[int, dict, dict]] = []
 
     for index, job in enumerate(enriched_jobs):
-        if job.get("deadline") and job.get("profileHints"):
+        if job.get("deadline") and job.get("profileHints") and job.get("applicationHints"):
             continue
         source = source_by_name.get(job.get("collector"))
         if not source:
@@ -255,6 +268,7 @@ def enrich_jobs(
             detail_text = extract_main_text(html_text)
             fields = extract_registration_window(detail_text, now)
             fields["profileHints"] = extract_profile_hints(detail_text)
+            fields["applicationHints"] = extract_application_hints(detail_text)
             entry = {
                 "status": "ok",
                 "fetchedAt": fetched_at,
@@ -266,6 +280,7 @@ def enrich_jobs(
                         "deadlineConfidence",
                         "deadlineEvidence",
                         "profileHints",
+                        "applicationHints",
                     )
                 },
             }
