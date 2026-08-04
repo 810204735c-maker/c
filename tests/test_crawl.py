@@ -53,6 +53,26 @@ HTML_FIXTURE = """<!doctype html><html><body>
 
 
 class CrawlTests(unittest.TestCase):
+    def test_focus_sources_are_official_and_allowlisted(self):
+        required = {
+            "国家广播电视总局公告公示",
+            "文化和旅游部人事信息",
+            "清华大学人事招聘",
+            "华北电力大学人才招聘",
+            "中国能建所属企业招聘",
+        }
+        config_path = Path(__file__).resolve().parents[1] / "crawler" / "sources.json"
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+        selected = {
+            source["name"]: source
+            for source in config["sources"]
+            if source["name"] in required
+        }
+
+        self.assertEqual(set(selected), required)
+        self.assertTrue(all(source["allowedDomains"] for source in selected.values()))
+        self.assertTrue(all(source.get("focusTags") for source in selected.values()))
+
     def test_collector_script_supports_direct_invocation(self):
         result = subprocess.run(
             [sys.executable, "crawler/crawl.py", "--help"],

@@ -1,7 +1,7 @@
 {
   "maxTotal": 500,
   "retentionDays": 180,
-  "detailMaxFetches": 40,
+  "detailMaxFetches": 60,
   "detailMaxWorkers": 4,
   "detailCachePath": "cache/details.json",
   "sources": [
@@ -23,6 +23,61 @@
       "allowedDomains": ["mohrss.gov.cn"],
       "allowHttpReason": "官方 HTTPS 入口在 GitHub Actions 中持续握手失败；同域名公开 HTTP 页面无需登录且可稳定读取",
       "maxItems": 80,
+      "timeout": 25
+    },
+    {
+      "name": "国家广播电视总局公告公示",
+      "kind": "html",
+      "url": "https://www.nrta.gov.cn/col/col113/index.html",
+      "category": "事业单位",
+      "allowedDomains": ["nrta.gov.cn"],
+      "focusTags": ["宣传文化", "编辑出版", "新媒体"],
+      "allowEmpty": true,
+      "emptyPageMarker": "公告公示",
+      "maxItems": 60,
+      "timeout": 20
+    },
+    {
+      "name": "文化和旅游部人事信息",
+      "kind": "html",
+      "url": "https://zwgk.mct.gov.cn/zfxxgkml/rsxx/",
+      "category": "事业单位",
+      "allowedDomains": ["mct.gov.cn"],
+      "focusTags": ["宣传文化", "编辑出版"],
+      "allowEmpty": true,
+      "emptyPageMarker": "人事信息",
+      "maxItems": 60,
+      "timeout": 20
+    },
+    {
+      "name": "清华大学人事招聘",
+      "kind": "html",
+      "url": "https://www.tsinghua.edu.cn/rsc/index.htm",
+      "category": "事业单位",
+      "allowedDomains": ["tsinghua.edu.cn"],
+      "focusTags": ["高校行政"],
+      "maxItems": 50,
+      "timeout": 20
+    },
+    {
+      "name": "华北电力大学人才招聘",
+      "kind": "html",
+      "url": "https://www.ncepu.edu.cn/rczp/bjrczp/index.htm",
+      "category": "事业单位",
+      "allowedDomains": ["ncepu.edu.cn"],
+      "focusTags": ["高校行政", "宣传文化"],
+      "maxItems": 50,
+      "timeout": 20
+    },
+    {
+      "name": "中国能建所属企业招聘",
+      "kind": "html",
+      "url": "http://www.ceehe.ceec.net.cn/",
+      "category": "央国企",
+      "allowedDomains": ["ceec.net.cn"],
+      "allowHttpReason": "中国能建所属企业公开 HTTPS 页面在本地与 GitHub Actions 证书链中不稳定；同域名公开 HTTP 页面无需登录且可稳定读取",
+      "focusTags": ["党群", "宣传文化", "综合文字"],
+      "maxItems": 50,
       "timeout": 25
     },
     {
