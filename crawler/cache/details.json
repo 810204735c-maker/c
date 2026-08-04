@@ -73,7 +73,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260717_580418.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -85,6 +85,12 @@
           "majorTags": [],
           "qualificationTags": [],
           "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
           "evidence": {}
         }
       }
@@ -111,7 +117,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35610581/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -130,12 +136,24 @@
             "硕士": "博士研究生、硕士研究生、大学本科",
             "应届": "（一）校园招聘"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "学历学位证明",
+            "成绩单"
+          ],
+          "evidence": {
+            "学历学位证明": "将简历（含成绩单，社会招聘人员需同步提供毕业证、学位证）以“姓名+院校+专业+学历”的格式命名邮件主题，发送至huiyangzp@126.com邮箱。",
+            "成绩单": "将简历（含成绩单，社会招聘人员需同步提供毕业证、学位证）以“姓名+院校+专业+学历”的格式命名邮件主题，发送至huiyangzp@126.com邮箱。"
+          }
         }
       }
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260715_580262.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -147,6 +165,12 @@
           "majorTags": [],
           "qualificationTags": [],
           "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
           "evidence": {}
         }
       }
@@ -163,7 +187,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260714_580212.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -176,12 +200,18 @@
           "qualificationTags": [],
           "graduateYears": [],
           "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260714_580213.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -193,6 +223,12 @@
           "majorTags": [],
           "qualificationTags": [],
           "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
           "evidence": {}
         }
       }
@@ -209,7 +245,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35574598/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -226,12 +262,18 @@
           "evidence": {
             "2027届": "中国电信天翼云2027届超级优才招聘正式启动！"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260707_579747.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -243,13 +285,19 @@
           "majorTags": [],
           "qualificationTags": [],
           "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
           "evidence": {}
         }
       }
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260707_579745.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -261,13 +309,19 @@
           "majorTags": [],
           "qualificationTags": [],
           "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
           "evidence": {}
         }
       }
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35567377/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -279,13 +333,19 @@
           "majorTags": [],
           "qualificationTags": [],
           "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
           "evidence": {}
         }
       }
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260707_579743.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -297,13 +357,19 @@
           "majorTags": [],
           "qualificationTags": [],
           "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
           "evidence": {}
         }
       }
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35567440/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -316,12 +382,18 @@
           "qualificationTags": [],
           "graduateYears": [],
           "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35533449/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-07-15",
@@ -340,6 +412,16 @@
             "中共党员": "（一）具有中华人民共和国国籍，中共党员，具有较高的政治素质，拥护党的路线方针政策，遵守国家法律、法规及集团公司相关制度，热爱航天事业，遵纪守法，具有强烈的事业心和责任感。",
             "工作经历": "或具有中央企业二级单位部门内设机构正职岗位（含三级单位部门正职岗位）3年以上任职经历，未满3年的，应当具备正职岗位（满1年）和副职岗位累计5年以上的工作经历。"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "工作经历证明"
+          ],
+          "evidence": {
+            "工作经历证明": "2.对录用人员实行试用期制度，并按照规定签订劳动合同。"
+          }
         }
       }
     },
@@ -355,7 +437,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260702_579408.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:18:33+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -367,6 +449,12 @@
           "majorTags": [],
           "qualificationTags": [],
           "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
           "evidence": {}
         }
       }
@@ -483,7 +571,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35428690/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:18:33+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-05-29",
@@ -500,12 +588,24 @@
           "evidence": {
             "应届": "2026年国内高校应届毕业生（不含定向、委培人员，含2年择业期内未落实工作单位的高校毕业生）。"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明"
+          ],
+          "evidence": {
+            "报名表": "2．国务院国资委委属事业单位2026年招聘应届高校毕业生报名表",
+            "学历学位证明": "3.具有本科及以上学历，如期取得毕业证、学位证，所学专业及学历符合岗位要求，具备与拟聘用岗位相适应的素质和能力。"
+          }
         }
       }
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260424_1963395.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:18:33+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -522,12 +622,18 @@
           "evidence": {
             "应届": "国家统计局在京直属企事业单位2026年公开招聘应届毕业生笔试公告 - 国家统计局"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260416_1963335.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:18:33+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-04-22",
@@ -544,12 +650,18 @@
           "evidence": {
             "应届": "国家统计局在京直属事业单位2026年度公开招聘应届高校毕业生补充公告 - 国家统计局"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260403_1962991.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:18:33+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": "2026-04-20",
         "registrationEnd": "2026-04-20",
@@ -566,12 +678,29 @@
           "evidence": {
             "应届": "国家统计局在京直属企事业单位2026年公开招聘应届毕业生公告 - 国家统计局"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "学历学位证明",
+            "工作经历证明",
+            "成绩单"
+          ],
+          "evidence": {
+            "网上报名": "（一）网上报名",
+            "学历学位证明": "1.2026年国内高校应届毕业生（一般应在2026年7月31日前取得相关学历、学位，含两年择业期内未落实工作单位的高校毕业生，不含定向生、委培生、部队院校毕业生），当年如期取得与最高学历相对应的学历学位证书。",
+            "工作经历证明": "公示结果不影响聘用的，事业单位签订聘用合同，企业签订劳动合同，并办理相关手续。",
+            "成绩单": "届毕业生报名平台（网址：https://www.qgsydw.com/xxywzlzt/bmzt/1997）注册、在线报名并提交相关材料（学历学位证明、外语水平证书、学习成绩单（加盖公章）、身份证、学生证、京内生源的户口簿首页及本人页等）。"
+          }
         }
       }
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260722_580688.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -584,12 +713,18 @@
           "qualificationTags": [],
           "graduateYears": [],
           "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     },
     "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/zpgg/202607/t20260723_5981936.shtml": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": "2026-07-24",
         "registrationEnd": "2026-07-31",
@@ -609,12 +744,22 @@
             "高校行政": "湖北省事业单位2026年统一公开招聘高校专职辅导员公告--湖北省人力资源和社会保障厅",
             "2026届": "2．全日制在读的非2026届毕业生。"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [],
+          "evidence": {
+            "网上报名": "报考人员通过湖北省人事考试网进行网上报名，按以下步骤进行："
+          }
         }
       }
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202603/t20260316_1962788.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:18:33+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -627,12 +772,18 @@
           "qualificationTags": [],
           "graduateYears": [],
           "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202602/t20260210_1962581.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:18:33+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": "2026-02-24",
         "registrationEnd": "2026-02-24",
@@ -649,12 +800,27 @@
           "evidence": {
             "中共党员": "（一）具有中华人民共和国国籍，中共党员（含预备党员）。"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "学历学位证明",
+            "工作经历证明"
+          ],
+          "evidence": {
+            "网上报名": "公开招聘工作人员报名平台（网址：https://www.qgsydw.com/xxywzlzt/bmzt/1810）注册、在线报名并提交相关材料（身份证，户口簿首页及本人页，学历学位证书，工作证明、劳动合同、社保缴费记录、专业资格证书等）。",
+            "学历学位证明": "公开招聘工作人员报名平台（网址：https://www.qgsydw.com/xxywzlzt/bmzt/1810）注册、在线报名并提交相关材料（身份证，户口簿首页及本人页，学历学位证书，工作证明、劳动合同、社保缴费记录、专业资格证书等）。",
+            "工作经历证明": "公开招聘工作人员报名平台（网址：https://www.qgsydw.com/xxywzlzt/bmzt/1810）注册、在线报名并提交相关材料（身份证，户口簿首页及本人页，学历学位证书，工作证明、劳动合同、社保缴费记录、专业资格证书等）。"
+          }
         }
       }
     },
     "https://www.moe.gov.cn/s78/A04/tongzhi/202601/t20260115_1426701.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:18:33+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -672,6 +838,19 @@
           "evidence": {
             "应届": "（1）考生身份为应届毕业生的，需提供报名推荐表原件（附件2，加盖院系党委公章）。",
             "工作经历": "（4）2025年10月报考后，学习、工作经历和奖惩情况有变化的，请补充说明，并提供相关证明材料。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "工作经历证明"
+          ],
+          "evidence": {
+            "网上报名": "2.网上报名时填写的通讯地址、联系方式等信息有变化的，请在电子邮件正文中注明。",
+            "工作经历证明": "在党政机关、事业单位、国有企业工作过的考生，须提供单位人事部门出具的基层工作经历证明，并注明工作具体部门、岗位、起止时间、工作地点，简要说明工作内容，其中，在机关事业单位工作的注明用人类型（编内、编外）。"
           }
         }
       }
@@ -698,7 +877,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35666878/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -715,12 +894,18 @@
           "evidence": {
             "应届": "中国一汽2026夏季校园招聘火热进行中－国务院国有资产监督管理委员会"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35687833/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-07-31",
@@ -739,12 +924,18 @@
             "硕士": "1.研究生及以上学历或硕士学位，年龄原则上不超过40周岁；",
             "工作经历": "3.5年及以上工作经历，具有企业级数据治理和数据挖掘、数据中台建设、金融监管数据报送、数据安全管理等相关工作经验的优先；"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35687694/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -757,12 +948,18 @@
           "qualificationTags": [],
           "graduateYears": [],
           "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35687717/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -782,12 +979,18 @@
             "应届": "中国融通集团2026届夏季校园招聘－国务院国有资产监督管理委员会",
             "2026届": "中国融通集团2026届夏季校园招聘－国务院国有资产监督管理委员会"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35687596/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -807,12 +1010,18 @@
             "应届": "中国物流2026届夏季校园招聘正式启动－国务院国有资产监督管理委员会",
             "2026届": "中国物流2026届夏季校园招聘正式启动－国务院国有资产监督管理委员会"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     },
     "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/zpgg/202607/t20260727_5984486.shtml": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -829,12 +1038,25 @@
           "evidence": {
             "2026届": "2．全日制在读的非2026届毕业生。"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "身份证"
+          ],
+          "evidence": {
+            "网上报名": "本次招聘采取网上报名的方式进行，网址：湖北省人事考试网https://rst.hubei.gov.cn/hbrsksw/。",
+            "身份证": "资格条件复审时，面试人员应按照招聘岗位资格条件要求提供本人身份证、准考证、毕业证、学历学位证等相关证明材料的原件。"
+          }
         }
       }
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260728_581063.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -846,13 +1068,19 @@
           "majorTags": [],
           "qualificationTags": [],
           "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
           "evidence": {}
         }
       }
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260728_581062.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -865,12 +1093,18 @@
           "qualificationTags": [],
           "graduateYears": [],
           "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35693219/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -890,12 +1124,18 @@
             "应届": "中国航空发动机集团有限公司2027届校园招聘开启－国务院国有资产监督管理委员会",
             "2027届": "中国航空发动机集团有限公司2027届校园招聘开启－国务院国有资产监督管理委员会"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35700418/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -908,12 +1148,18 @@
           "qualificationTags": [],
           "graduateYears": [],
           "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260729_581143.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -925,6 +1171,12 @@
           "majorTags": [],
           "qualificationTags": [],
           "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
           "evidence": {}
         }
       }
@@ -961,7 +1213,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4807521.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-08-21",
@@ -974,12 +1226,25 @@
           "qualificationTags": [],
           "graduateYears": [],
           "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "个人简历"
+          ],
+          "evidence": {
+            "网上报名": "（1）登录天坛医院官网招聘专栏报名系统，选择相应的招聘信息；",
+            "个人简历": "（4）可将个人简历及重要材料上传至附件中。"
+          }
         }
       }
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4808172.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2025-01-01",
@@ -998,12 +1263,29 @@
             "应届": "（一）应届毕业生",
             "教师资格证": "（三）报考人员在办理入职手续前，如不能按时毕业并取得相应毕业证、学位证、教师资格证等岗位要求资格证书的，取消聘用资格。"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "资格证书"
+          ],
+          "evidence": {
+            "网上报名": "1.网上报名",
+            "报名表": "资格复审应提供《市委教育工委市教委所属事业单位2026年公开招聘工作人员考生报名表》（登录“北京市事业单位公开招聘服务平台”系统打印），在《报名表》“诚信承诺本人签名”处手签姓名；",
+            "学历学位证明": "（三）报考人员在办理入职手续前，如不能按时毕业并取得相应毕业证、学位证、教师资格证等岗位要求资格证书的，取消聘用资格。",
+            "资格证书": "（三）报考人员在办理入职手续前，如不能按时毕业并取得相应毕业证、学位证、教师资格证等岗位要求资格证书的，取消聘用资格。"
+          }
         }
       }
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4808088.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": "2026-08-10",
         "registrationEnd": "2026-08-14",
@@ -1020,12 +1302,29 @@
           "evidence": {
             "应届": "1.应届毕业生：列入国家统一招生计划的（不含委培生、定向培养），包括按时毕业并获得相应学历学位，毕业证书落款年度2年内（2025年、2026年）的应届毕业生，以及2024年离校未就业毕业生（未与任何单位签订合同且无单位缴纳社会保险记录）。"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "学历学位证明",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "网上报名": "（一）网上报名及资格查询",
+            "学历学位证明": "3.毕业证、学位证（本科和研究生阶段）；",
+            "成绩单": "请考生上传国外高等教育文凭认证书、成绩单（课程表）和招聘单位通知需提供的其他材料。",
+            "就业推荐表": "4.2026年应届毕业生提供就业推荐表；"
+          }
         }
       }
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4808187.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2025-01-01",
@@ -1042,12 +1341,22 @@
           "evidence": {
             "应届": "（五）应届毕业生是指列入国家统一招生计划，培养方式为非定向（不含定向、委培），按时毕业并获得相应学历学位，毕业证书落款年度2年内（2025年、2026年）的高校毕业生，及2024年离校未就业（未与任何单位签订合同且无单位缴纳社会保险记录）毕"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [],
+          "evidence": {
+            "网上报名": "1.网上报名"
+          }
         }
       }
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4808107.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": "2026-08-10",
         "registrationEnd": "2026-08-14",
@@ -1064,12 +1373,27 @@
           "evidence": {
             "工作经历": "（五）社会人员，需具有北京市常住户口且人事行政关系及档案在京（不包括户口档案保留在学校的非北京生源往届毕业生），且具有5年以上相关工作经历。"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "工作经历证明",
+            "成绩单"
+          ],
+          "evidence": {
+            "网上报名": "请报考人员如实在报名系统内填报报考各项信息，同时将户口簿（首页、本人页）、身份证、学历学位证、教育部留学服务中心学历认证、劳动合同（聘用合同）或社会保险缴纳记录等材料扫描至1个PDF文档以附件形式上传至报名系统（外文须有翻译公司提供的翻译件",
+            "工作经历证明": "报考人员须提供相应的劳动合同、聘用合同或社会保险缴纳记录，工作年限计算时间截至本公告发布之日。",
+            "成绩单": "留学归国等报考人员所学学科专业与资格条件要求的学科专业相近但不在选定参考目录的，比照招聘专业主要必修科目（不含高数、英语等公共科目）和其研究方向确定，请考生提供相应课程表及成绩单。"
+          }
         }
       }
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4808137.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1090,12 +1414,29 @@
             "应届": "3.应届毕业生要求：限列入国家统一招生计划（不含委培生、定向生）的普通高等学校毕业生，按时毕业并取得相应学历学位，毕业证书落款年度2年内（2025年、2026年）的高校毕业生，及2024年离校未就业（未与任何单位签订合同且无社会保险缴纳记录",
             "工作经历": "5.工作经历要求：时间计算截止到2026年8月31日，岗位要求相关工作经历的，须上传工作单位出具的证明或是能体现出该要求的《劳动合同》。"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "学历学位证明",
+            "工作经历证明",
+            "成绩单"
+          ],
+          "evidence": {
+            "网上报名": "招聘程序主要包括：网上报名、网上资格初审、笔试、考后资格复审、面试、考察、体检、拟聘用人员公示、办理聘用手续。",
+            "学历学位证明": "5.尚未取得岗位要求的学历学位证书的人员。",
+            "工作经历证明": "5.工作经历要求：时间计算截止到2026年8月31日，岗位要求相关工作经历的，须上传工作单位出具的证明或是能体现出该要求的《劳动合同》。",
+            "成绩单": "国外高等教育院校所学学科专业与招聘专业相近但不在选定参考目录的，招聘单位可比照招聘专业主要必修科目和其研究方向确定，须上传课程表、成绩单或论文等。"
+          }
         }
       }
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4807953.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1112,12 +1453,22 @@
           "evidence": {
             "应届": "3.应届毕业生"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [],
+          "evidence": {
+            "网上报名": "（一）网上报名"
+          }
         }
       }
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4808125.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1134,12 +1485,27 @@
           "evidence": {
             "应届": "3.报考人员须为列入国家统一招生计划（不含定向、委培）的普通高等学校毕业生（含应届毕业生和社会人员）；"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "个人简历",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "网上报名": "（一）网上报名和资格审核",
+            "个人简历": "5.个人简历（内容含工作或实习经历，所取得的成绩及获奖情况等）。",
+            "就业推荐表": "4.学校就业主管部门盖章的就业推荐表（2026年应届毕业生提供）；"
+          }
         }
       }
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35726023/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1160,12 +1526,18 @@
             "编辑出版": "中国中化控股有限责任公司《中国中化》报编辑部招聘公告 －国务院国有资产监督管理委员会",
             "新媒体": "5.参与中国中化新媒体等其他宣传平台相关工作。"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4808202.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1178,12 +1550,22 @@
           "qualificationTags": [],
           "graduateYears": [],
           "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [],
+          "evidence": {
+            "网上报名": "（一）网上报名"
+          }
         }
       }
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4807963.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1200,12 +1582,31 @@
           "evidence": {
             "应届": "（五）应届毕业生为列入国家统一招生计划（不含委培生、定向生）的国内普通高等学校毕业生，包括按时毕业并获得相应学历学位，毕业证书落款年度2年内（2025年、2026年）的应届毕业生，以及2024年离校未就业毕业生（未与任何单位签订合同且无单位"
           }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "网上报名": "（一）网上报名",
+            "报名表": "1.报名表（见附件2）；",
+            "学历学位证明": "4.学历学位证书；",
+            "成绩单": "在读尚未毕业无法提供学历学位证书的，可提供学生证、成绩单，或学校开具的载有所学专业、专业代码、学历学位、学制、入学时间、预计毕业时间等信息的证明；",
+            "就业推荐表": "校级毕业生就业主管部门盖章的毕业生就业推荐表等材料；"
+          }
         }
       }
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260803_4806021.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-08-21",
@@ -1218,12 +1619,22 @@
           "qualificationTags": [],
           "graduateYears": [],
           "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "成绩单"
+          ],
+          "evidence": {
+            "成绩单": "国外院校考生提供翻译过的专业课程目录及成绩单；"
+          }
         }
       }
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260731_581269.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1235,13 +1646,19 @@
           "majorTags": [],
           "qualificationTags": [],
           "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
           "evidence": {}
         }
       }
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260731_581268.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1254,12 +1671,18 @@
           "qualificationTags": [],
           "graduateYears": [],
           "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     },
     "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/zpgg/202608/t20260803_5987944.shtml": {
       "status": "ok",
-      "fetchedAt": "2026-08-04T22:14:37+08:00",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1275,6 +1698,306 @@
           ],
           "evidence": {
             "2026届": "2．全日制在读的非2026届毕业生。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "身份证"
+          ],
+          "evidence": {
+            "网上报名": "本次招聘采取网上报名的方式进行，网址：https://rst.hubei.gov.cn/hbrsksw/。",
+            "身份证": "资格条件复审时，面试人员应按照招聘岗位资格条件要求提供本人身份证、准考证、毕业证、学历学位证等相关证明材料的原件。"
+          }
+        }
+      }
+    },
+    "http://www.ceehe.ceec.net.cn/art/2026/4/27/art_60241_1926.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-05-20",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "四、其他事项 1.报名时间截至2026年5月20日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "工作经历"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "4.要求具有全日制硕士研究生学历，参加工作时间为3年及以上。",
+            "工作经历": "6.特别优秀或紧缺专业人才指具备相关岗位10年以上工作经验并且担任过相应职级的职务，工作能力、经验完全契合岗位需要，所处专业领域具有市场稀缺性，在相关领域获得过省部级及以上奖励或具有特殊业绩的优先。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "邮箱报名"
+          ],
+          "materialTags": [
+            "学历学位证明"
+          ],
+          "evidence": {
+            "邮箱报名": "邮箱：njqnzp@ceec.net.cn（氢能公司简历投递邮箱）",
+            "学历学位证明": "应聘人员登记表》（附件2）、《中能建氢能源有限公司应聘人员统计表》（附件3），将应聘人员登记表、应聘人员统计表、身份证、毕业证、学位证、学历验证报告、职称证书、职业资格证、工作履历证明材料等扫描件压缩包以“应聘岗位+姓名+现工作单位”作为邮"
+          }
+        }
+      }
+    },
+    "https://www.tsinghua.edu.cn/rsc/info/1044/2013.htm": {
+      "status": "ok",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
+      "fields": {
+        "registrationStart": "2026-04-29",
+        "registrationEnd": "2026-04-29",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间自通知发布之日起至2026年4月29日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "综合文字"
+          ],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届",
+            "中共党员"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "综合文字": "3.参与文字综合工作；",
+            "硕士": "2.硕士研究生及以上学历；",
+            "应届": "关于2026年度面向应届毕业生公开招聘工作人员调剂通知-清华大学人事处",
+            "中共党员": "1.中共党员；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "学历学位证明"
+          ],
+          "evidence": {
+            "学历学位证明": "拟录用人员如期取得毕业证、学位证后，可按规定办理入职手续，签订聘用合同。"
+          }
+        }
+      }
+    },
+    "http://www.ceehe.ceec.net.cn/art/2026/1/26/art_60241_1808.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-02-28",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "四、其他事项 1.报名时间截至2026年2月28日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "4.要求具有全日制硕士研究生学历，参加工作时间为3年及以上。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "学历学位证明"
+          ],
+          "evidence": {
+            "学历学位证明": "》（附件2）、《青启未来（北京）氢能源科技有限公司应聘人员统计表》（附件3），将应聘人员登记表、应聘人员统计表、身份证、毕业证、学位证、学历验证报告、职称证书、职业资格证、工作履历证明材料等扫描件压缩包以“应聘岗位+姓名+现工作单位”作为邮"
+          }
+        }
+      }
+    },
+    "https://www.tsinghua.edu.cn/rsc/info/1044/2012.htm": {
+      "status": "ok",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
+      "fields": {
+        "registrationStart": "2026-05-07",
+        "registrationEnd": "2026-05-07",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间自通知发布之日起至2026年5月7日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "高校行政"
+          ],
+          "majorTags": [],
+          "qualificationTags": [
+            "工作经历"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "高校行政": "4、负责实验室智能化管理体系建设，运用智能技术优化实验资源配置、教学效果评估及实验教学管理流程。",
+            "工作经历": "（三）至少2年及以上的相关专业领域工作经验或2026年拟出站的博士后，具有高质量的代表性工作业绩或学术科研成果；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "工作经历证明"
+          ],
+          "evidence": {
+            "报名表": "请填写《实验技术人员公开招聘报名表》（表格下载地址：https://cloud.tsinghua.edu.cn/f/e7420aa9242f4a7a835a/?dl=1），通过点击以下链接https://wenjuan.tsinghua.e",
+            "工作经历证明": "其他人员签订劳动合同。"
+          }
+        }
+      }
+    },
+    "https://zwgk.mct.gov.cn/zfxxgkml/rsxx/gwyzkly/202507/t20250704_960996.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.tsinghua.edu.cn/rsc/info/1044/1983.htm": {
+      "status": "ok",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
+      "fields": {
+        "registrationStart": "2025-12-29",
+        "registrationEnd": "2025-12-29",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间自通知发布之日起至2025年12月29日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "综合文字",
+            "宣传文化",
+            "高校行政"
+          ],
+          "majorTags": [
+            "中国语言文学"
+          ],
+          "qualificationTags": [
+            "硕士",
+            "应届",
+            "中共党员"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "综合文字": "3.参与文字综合工作；",
+            "宣传文化": "1.承担新闻采写、选题策划、媒体联络与平台建设、理论教育与思政工作、国际传播、文化建设等宣传思想文化方面的具体工作；",
+            "高校行政": "4.在学期间或工作期间获得学生思政工作、辅导员工作相关校级及以上奖励荣誉的优先。",
+            "中国语言文学": "图书情报与档案管理类、计算机类、计算机科学与技术类、中国语言文学类、软件工程类、自动化类、电子信息类、社会学类、数学类、统计学类、历史学类",
+            "硕士": "2.硕士研究生及以上学历，品学兼优；",
+            "应届": "关于2026年度面向应届毕业生公开招聘工作人员的通知-清华大学人事处",
+            "中共党员": "1.中共党员，政治素质过硬；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明"
+          ],
+          "evidence": {
+            "报名表": "请填写《应届毕业生公开招聘报名表》（表格下载地址：https://cloud.tsinghua.edu.cn/f/b78e42c0d1524129b497/?dl=1），通过点击以下链接https://wenjuan.tsinghua.ed",
+            "学历学位证明": "（三）是2026年全国普通高等学校全日制应届毕业生或是2026年毕业的留学归国人员，能如期毕业并取得学历学位证书，符合北京市落户政策；"
+          }
+        }
+      }
+    },
+    "https://www.tsinghua.edu.cn/rsc/info/1044/1953.htm": {
+      "status": "ok",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
+      "fields": {
+        "registrationStart": "2025-05-06",
+        "registrationEnd": "2025-05-06",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间自通知发布之日起至2025年5月6日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届",
+            "中共党员"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "2.硕士研究生及以上；",
+            "应届": "关于2025年度面向应届毕业生第二批公开招聘的通知-清华大学人事处",
+            "中共党员": "1.中共党员；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明"
+          ],
+          "evidence": {
+            "报名表": "请填写《应届毕业生公开招聘报名表》（表格下载地址：https://cloud.tsinghua.edu.cn/f/8b4335d0ff2b4652a96f/?dl=1），通过点击以下链接http://wenjuan.tsinghua.edu",
+            "学历学位证明": "（三）是2025年全国普通高等学校全日制应届毕业生或为2025年毕业的留学归国人员，能如期毕业并取得学历学位证书，符合北京市落户政策；"
+          }
+        }
+      }
+    },
+    "http://www.ceehe.ceec.net.cn/art/2026/3/13/art_60241_1883.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-04T22:57:12+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-04-12",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "四、其他事项 1.报名时间截至2026年4月12日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "工作经历"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "工作经历": "1.具有全日制大学本科学历，具备8年以上化工或能源电力行业工作经验，熟悉国家相关法律法规与产业政策，对氢能行业有深刻理解。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "学历学位证明"
+          ],
+          "evidence": {
+            "学历学位证明": "》（附件2）、《青启未来（北京）氢能源科技有限公司应聘人员统计表》（附件3），将应聘人员登记表、应聘人员统计表、身份证、毕业证、学位证、学历验证报告、职称证书、职业资格证、工作履历证明材料等扫描件压缩包以“应聘岗位+姓名+现工作单位”作为邮"
           }
         }
       }

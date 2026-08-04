@@ -10,6 +10,8 @@
 - 浏览器本地收藏，不上传个人数据
 - 中文硕士本地求职画像，以及“专业相关、文字岗位、需要核对”可解释匹配
 - 从官方详情页提取专业、文字职责、应届、学历、党员、证书和经历原文线索
+- 报名流程、材料清单、三天内截止与专业待确认提醒、截止日历导出
+- 收藏岗位备注、清单进度，以及本地 JSON 备份和恢复
 - 编辑部、情报台、清爽三种阅读模式
 - 官方域名白名单、标题去重、来源故障保留旧数据
 - 公开健康快照、来源连续失败记录和异常质量门禁
@@ -27,6 +29,18 @@
 
 这些标签用于缩小阅读范围，不是报考资格审核，也不能替代职位表。一个公告可能包含多个岗位，最终必须核对具体岗位的专业代码、学历、政治面貌、届别和经历要求。
 
+## 报名助手与收藏工作区
+
+每条公告的“报名助手”会提供五步核对流程，并尽量从官方正文提取网上报名、邮箱报名、现场报名以及报名表、身份证、学历学位、学信网证明、简历、工作证明等材料线索。没有可靠原文时显示明确标注的通用清单，不会把通用建议伪装成单位要求。
+
+- 截止日期在今天至三天内时显示醒目提醒。
+- 尚无明确专业匹配证据时显示“专业待确认”。
+- 有明确截止日期时可导出 `.ics` 日历文件，并包含提前三天提醒；不同日历软件对全天提醒的处理可能不同，导入后仍要核对官方截止时刻。
+- 勾选流程、材料或填写备注时会自动加入收藏；备注最多 500 字。
+- 页头“收藏备份”可导出或导入 JSON。导入采用合并方式，不会删除当前收藏。
+
+收藏、备注和清单统一保存在 `localStorage['job-radar:workspace']`，并继续写入旧的 `job-radar:saved` 收藏数组以兼容此前版本。清除浏览器数据会删除这些本地内容，重要备注应定期导出备份。备份只包含收藏岗位的公开字段、备注和清单进度，不包含画像之外的浏览器数据。
+
 ## 本地查看
 
 不要直接双击 `index.html`，浏览器会阻止它读取本地 JSON。请在项目目录启动一个静态服务器：
@@ -43,7 +57,7 @@ python -m http.server 4173
 
 ```powershell
 python -m unittest discover -s tests -p "test_*.py" -v
-node --test tests/core.test.mjs tests/matching.test.mjs
+node --test tests/core.test.mjs tests/matching.test.mjs tests/application.test.mjs tests/favorites.test.mjs
 ```
 
 采集器联网试运行但不覆盖当前数据：
@@ -92,6 +106,8 @@ python crawler/crawl.py --config crawler/sources.json --output data/jobs.json
 
 `allowedDomains` 是安全边界。不要为了增加数量而填写过宽的商业网站域名；培训广告和不可核验转载会降低信息质量。
 
+面向中文硕士的定向来源现包括国家广播电视总局公告公示、文化和旅游部人事信息、清华大学人事招聘、华北电力大学人才招聘和中国能建所属企业招聘。它们分别补充宣传文化、出版传媒、高校行政以及央企党群/综合文字方向；栏目当前没有仍在报名期的公告时会显示健康但零条，不会保留过期岗位凑数。受脚本 Cookie 保护且无法直接读取的入口不会被绕过。
+
 ## 数据格式
 
 网站读取 `data/jobs.json`。每条公告包含：
@@ -101,10 +117,13 @@ python crawler/crawl.py --config crawler/sources.json --output data/jobs.json
 - `category`、`location`、`audience`
 - `summary`、`collector`、`collectedAt`
 - `profileHints`：`majorTags`、`roleTags`、`qualificationTags`、`graduateYears` 和对应 `evidence`
+- `applicationHints`：`methods`、`materialTags` 和对应 `evidence`
 
 日期无法从列表页可靠识别时，`dateEstimated` 会设为 `true`，前端显示“日期待核”，不会伪装成精确发布日期。
 
 `profileHints` 只保存官方详情页确实出现的固定词典标签和最长 120 字证据句。字段缺失表示尚未提取到可靠线索，不表示岗位不适合中文专业。
+
+`applicationHints` 同样只保存官方详情页出现的固定报名方式、材料标签和最长 120 字证据句。字段缺失时，前端只提供标明为通用项的准备清单。
 
 `data/health.json` 公开记录数据生成时间、当前公告数、最近 7 日新增数、截止日期覆盖率、来源成功率、连续失败次数和快照数量变化。它不包含令牌、Cookie 或完整失败响应正文。
 
