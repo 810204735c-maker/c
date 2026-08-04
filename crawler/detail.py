@@ -22,6 +22,11 @@ try:
 except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
     from lifecycle import extract_registration_window
 
+try:
+    from crawler.profile_hints import extract_profile_hints
+except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
+    from profile_hints import extract_profile_hints
+
 
 SHANGHAI = shanghai_timezone()
 USER_AGENT = "Mozilla/5.0 (compatible; JobRadarCN/1.0; public-detail-enricher)"
@@ -165,6 +170,11 @@ def _cache_is_fresh(entry: object, now: datetime) -> bool:
     fetched_at = _parse_datetime(entry.get("fetchedAt"))
     if fetched_at is None:
         return False
+    fields = entry.get("fields")
+    if entry.get("status") == "ok" and (
+        not isinstance(fields, dict) or "profileHints" not in fields
+    ):
+        return False
     ttl = SUCCESS_TTL if entry.get("status") == "ok" else FAILURE_TTL
     return now.astimezone(timezone.utc) - fetched_at.astimezone(timezone.utc) <= ttl
 
@@ -173,13 +183,19 @@ def _apply_fields(job: dict, entry: object) -> dict:
     if not isinstance(entry, dict) or entry.get("status") != "ok":
         return dict(job)
     fields = entry.get("fields")
-    if not isinstance(fields, dict) or not fields.get("registrationEnd"):
+    if not isinstance(fields, dict):
         return dict(job)
     enriched = dict(job)
     for key in ("registrationStart", "registrationEnd", "deadlineConfidence", "deadlineEvidence"):
-        if key in fields:
+        if fields.get(key) is not None:
             enriched[key] = fields[key]
-    enriched["deadline"] = fields["registrationEnd"]
+    if fields.get("registrationEnd"):
+        enriched["deadline"] = fields["registrationEnd"]
+    hints = fields.get("profileHints")
+    if isinstance(hints, dict) and any(
+        hints.get(key) for key in ("roleTags", "majorTags", "qualificationTags", "graduateYears")
+    ):
+        enriched["profileHints"] = hints
     return enriched
 
 
@@ -203,7 +219,7 @@ def enrich_jobs(
     tasks: list[tuple[int, dict, dict]] = []
 
     for index, job in enumerate(enriched_jobs):
-        if job.get("deadline"):
+        if job.get("deadline") and job.get("profileHints"):
             continue
         source = source_by_name.get(job.get("collector"))
         if not source:
@@ -236,7 +252,9 @@ def enrich_jobs(
                     list(source.get("allowedDomains", [])),
                     int(source.get("timeout", 20)),
                 )
-            fields = extract_registration_window(extract_main_text(html_text), now)
+            detail_text = extract_main_text(html_text)
+            fields = extract_registration_window(detail_text, now)
+            fields["profileHints"] = extract_profile_hints(detail_text)
             entry = {
                 "status": "ok",
                 "fetchedAt": fetched_at,
@@ -247,6 +265,7 @@ def enrich_jobs(
                         "registrationEnd",
                         "deadlineConfidence",
                         "deadlineEvidence",
+                        "profileHints",
                     )
                 },
             }

@@ -23,6 +23,7 @@ DETAIL_HTML = """
   <nav>报名服务</nav>
   <main>
     <p>报名时间：2026年7月20日9:00至7月25日17:00。</p>
+    <p>文字综合岗位负责文稿起草和宣传策划，专业要求中国语言文学，硕士研究生及以上。</p>
     <script>报名截止时间为2026年12月31日</script>
     <p>7月28日打印准考证，8月2日笔试。</p>
   </main>
@@ -110,6 +111,11 @@ class DetailTests(unittest.TestCase):
         self.assertEqual(jobs[0]["deadline"], "2026-07-25")
         self.assertEqual(jobs[0]["deadlineConfidence"], "high")
         self.assertIn("报名时间", jobs[0]["deadlineEvidence"])
+        self.assertEqual(jobs[0]["profileHints"]["majorTags"], ["中国语言文学"])
+        self.assertEqual(
+            jobs[0]["profileHints"]["roleTags"],
+            ["综合文字", "宣传文化"],
+        )
         self.assertEqual(cache["entries"][JOB["url"]]["status"], "ok")
 
     def test_fresh_success_cache_enriches_without_network(self):
@@ -124,6 +130,13 @@ class DetailTests(unittest.TestCase):
                         "registrationEnd": "2026-07-25",
                         "deadlineConfidence": "high",
                         "deadlineEvidence": "报名时间为7月20日至7月25日",
+                        "profileHints": {
+                            "majorTags": ["中国语言文学"],
+                            "roleTags": ["综合文字"],
+                            "qualificationTags": ["硕士"],
+                            "graduateYears": [],
+                            "evidence": {"中国语言文学": "专业要求中国语言文学"},
+                        },
                     },
                 }
             },
@@ -138,7 +151,27 @@ class DetailTests(unittest.TestCase):
         )
 
         self.assertEqual(jobs[0]["deadline"], "2026-07-25")
+        self.assertEqual(jobs[0]["profileHints"]["majorTags"], ["中国语言文学"])
         self.assertEqual(updated, cache)
+
+    def test_profile_hints_apply_even_when_deadline_is_unknown(self):
+        html = "<main><p>负责公文写作和企业文化宣传，专业要求汉语言文字学。</p></main>"
+
+        jobs, cache = enrich_jobs(
+            [JOB],
+            [SOURCE],
+            {"version": 1, "entries": {}},
+            NOW,
+            fetcher=lambda *args: html,
+        )
+
+        self.assertIsNone(jobs[0]["deadline"])
+        self.assertEqual(jobs[0]["profileHints"]["majorTags"], ["中国语言文学"])
+        self.assertEqual(
+            jobs[0]["profileHints"]["roleTags"],
+            ["综合文字", "宣传文化"],
+        )
+        self.assertIn("profileHints", cache["entries"][JOB["url"]]["fields"])
 
     def test_fresh_failure_cache_skips_network_and_keeps_job(self):
         cache = {
