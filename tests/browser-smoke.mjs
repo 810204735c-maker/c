@@ -38,14 +38,39 @@ await page.locator('input[name="view"][value="terminal"]').check();
 assert.equal(await page.locator('body').getAttribute('class'), 'view-terminal');
 await page.locator('#settingsDialog .dialog-close').click();
 
+await page.locator('#profileButton').click();
+assert.equal(await page.locator('#profileMajor').inputValue(), '中国语言文学');
+await page.locator('#profileDirection').fill('中国现当代文学');
+await page.locator('#profileGraduationYear').fill('2027');
+await page.locator('#profilePolitical').selectOption('中共党员');
+await page.locator('#profileLocations').fill('北京、湖北');
+await page.locator('input[name="profileCertificate"][value="教师资格证"]').check();
+await page.locator('#profileForm .primary-action').click();
+assert.equal(await page.locator('#profileDialog').getAttribute('open'), null, 'saving should close the profile dialog');
+assert.match(await page.locator('#profileSummary').textContent(), /中国现当代文学.*2027届.*中共党员/);
+assert.equal(await page.locator('[data-match="recommended"]').getAttribute('aria-pressed'), 'true');
+const storedProfile = await page.evaluate(() => JSON.parse(localStorage.getItem('job-radar:profile')));
+assert.equal(storedProfile.major, '中国语言文学');
+assert.equal(storedProfile.graduationYear, '2027');
+assert.deepEqual(storedProfile.preferredLocations, ['北京', '湖北']);
+
+await page.reload({ waitUntil: 'networkidle' });
+assert.match(await page.locator('#profileSummary').textContent(), /中国现当代文学.*2027届/);
+await page.locator('[data-match="all"]').click();
+await page.locator('.job-item').first().waitFor();
+
 await page.setViewportSize({ width: 390, height: 844 });
 const dimensions = await page.evaluate(() => ({
   viewport: document.documentElement.clientWidth,
   content: document.documentElement.scrollWidth,
   searchHeight: document.querySelector('#search').getBoundingClientRect().height,
+  profileButtonHeight: document.querySelector('#profileButton').getBoundingClientRect().height,
+  matchButtonHeight: document.querySelector('[data-match="recommended"]').getBoundingClientRect().height,
 }));
 assert.ok(dimensions.content <= dimensions.viewport, `mobile overflow: ${JSON.stringify(dimensions)}`);
 assert.ok(dimensions.searchHeight >= 44, 'mobile search target should remain at least 44px high');
+assert.ok(dimensions.profileButtonHeight >= 44, 'profile button should remain at least 44px high');
+assert.ok(dimensions.matchButtonHeight >= 44, 'match target should remain at least 44px high');
 assert.deepEqual(errors, [], `browser console should be clean: ${errors.join('\n')}`);
 
 await browser.close();

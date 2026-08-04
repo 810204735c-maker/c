@@ -29,6 +29,7 @@
       <span id="updateStatus">正在读取最新公告</span>
     </div>
     <div class="header-actions">
+      <button class="text-button" id="profileButton" type="button">我的画像</button>
       <button class="text-button" id="sourceButton" type="button">来源状态</button>
       <button class="text-button" id="settingsButton" type="button">显示设置</button>
     </div>
@@ -59,6 +60,16 @@
       </div>
     </section>
 
+    <section class="profile-panel" aria-labelledby="profileSummaryTitle">
+      <div class="profile-panel-copy">
+        <p class="section-index">MY JOB PROFILE / 本地保存</p>
+        <h2 id="profileSummaryTitle">中文硕士求职画像</h2>
+        <p id="profileSummary">硕士 · 中国语言文学 · 应届</p>
+        <p class="profile-privacy">只保存在当前浏览器；匹配结果用于缩小范围，报考资格仍以原职位表为准。</p>
+      </div>
+      <button class="profile-edit" id="profileEdit" type="button">完善我的画像</button>
+    </section>
+
     <section class="search-deck" aria-label="搜索与筛选">
       <form id="filters" role="search">
         <label class="search-box" for="search">
@@ -66,6 +77,15 @@
           <input id="search" name="q" type="search" autocomplete="off" placeholder="输入单位、岗位、专业或地区">
           <kbd>/</kbd>
         </label>
+
+        <div class="match-row" id="matchTabs" aria-label="个人匹配范围">
+          <span>个人匹配</span>
+          <button class="match-tab is-active" type="button" data-match="all" aria-pressed="true">全部公告</button>
+          <button class="match-tab" type="button" data-match="recommended" aria-pressed="false">适合我的</button>
+          <button class="match-tab" type="button" data-match="exact" aria-pressed="false">专业相关</button>
+          <button class="match-tab" type="button" data-match="writing" aria-pressed="false">文字岗位</button>
+          <button class="match-tab" type="button" data-match="verify" aria-pressed="false">需要核对</button>
+        </div>
 
         <div class="category-row" id="categoryTabs" aria-label="招聘类型">
           <button class="category-tab is-active" type="button" data-category="全部">全部 <span data-count="全部">0</span></button>
@@ -105,6 +125,7 @@
             <span>排序</span>
             <select id="sort" name="sort">
               <option value="newest">最新发布</option>
+              <option value="match">适配优先</option>
               <option value="deadline">截止时间</option>
               <option value="source">信息来源</option>
             </select>
@@ -156,6 +177,79 @@
     <p>招考雷达 · 每日公开信息索引</p>
     <p>本站仅聚合公开链接，不代表任何招录单位。报名前请务必核验原公告。</p>
   </footer>
+
+  <dialog id="profileDialog" class="utility-dialog profile-dialog" aria-labelledby="profileTitle">
+    <form id="profileForm">
+      <div class="dialog-head">
+        <div>
+          <p class="section-index">LOCAL PROFILE</p>
+          <h2 id="profileTitle">设置我的求职画像</h2>
+        </div>
+        <button class="dialog-close" id="profileClose" type="button" aria-label="关闭">关闭</button>
+      </div>
+      <p class="dialog-note">画像仅保存在这个浏览器中，不会上传到公开网站。请勿填写身份证、电话或详细住址。</p>
+      <div class="profile-form-grid">
+        <label>
+          <span>当前学历</span>
+          <output id="profileDegree">硕士研究生</output>
+        </label>
+        <label>
+          <span>当前身份</span>
+          <output>应届毕业生</output>
+        </label>
+        <label class="wide-field">
+          <span>专业</span>
+          <input id="profileMajor" name="major" type="text" maxlength="60" value="中国语言文学" required>
+        </label>
+        <label class="wide-field">
+          <span>研究方向</span>
+          <input id="profileDirection" name="researchDirection" type="text" maxlength="60" placeholder="例如：中国现当代文学、汉语言文字学">
+        </label>
+        <label>
+          <span>预计毕业年份</span>
+          <input id="profileGraduationYear" name="graduationYear" type="text" inputmode="numeric" maxlength="4" pattern="20[0-9]{2}" placeholder="例如 2027">
+        </label>
+        <label>
+          <span>政治面貌</span>
+          <select id="profilePolitical" name="politicalStatus">
+            <option value="未设置">暂不设置</option>
+            <option value="中共党员">中共党员</option>
+            <option value="中共预备党员">中共预备党员</option>
+            <option value="共青团员">共青团员</option>
+            <option value="群众">群众</option>
+            <option value="其他">其他</option>
+          </select>
+        </label>
+        <label class="wide-field">
+          <span>偏好地区</span>
+          <input id="profileLocations" name="preferredLocations" type="text" maxlength="120" placeholder="例如：北京、湖北；留空表示不限">
+        </label>
+      </div>
+      <fieldset class="profile-options">
+        <legend>关注方向</legend>
+        <div class="option-grid">
+          <label><input type="checkbox" name="profileRole" value="综合文字" checked>综合文字 / 文秘</label>
+          <label><input type="checkbox" name="profileRole" value="宣传文化" checked>宣传 / 企业文化</label>
+          <label><input type="checkbox" name="profileRole" value="编辑出版" checked>编辑 / 出版 / 校对</label>
+          <label><input type="checkbox" name="profileRole" value="新媒体" checked>新媒体 / 新闻采编</label>
+          <label><input type="checkbox" name="profileRole" value="高校行政" checked>高校行政 / 辅导员</label>
+          <label><input type="checkbox" name="profileRole" value="中文教育" checked>语文 / 中文教育</label>
+        </div>
+      </fieldset>
+      <fieldset class="profile-options">
+        <legend>已有证书</legend>
+        <div class="option-grid">
+          <label><input type="checkbox" name="profileCertificate" value="教师资格证">教师资格证</label>
+          <label><input type="checkbox" name="profileCertificate" value="普通话证书">普通话证书</label>
+          <label><input type="checkbox" name="profileCertificate" value="英语等级">英语等级证书</label>
+        </div>
+      </fieldset>
+      <div class="profile-form-actions">
+        <button class="secondary-action" id="profileReset" type="button">恢复默认</button>
+        <button class="primary-action" type="submit">保存并查看推荐</button>
+      </div>
+    </form>
+  </dialog>
 
   <dialog id="settingsDialog" class="utility-dialog" aria-labelledby="settingsTitle">
     <form method="dialog">
@@ -213,6 +307,18 @@
           <h3><a target="_blank" rel="noopener noreferrer"></a></h3>
           <p class="job-summary"></p>
           <ul class="job-meta"></ul>
+          <div class="match-explain">
+            <div class="match-head">
+              <strong class="match-label"></strong>
+              <span>依据官方详情页原文线索</span>
+            </div>
+            <ul class="match-reasons"></ul>
+            <p class="match-caution"></p>
+            <details class="match-evidence">
+              <summary>查看匹配证据</summary>
+              <ul></ul>
+            </details>
+          </div>
         </div>
         <div class="job-actions">
           <button class="save-button" type="button"></button>

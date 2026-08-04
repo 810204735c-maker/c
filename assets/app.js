@@ -6,10 +6,16 @@ import {
   sortJobs,
   stateFromSearchParams,
 } from './core.mjs';
+import {
+  DEFAULT_PROFILE,
+  filterByMatchMode,
+  normalizeProfile,
+} from './matching.mjs';
 
 const STORAGE = {
   saved: 'job-radar:saved',
   view: 'job-radar:view',
+  profile: 'job-radar:profile',
 };
 const VALID_VIEWS = new Set(['editorial', 'terminal', 'calm']);
 
@@ -20,6 +26,7 @@ const els = {
   audience: document.querySelector('#audience'),
   freshness: document.querySelector('#freshness'),
   sort: document.querySelector('#sort'),
+  matchTabs: document.querySelector('#matchTabs'),
   categoryTabs: document.querySelector('#categoryTabs'),
   savedOnly: document.querySelector('#savedOnly'),
   savedCount: document.querySelector('#savedCount'),
@@ -41,9 +48,23 @@ const els = {
   sourceButton: document.querySelector('#sourceButton'),
   sourceDialog: document.querySelector('#sourceDialog'),
   sourceList: document.querySelector('#sourceList'),
+  profileButton: document.querySelector('#profileButton'),
+  profileEdit: document.querySelector('#profileEdit'),
+  profileSummary: document.querySelector('#profileSummary'),
+  profileDialog: document.querySelector('#profileDialog'),
+  profileForm: document.querySelector('#profileForm'),
+  profileClose: document.querySelector('#profileClose'),
+  profileReset: document.querySelector('#profileReset'),
+  profileMajor: document.querySelector('#profileMajor'),
+  profileDirection: document.querySelector('#profileDirection'),
+  profileGraduationYear: document.querySelector('#profileGraduationYear'),
+  profilePolitical: document.querySelector('#profilePolitical'),
+  profileLocations: document.querySelector('#profileLocations'),
+  feedTitle: document.querySelector('#feedTitle'),
 };
 
 let payload = { generatedAt: null, jobs: [], sourceStatus: [] };
+let profile = normalizeProfile(readJson(STORAGE.profile, DEFAULT_PROFILE));
 let state = {
   ...stateFromSearchParams(new URLSearchParams(location.search)),
   savedOnly: false,
@@ -76,6 +97,11 @@ function syncControls() {
   els.sort.value = state.sort;
   for (const tab of els.categoryTabs.querySelectorAll('[data-category]')) {
     tab.classList.toggle('is-active', tab.dataset.category === state.category);
+  }
+  for (const tab of els.matchTabs.querySelectorAll('[data-match]')) {
+    const active = tab.dataset.match === state.match;
+    tab.classList.toggle('is-active', active);
+    tab.setAttribute('aria-pressed', String(active));
   }
   els.savedOnly.setAttribute('aria-pressed', String(state.savedOnly));
   els.savedCount.textContent = String(state.savedIds.length);
@@ -111,6 +137,7 @@ function renderJob(job) {
   const openLink = fragment.querySelector('.open-link');
   const deadline = deadlineState(job.deadline);
   const saved = state.savedIds.includes(job.id);
+  const match = job._match;
 
   item.dataset.id = job.id;
   time.dateTime = job.publishedAt;
@@ -127,6 +154,26 @@ function renderJob(job) {
     buildMetaItem(job.audience === '不限' ? '对象见公告' : job.audience),
     buildMetaItem(deadline.label, deadline.tone),
   );
+  const matchExplain = fragment.querySelector('.match-explain');
+  const matchLabel = fragment.querySelector('.match-label');
+  const matchReasons = fragment.querySelector('.match-reasons');
+  const matchCaution = fragment.querySelector('.match-caution');
+  const matchEvidence = fragment.querySelector('.match-evidence');
+  matchExplain.classList.add(`tier-${match.tier}`);
+  matchLabel.textContent = match.label;
+  const reasons = match.reasons.length
+    ? match.reasons.slice(0, 2)
+    : ['暂未发现明确的专业或文字职责线索'];
+  matchReasons.replaceChildren(...reasons.map((reason) => buildMetaItem(reason)));
+  matchCaution.textContent = match.cautions[0] || '';
+  matchCaution.hidden = !match.cautions.length;
+  const evidenceKeys = new Set([...match.majorTags, ...match.roleTags]);
+  const evidenceItems = Object.entries(match.evidence)
+    .filter(([key, value]) => evidenceKeys.has(key) && value)
+    .slice(0, 3)
+    .map(([key, value]) => buildMetaItem(`${key}：${value}`));
+  matchEvidence.hidden = evidenceItems.length === 0;
+  matchEvidence.querySelector('ul').replaceChildren(...evidenceItems);
   saveButton.dataset.save = job.id;
   saveButton.setAttribute('aria-pressed', String(saved));
   saveButton.setAttribute('aria-label', `${saved ? '取消收藏' : '收藏'}：${job.title}`);
@@ -136,17 +183,52 @@ function renderJob(job) {
 }
 
 function render() {
-  const filtered = filterJobs(payload.jobs, state);
+  const matched = filterByMatchMode(payload.jobs, state.match, profile);
+  const filtered = filterJobs(matched, state);
   const jobs = sortJobs(filtered, state.sort);
   els.results.replaceChildren(...jobs.map(renderJob));
   els.results.setAttribute('aria-busy', 'false');
+  const matchLabels = {
+    all: '全部公告', recommended: '适合我的', exact: '专业相关', writing: '文字岗位', verify: '需要核对',
+  };
+  els.feedTitle.textContent = matchLabels[state.match] || '最新公告';
   els.resultSummary.textContent = state.savedOnly
     ? `收藏中有 ${jobs.length} 条符合条件`
-    : `共找到 ${jobs.length} 条 · 点击标题查看原文`;
+    : `${matchLabels[state.match] || '当前范围'}共 ${jobs.length} 条 · 匹配不代替资格审核`;
   els.emptyState.hidden = jobs.length !== 0 || payload.jobs.length === 0;
   document.title = jobs.length === payload.jobs.length
     ? '招考雷达｜公开招考信息聚合'
     : `${jobs.length} 条结果｜招考雷达`;
+}
+
+function renderProfileSummary() {
+  const parts = [profile.degree, profile.major];
+  if (profile.researchDirection) parts.push(profile.researchDirection);
+  parts.push(profile.graduationYear ? `${profile.graduationYear}届` : '毕业年份待设置');
+  if (profile.politicalStatus !== '未设置') parts.push(profile.politicalStatus);
+  if (profile.preferredLocations.length) parts.push(`偏好：${profile.preferredLocations.join('、')}`);
+  els.profileSummary.textContent = parts.join(' · ');
+}
+
+function fillProfileForm(value = profile) {
+  els.profileMajor.value = value.major;
+  els.profileDirection.value = value.researchDirection;
+  els.profileGraduationYear.value = value.graduationYear;
+  els.profilePolitical.value = value.politicalStatus;
+  els.profileLocations.value = value.preferredLocations.join('、');
+  const roles = new Set(value.roleInterests);
+  const certificates = new Set(value.certificates);
+  for (const input of els.profileForm.querySelectorAll('input[name="profileRole"]')) {
+    input.checked = roles.has(input.value);
+  }
+  for (const input of els.profileForm.querySelectorAll('input[name="profileCertificate"]')) {
+    input.checked = certificates.has(input.value);
+  }
+}
+
+function openProfileDialog() {
+  fillProfileForm();
+  els.profileDialog.showModal();
 }
 
 function renderCounts() {
@@ -241,7 +323,8 @@ async function loadData() {
 
 function resetFilters() {
   setState({
-    q: '', category: '全部', location: '全部', audience: '全部', freshness: 'all', sort: 'newest', savedOnly: false,
+    q: '', category: '全部', location: '全部', audience: '全部', freshness: 'all',
+    sort: 'newest', match: 'all', savedOnly: false,
   });
   els.search.focus();
 }
@@ -255,6 +338,11 @@ els.sort.addEventListener('change', () => setState({ sort: els.sort.value }));
 els.categoryTabs.addEventListener('click', (event) => {
   const category = event.target.closest('[data-category]')?.dataset.category;
   if (category) setState({ category, savedOnly: false });
+});
+els.matchTabs.addEventListener('click', (event) => {
+  const match = event.target.closest('[data-match]')?.dataset.match;
+  if (!match) return;
+  setState({ match, sort: match === 'all' ? state.sort : 'match', savedOnly: false });
 });
 els.savedOnly.addEventListener('click', () => setState({ savedOnly: !state.savedOnly }));
 els.clearFilters.addEventListener('click', resetFilters);
@@ -271,6 +359,30 @@ els.results.addEventListener('click', (event) => {
 });
 els.settingsButton.addEventListener('click', () => els.settingsDialog.showModal());
 els.sourceButton.addEventListener('click', () => els.sourceDialog.showModal());
+els.profileButton.addEventListener('click', openProfileDialog);
+els.profileEdit.addEventListener('click', openProfileDialog);
+els.profileClose.addEventListener('click', () => els.profileDialog.close());
+els.profileReset.addEventListener('click', () => fillProfileForm(normalizeProfile(DEFAULT_PROFILE)));
+els.profileForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+  if (!els.profileForm.reportValidity()) return;
+  const data = new FormData(els.profileForm);
+  profile = normalizeProfile({
+    degree: '硕士',
+    major: data.get('major'),
+    researchDirection: data.get('researchDirection'),
+    graduationYear: data.get('graduationYear'),
+    graduateStatus: '应届',
+    politicalStatus: data.get('politicalStatus'),
+    preferredLocations: data.get('preferredLocations'),
+    roleInterests: data.getAll('profileRole'),
+    certificates: data.getAll('profileCertificate'),
+  });
+  localStorage.setItem(STORAGE.profile, JSON.stringify(profile));
+  renderProfileSummary();
+  els.profileDialog.close();
+  setState({ match: 'recommended', sort: 'match', savedOnly: false });
+});
 els.viewOptions.addEventListener('change', (event) => applyView(event.target.value));
 document.addEventListener('keydown', (event) => {
   const isTyping = ['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName);
@@ -281,5 +393,6 @@ document.addEventListener('keydown', (event) => {
 });
 
 applyView(localStorage.getItem(STORAGE.view) || 'editorial');
+renderProfileSummary();
 syncControls();
 loadData();
