@@ -1,6 +1,7 @@
 const CATEGORIES = new Set(['全部', '公务员', '事业单位', '央国企']);
 const FRESHNESS = new Set(['all', '1', '3', '7', '30', '90']);
-const SORTS = new Set(['newest', 'deadline', 'source']);
+const SORTS = new Set(['newest', 'deadline', 'source', 'match']);
+const MATCHES = new Set(['all', 'recommended', 'exact', 'writing', 'verify']);
 
 function localDate(value) {
   if (!value) return null;
@@ -20,7 +21,12 @@ function ageInDays(value, now) {
 }
 
 function searchableText(job) {
-  return [job.title, job.source, job.location, job.summary, job.audience, job.category]
+  return [
+    job.title, job.source, job.location, job.summary, job.audience, job.category,
+    ...(job.profileHints?.majorTags || []),
+    ...(job.profileHints?.roleTags || []),
+    ...(job.profileHints?.qualificationTags || []),
+  ]
     .filter(Boolean)
     .join(' ')
     .toLocaleLowerCase('zh-CN');
@@ -44,6 +50,13 @@ export function filterJobs(jobs, filters, now = new Date()) {
 export function sortJobs(jobs, mode = 'newest', now = new Date()) {
   const copy = [...jobs];
   const dateValue = (value) => localDate(value)?.getTime() ?? 0;
+  if (mode === 'match') {
+    return copy.sort((a, b) => (
+      (b._match?.score || 0) - (a._match?.score || 0)
+      || dateValue(b.publishedAt) - dateValue(a.publishedAt)
+      || (a.title || '').localeCompare(b.title || '', 'zh-CN')
+    ));
+  }
   if (mode === 'deadline') {
     const today = startOfDay(now).getTime();
     return copy.sort((a, b) => {
@@ -83,6 +96,7 @@ export function stateFromSearchParams(params) {
   const category = params.get('category') || '全部';
   const freshness = params.get('freshness') || 'all';
   const sort = params.get('sort') || 'newest';
+  const match = params.get('match') || 'all';
   return {
     q: params.get('q') || '',
     category: CATEGORIES.has(category) ? category : '全部',
@@ -90,6 +104,7 @@ export function stateFromSearchParams(params) {
     audience: ['全部', '应届', '社会'].includes(params.get('audience')) ? params.get('audience') : '全部',
     freshness: FRESHNESS.has(freshness) ? freshness : 'all',
     sort: SORTS.has(sort) ? sort : 'newest',
+    match: MATCHES.has(match) ? match : 'all',
   };
 }
 
@@ -101,5 +116,6 @@ export function searchParamsFromState(state) {
   if (state.audience !== '全部') params.set('audience', state.audience);
   if (state.freshness !== 'all') params.set('freshness', state.freshness);
   if (state.sort !== 'newest') params.set('sort', state.sort);
+  if (state.match && state.match !== 'all') params.set('match', state.match);
   return params;
 }

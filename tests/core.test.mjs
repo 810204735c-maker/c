@@ -14,11 +14,13 @@ const JOBS = [
     id: 'a', title: '湖北省省直事业单位公开招聘', source: '湖北省人社厅',
     category: '事业单位', location: '湖北', audience: '社会',
     publishedAt: '2026-07-18', deadline: null, summary: '武汉等地岗位',
+    _match: { score: 10 },
   },
   {
     id: 'b', title: '中国电信2027届校园招聘', source: '国务院国资委',
     category: '央国企', location: '全国', audience: '应届',
     publishedAt: '2026-07-19', deadline: '2026-07-25', summary: '面向高校毕业生',
+    _match: { score: 80 },
   },
 ];
 
@@ -53,6 +55,10 @@ test('deadline sort puts known upcoming deadlines first', () => {
   assert.deepEqual(sortJobs(JOBS, 'deadline', NOW).map((job) => job.id), ['b', 'a']);
 });
 
+test('match sort uses explained match score before publication date', () => {
+  assert.deepEqual(sortJobs(JOBS, 'match', NOW).map((job) => job.id), ['b', 'a']);
+});
+
 test('relative date is concise', () => {
   assert.equal(formatRelativeDate('2026-07-20', NOW), '今天');
   assert.equal(formatRelativeDate('2026-07-19', NOW), '昨天');
@@ -60,9 +66,15 @@ test('relative date is concise', () => {
 });
 
 test('URL state only accepts supported values', () => {
-  const state = stateFromSearchParams(new URLSearchParams('q=%E6%AD%A6%E6%B1%89&category=%E5%A4%AE%E5%9B%BD%E4%BC%81&freshness=bad&sort=deadline'));
+  const state = stateFromSearchParams(new URLSearchParams('q=%E6%AD%A6%E6%B1%89&category=%E5%A4%AE%E5%9B%BD%E4%BC%81&freshness=bad&sort=match&match=recommended'));
   assert.equal(state.q, '武汉');
   assert.equal(state.category, '央国企');
   assert.equal(state.freshness, 'all');
-  assert.equal(state.sort, 'deadline');
+  assert.equal(state.sort, 'match');
+  assert.equal(state.match, 'recommended');
+});
+
+test('invalid match state falls back to all', () => {
+  const state = stateFromSearchParams(new URLSearchParams('match=definitely-not-valid'));
+  assert.equal(state.match, 'all');
 });
