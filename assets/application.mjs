@@ -86,7 +86,7 @@ export function buildApplicationGuide(job = {}) {
     ? GENERIC_MATERIALS.map((item) => ({ ...item }))
     : hints.materialTags.map((label) => ({ key: label, label }));
   const methodText = hints.methods.length
-    ? `按公告说明通过${hints.methods.join('、')}提交` 
+    ? `按公告说明通过${hints.methods.join('、')}提交`
     : '按原公告指定方式提交；尚未识别到明确报名入口';
   return {
     methods: hints.methods,

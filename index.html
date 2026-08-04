@@ -30,6 +30,7 @@
     </div>
     <div class="header-actions">
       <button class="text-button" id="profileButton" type="button">我的画像</button>
+      <button class="text-button" id="workspaceButton" type="button">收藏备份</button>
       <button class="text-button" id="sourceButton" type="button">来源状态</button>
       <button class="text-button" id="settingsButton" type="button">显示设置</button>
     </div>
@@ -251,6 +252,79 @@
     </form>
   </dialog>
 
+  <dialog id="applicationDialog" class="utility-dialog application-dialog" aria-labelledby="applicationTitle">
+    <div class="dialog-body">
+      <div class="dialog-head">
+        <div>
+          <p class="section-index">APPLICATION DESK / 本地进度</p>
+          <h2 id="applicationTitle">报名助手</h2>
+        </div>
+        <button class="dialog-close" id="applicationClose" type="button" aria-label="关闭">关闭</button>
+      </div>
+      <div class="application-toolbar">
+        <div id="applicationAlerts" class="job-alerts" aria-label="岗位提醒"></div>
+        <a id="applicationOfficialLink" class="official-action" target="_blank" rel="noopener noreferrer">核对官方原文 ↗</a>
+      </div>
+      <section class="application-section" aria-labelledby="applicationFlowTitle">
+        <div class="application-section-head">
+          <p class="section-index">01 / 报名流程</p>
+          <h3 id="applicationFlowTitle">五步报名核对</h3>
+        </div>
+        <div id="applicationSteps" class="application-checklist"></div>
+      </section>
+      <section class="application-section" aria-labelledby="materialsTitle">
+        <div class="application-section-head">
+          <p class="section-index">02 / 材料清单</p>
+          <h3 id="materialsTitle">逐项准备材料</h3>
+        </div>
+        <p id="materialsNote" class="dialog-note"></p>
+        <div id="materialChecklist" class="application-checklist material-grid"></div>
+        <details id="applicationEvidence" class="application-evidence">
+          <summary>查看报名原文证据</summary>
+          <ul></ul>
+        </details>
+      </section>
+      <section class="application-section" aria-labelledby="jobNoteTitle">
+        <div class="application-section-head note-heading">
+          <div>
+            <p class="section-index">03 / 我的备注</p>
+            <h3 id="jobNoteTitle">记录准备重点</h3>
+          </div>
+          <output id="noteCounter">0/500</output>
+        </div>
+        <label class="note-field" for="jobNote">
+          <span>仅保存在当前浏览器</span>
+          <textarea id="jobNote" maxlength="500" rows="4" placeholder="例如：8月6日前确认专业代码；准备两篇写作样本"></textarea>
+        </label>
+      </section>
+      <div class="application-actions">
+        <button class="secondary-action" id="calendarExport" type="button">导出截止日历</button>
+        <button class="primary-action" id="noteSave" type="button">保存备注</button>
+      </div>
+      <p id="applicationStatus" class="local-status" aria-live="polite"></p>
+    </div>
+  </dialog>
+
+  <dialog id="workspaceDialog" class="utility-dialog workspace-dialog" aria-labelledby="workspaceTitle">
+    <div class="dialog-body">
+      <div class="dialog-head">
+        <div>
+          <p class="section-index">FAVORITE BACKUP / 本地数据</p>
+          <h2 id="workspaceTitle">收藏工作区</h2>
+        </div>
+        <button class="dialog-close" id="workspaceClose" type="button" aria-label="关闭">关闭</button>
+      </div>
+      <p class="dialog-note">备注与清单不会上传。导出 JSON 后可自行保存，也可在另一台设备导入；导入会与现有收藏合并。</p>
+      <div class="workspace-actions">
+        <button class="primary-action" id="workspaceExport" type="button">导出收藏备份</button>
+        <button class="secondary-action" id="workspaceImport" type="button">导入备份</button>
+        <input id="workspaceImportFile" class="visually-hidden" type="file" accept="application/json,.json">
+      </div>
+      <p id="workspaceStatus" class="local-status" aria-live="polite"></p>
+      <ul id="workspaceList" class="workspace-list"></ul>
+    </div>
+  </dialog>
+
   <dialog id="settingsDialog" class="utility-dialog" aria-labelledby="settingsTitle">
     <form method="dialog">
       <div class="dialog-head">
@@ -307,6 +381,7 @@
           <h3><a target="_blank" rel="noopener noreferrer"></a></h3>
           <p class="job-summary"></p>
           <ul class="job-meta"></ul>
+          <div class="job-alerts" aria-label="岗位提醒"></div>
           <div class="match-explain">
             <div class="match-head">
               <strong class="match-label"></strong>
@@ -321,6 +396,7 @@
           </div>
         </div>
         <div class="job-actions">
+          <button class="application-button" type="button">报名助手</button>
           <button class="save-button" type="button"></button>
           <a class="open-link" target="_blank" rel="noopener noreferrer">查看原公告 <span aria-hidden="true">↗</span></a>
         </div>
