@@ -8,10 +8,24 @@
 - 单位、岗位、专业、地区全文搜索
 - 地区、招聘对象、发布时间和截止时间筛选/排序
 - 浏览器本地收藏，不上传个人数据
+- 中文硕士本地求职画像，以及“专业相关、文字岗位、需要核对”可解释匹配
+- 从官方详情页提取专业、文字职责、应届、学历、党员、证书和经历原文线索
 - 编辑部、情报台、清爽三种阅读模式
 - 官方域名白名单、标题去重、来源故障保留旧数据
 - 公开健康快照、来源连续失败记录和异常质量门禁
 - 每天北京时间 07:20 自动更新并重新部署
+
+## 中文硕士个性化匹配
+
+点击页头“我的画像”可以设置专业、研究方向、毕业年份、政治面貌、偏好地区、关注方向和已有证书。画像只保存在当前浏览器的 `localStorage['job-radar:profile']` 中，不会写入公开 JSON、Git 仓库或第三方服务；清除该网站的浏览器数据会同时删除画像。
+
+采集器从允许访问的官方详情页提取原文线索，前端再区分：
+
+- `专业相关`：官方详情页明确提到中国语言文学或其研究方向。
+- `文字岗位`：官方详情页提到综合文字、宣传文化、编辑出版、新媒体、高校行政或中文教育职责。
+- `需要核对`：详情页尚未提取到足够线索，或出现党员、工作经历、教师资格、毕业届别等需要人工确认的条件。
+
+这些标签用于缩小阅读范围，不是报考资格审核，也不能替代职位表。一个公告可能包含多个岗位，最终必须核对具体岗位的专业代码、学历、政治面貌、届别和经历要求。
 
 ## 本地查看
 
@@ -29,7 +43,7 @@ python -m http.server 4173
 
 ```powershell
 python -m unittest discover -s tests -p "test_*.py" -v
-node --test tests/core.test.mjs
+node --test tests/core.test.mjs tests/matching.test.mjs
 ```
 
 采集器联网试运行但不覆盖当前数据：
@@ -86,8 +100,11 @@ python crawler/crawl.py --config crawler/sources.json --output data/jobs.json
 - `publishedAt`、`dateEstimated`、`deadline`
 - `category`、`location`、`audience`
 - `summary`、`collector`、`collectedAt`
+- `profileHints`：`majorTags`、`roleTags`、`qualificationTags`、`graduateYears` 和对应 `evidence`
 
 日期无法从列表页可靠识别时，`dateEstimated` 会设为 `true`，前端显示“日期待核”，不会伪装成精确发布日期。
+
+`profileHints` 只保存官方详情页确实出现的固定词典标签和最长 120 字证据句。字段缺失表示尚未提取到可靠线索，不表示岗位不适合中文专业。
 
 `data/health.json` 公开记录数据生成时间、当前公告数、最近 7 日新增数、截止日期覆盖率、来源成功率、连续失败次数和快照数量变化。它不包含令牌、Cookie 或完整失败响应正文。
 

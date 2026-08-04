@@ -5,11 +5,34 @@ from __future__ import annotations
 import re
 
 
+PROFILE_HINTS_SCHEMA_VERSION = 3
+
+
 ROLE_RULES = {
     "综合文字": ("综合文字", "文字综合", "文字材料", "材料撰写", "文稿起草", "公文写作", "文秘"),
     "宣传文化": ("宣传策划", "新闻宣传", "宣传思想", "企业文化", "品牌传播", "文化建设"),
-    "编辑出版": ("编辑", "校对", "审校", "出版", "古籍整理", "文献整理"),
-    "新媒体": ("新媒体", "公众号", "融媒体", "内容运营", "新闻采编"),
+    "编辑出版": (
+        "编辑部",
+        "文字编辑",
+        "图书编辑",
+        "报刊编辑",
+        "编辑出版",
+        "编校",
+        "稿件校对",
+        "出版发行",
+        "古籍整理",
+        "文献整理",
+    ),
+    "新媒体": (
+        "新媒体",
+        "融媒体",
+        "内容运营",
+        "新闻采编",
+        "公众号运营",
+        "运营微信公众号",
+        "公众号编辑",
+        "公众号内容",
+    ),
     "高校行政": ("辅导员", "教学管理", "科研管理", "高校行政"),
     "中文教育": ("语文教师", "中文教师", "国际中文教育", "汉语教学"),
 }
@@ -62,6 +85,19 @@ def _first_match(sentences: list[str], terms: tuple[str, ...]) -> tuple[str, str
     return None
 
 
+def _first_role_match(sentences: list[str], terms: tuple[str, ...]) -> tuple[str, str] | None:
+    for sentence in sentences:
+        normalized = sentence.strip("【】[] ")
+        if re.fullmatch(r"责任编辑[：:].+", normalized):
+            continue
+        if normalized in {"新媒体", "政务新媒体"}:
+            continue
+        for term in terms:
+            if term in sentence:
+                return sentence, term
+    return None
+
+
 def extract_profile_hints(text: str) -> dict:
     """Return only matching hints explicitly present in official page text."""
     sentences = _sentences(text)
@@ -71,7 +107,7 @@ def extract_profile_hints(text: str) -> dict:
     evidence: dict[str, str] = {}
 
     for tag, terms in ROLE_RULES.items():
-        match = _first_match(sentences, terms)
+        match = _first_role_match(sentences, terms)
         if match:
             sentence, term = match
             role_tags.append(tag)
@@ -106,6 +142,7 @@ def extract_profile_hints(text: str) -> dict:
             evidence[f"{year}届"] = _bounded_evidence(match[0], match[1])
 
     return {
+        "schemaVersion": PROFILE_HINTS_SCHEMA_VERSION,
         "roleTags": role_tags,
         "majorTags": major_tags,
         "qualificationTags": qualification_tags,

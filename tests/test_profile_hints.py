@@ -13,10 +13,11 @@ class ProfileHintTests(unittest.TestCase):
 
         hints = extract_profile_hints(text)
 
+        self.assertEqual(hints["schemaVersion"], 3)
         self.assertEqual(hints["majorTags"], ["中国语言文学"])
         self.assertEqual(
             hints["roleTags"],
-            ["综合文字", "宣传文化", "编辑出版", "新媒体"],
+            ["综合文字", "宣传文化", "新媒体"],
         )
         self.assertEqual(hints["qualificationTags"], ["硕士", "中共党员"])
         self.assertIn("中国语言文学", hints["evidence"]["中国语言文学"])
@@ -44,6 +45,30 @@ class ProfileHintTests(unittest.TestCase):
         self.assertEqual(hints["qualificationTags"], [])
         self.assertEqual(hints["graduateYears"], [])
         self.assertEqual(hints["evidence"], {})
+
+    def test_ignores_public_account_and_publishing_boilerplate(self):
+        text = (
+            "后续通知将在微信公众号发布，请考生及时关注。"
+            "本次招考不出版辅导用书，社会发行的出版物与本单位无关。"
+        )
+
+        hints = extract_profile_hints(text)
+
+        self.assertEqual(hints["roleTags"], [])
+
+    def test_ignores_editorial_metadata_and_navigation_labels(self):
+        text = "【责任编辑：王晓蕾】\n政务新媒体"
+
+        hints = extract_profile_hints(text)
+
+        self.assertEqual(hints["roleTags"], [])
+
+    def test_keeps_specific_editorial_and_public_account_duties(self):
+        text = "报刊编辑负责稿件校对，并承担公众号运营和内容策划工作。"
+
+        hints = extract_profile_hints(text)
+
+        self.assertEqual(hints["roleTags"], ["编辑出版", "新媒体"])
 
     def test_evidence_is_bounded(self):
         text = "甲" * 200 + "专业要求中国语言文学" + "乙" * 200

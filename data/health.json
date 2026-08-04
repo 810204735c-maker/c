@@ -1,29 +1,28 @@
 {
-  "generatedAt": "2026-08-04T08:16:38+08:00",
-  "currentTotal": 33,
-  "newLast7Days": 11,
-  "deadlineCoverage": 0.18181818181818182,
-  "sourceSuccessRate": 0.875,
+  "generatedAt": "2026-08-04T22:14:37+08:00",
+  "currentTotal": 37,
+  "newLast7Days": 18,
+  "deadlineCoverage": 0.10810810810810811,
+  "sourceSuccessRate": 1.0,
   "enabledSourceCount": 8,
   "disabledSourceCount": 1,
-  "failedSourceCount": 1,
-  "previousTotal": 35,
-  "totalChangeRate": -0.05714285714285714,
+  "failedSourceCount": 0,
+  "previousTotal": 37,
+  "totalChangeRate": 0.0,
   "sources": [
     {
       "name": "国务院国资委招聘",
-      "status": "error",
-      "count": 0,
-      "lastSuccessAt": "2026-08-03T08:15:28+08:00",
-      "lastFailureAt": "2026-08-04T08:16:38+08:00",
-      "consecutiveFailures": 1,
-      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+      "status": "ok",
+      "count": 11,
+      "lastSuccessAt": "2026-08-04T22:14:37+08:00",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0
     },
     {
       "name": "中国公共招聘网事业单位",
       "status": "ok",
-      "count": 13,
-      "lastSuccessAt": "2026-08-04T08:16:38+08:00",
+      "count": 14,
+      "lastSuccessAt": "2026-08-04T22:14:37+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -40,7 +39,7 @@
       "name": "国家统计局公务员招录",
       "status": "ok",
       "count": 0,
-      "lastSuccessAt": "2026-08-04T08:16:38+08:00",
+      "lastSuccessAt": "2026-08-04T22:14:37+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -48,7 +47,7 @@
       "name": "国家统计局企事业招聘",
       "status": "ok",
       "count": 0,
-      "lastSuccessAt": "2026-08-04T08:16:38+08:00",
+      "lastSuccessAt": "2026-08-04T22:14:37+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -56,15 +55,15 @@
       "name": "教育部公务员招录",
       "status": "ok",
       "count": 0,
-      "lastSuccessAt": "2026-08-04T08:16:38+08:00",
+      "lastSuccessAt": "2026-08-04T22:14:37+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
     {
       "name": "北京事业单位公开招聘",
       "status": "ok",
-      "count": 5,
-      "lastSuccessAt": "2026-08-04T08:16:38+08:00",
+      "count": 9,
+      "lastSuccessAt": "2026-08-04T22:14:37+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -72,7 +71,7 @@
       "name": "湖北事业单位招聘公告",
       "status": "ok",
       "count": 2,
-      "lastSuccessAt": "2026-08-04T08:16:38+08:00",
+      "lastSuccessAt": "2026-08-04T22:14:37+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -80,7 +79,7 @@
       "name": "湖北公务员重要通知",
       "status": "empty",
       "count": 0,
-      "lastSuccessAt": "2026-08-04T08:16:38+08:00",
+      "lastSuccessAt": "2026-08-04T22:14:37+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     }

@@ -131,6 +131,7 @@ class DetailTests(unittest.TestCase):
                         "deadlineConfidence": "high",
                         "deadlineEvidence": "报名时间为7月20日至7月25日",
                         "profileHints": {
+                            "schemaVersion": 3,
                             "majorTags": ["中国语言文学"],
                             "roleTags": ["综合文字"],
                             "qualificationTags": ["硕士"],
@@ -153,6 +154,41 @@ class DetailTests(unittest.TestCase):
         self.assertEqual(jobs[0]["deadline"], "2026-07-25")
         self.assertEqual(jobs[0]["profileHints"]["majorTags"], ["中国语言文学"])
         self.assertEqual(updated, cache)
+
+    def test_old_profile_hint_schema_refreshes_success_cache(self):
+        cache = {
+            "version": 1,
+            "entries": {
+                JOB["url"]: {
+                    "status": "ok",
+                    "fetchedAt": "2026-07-22T14:00:00+08:00",
+                    "fields": {
+                        "profileHints": {
+                            "schemaVersion": 2,
+                            "roleTags": ["新媒体"],
+                            "majorTags": [],
+                            "qualificationTags": [],
+                            "graduateYears": [],
+                            "evidence": {"新媒体": "关注微信公众号"},
+                        }
+                    },
+                }
+            },
+        }
+
+        jobs, updated = enrich_jobs(
+            [JOB],
+            [SOURCE],
+            cache,
+            NOW,
+            fetcher=lambda *args: "<main><p>现面向社会公开招聘工作人员。</p></main>",
+        )
+
+        self.assertNotIn("profileHints", jobs[0])
+        self.assertEqual(
+            updated["entries"][JOB["url"]]["fields"]["profileHints"]["schemaVersion"],
+            3,
+        )
 
     def test_profile_hints_apply_even_when_deadline_is_unknown(self):
         html = "<main><p>负责公文写作和企业文化宣传，专业要求汉语言文字学。</p></main>"

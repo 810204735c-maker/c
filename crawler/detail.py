@@ -23,9 +23,9 @@ except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
     from lifecycle import extract_registration_window
 
 try:
-    from crawler.profile_hints import extract_profile_hints
+    from crawler.profile_hints import PROFILE_HINTS_SCHEMA_VERSION, extract_profile_hints
 except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
-    from profile_hints import extract_profile_hints
+    from profile_hints import PROFILE_HINTS_SCHEMA_VERSION, extract_profile_hints
 
 
 SHANGHAI = shanghai_timezone()
@@ -171,10 +171,10 @@ def _cache_is_fresh(entry: object, now: datetime) -> bool:
     if fetched_at is None:
         return False
     fields = entry.get("fields")
-    if entry.get("status") == "ok" and (
-        not isinstance(fields, dict) or "profileHints" not in fields
-    ):
-        return False
+    if entry.get("status") == "ok":
+        hints = fields.get("profileHints") if isinstance(fields, dict) else None
+        if not isinstance(hints, dict) or hints.get("schemaVersion") != PROFILE_HINTS_SCHEMA_VERSION:
+            return False
     ttl = SUCCESS_TTL if entry.get("status") == "ok" else FAILURE_TTL
     return now.astimezone(timezone.utc) - fetched_at.astimezone(timezone.utc) <= ttl
 
