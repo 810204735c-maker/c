@@ -355,12 +355,20 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260702_579408.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-31T08:17:02+08:00",
+      "fetchedAt": "2026-08-04T22:18:33+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
-        "deadlineEvidence": ""
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [],
+          "evidence": {}
+        }
       }
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35528978/content.html": {
@@ -475,42 +483,90 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35428690/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-31T08:17:02+08:00",
+      "fetchedAt": "2026-08-04T22:18:33+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-05-29",
         "deadlineConfidence": "high",
-        "deadlineEvidence": "报名时间从即日起至2026年5月29日17:00截止"
+        "deadlineEvidence": "报名时间从即日起至2026年5月29日17:00截止",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "2026年国内高校应届毕业生（不含定向、委培人员，含2年择业期内未落实工作单位的高校毕业生）。"
+          }
+        }
       }
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260424_1963395.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-31T08:17:02+08:00",
+      "fetchedAt": "2026-08-04T22:18:33+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
-        "deadlineEvidence": ""
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "国家统计局在京直属企事业单位2026年公开招聘应届毕业生笔试公告 - 国家统计局"
+          }
+        }
       }
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260416_1963335.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-31T08:17:02+08:00",
+      "fetchedAt": "2026-08-04T22:18:33+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-04-22",
         "deadlineConfidence": "high",
-        "deadlineEvidence": "三、以上岗位报名时间延长至2026年4月22日17：00"
+        "deadlineEvidence": "三、以上岗位报名时间延长至2026年4月22日17：00",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "国家统计局在京直属事业单位2026年度公开招聘应届高校毕业生补充公告 - 国家统计局"
+          }
+        }
       }
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260403_1962991.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-31T08:17:02+08:00",
+      "fetchedAt": "2026-08-04T22:18:33+08:00",
       "fields": {
         "registrationStart": "2026-04-20",
         "registrationEnd": "2026-04-20",
         "deadlineConfidence": "high",
-        "deadlineEvidence": "三、招聘程序 （一）网上报名 1.请考生在规定的报名时间内（自公告发布之日起至4月20日17：00）"
+        "deadlineEvidence": "三、招聘程序 （一）网上报名 1.请考生在规定的报名时间内（自公告发布之日起至4月20日17：00）",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "国家统计局在京直属企事业单位2026年公开招聘应届毕业生公告 - 国家统计局"
+          }
+        }
       }
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260722_580688.html": {
@@ -558,32 +614,66 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202603/t20260316_1962788.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-31T08:17:02+08:00",
+      "fetchedAt": "2026-08-04T22:18:33+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
-        "deadlineEvidence": ""
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [],
+          "evidence": {}
+        }
       }
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202602/t20260210_1962581.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-31T08:17:02+08:00",
+      "fetchedAt": "2026-08-04T22:18:33+08:00",
       "fields": {
         "registrationStart": "2026-02-24",
         "registrationEnd": "2026-02-24",
         "deadlineConfidence": "high",
-        "deadlineEvidence": "三、招聘程序 （一）报名 1.报考人员在规定的报名时间内（自公告发布之日起至2月24日17:00）"
+        "deadlineEvidence": "三、招聘程序 （一）报名 1.报考人员在规定的报名时间内（自公告发布之日起至2月24日17:00）",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "中共党员"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "中共党员": "（一）具有中华人民共和国国籍，中共党员（含预备党员）。"
+          }
+        }
       }
     },
     "https://www.moe.gov.cn/s78/A04/tongzhi/202601/t20260115_1426701.html": {
       "status": "ok",
-      "fetchedAt": "2026-07-31T08:17:02+08:00",
+      "fetchedAt": "2026-08-04T22:18:33+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
-        "deadlineEvidence": ""
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届",
+            "工作经历"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "（1）考生身份为应届毕业生的，需提供报名推荐表原件（附件2，加盖院系党委公章）。",
+            "工作经历": "（4）2025年10月报考后，学习、工作经历和奖惩情况有变化的，请补充说明，并提供相关证明材料。"
+          }
+        }
       }
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260724_4783689.html": {
