@@ -1,37 +1,238 @@
 {
-  "generatedAt": "2026-08-05T08:16:51+08:00",
-  "total": 37,
+  "generatedAt": "2026-08-06T08:12:39+08:00",
+  "total": 38,
   "jobs": [
     {
-      "id": "a90b63641bdb8c57",
-      "title": "首都医科大学附属北京天坛医院2026年公开招聘工作人员公告",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4807521.html",
+      "id": "17dbb43827a2efcf",
+      "title": "门头沟区2026年下半年事业单位公开招聘工作人员公告",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260805_4809295.html",
       "source": "北京事业单位公开招聘",
       "collector": "北京事业单位公开招聘",
-      "publishedAt": "2026-08-04",
+      "publishedAt": "2026-08-05",
       "dateEstimated": false,
       "category": "事业单位",
-      "location": "北京",
+      "location": "全国",
       "audience": "不限",
       "registrationStart": null,
-      "registrationEnd": "2026-08-21",
-      "deadlineConfidence": "high",
-      "deadlineEvidence": "2.报名截止时间：2026年8月21日",
-      "deadline": "2026-08-21",
-      "summary": "2026-08-04",
+      "registrationEnd": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "deadline": null,
+      "summary": "2026-08-05",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
+      "collectedAt": "2026-08-06T08:12:39+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "应届",
+          "中共党员"
+        ],
+        "graduateYears": [],
+        "evidence": {
+          "应届": "（一）招聘范围为“应届毕业生（北京生源）”的岗位，报考人员指列入国家统一招生计划（不含定向和委托培养），按时毕业并如期取得相应学历学位，毕业证书落款年度2年内（2025、2026年）的普通高等学校北京生源毕业生，及2024年离校未就业（未与",
+          "中共党员": "8.招聘岗位要求为中共党员的，须提供所在党组织开具的证明材料；"
+        }
+      },
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [
           "网上报名"
         ],
         "materialTags": [
-          "个人简历"
+          "报名表",
+          "身份证",
+          "学历学位证明",
+          "学信网证明",
+          "工作经历证明"
         ],
         "evidence": {
-          "网上报名": "（1）登录天坛医院官网招聘专栏报名系统，选择相应的招聘信息；",
-          "个人简历": "（4）可将个人简历及重要材料上传至附件中。"
+          "网上报名": "（一）网上报名",
+          "报名表": "1.填写完整准确并有本人在诚信声明处签字的报名表（网上资格初审通过后，从北京市事业单位公开招聘服务平台打印）；",
+          "身份证": "2.本人身份证、户口簿（集体户口的须出示集体户口首页复印件和本人户口页）；",
+          "学历学位证明": "5.留学回国人员须提供国（境）外学历学位证书及教育部留学服务中心出具的“国外学历学位认证书”；",
+          "学信网证明": "3.国家承认的学历、学位证书，及从中国高等学校学生信息网（https://www.chsi.com.cn/）自行下载并打印的《教育部学历证书电子注册备案表》《中国高等教育学位在线验证报告》；",
+          "工作经历证明": "拟聘用人员经公示无异议的，如仍然在职，应在公示期满后30日内与原工作单位解除劳动合同或聘用合同，解除后方可办理后续聘用手续；"
+        }
+      }
+    },
+    {
+      "id": "84551c1ab90e4a65",
+      "title": "北京市朝阳区2026年度下半年事业单位公开招聘公告",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260805_4809286.html",
+      "source": "北京事业单位公开招聘",
+      "collector": "北京事业单位公开招聘",
+      "publishedAt": "2026-08-05",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "北京",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "deadline": null,
+      "summary": "2026-08-05",
+      "official": true,
+      "collectedAt": "2026-08-06T08:12:39+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [],
+        "graduateYears": [
+          "2024",
+          "2025",
+          "2026"
+        ],
+        "evidence": {
+          "2024届": "列入国家统一招生计划（不含定向、委培）的普通高等院校、按时毕业并取得相应学历学位的2025届、2026届北京生源高校毕业生以及2024届离校未就业北京生源高校毕业生。",
+          "2025届": "列入国家统一招生计划（不含定向、委培）的普通高等院校、按时毕业并取得相应学历学位的2025届、2026届北京生源高校毕业生以及2024届离校未就业北京生源高校毕业生。",
+          "2026届": "列入国家统一招生计划（不含定向、委培）的普通高等院校、按时毕业并取得相应学历学位的2025届、2026届北京生源高校毕业生以及2024届离校未就业北京生源高校毕业生。"
+        }
+      }
+    },
+    {
+      "id": "9a657a781f61ce6b",
+      "title": "北京市平谷区人力资源和社会保障局关于2026年度第二次事业单位公开招聘工作人员公告",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260805_4809301.html",
+      "source": "北京事业单位公开招聘",
+      "collector": "北京事业单位公开招聘",
+      "publishedAt": "2026-08-05",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "北京",
+      "audience": "不限",
+      "registrationStart": "2026-08-10",
+      "registrationEnd": "2026-08-14",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "（一）网上报名和资格初审 1.报名时间：应聘人员须于2026年8月10日（周一）上午9:00—8月14日（周五）下午17:00期间",
+      "deadline": "2026-08-14",
+      "summary": "2026-08-05",
+      "official": true,
+      "collectedAt": "2026-08-06T08:12:39+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "应届"
+        ],
+        "graduateYears": [],
+        "evidence": {
+          "应届": "3.应届毕业生要求：指列入国家统一招生计划（不含委培、定向）的普通高等学校，按时毕业并如期获得相应学历学位，毕业证书落款年度2年内（2025年、2026年）的高校毕业生，及2024年离校未就业（未与任何单位签订合同且无单位缴纳社会保险记录）"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [
+          "网上报名"
+        ],
+        "materialTags": [
+          "报名表",
+          "身份证",
+          "学历学位证明"
+        ],
+        "evidence": {
+          "网上报名": "招聘工作按照网上报名、考试、考察、体检、公示和聘用等程序进行。",
+          "报名表": "参加公开招聘的人员应对本人在报名表中填写的信息负责，虚假信息一经查实，即取消参加本次公开招聘的资格。",
+          "身份证": "（4）面试时，报考人员须提供本人身份证及笔试准考证。",
+          "学历学位证明": "（二）应聘人员须在2026年7月31日之前取得岗位条件中要求的资格证书、毕业证书和学位证书。"
+        }
+      }
+    },
+    {
+      "id": "cfc978130eb484b3",
+      "title": "北京市大兴区2026年第二批事业单位公开招聘工作人员公告",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260805_4809288.html",
+      "source": "北京事业单位公开招聘",
+      "collector": "北京事业单位公开招聘",
+      "publishedAt": "2026-08-05",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "北京",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "deadline": null,
+      "summary": "2026-08-05",
+      "official": true,
+      "collectedAt": "2026-08-06T08:12:39+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "应届",
+          "中共党员"
+        ],
+        "graduateYears": [],
+        "evidence": {
+          "应届": "2.招聘范围为“应届毕业生”的岗位，限列入国家统一招生计划、培养方式为非定向、按时毕业并取得相应学历学位，毕业证书落款年度2年内（2025年、2026年）的应届毕业生，以及2024年离校未就业毕业生（未与任何单位签订合同且无单位缴纳社会保险",
+          "中共党员": "4.招聘岗位要求为“中共党员”的，需提供党员关系所属党组织出具的政治面貌证明或其他证明材料。"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [
+          "网上报名"
+        ],
+        "materialTags": [],
+        "evidence": {
+          "网上报名": "（一）网上报名"
+        }
+      }
+    },
+    {
+      "id": "a9a2a493bea73ab1",
+      "title": "北京市体育局所属事业单位2026年下半年公开招聘工作人员公告",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260805_4809321.html",
+      "source": "北京事业单位公开招聘",
+      "collector": "北京事业单位公开招聘",
+      "publishedAt": "2026-08-05",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "北京",
+      "audience": "不限",
+      "registrationStart": "2026-08-10",
+      "registrationEnd": "2026-08-14",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "四、招聘程序 （一）报名及资格审查 1.报名时间：2026年8月10日（周一）上午9:00至2026年8月14日（周五）下午17:00期间",
+      "deadline": "2026-08-14",
+      "summary": "2026-08-05",
+      "official": true,
+      "collectedAt": "2026-08-06T08:12:39+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "应届"
+        ],
+        "graduateYears": [],
+        "evidence": {
+          "应届": "2.应届毕业生：指列入国家统一招生计划（不含定向、委培）按时毕业并取得相应学历学位的普通高等院校应届毕业生（毕业证书落款年度为2025年、2026年的高校毕业生）、2024年离校未就业毕业生（指列入国家统一招生计划的普通高校2024年毕业生"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [],
+        "materialTags": [
+          "报名表",
+          "学历学位证明",
+          "工作经历证明",
+          "成绩单",
+          "就业推荐表"
+        ],
+        "evidence": {
+          "报名表": "（1）《北京市体育局所属事业单位公开招聘工作人员报名表》（附件2）；",
+          "学历学位证明": "（四）应聘人员入职前需取得相应学历学位证书及岗位所要求的证书原件，否则不予接收。",
+          "工作经历证明": "（6）工作经历经验相关证明材料扫描件（劳动合同等）；",
+          "成绩单": "暂未取得学历、学位证书的2026年应届毕业生，须提供毕业生就业推荐表和成绩单，加盖学校相关部门公章。",
+          "就业推荐表": "暂未取得学历、学位证书的2026年应届毕业生，须提供毕业生就业推荐表和成绩单，加盖学校相关部门公章。"
         }
       }
     },
@@ -51,9 +252,9 @@
       "deadlineConfidence": "high",
       "deadlineEvidence": "三、报考程序 （一）网上报名及资格查询 1.报名时间 报名时间为2026年8月10日（周一）上午9:00—8月14日（周五）下午17:00",
       "deadline": "2026-08-14",
-      "summary": "2026-08-04",
+      "summary": "2026-08-04 var NowChnl = '事业单位公开招聘'; var ParNowChnl='信息公开栏目'; var GparNowChnl='事业单位公开招聘'; document.getElementById(NowChnl).className = \"nav_li\"; document.getElementById(ParNowChnl)",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
+      "collectedAt": "2026-08-06T08:12:39+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -102,7 +303,7 @@
       "deadline": "2026-08-14",
       "summary": "2026-08-04",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
+      "collectedAt": "2026-08-06T08:12:39+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -149,7 +350,7 @@
       "deadline": null,
       "summary": "2026-08-04",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
+      "collectedAt": "2026-08-06T08:12:39+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -185,48 +386,6 @@
       }
     },
     {
-      "id": "b69b48744212e43c",
-      "title": "北京市商务局所属事业单位北京市对外贸易学校2026年第二次公开招聘工作人员公告",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4807953.html",
-      "source": "北京事业单位公开招聘",
-      "collector": "北京事业单位公开招聘",
-      "publishedAt": "2026-08-04",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "北京",
-      "audience": "不限",
-      "registrationStart": null,
-      "registrationEnd": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "deadline": null,
-      "summary": "2026-08-04",
-      "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
-      "profileHints": {
-        "schemaVersion": 3,
-        "roleTags": [],
-        "majorTags": [],
-        "qualificationTags": [
-          "应届"
-        ],
-        "graduateYears": [],
-        "evidence": {
-          "应届": "3.应届毕业生"
-        }
-      },
-      "applicationHints": {
-        "schemaVersion": 1,
-        "methods": [
-          "网上报名"
-        ],
-        "materialTags": [],
-        "evidence": {
-          "网上报名": "（一）网上报名"
-        }
-      }
-    },
-    {
       "id": "724947560d9cc3d9",
       "title": "北京市人民检察院所属事业单位2026年下半年公开招聘工作人员公告",
       "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4808125.html",
@@ -244,7 +403,7 @@
       "deadline": null,
       "summary": "2026-08-04",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
+      "collectedAt": "2026-08-06T08:12:39+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -291,7 +450,7 @@
       "deadline": null,
       "summary": "[08-04]",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
+      "collectedAt": "2026-08-06T08:12:39+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -327,7 +486,7 @@
       "deadline": null,
       "summary": "2026-08-04",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
+      "collectedAt": "2026-08-06T08:12:39+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [
@@ -336,87 +495,6 @@
         "materialTags": [],
         "evidence": {
           "网上报名": "（一）网上报名"
-        }
-      }
-    },
-    {
-      "id": "e4d33f0412cb3552",
-      "title": "2026年北京市交通委员会所属事业单位公开招聘工作人员公告（第二批）",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4807963.html",
-      "source": "北京事业单位公开招聘",
-      "collector": "北京事业单位公开招聘",
-      "publishedAt": "2026-08-04",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "北京",
-      "audience": "不限",
-      "registrationStart": null,
-      "registrationEnd": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "deadline": null,
-      "summary": "2026-08-04",
-      "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
-      "profileHints": {
-        "schemaVersion": 3,
-        "roleTags": [],
-        "majorTags": [],
-        "qualificationTags": [
-          "应届"
-        ],
-        "graduateYears": [],
-        "evidence": {
-          "应届": "（五）应届毕业生为列入国家统一招生计划（不含委培生、定向生）的国内普通高等学校毕业生，包括按时毕业并获得相应学历学位，毕业证书落款年度2年内（2025年、2026年）的应届毕业生，以及2024年离校未就业毕业生（未与任何单位签订合同且无单位"
-        }
-      },
-      "applicationHints": {
-        "schemaVersion": 1,
-        "methods": [
-          "网上报名"
-        ],
-        "materialTags": [
-          "报名表",
-          "学历学位证明",
-          "成绩单",
-          "就业推荐表"
-        ],
-        "evidence": {
-          "网上报名": "（一）网上报名",
-          "报名表": "1.报名表（见附件2）；",
-          "学历学位证明": "4.学历学位证书；",
-          "成绩单": "在读尚未毕业无法提供学历学位证书的，可提供学生证、成绩单，或学校开具的载有所学专业、专业代码、学历学位、学制、入学时间、预计毕业时间等信息的证明；",
-          "就业推荐表": "校级毕业生就业主管部门盖章的毕业生就业推荐表等材料；"
-        }
-      }
-    },
-    {
-      "id": "02cb03bd9ae857b3",
-      "title": "首都医科大学附属北京回龙观医院公开招聘公告（第三批）",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260803_4806021.html",
-      "source": "北京事业单位公开招聘",
-      "collector": "北京事业单位公开招聘",
-      "publishedAt": "2026-08-03",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "北京",
-      "audience": "不限",
-      "registrationStart": null,
-      "registrationEnd": "2026-08-21",
-      "deadlineConfidence": "high",
-      "deadlineEvidence": "2.报名截止日期： 2026年8月21日 （二）资格审核 医院按照公布的招聘岗位条件对应聘人员进行资格初审",
-      "deadline": "2026-08-21",
-      "summary": "2026-08-03",
-      "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
-      "applicationHints": {
-        "schemaVersion": 1,
-        "methods": [],
-        "materialTags": [
-          "成绩单"
-        ],
-        "evidence": {
-          "成绩单": "国外院校考生提供翻译过的专业课程目录及成绩单；"
         }
       }
     },
@@ -438,7 +516,7 @@
       "deadline": null,
       "summary": "2026-08-03",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "d955d1b6b9262417",
@@ -458,7 +536,7 @@
       "deadline": null,
       "summary": "2026-08-03",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "ab3b2d20b291ca0f",
@@ -478,7 +556,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
+      "collectedAt": "2026-08-06T08:12:39+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -523,7 +601,7 @@
       "deadline": null,
       "summary": "[07-30]",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "d8342e13c24aec99",
@@ -543,7 +621,7 @@
       "deadline": null,
       "summary": "2026-07-30",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "8fee4c1a58c8f7b2",
@@ -563,7 +641,7 @@
       "deadline": null,
       "summary": "2026-07-29",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "d7c85a853b3ff4c0",
@@ -583,7 +661,7 @@
       "deadline": null,
       "summary": "2026-07-29",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "06a7a2f002659fc3",
@@ -603,7 +681,7 @@
       "deadline": null,
       "summary": "[07-29]",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
+      "collectedAt": "2026-08-06T08:12:39+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -638,7 +716,7 @@
       "deadline": null,
       "summary": "[07-28]",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "0bdeb07f450c4d8d",
@@ -658,7 +736,7 @@
       "deadline": null,
       "summary": "[07-28]",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
+      "collectedAt": "2026-08-06T08:12:39+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -693,7 +771,7 @@
       "deadline": null,
       "summary": "[07-28]",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
+      "collectedAt": "2026-08-06T08:12:39+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -728,7 +806,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
+      "collectedAt": "2026-08-06T08:12:39+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -773,7 +851,7 @@
       "deadline": null,
       "summary": "[07-24]",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
+      "collectedAt": "2026-08-06T08:12:39+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -805,7 +883,7 @@
       "deadline": null,
       "summary": "2026-07-23",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "8d4b4d5e5a714260",
@@ -825,7 +903,7 @@
       "deadline": null,
       "summary": "2026-07-20",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "7896f2424e88d46e",
@@ -845,7 +923,7 @@
       "deadline": null,
       "summary": "[07-16]",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
+      "collectedAt": "2026-08-06T08:12:39+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -891,7 +969,7 @@
       "deadline": null,
       "summary": "2026-07-16",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "cb638492c6bb1253",
@@ -911,7 +989,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "f3e8e244ddaadc8e",
@@ -931,7 +1009,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "823d5fed8a411262",
@@ -951,7 +1029,7 @@
       "deadline": null,
       "summary": "[07-09]",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00",
+      "collectedAt": "2026-08-06T08:12:39+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -983,7 +1061,7 @@
       "deadline": null,
       "summary": "2026-07-08",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "6587644d3a2dfca3",
@@ -1003,7 +1081,7 @@
       "deadline": null,
       "summary": "2026-07-08",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "e338139710f1ce6c",
@@ -1023,7 +1101,7 @@
       "deadline": null,
       "summary": "[07-08]",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "d0c93c3b730896bb",
@@ -1043,7 +1121,7 @@
       "deadline": null,
       "summary": "2026-07-08",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "53bf686ab19e0235",
@@ -1063,7 +1141,7 @@
       "deadline": null,
       "summary": "[07-08]",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "0fcc85e2e9a55986",
@@ -1083,7 +1161,7 @@
       "deadline": null,
       "summary": "2026-07-03",
       "official": true,
-      "collectedAt": "2026-08-05T08:16:51+08:00"
+      "collectedAt": "2026-08-06T08:12:39+08:00"
     },
     {
       "id": "seed-hlj-202607",
@@ -1162,7 +1240,7 @@
     {
       "name": "北京事业单位公开招聘",
       "status": "ok",
-      "count": 9
+      "count": 10
     },
     {
       "name": "湖北事业单位招聘公告",

@@ -2001,6 +2001,196 @@
           }
         }
       }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260805_4809295.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-06T08:12:39+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届",
+            "中共党员"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "（一）招聘范围为“应届毕业生（北京生源）”的岗位，报考人员指列入国家统一招生计划（不含定向和委托培养），按时毕业并如期取得相应学历学位，毕业证书落款年度2年内（2025、2026年）的普通高等学校北京生源毕业生，及2024年离校未就业（未与",
+            "中共党员": "8.招聘岗位要求为中共党员的，须提供所在党组织开具的证明材料；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "学历学位证明",
+            "学信网证明",
+            "工作经历证明"
+          ],
+          "evidence": {
+            "网上报名": "（一）网上报名",
+            "报名表": "1.填写完整准确并有本人在诚信声明处签字的报名表（网上资格初审通过后，从北京市事业单位公开招聘服务平台打印）；",
+            "身份证": "2.本人身份证、户口簿（集体户口的须出示集体户口首页复印件和本人户口页）；",
+            "学历学位证明": "5.留学回国人员须提供国（境）外学历学位证书及教育部留学服务中心出具的“国外学历学位认证书”；",
+            "学信网证明": "3.国家承认的学历、学位证书，及从中国高等学校学生信息网（https://www.chsi.com.cn/）自行下载并打印的《教育部学历证书电子注册备案表》《中国高等教育学位在线验证报告》；",
+            "工作经历证明": "拟聘用人员经公示无异议的，如仍然在职，应在公示期满后30日内与原工作单位解除劳动合同或聘用合同，解除后方可办理后续聘用手续；"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260805_4809286.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-06T08:12:39+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [
+            "2024",
+            "2025",
+            "2026"
+          ],
+          "evidence": {
+            "2024届": "列入国家统一招生计划（不含定向、委培）的普通高等院校、按时毕业并取得相应学历学位的2025届、2026届北京生源高校毕业生以及2024届离校未就业北京生源高校毕业生。",
+            "2025届": "列入国家统一招生计划（不含定向、委培）的普通高等院校、按时毕业并取得相应学历学位的2025届、2026届北京生源高校毕业生以及2024届离校未就业北京生源高校毕业生。",
+            "2026届": "列入国家统一招生计划（不含定向、委培）的普通高等院校、按时毕业并取得相应学历学位的2025届、2026届北京生源高校毕业生以及2024届离校未就业北京生源高校毕业生。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260805_4809301.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-06T08:12:39+08:00",
+      "fields": {
+        "registrationStart": "2026-08-10",
+        "registrationEnd": "2026-08-14",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "（一）网上报名和资格初审 1.报名时间：应聘人员须于2026年8月10日（周一）上午9:00—8月14日（周五）下午17:00期间",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "3.应届毕业生要求：指列入国家统一招生计划（不含委培、定向）的普通高等学校，按时毕业并如期获得相应学历学位，毕业证书落款年度2年内（2025年、2026年）的高校毕业生，及2024年离校未就业（未与任何单位签订合同且无单位缴纳社会保险记录）"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "学历学位证明"
+          ],
+          "evidence": {
+            "网上报名": "招聘工作按照网上报名、考试、考察、体检、公示和聘用等程序进行。",
+            "报名表": "参加公开招聘的人员应对本人在报名表中填写的信息负责，虚假信息一经查实，即取消参加本次公开招聘的资格。",
+            "身份证": "（4）面试时，报考人员须提供本人身份证及笔试准考证。",
+            "学历学位证明": "（二）应聘人员须在2026年7月31日之前取得岗位条件中要求的资格证书、毕业证书和学位证书。"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260805_4809288.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-06T08:12:39+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届",
+            "中共党员"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "2.招聘范围为“应届毕业生”的岗位，限列入国家统一招生计划、培养方式为非定向、按时毕业并取得相应学历学位，毕业证书落款年度2年内（2025年、2026年）的应届毕业生，以及2024年离校未就业毕业生（未与任何单位签订合同且无单位缴纳社会保险",
+            "中共党员": "4.招聘岗位要求为“中共党员”的，需提供党员关系所属党组织出具的政治面貌证明或其他证明材料。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [],
+          "evidence": {
+            "网上报名": "（一）网上报名"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260805_4809321.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-06T08:12:39+08:00",
+      "fields": {
+        "registrationStart": "2026-08-10",
+        "registrationEnd": "2026-08-14",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "四、招聘程序 （一）报名及资格审查 1.报名时间：2026年8月10日（周一）上午9:00至2026年8月14日（周五）下午17:00期间",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "2.应届毕业生：指列入国家统一招生计划（不含定向、委培）按时毕业并取得相应学历学位的普通高等院校应届毕业生（毕业证书落款年度为2025年、2026年的高校毕业生）、2024年离校未就业毕业生（指列入国家统一招生计划的普通高校2024年毕业生"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "工作经历证明",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "报名表": "（1）《北京市体育局所属事业单位公开招聘工作人员报名表》（附件2）；",
+            "学历学位证明": "（四）应聘人员入职前需取得相应学历学位证书及岗位所要求的证书原件，否则不予接收。",
+            "工作经历证明": "（6）工作经历经验相关证明材料扫描件（劳动合同等）；",
+            "成绩单": "暂未取得学历、学位证书的2026年应届毕业生，须提供毕业生就业推荐表和成绩单，加盖学校相关部门公章。",
+            "就业推荐表": "暂未取得学历、学位证书的2026年应届毕业生，须提供毕业生就业推荐表和成绩单，加盖学校相关部门公章。"
+          }
+        }
+      }
     }
   }
 }
