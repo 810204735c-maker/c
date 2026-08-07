@@ -2263,6 +2263,111 @@
           "evidence": {}
         }
       }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260807_4812736.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-08T07:50:33+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-10-30",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名截止时间为2026年10月30日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表"
+          ],
+          "evidence": {
+            "网上报名": "自公告发布之日起接受网上报名，报名截止时间为2026年10月30日。",
+            "报名表": "1.报名方式：应聘人员填写意向岗位对应的报名表（文化研究所为附件2.1，满学研究所为附件2.2），并将学历学位、职称、主要业绩成果、所获奖项、荣誉等相关证明材料的电子版，以压缩包形式发送至指定邮箱：basszhaopin@163.com（报"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260807_4812706.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-08T07:50:33+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "北京市房山区卫生健康委员会所属事业单位2026年公开招聘应届毕业生（第二批）公告_"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "学历学位证明",
+            "成绩单"
+          ],
+          "evidence": {
+            "网上报名": "（一）网上报名",
+            "报名表": "现场资格审核所需材料：除填写完整准确并有本人在诚信声明处签字的报名表（网上资格初审通过后，从北京市事业单位公开招聘服务平台打印），其余材料同网上报名所需材料。",
+            "身份证": "1.本人身份证正反面（须在有效期内）；",
+            "学历学位证明": "3.最高学历毕业证书和学位证书。",
+            "成绩单": "还需提供：毕业院校教务主管部门盖章的已修全部课程的成绩单原件；"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260807_4812675.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-08T07:50:33+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "高校行政"
+          ],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "高校行政": "北京工业大学2026年第二批计划公开招聘教师岗位23人，辅导员岗位10人。",
+            "硕士": "覆盖工学、理学、经济学、管理学、文学、法学、教育学、艺术学、交叉学科等9个学科门类，1981年成为国家教育部批准的第一批硕士学位授予单位，1985年成为博士学位授予单位，1996年通过国家“211工程”预审，正式跨入国家二十一世纪重点建设的",
+            "应届": "（六）应聘人员为应届毕业生的，年龄原则上为38周岁及以下（1987年8月及以后出生），须列入国家统一招生计划，培养方式为非定向，按时毕业并取得相应学历学位，毕业证书落款年度2年内（2025年、2026年），及2024年离校未就业（未与任何单"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
     }
   }
 }

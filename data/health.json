@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T09:43:54+08:00",
+  "generatedAt": "2026-08-08T07:50:33+08:00",
   "currentTotal": 39,
   "newLast7Days": 16,
   "deadlineCoverage": 0.07692307692307693,
@@ -7,14 +7,14 @@
   "enabledSourceCount": 13,
   "disabledSourceCount": 1,
   "failedSourceCount": 0,
-  "previousTotal": 38,
-  "totalChangeRate": 0.02631578947368421,
+  "previousTotal": 39,
+  "totalChangeRate": 0.0,
   "sources": [
     {
       "name": "国务院国资委招聘",
       "status": "ok",
       "count": 12,
-      "lastSuccessAt": "2026-08-07T09:43:54+08:00",
+      "lastSuccessAt": "2026-08-08T07:50:33+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -22,7 +22,7 @@
       "name": "中国公共招聘网事业单位",
       "status": "ok",
       "count": 14,
-      "lastSuccessAt": "2026-08-07T09:43:54+08:00",
+      "lastSuccessAt": "2026-08-08T07:50:33+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -30,7 +30,7 @@
       "name": "国家广播电视总局公告公示",
       "status": "empty",
       "count": 0,
-      "lastSuccessAt": "2026-08-07T09:43:54+08:00",
+      "lastSuccessAt": "2026-08-08T07:50:33+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -38,7 +38,7 @@
       "name": "文化和旅游部人事信息",
       "status": "ok",
       "count": 0,
-      "lastSuccessAt": "2026-08-07T09:43:54+08:00",
+      "lastSuccessAt": "2026-08-08T07:50:33+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -46,7 +46,7 @@
       "name": "清华大学人事招聘",
       "status": "ok",
       "count": 0,
-      "lastSuccessAt": "2026-08-07T09:43:54+08:00",
+      "lastSuccessAt": "2026-08-08T07:50:33+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -54,7 +54,7 @@
       "name": "华北电力大学人才招聘",
       "status": "ok",
       "count": 0,
-      "lastSuccessAt": "2026-08-07T09:43:54+08:00",
+      "lastSuccessAt": "2026-08-08T07:50:33+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -62,7 +62,7 @@
       "name": "中国能建所属企业招聘",
       "status": "ok",
       "count": 0,
-      "lastSuccessAt": "2026-08-07T09:43:54+08:00",
+      "lastSuccessAt": "2026-08-08T07:50:33+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -79,7 +79,7 @@
       "name": "国家统计局公务员招录",
       "status": "ok",
       "count": 0,
-      "lastSuccessAt": "2026-08-07T09:43:54+08:00",
+      "lastSuccessAt": "2026-08-08T07:50:33+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -87,7 +87,7 @@
       "name": "国家统计局企事业招聘",
       "status": "ok",
       "count": 0,
-      "lastSuccessAt": "2026-08-07T09:43:54+08:00",
+      "lastSuccessAt": "2026-08-08T07:50:33+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -95,7 +95,7 @@
       "name": "教育部公务员招录",
       "status": "ok",
       "count": 0,
-      "lastSuccessAt": "2026-08-07T09:43:54+08:00",
+      "lastSuccessAt": "2026-08-08T07:50:33+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -103,7 +103,7 @@
       "name": "北京事业单位公开招聘",
       "status": "ok",
       "count": 10,
-      "lastSuccessAt": "2026-08-07T09:43:54+08:00",
+      "lastSuccessAt": "2026-08-08T07:50:33+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -111,7 +111,7 @@
       "name": "湖北事业单位招聘公告",
       "status": "ok",
       "count": 2,
-      "lastSuccessAt": "2026-08-07T09:43:54+08:00",
+      "lastSuccessAt": "2026-08-08T07:50:33+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -119,7 +119,7 @@
       "name": "湖北公务员重要通知",
       "status": "empty",
       "count": 0,
-      "lastSuccessAt": "2026-08-07T09:43:54+08:00",
+      "lastSuccessAt": "2026-08-08T07:50:33+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     }
