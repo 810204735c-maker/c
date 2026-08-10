@@ -65,6 +65,17 @@ class RegistrationWindowTests(unittest.TestCase):
         self.assertIsNone(result["registrationEnd"])
         self.assertEqual(result["deadlineEvidence"], "")
 
+    def test_explicit_registration_start_does_not_invent_deadline(self):
+        result = extract_registration_window(
+            "报名开始时间为2026年8月10日9:00，报名截止时间另行通知。",
+            NOW,
+        )
+
+        self.assertEqual(result["registrationStart"], "2026-08-10")
+        self.assertIsNone(result["registrationEnd"])
+        self.assertEqual(result["deadlineConfidence"], "unknown")
+        self.assertEqual(result["deadlineEvidence"], "")
+
 
 if __name__ == "__main__":
     unittest.main()

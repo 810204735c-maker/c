@@ -91,6 +91,12 @@ def extract_registration_window(text: str, now: datetime) -> dict:
             registration_end = dates[-1]
         elif any(marker in clause for marker in ("截止", "截至")):
             registration_end = dates[0]
+        elif any(marker in clause for marker in ("开始", "起始")):
+            # A stated start date is not evidence of the deadline.  In
+            # particular, notices often publish the end date separately or
+            # say that it will be announced later.
+            registration_start = registration_start or dates[0]
+            continue
         else:
             registration_start = registration_start or dates[0]
             registration_end = registration_end or dates[0]
