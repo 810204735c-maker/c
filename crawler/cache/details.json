@@ -2606,6 +2606,48 @@
           }
         }
       }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260812_4819268.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-13T08:00:45+08:00",
+      "fields": {
+        "registrationStart": "2026-08-14",
+        "registrationEnd": "2026-08-20",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "（一）报名及资格初审 1.报名时间：2026年8月14日9:00至2026年8月20日16:00 2.报名网址： 报考人员登录公招网（http://www.gongzhao.com.cn）进行报名",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "中文教育"
+          ],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届",
+            "教师资格证"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "中文教育": "例如：持有高级中学语文教师资格证人员，可报考限初级中学语文教师资格证或小学语文教师资格证岗位。",
+            "应届": "1.应届毕业生",
+            "教师资格证": "1.具有相应岗位条件中的教师资格证书。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "身份证",
+            "资格证书"
+          ],
+          "evidence": {
+            "网上报名": "招聘工作按照网上报名及资格初审、考试、考察、体检、公示和聘用等程序进行。",
+            "身份证": "（4）面试时，考生须提供本人身份证及笔试准考证。",
+            "资格证书": "1.具有相应岗位条件中的教师资格证书。"
+          }
+        }
+      }
     }
   }
 }
