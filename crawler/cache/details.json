@@ -2266,7 +2266,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260807_4812736.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-08T07:50:33+08:00",
+      "fetchedAt": "2026-08-16T07:37:13+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-10-30",
@@ -2297,7 +2297,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260807_4812706.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-08T07:50:33+08:00",
+      "fetchedAt": "2026-08-16T07:37:13+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -2338,7 +2338,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260807_4812675.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-08T07:50:33+08:00",
+      "fetchedAt": "2026-08-16T07:37:13+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
