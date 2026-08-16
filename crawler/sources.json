@@ -146,6 +146,39 @@
       "emptyPageMarker": "重要通知",
       "maxItems": 50,
       "timeout": 20
+    },
+    {
+      "name": "湖南省事业单位招聘",
+      "kind": "html",
+      "url": "https://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/index.html",
+      "category": "事业单位",
+      "allowedDomains": ["hunan.gov.cn"],
+      "allowEmpty": true,
+      "emptyPageMarker": "事业单位招聘",
+      "maxItems": 50,
+      "timeout": 20
+    },
+    {
+      "name": "吉林省人社厅招聘公告",
+      "kind": "html",
+      "url": "https://hrss.jl.gov.cn/gg/",
+      "category": "事业单位",
+      "allowedDomains": ["jl.gov.cn"],
+      "allowEmpty": true,
+      "emptyPageMarker": "公告",
+      "maxItems": 50,
+      "timeout": 20
+    },
+    {
+      "name": "福建省事业单位公开招聘",
+      "kind": "html",
+      "url": "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/",
+      "category": "事业单位",
+      "allowedDomains": ["fujian.gov.cn"],
+      "allowEmpty": true,
+      "emptyPageMarker": "事业单位公开招聘",
+      "maxItems": 50,
+      "timeout": 20
     }
   ]
 }
