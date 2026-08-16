@@ -55,7 +55,7 @@ HTML_FIXTURE = """<!doctype html><html><body>
 class CrawlTests(unittest.TestCase):
     def test_weekly_expansion_sources_are_official_and_allowlisted(self):
         required = {
-            "湖南省事业单位招聘": ("https://", ["hunan.gov.cn"]),
+            "湖南省事业单位招聘": ("http://", ["hunan.gov.cn"]),
             "吉林省人社厅招聘公告": ("https://", ["jl.gov.cn"]),
             "福建省事业单位公开招聘": ("https://", ["fujian.gov.cn"]),
         }
@@ -74,6 +74,7 @@ class CrawlTests(unittest.TestCase):
             self.assertEqual(source["allowedDomains"], domains)
             self.assertTrue(source.get("allowEmpty"))
             self.assertTrue(source.get("emptyPageMarker"))
+        self.assertIn("GitHub Actions", selected["湖南省事业单位招聘"]["allowHttpReason"])
 
     def test_focus_sources_are_official_and_allowlisted(self):
         required = {

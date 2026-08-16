@@ -150,9 +150,10 @@
     {
       "name": "湖南省事业单位招聘",
       "kind": "html",
-      "url": "https://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/index.html",
+      "url": "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/index.html",
       "category": "事业单位",
       "allowedDomains": ["hunan.gov.cn"],
+      "allowHttpReason": "官方 HTTPS 入口在 GitHub Actions 中出现 OpenSSL BAD_ECPOINT 握手失败；同域名公开 HTTP 页面无需登录且可稳定读取",
       "allowEmpty": true,
       "emptyPageMarker": "事业单位招聘",
       "maxItems": 50,
