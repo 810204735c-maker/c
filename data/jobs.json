@@ -1,7 +1,58 @@
 {
-  "generatedAt": "2026-08-16T09:52:16+08:00",
-  "total": 44,
+  "generatedAt": "2026-08-16T09:56:52+08:00",
+  "total": 54,
   "jobs": [
+    {
+      "id": "657f1652e7220217",
+      "title": "湖南省教育厅信息中心2026年公开招聘公告",
+      "url": "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260814_34045173.html",
+      "source": "湖南省事业单位招聘",
+      "collector": "湖南省事业单位招聘",
+      "publishedAt": "2026-08-14",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "湖南",
+      "audience": "不限",
+      "registrationStart": "2026-12-31",
+      "registrationEnd": "2026-12-31",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "(二)报名 1.报名时间自公告发布之日至2026年12月31日(周一至周五上午8时30分-12时00分",
+      "deadline": "2026-12-31",
+      "summary": "2026-08-14",
+      "official": true,
+      "collectedAt": "2026-08-16T09:56:52+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [],
+        "graduateYears": [
+          "2026"
+        ],
+        "evidence": {
+          "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [
+          "现场报名"
+        ],
+        "materialTags": [
+          "报名表",
+          "学历学位证明",
+          "学信网证明",
+          "工作经历证明"
+        ],
+        "evidence": {
+          "现场报名": "采取现场报名的方式,每人限报一个岗位,多报则取消应聘资格。",
+          "报名表": "①请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+          "学历学位证明": "②本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件和复印件一式一份;",
+          "学信网证明": "②本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件和复印件一式一份;",
+          "工作经历证明": "④招聘岗位明确要求有工作经历的,应聘人员须提供工作经历证明(须简要列出承担过的信创适配技术管理主要工作事项、时间及成效,并加盖工作单位公章或人事部门公章);"
+        }
+      }
+    },
     {
       "id": "bcd1197ac35253bb",
       "title": "2026年福建医科大学公开招聘高层次人才方案（二）",
@@ -20,7 +71,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -53,6 +104,120 @@
       }
     },
     {
+      "id": "778e442228111a19",
+      "title": "衡阳师范学院2026年公开招聘心理健康专职教师公告",
+      "url": "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260813_34044608.html",
+      "source": "湖南省事业单位招聘",
+      "collector": "湖南省事业单位招聘",
+      "publishedAt": "2026-08-13",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "registrationStart": "2026-12-31",
+      "registrationEnd": "2026-12-31",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+      "deadline": "2026-12-31",
+      "summary": "2026-08-13",
+      "official": true,
+      "collectedAt": "2026-08-16T09:56:52+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "硕士",
+          "应届"
+        ],
+        "graduateYears": [
+          "2026"
+        ],
+        "evidence": {
+          "硕士": "现有17个学院,48个本科专业,7个一级学科硕士学位授权点,12个硕士专业学位授权点。",
+          "应届": "(5)招聘岗位对专业方向有要求的,毕业证专业与岗位要求专业一致的无需提供专业证明材料,暂未发毕业证的应届毕业生及所学专业为上一级学科的应聘人员须提供专业方向证明(导师签字且毕业学院盖章);",
+          "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [
+          "网上报名"
+        ],
+        "materialTags": [
+          "报名表",
+          "学历学位证明",
+          "学信网证明",
+          "个人简历",
+          "就业推荐表"
+        ],
+        "evidence": {
+          "网上报名": "采取网上报名的方式,每人限报一个岗位,多报则取消应聘资格。",
+          "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+          "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+          "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+          "个人简历": "(4)个人简历;",
+          "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);"
+        }
+      }
+    },
+    {
+      "id": "921c8529b6d569ad",
+      "title": "湖南交通职业技术学院2026年公开招聘公告",
+      "url": "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260813_34044609.html",
+      "source": "湖南省事业单位招聘",
+      "collector": "湖南省事业单位招聘",
+      "publishedAt": "2026-08-13",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "湖南",
+      "audience": "不限",
+      "registrationStart": "2026-12-31",
+      "registrationEnd": "2026-12-31",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+      "deadline": "2026-12-31",
+      "summary": "2026-08-13",
+      "official": true,
+      "collectedAt": "2026-08-16T09:56:52+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "应届"
+        ],
+        "graduateYears": [
+          "2026"
+        ],
+        "evidence": {
+          "应届": "(5)招聘岗位对专业研究方向有要求的,毕业证专业与岗位要求专业一致的无需提供专业证明材料,暂未发毕业证的应届毕业生及所学专业为上一级学科的应聘人员须提供就读学校出具的专业证明材料(导师签字且毕业学校盖章);",
+          "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [
+          "网上报名"
+        ],
+        "materialTags": [
+          "报名表",
+          "学历学位证明",
+          "学信网证明",
+          "工作经历证明",
+          "就业推荐表"
+        ],
+        "evidence": {
+          "网上报名": "采取网上报名的方式,每人限报一个岗位,多报则取消应聘资格。",
+          "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+          "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+          "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+          "工作经历证明": "(4)招聘岗位明确要求有工作经历的,应聘人员须提供工作经历证明(加盖工作单位公章或人事部门公章);",
+          "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);"
+        }
+      }
+    },
+    {
       "id": "eb9cc59a8fb64c02",
       "title": "中国电气装备集团国际电力有限公司招聘公告",
       "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35769358/content.html",
@@ -70,7 +235,7 @@
       "deadline": null,
       "summary": "[08-13]",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "8925b735211a2bd2",
@@ -90,7 +255,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -155,7 +320,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -197,7 +362,7 @@
       "deadline": "2026-08-20",
       "summary": "2026-08-12",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -249,7 +414,7 @@
       "deadline": "2026-08-19",
       "summary": "2026-08-11",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -297,7 +462,7 @@
       "deadline": null,
       "summary": "2026-08-11",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "9c6e423248575a9c",
@@ -317,7 +482,7 @@
       "deadline": "2026-08-20",
       "summary": "2026-08-11",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -364,7 +529,7 @@
       "deadline": null,
       "summary": "2026-08-11",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "8bdee93dd58faf34",
@@ -384,7 +549,7 @@
       "deadline": null,
       "summary": "2026-08-11",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -436,7 +601,7 @@
       "deadline": null,
       "summary": "2026-08-10",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -476,6 +641,66 @@
       }
     },
     {
+      "id": "3231260411c04575",
+      "title": "湖南省2026年省直事业单位第三次公开招聘工作人员公告",
+      "url": "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260810_34042836.html",
+      "source": "湖南省事业单位招聘",
+      "collector": "湖南省事业单位招聘",
+      "publishedAt": "2026-08-10",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "湖南",
+      "audience": "不限",
+      "registrationStart": "2026-08-12",
+      "registrationEnd": "2026-08-19",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "(二)网上报名 1.报名时间 2026年8月12日9:00至8月19日17:00",
+      "deadline": "2026-08-19",
+      "summary": "2026-08-10",
+      "official": true,
+      "collectedAt": "2026-08-16T09:56:52+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "中共党员"
+        ],
+        "graduateYears": [
+          "2026"
+        ],
+        "evidence": {
+          "中共党员": "(4)招聘岗位要求是中共党员(含预备党员)的,应聘人员须提供所在基层党组织开具的党员身份证明(加盖党组织公章,公告发布之日(不含)前6个月内开具的党员身份证明有效);",
+          "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [
+          "网上报名",
+          "现场报名"
+        ],
+        "materialTags": [
+          "报名表",
+          "身份证",
+          "学历学位证明",
+          "学信网证明",
+          "工作经历证明",
+          "近期照片"
+        ],
+        "evidence": {
+          "网上报名": "本次考试采用网上报名方式,考生需使用手机APP扫码登录报名网站完成报名,实行诚信报考制度,不受理现场报名。",
+          "现场报名": "本次考试采用网上报名方式,考生需使用手机APP扫码登录报名网站完成报名,实行诚信报考制度,不受理现场报名。",
+          "报名表": "(1)自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+          "身份证": "用本人身份证号码和手机号码进行注册。",
+          "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件;",
+          "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件;",
+          "工作经历证明": "(6)招聘岗位明确要求有工作经历的,须提供加盖工作单位公章(或单位人事部门公章)的工作经历证明;",
+          "近期照片": "慧人社”APP扫码登录湖南人社公共服务网上服务大厅→点击首页右侧“湖南人事考试”专栏选择“网上报名”→选择考试点击“我要报考”→填写报名信息→上传近期清晰免冠证件照片及相关审核材料→仔细核对报名信息并确认后提交审核→等待审核并关注审核结果。"
+        }
+      }
+    },
+    {
       "id": "9c23b92c0421c123",
       "title": "中国电信天翼云2027届校园招聘全面启动",
       "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35747841/content.html",
@@ -493,7 +718,7 @@
       "deadline": null,
       "summary": "[08-10]",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -528,7 +753,7 @@
       "deadline": null,
       "summary": "2026-08-10",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -581,7 +806,7 @@
       "deadline": "2026-10-30",
       "summary": "2026-08-07",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [
@@ -614,7 +839,7 @@
       "deadline": null,
       "summary": "2026-08-07",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -665,7 +890,7 @@
       "deadline": null,
       "summary": "2026-08-07",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -702,7 +927,7 @@
       "deadline": null,
       "summary": "2026-08-06",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "4b2403c557cb7a2a",
@@ -722,7 +947,7 @@
       "deadline": null,
       "summary": "2026-08-06",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "5df0905f5d35a357",
@@ -742,7 +967,7 @@
       "deadline": null,
       "summary": "[08-06]",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "a1119aa3db38ffdb",
@@ -762,7 +987,7 @@
       "deadline": null,
       "summary": "[08-04]",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -798,7 +1023,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -861,7 +1086,7 @@
       "deadline": null,
       "summary": "2026-08-03",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "d955d1b6b9262417",
@@ -881,7 +1106,7 @@
       "deadline": null,
       "summary": "2026-08-03",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "ab3b2d20b291ca0f",
@@ -901,7 +1126,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -946,7 +1171,7 @@
       "deadline": null,
       "summary": "[07-30]",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "d8342e13c24aec99",
@@ -966,7 +1191,7 @@
       "deadline": null,
       "summary": "2026-07-30",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "c67bb2d858d03b9b",
@@ -986,7 +1211,7 @@
       "deadline": "2026-08-21",
       "summary": "[2026-07-30]",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1043,7 +1268,7 @@
       "deadline": null,
       "summary": "2026-07-29",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "d7c85a853b3ff4c0",
@@ -1063,7 +1288,7 @@
       "deadline": null,
       "summary": "2026-07-29",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "06a7a2f002659fc3",
@@ -1083,7 +1308,7 @@
       "deadline": null,
       "summary": "[07-29]",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1118,7 +1343,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1176,7 +1401,7 @@
       "deadline": null,
       "summary": "[07-28]",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "0bdeb07f450c4d8d",
@@ -1196,7 +1421,7 @@
       "deadline": null,
       "summary": "[07-28]",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1231,7 +1456,7 @@
       "deadline": null,
       "summary": "[07-28]",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1247,6 +1472,26 @@
           "2026届": "中国物流2026届夏季校园招聘正式启动－国务院国有资产监督管理委员会"
         }
       }
+    },
+    {
+      "id": "da942a77d6d93573",
+      "title": "湖南省人力资源和社会保障厅所属事业单位2026年第二次集中公开招聘入围体检和考察人员名单公告",
+      "url": "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202607/t20260727_34033822.html",
+      "source": "湖南省事业单位招聘",
+      "collector": "湖南省事业单位招聘",
+      "publishedAt": "2026-07-27",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "湖南",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "deadline": null,
+      "summary": "2026-07-27",
+      "official": true,
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "1b8ea06244ef6fbb",
@@ -1266,7 +1511,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1311,7 +1556,7 @@
       "deadline": null,
       "summary": "[07-24]",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1343,7 +1588,27 @@
       "deadline": null,
       "summary": "2026-07-23",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
+    },
+    {
+      "id": "d41023454acb3be7",
+      "title": "湖南省人力资源和社会保障厅所属事业单位2026年第二次集中公开招聘面试方案公告",
+      "url": "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202607/t20260720_34030554.html",
+      "source": "湖南省事业单位招聘",
+      "collector": "湖南省事业单位招聘",
+      "publishedAt": "2026-07-20",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "湖南",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "deadline": null,
+      "summary": "2026-07-20",
+      "official": true,
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "8d4b4d5e5a714260",
@@ -1363,7 +1628,7 @@
       "deadline": null,
       "summary": "2026-07-20",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "c05db9f4c768393c",
@@ -1383,7 +1648,7 @@
       "deadline": "2027-02-28",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1439,7 +1704,7 @@
       "deadline": null,
       "summary": "[07-16] var purl=\"../../../n2588035/n2588325/n2588350/index_7325475\" var org= jQuery(\"#comp_7325475\").html(); function goPub(uu){ if(pageName==maxPageNum) { pageName=0;} if(pageNam",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00",
+      "collectedAt": "2026-08-16T09:56:52+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1485,7 +1750,7 @@
       "deadline": null,
       "summary": "2026-07-16",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "cb638492c6bb1253",
@@ -1505,7 +1770,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "f3e8e244ddaadc8e",
@@ -1525,7 +1790,27 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
+    },
+    {
+      "id": "47bb4d8d4c44e1b1",
+      "title": "湖南省卫生健康委直属事业单位2026年公开招聘部分岗位修改报名条件的公告",
+      "url": "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202607/t20260710_34024069.html",
+      "source": "湖南省事业单位招聘",
+      "collector": "湖南省事业单位招聘",
+      "publishedAt": "2026-07-10",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "湖南",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "deadline": null,
+      "summary": "2026-07-10",
+      "official": true,
+      "collectedAt": "2026-08-16T09:56:52+08:00"
     },
     {
       "id": "d0c93c3b730896bb",
@@ -1545,7 +1830,140 @@
       "deadline": null,
       "summary": "2026-07-08",
       "official": true,
-      "collectedAt": "2026-08-16T09:52:16+08:00"
+      "collectedAt": "2026-08-16T09:56:52+08:00"
+    },
+    {
+      "id": "c828501b9f1f7369",
+      "title": "吉首大学2026年高层次人才公开招聘部分岗位修改报名条件的公告",
+      "url": "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202607/t20260702_34018695.html",
+      "source": "湖南省事业单位招聘",
+      "collector": "湖南省事业单位招聘",
+      "publishedAt": "2026-07-02",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "deadline": null,
+      "summary": "2026-07-02",
+      "official": true,
+      "collectedAt": "2026-08-16T09:56:52+08:00"
+    },
+    {
+      "id": "d7252c7e379c7640",
+      "title": "湖南工程职业技术学院2026年公开招聘公告",
+      "url": "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202606/t20260629_34015559.html",
+      "source": "湖南省事业单位招聘",
+      "collector": "湖南省事业单位招聘",
+      "publishedAt": "2026-06-29",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "湖南",
+      "audience": "不限",
+      "registrationStart": "2026-12-31",
+      "registrationEnd": "2026-12-31",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+      "deadline": "2026-12-31",
+      "summary": "2026-06-29 window.onload=function() {createPageHTML('paging',25, 1,'index','html',500);}",
+      "official": true,
+      "collectedAt": "2026-08-16T09:56:52+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "应届"
+        ],
+        "graduateYears": [
+          "2026"
+        ],
+        "evidence": {
+          "应届": "(6)招聘岗位对专业研究方向有要求的,毕业证专业与岗位要求专业一致的无需提供专业证明材料,暂未发毕业证的应届毕业生及所学专业为上一级学科的应聘人员须提供就读学校出具的专业证明材料(导师签字且毕业学院盖章);",
+          "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [],
+        "materialTags": [
+          "报名表",
+          "学历学位证明",
+          "学信网证明",
+          "工作经历证明",
+          "成绩单",
+          "就业推荐表"
+        ],
+        "evidence": {
+          "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》,须在承诺栏手写签名;",
+          "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件、学信网教育部学历证书电子注册备案表和岗位要求的资格证书及相关材料,2026届毕业生还须提供学信网教育部学籍在线验证报告及毕业生就业推荐表(需盖学校公章);",
+          "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件、学信网教育部学历证书电子注册备案表和岗位要求的资格证书及相关材料,2026届毕业生还须提供学信网教育部学籍在线验证报告及毕业生就业推荐表(需盖学校公章);",
+          "工作经历证明": "(5)招聘岗位明确要求有工作经历的,应聘人员须提供工作经历证明(加盖工作单位公章或人事部门公章);",
+          "成绩单": "(8)出国留学人员报名时须提供毕业论文原件及中文翻译件、成绩单原件及中文翻译件(以上翻译件须提供由第三方专业的正规翻译机构出具的中文翻译件并加盖翻译机构公章及翻译专用章)。",
+          "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书原件、学信网教育部学历证书电子注册备案表和岗位要求的资格证书及相关材料,2026届毕业生还须提供学信网教育部学籍在线验证报告及毕业生就业推荐表(需盖学校公章);"
+        }
+      }
+    },
+    {
+      "id": "b3c771213ff9f349",
+      "title": "湖南化工职业技术学院2026年公开招聘公告",
+      "url": "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202606/t20260629_34015561.html",
+      "source": "湖南省事业单位招聘",
+      "collector": "湖南省事业单位招聘",
+      "publishedAt": "2026-06-29",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "湖南",
+      "audience": "不限",
+      "registrationStart": "2026-12-31",
+      "registrationEnd": "2026-12-31",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+      "deadline": "2026-12-31",
+      "summary": "2026-06-29",
+      "official": true,
+      "collectedAt": "2026-08-16T09:56:52+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "应届",
+          "中共党员"
+        ],
+        "graduateYears": [
+          "2026"
+        ],
+        "evidence": {
+          "应届": "(6)招聘岗位对专业研究方向有要求的,毕业证专业与岗位要求专业一致的无需提供专业证明材料,暂未发毕业证的应届毕业生及所学专业为上一级学科的应聘人员须提供就读学校出具的专业证明材料(导师签字且毕业学院盖章)。",
+          "中共党员": "(4)招聘岗位政治面貌要求是中共党员(含预备党员)的,应聘人员须提供所在基层党组织开具的党员身份证明(加盖党组织公章,自报名之日起前6个月内开具的党员身份证明有效);",
+          "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [
+          "现场报名"
+        ],
+        "materialTags": [
+          "报名表",
+          "学历学位证明",
+          "学信网证明",
+          "工作经历证明",
+          "就业推荐表"
+        ],
+        "evidence": {
+          "现场报名": "采取邮箱报名和现场报名相结合的方式。",
+          "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》,须在承诺栏手写签名;",
+          "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+          "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+          "工作经历证明": "(5)招聘岗位明确要求有工作经历的,应聘人员须提供工作经历证明(加盖工作单位公章或人事部门公章);",
+          "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);"
+        }
+      }
     }
   ],
   "sourceStatus": [
@@ -1622,9 +2040,8 @@
     },
     {
       "name": "湖南省事业单位招聘",
-      "status": "error",
-      "count": 0,
-      "error": "<urlopen error [SSL: BAD_ECPOINT] bad ecpoint (_ssl.c:1010)>"
+      "status": "ok",
+      "count": 10
     },
     {
       "name": "吉林省人社厅招聘公告",
