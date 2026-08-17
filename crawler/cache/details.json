@@ -2371,7 +2371,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260810_4815640.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-10T16:57:58+08:00",
+      "fetchedAt": "2026-08-18T07:45:54+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -2418,7 +2418,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35747841/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-10T16:57:58+08:00",
+      "fetchedAt": "2026-08-18T07:45:54+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -2449,7 +2449,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260810_4815662.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-10T16:57:58+08:00",
+      "fetchedAt": "2026-08-18T07:45:54+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -3794,6 +3794,212 @@
             "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
             "工作经历证明": "(5)招聘岗位明确要求有工作经历的,应聘人员须提供工作经历证明(加盖工作单位公章或人事部门公章);",
             "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260817_4825939.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-18T07:45:54+08:00",
+      "fields": {
+        "registrationStart": "2026-08-26",
+        "registrationEnd": "2025-01-01",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "四、报名时间及程序 （一）报名时间：即日起至2026年8月26日17:00",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届",
+            "教师资格证"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "（一）应届毕业生：按时毕业并获得相应学历学位，毕业证书落款年度2年内（2025年、2026年）的应届毕业生，以及2024年离校且取得相应学历学位后未就业（未与任何单位签订合同且无单位缴纳社会保险记录）的毕业生。",
+            "教师资格证": "（五）具备履行应聘岗位所需的学历（学位）要求、学科背景、理论业务知识和实际工作能力，取得与招聘岗位相对应的教师资格证或教师资格考试合格证明（师范生需提供学校出具的免试认定证明或师范生教师职业能力证书）；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "资格证书",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "网上报名": "（二）报名方式：采取网上报名、线上资格审核",
+            "报名表": "（1）公招网导出的《应聘人员报名表》；",
+            "资格证书": "（五）具备履行应聘岗位所需的学历（学位）要求、学科背景、理论业务知识和实际工作能力，取得与招聘岗位相对应的教师资格证或教师资格考试合格证明（师范生需提供学校出具的免试认定证明或师范生教师职业能力证书）；",
+            "成绩单": "2026年应届毕业生要提供高校毕业生就业推荐表（学校就业部门盖章，未注明培养方式的须另行提供证明）和成绩单（学校教务部门盖章）原件及复印件；",
+            "就业推荐表": "2026年应届毕业生要提供高校毕业生就业推荐表（学校就业部门盖章，未注明培养方式的须另行提供证明）和成绩单（学校教务部门盖章）原件及复印件；"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260817_4825274.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-18T07:45:54+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届",
+            "教师资格证"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "（一）招聘范围为“应届毕业生（北京生源）”的岗位，报考人员指列入国家统一招生计划（不含定向和委托培养）的普通高等学校，按时毕业并如期取得相应学历学位，毕业证书落款年度2年内（2025、2026年）的北京生源高校毕业生，及2024年离校未就业",
+            "教师资格证": "教师岗位需具有符合招聘岗位要求的教师资格证；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "学历学位证明",
+            "学信网证明",
+            "资格证书",
+            "工作经历证明"
+          ],
+          "evidence": {
+            "网上报名": "（一）网上报名、资格初审",
+            "报名表": "1.填写完整准确并有本人在诚信声明处签字的报名表（网上资格初审通过后，从北京市事业单位公开招聘服务平台打印）；",
+            "身份证": "2.本人身份证、户口簿（集体户口的需出示集体户口首页复印件和本人户口页）；",
+            "学历学位证明": "4.留学回国人员须提供国外学历学位证书及教育部留学服务中心出具的“国外学历学位认证书”；",
+            "学信网证明": "业毕业生、2025年毕业生、2026年应届毕业生须提供国家承认的学历、学位证书，及从中国高等教育学生信息网（https://www.chsi.com.cn/）自行下载并打印的《教育部学历证书电子注册备案表》《中国高等教育学位在线验证报告》；",
+            "资格证书": "教师岗位需具有符合招聘岗位要求的教师资格证；",
+            "工作经历证明": "拟聘用人员经公示无异议的，如仍然在职，应在公示期满后30日内与原工作单位解除劳动合同或聘用合同，解除后方可办理后续聘用手续；"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260817_4825920.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-18T07:45:54+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "（五）应届毕业生未能按时取得学历证书、学位证书的；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "学历学位证明"
+          ],
+          "evidence": {
+            "网上报名": "（一）网上报名",
+            "报名表": "1.填写完整准确并有本人在诚信声明处签字的报名表（网上资格初审通过后，从北京市事业单位公开招聘服务平台打印）；",
+            "身份证": "2.本人身份证（须在有效期内）原件及复印件，正反面放在一张A4纸上；",
+            "学历学位证明": "4.最高学历毕业证书和学位证书原件及复印件。"
+          }
+        }
+      }
+    },
+    "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpgs/202608/t20260817_7200653.htm": {
+      "status": "ok",
+      "fetchedAt": "2026-08-18T07:45:54+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "新媒体"
+          ],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [],
+          "evidence": {
+            "新媒体": "新媒体矩阵"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [],
+          "evidence": {
+            "网上报名": "事业单位公开招聘考试报名平台"
+          }
+        }
+      }
+    },
+    "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpfa/202608/t20260817_7200696.htm": {
+      "status": "ok",
+      "fetchedAt": "2026-08-18T07:45:54+08:00",
+      "fields": {
+        "registrationStart": "2026-08-18",
+        "registrationEnd": "2026-08-25",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "四、报名和资格审查 1、报名时间：2026年8月18日9：00-2026年8月25日16:00",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "新媒体"
+          ],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士"
+          ],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "新媒体": "新媒体矩阵",
+            "硕士": "三明学院是福建省属公办高校，硕士学位授予单位。",
+            "2026届": "其中，2026届毕业生（含2026年境外高校）学历学位、学历学位认证书落款截止时间为2026年12月31日；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "身份证",
+            "学历学位证明",
+            "学信网证明"
+          ],
+          "evidence": {
+            "网上报名": "事业单位公开招聘考试报名平台",
+            "身份证": "（5）身份证正反面复印件（印制在同一页面）。",
+            "学历学位证明": "5、取得境外学历学位证书报名者应提供教育部留学服务中心出具的学历学位认证书；",
+            "学信网证明": "（1）境内学历学位（含自学考试、成人教育、网络教育、夜大、电大等）应可在中国高等教育学生信息网（简称“学信网”，http://www.chsi.com.cn/）上查询认证。"
           }
         }
       }
