@@ -1,7 +1,148 @@
 {
-  "generatedAt": "2026-08-18T07:45:54+08:00",
-  "total": 55,
+  "generatedAt": "2026-08-19T07:40:19+08:00",
+  "total": 56,
   "jobs": [
+    {
+      "id": "0b5e3c1ea4910a05",
+      "title": "首都医科大学附属北京儿童医院2026年公开招聘公告（第四批）",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260818_4827515.html",
+      "source": "北京事业单位公开招聘",
+      "collector": "北京事业单位公开招聘",
+      "publishedAt": "2026-08-18",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "北京",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": "2026-08-27",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "报名截止时间：2026年8月27日",
+      "deadline": "2026-08-27",
+      "summary": "2026-08-18",
+      "official": true,
+      "collectedAt": "2026-08-19T07:40:19+08:00",
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [],
+        "materialTags": [
+          "成绩单"
+        ],
+        "evidence": {
+          "成绩单": "国外院校考生提供翻译过的专业课程目录及成绩单；"
+        }
+      }
+    },
+    {
+      "id": "907229833d4f2a61",
+      "title": "北京工业职业技术学院2026年度公开招聘公告",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260818_4827546.html",
+      "source": "北京事业单位公开招聘",
+      "collector": "北京事业单位公开招聘",
+      "publishedAt": "2026-08-18",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "北京",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": "2026-09-06",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "报名截止时间：2026年9月6日17:00 （二）资格审核 学校根据招聘条件、岗位要求对应聘人员进行资格审核",
+      "deadline": "2026-09-06",
+      "summary": "2026-08-18",
+      "official": true,
+      "collectedAt": "2026-08-19T07:40:19+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [
+          "高校行政"
+        ],
+        "majorTags": [],
+        "qualificationTags": [
+          "应届"
+        ],
+        "graduateYears": [
+          "2026"
+        ],
+        "evidence": {
+          "高校行政": "校先后入选百所“国家级示范高职院校”、北京市“特色高水平职业院校”建设单位、“中国特色高水平高职学校”建设单位，获得第九届黄炎培职业教育优秀学校奖、全国高校就业工作50强、全国教学管理50强、全国教学资源50强、亚太职业院校影响力50强等。",
+          "应届": "（五）应聘人员为国内应届毕业生的，限列入国家统一招生计划（不含委培生、定向生），按时毕业并获得相应学历学位，毕业证书落款年度2年内（2025年、2026年）的高校毕业生，及2024年离校未就业毕业生（未与任何单位签订合同且无单位缴纳社会保险",
+          "2026届": "创建简历时应同时上传岗位要求的相应最高学历、学位证书（2026届毕业生尚未取得最高学历、学位者，可上传《教育部学籍在线验证报告》）。"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [
+          "网上报名"
+        ],
+        "materialTags": [
+          "学历学位证明",
+          "学信网证明",
+          "成绩单"
+        ],
+        "evidence": {
+          "网上报名": "资格审核通过人员将在测评环节开始前进行现场资格复审，资格复审材料包括：应聘人员信息表（报名系统自行打印）、身份证原件及复印件、户口簿原件及复印件、初始学历以来的所有学历学位证书、英语水平等级证书（成绩单）、职称（技能）证书和科研成果、获奖证",
+          "学历学位证明": "其中，2026年应届毕业生应于9月20日前取得最高学历学位证书。",
+          "学信网证明": "创建简历时应同时上传岗位要求的相应最高学历、学位证书（2026届毕业生尚未取得最高学历、学位者，可上传《教育部学籍在线验证报告》）。",
+          "成绩单": "留学归国应聘人员根据其提供附有中文翻译的专业课程目录及成绩单进行审查。"
+        }
+      }
+    },
+    {
+      "id": "8db16228d200071e",
+      "title": "2026年福建中医药大学高层次人才招聘方案（二）",
+      "url": "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202608/t20260818_7201045.htm",
+      "source": "福建省事业单位公开招聘",
+      "collector": "福建省事业单位公开招聘",
+      "publishedAt": "2026-08-18",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "福建",
+      "audience": "不限",
+      "registrationStart": "2026-12-31",
+      "registrationEnd": "2026-12-31",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "四、报名和资格审查 1.报名时间：即日起至2026年12月31日",
+      "deadline": "2026-12-31",
+      "summary": "",
+      "official": true,
+      "collectedAt": "2026-08-19T07:40:19+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [
+          "新媒体"
+        ],
+        "majorTags": [],
+        "qualificationTags": [
+          "硕士",
+          "应届"
+        ],
+        "graduateYears": [],
+        "evidence": {
+          "新媒体": "新媒体矩阵",
+          "硕士": "有中医学、中西医结合、中药学和中医博士专业学位4个博士学位授权点，有中医学、中西医结合、临床医学、药学、中药学、护理学等6个硕士学位授权一级学科，有中医、中药、针灸、护理、医学技术、临床医学、公共管理等7个硕士专业学位类别；",
+          "应届": "（3）本科阶段以来的学历、学位扫描件及对应的教育部学历证书电子注册备案表、学位查询认证报告（需在有效期内），暂时未取得招考职位要求的毕业证书或学位证书的应届毕业生应提供学籍在线验证报告；"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [
+          "网上报名"
+        ],
+        "materialTags": [
+          "身份证",
+          "学信网证明",
+          "资格证书",
+          "近期照片"
+        ],
+        "evidence": {
+          "网上报名": "事业单位公开招聘考试报名平台",
+          "身份证": "（2）本人身份证正反面原件扫描件（印制在同一页面）。",
+          "学信网证明": "（3）本科阶段以来的学历、学位扫描件及对应的教育部学历证书电子注册备案表、学位查询认证报告（需在有效期内），暂时未取得招考职位要求的毕业证书或学位证书的应届毕业生应提供学籍在线验证报告；",
+          "资格证书": "（5）已参加工作的报考者，需提供历次的专业技术资格证书、历次的聘书等原件扫描件；",
+          "近期照片": "（1）福建中医药大学高层次人才招聘报名登记表（见附件），照片为近期免冠正面2寸彩色相片。"
+        }
+      }
+    },
     {
       "id": "5b88a9e3dbbd398e",
       "title": "门头沟区教育系统事业单位2026年第三次公开招聘教师公告",
@@ -20,7 +161,7 @@
       "deadline": null,
       "summary": "2026-08-17",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -77,7 +218,7 @@
       "deadline": null,
       "summary": "2026-08-17",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -126,7 +267,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -168,7 +309,7 @@
       "deadline": "2026-08-25",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -274,7 +415,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -438,7 +579,7 @@
       "deadline": null,
       "summary": "[08-13]",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "8925b735211a2bd2",
@@ -458,7 +599,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -523,7 +664,7 @@
       "deadline": "2026-08-20",
       "summary": "2026-08-12",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -575,7 +716,7 @@
       "deadline": "2026-08-19",
       "summary": "2026-08-11",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -623,7 +764,7 @@
       "deadline": null,
       "summary": "2026-08-11",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "9c6e423248575a9c",
@@ -643,7 +784,7 @@
       "deadline": "2026-08-20",
       "summary": "2026-08-11",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -690,7 +831,7 @@
       "deadline": null,
       "summary": "2026-08-11",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "8bdee93dd58faf34",
@@ -710,7 +851,7 @@
       "deadline": null,
       "summary": "2026-08-11",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -741,63 +882,6 @@
           "报名表": "1.《北京市昌平区大学生乡村医生岗位公开招聘报名登记表》（附件2），报名表填写要完整、真实、准确，右上角粘贴2寸免冠彩色照片，在本人承诺处手写签字；",
           "身份证": "2.本人身份证、户口簿（首页、本人页；",
           "学历学位证明": "3.与岗位需求相应的学历学位证书、资格证书等原件及复印件。"
-        }
-      }
-    },
-    {
-      "id": "28a519724460585c",
-      "title": "门头沟区卫生健康系统2026年下半年事业单位公开招聘卫生专业技术人员公告",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260810_4815640.html",
-      "source": "北京事业单位公开招聘",
-      "collector": "北京事业单位公开招聘",
-      "publishedAt": "2026-08-10",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "全国",
-      "audience": "不限",
-      "registrationStart": null,
-      "registrationEnd": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "deadline": null,
-      "summary": "2026-08-10",
-      "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
-      "profileHints": {
-        "schemaVersion": 3,
-        "roleTags": [],
-        "majorTags": [],
-        "qualificationTags": [
-          "应届"
-        ],
-        "graduateYears": [],
-        "evidence": {
-          "应届": "（一）招聘范围为“应届毕业生（北京生源）”的岗位，报考人员指具有北京市常住户口且列入国家统一招生计划（不含定向和委托培养），按时毕业并如期取得相应学历学位，毕业证书落款年度2年内（2025、2026年）的普通高等学校北京生源毕业生，及202"
-        }
-      },
-      "applicationHints": {
-        "schemaVersion": 1,
-        "methods": [
-          "网上报名"
-        ],
-        "materialTags": [
-          "报名表",
-          "身份证",
-          "学信网证明",
-          "资格证书",
-          "工作经历证明",
-          "成绩单",
-          "就业推荐表"
-        ],
-        "evidence": {
-          "网上报名": "（一）网上报名",
-          "报名表": "1.填写完整准确并有本人在诚信声明处签字的报名表（网上资格初审通过后，从北京市事业单位公开招聘服务平台打印）；",
-          "身份证": "2.本人身份证、户口簿（集体户口的需出示集体户口首页复印件和本人户口页）；",
-          "学信网证明": "认的学历、学位证书原件及从中国高等学校学生信息网（https://www.chsi.com.cn/）自行下载并打印的《教育部学历证书电子注册备案表》《中国高等教育学位在线验证报告》，2024年离校未就业毕业生还须提供无单位缴纳社会保险记录；",
-          "资格证书": "2.岗位要求的其他资格条件，如学历证书、学位证书、专业技术人员职业资格证书、专业技术资格证书、医师资格证书等，应在截至公告发布之日前取得；",
-          "工作经历证明": "拟聘用人员经公示无异议的，如仍然在职，应在公示期满后30日内与原工作单位解除劳动合同或聘用合同，解除后方可办理后续聘用手续；",
-          "成绩单": "7.报考对专业方向有要求的岗位，须提供毕业证书、就业推荐表、成绩单、研究生录取登记表、规培证明、毕业生登记表或由学校出具的培养方向证明其中之一，作为能够证明本人研究方向的佐证材料；",
-          "就业推荐表": "7.报考对专业方向有要求的岗位，须提供毕业证书、就业推荐表、成绩单、研究生录取登记表、规培证明、毕业生登记表或由学校出具的培养方向证明其中之一，作为能够证明本人研究方向的佐证材料；"
         }
       }
     },
@@ -862,6 +946,63 @@
       }
     },
     {
+      "id": "28a519724460585c",
+      "title": "门头沟区卫生健康系统2026年下半年事业单位公开招聘卫生专业技术人员公告",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260810_4815640.html",
+      "source": "北京事业单位公开招聘",
+      "collector": "北京事业单位公开招聘",
+      "publishedAt": "2026-08-10",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "deadline": null,
+      "summary": "2026-08-10",
+      "official": true,
+      "collectedAt": "2026-08-19T07:40:19+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "应届"
+        ],
+        "graduateYears": [],
+        "evidence": {
+          "应届": "（一）招聘范围为“应届毕业生（北京生源）”的岗位，报考人员指具有北京市常住户口且列入国家统一招生计划（不含定向和委托培养），按时毕业并如期取得相应学历学位，毕业证书落款年度2年内（2025、2026年）的普通高等学校北京生源毕业生，及202"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [
+          "网上报名"
+        ],
+        "materialTags": [
+          "报名表",
+          "身份证",
+          "学信网证明",
+          "资格证书",
+          "工作经历证明",
+          "成绩单",
+          "就业推荐表"
+        ],
+        "evidence": {
+          "网上报名": "（一）网上报名",
+          "报名表": "1.填写完整准确并有本人在诚信声明处签字的报名表（网上资格初审通过后，从北京市事业单位公开招聘服务平台打印）；",
+          "身份证": "2.本人身份证、户口簿（集体户口的需出示集体户口首页复印件和本人户口页）；",
+          "学信网证明": "认的学历、学位证书原件及从中国高等学校学生信息网（https://www.chsi.com.cn/）自行下载并打印的《教育部学历证书电子注册备案表》《中国高等教育学位在线验证报告》，2024年离校未就业毕业生还须提供无单位缴纳社会保险记录；",
+          "资格证书": "2.岗位要求的其他资格条件，如学历证书、学位证书、专业技术人员职业资格证书、专业技术资格证书、医师资格证书等，应在截至公告发布之日前取得；",
+          "工作经历证明": "拟聘用人员经公示无异议的，如仍然在职，应在公示期满后30日内与原工作单位解除劳动合同或聘用合同，解除后方可办理后续聘用手续；",
+          "成绩单": "7.报考对专业方向有要求的岗位，须提供毕业证书、就业推荐表、成绩单、研究生录取登记表、规培证明、毕业生登记表或由学校出具的培养方向证明其中之一，作为能够证明本人研究方向的佐证材料；",
+          "就业推荐表": "7.报考对专业方向有要求的岗位，须提供毕业证书、就业推荐表、成绩单、研究生录取登记表、规培证明、毕业生登记表或由学校出具的培养方向证明其中之一，作为能够证明本人研究方向的佐证材料；"
+        }
+      }
+    },
+    {
       "id": "9c23b92c0421c123",
       "title": "中国电信天翼云2027届校园招聘全面启动",
       "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35747841/content.html",
@@ -879,7 +1020,7 @@
       "deadline": null,
       "summary": "[08-10]",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -914,7 +1055,7 @@
       "deadline": null,
       "summary": "2026-08-10",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -965,9 +1106,9 @@
       "deadlineConfidence": "high",
       "deadlineEvidence": "报名截止时间为2026年10月30日",
       "deadline": "2026-10-30",
-      "summary": "2026-08-07",
+      "summary": "2026-08-07 var NowChnl = '事业单位公开招聘'; var ParNowChnl='信息公开栏目'; var GparNowChnl='事业单位公开招聘'; document.getElementById(NowChnl).className = \"nav_li\"; document.getElementById(ParNowChnl)",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [
@@ -979,94 +1120,6 @@
         "evidence": {
           "网上报名": "自公告发布之日起接受网上报名，报名截止时间为2026年10月30日。",
           "报名表": "1.报名方式：应聘人员填写意向岗位对应的报名表（文化研究所为附件2.1，满学研究所为附件2.2），并将学历学位、职称、主要业绩成果、所获奖项、荣誉等相关证明材料的电子版，以压缩包形式发送至指定邮箱：basszhaopin@163.com（报"
-        }
-      }
-    },
-    {
-      "id": "ba58030af6a20409",
-      "title": "北京市房山区卫生健康委员会所属事业单位2026年公开招聘应届毕业生（第二批）公告",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260807_4812706.html",
-      "source": "北京事业单位公开招聘",
-      "collector": "北京事业单位公开招聘",
-      "publishedAt": "2026-08-07",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "北京",
-      "audience": "应届",
-      "registrationStart": null,
-      "registrationEnd": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "deadline": null,
-      "summary": "2026-08-07",
-      "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
-      "profileHints": {
-        "schemaVersion": 3,
-        "roleTags": [],
-        "majorTags": [],
-        "qualificationTags": [
-          "应届"
-        ],
-        "graduateYears": [],
-        "evidence": {
-          "应届": "北京市房山区卫生健康委员会所属事业单位2026年公开招聘应届毕业生（第二批）公告_"
-        }
-      },
-      "applicationHints": {
-        "schemaVersion": 1,
-        "methods": [
-          "网上报名"
-        ],
-        "materialTags": [
-          "报名表",
-          "身份证",
-          "学历学位证明",
-          "成绩单"
-        ],
-        "evidence": {
-          "网上报名": "（一）网上报名",
-          "报名表": "现场资格审核所需材料：除填写完整准确并有本人在诚信声明处签字的报名表（网上资格初审通过后，从北京市事业单位公开招聘服务平台打印），其余材料同网上报名所需材料。",
-          "身份证": "1.本人身份证正反面（须在有效期内）；",
-          "学历学位证明": "3.最高学历毕业证书和学位证书。",
-          "成绩单": "还需提供：毕业院校教务主管部门盖章的已修全部课程的成绩单原件；"
-        }
-      }
-    },
-    {
-      "id": "ccc451430d7ebb4f",
-      "title": "北京工业大学2026年公开招聘公告（第二批）",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260807_4812675.html",
-      "source": "北京事业单位公开招聘",
-      "collector": "北京事业单位公开招聘",
-      "publishedAt": "2026-08-07",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "北京",
-      "audience": "不限",
-      "registrationStart": null,
-      "registrationEnd": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "deadline": null,
-      "summary": "2026-08-07 var NowChnl = '事业单位公开招聘'; var ParNowChnl='信息公开栏目'; var GparNowChnl='事业单位公开招聘'; document.getElementById(NowChnl).className = \"nav_li\"; document.getElementById(ParNowChnl)",
-      "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
-      "profileHints": {
-        "schemaVersion": 3,
-        "roleTags": [
-          "高校行政"
-        ],
-        "majorTags": [],
-        "qualificationTags": [
-          "硕士",
-          "应届"
-        ],
-        "graduateYears": [],
-        "evidence": {
-          "高校行政": "北京工业大学2026年第二批计划公开招聘教师岗位23人，辅导员岗位10人。",
-          "硕士": "覆盖工学、理学、经济学、管理学、文学、法学、教育学、艺术学、交叉学科等9个学科门类，1981年成为国家教育部批准的第一批硕士学位授予单位，1985年成为博士学位授予单位，1996年通过国家“211工程”预审，正式跨入国家二十一世纪重点建设的",
-          "应届": "（六）应聘人员为应届毕业生的，年龄原则上为38周岁及以下（1987年8月及以后出生），须列入国家统一招生计划，培养方式为非定向，按时毕业并取得相应学历学位，毕业证书落款年度2年内（2025年、2026年），及2024年离校未就业（未与任何单"
         }
       }
     },
@@ -1088,7 +1141,7 @@
       "deadline": null,
       "summary": "2026-08-06",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "5df0905f5d35a357",
@@ -1108,7 +1161,7 @@
       "deadline": null,
       "summary": "[08-06]",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "a1119aa3db38ffdb",
@@ -1128,7 +1181,7 @@
       "deadline": null,
       "summary": "[08-04]",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1164,7 +1217,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1227,7 +1280,7 @@
       "deadline": null,
       "summary": "2026-08-03",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "d955d1b6b9262417",
@@ -1247,7 +1300,7 @@
       "deadline": null,
       "summary": "2026-08-03",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "ab3b2d20b291ca0f",
@@ -1267,7 +1320,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1312,7 +1365,7 @@
       "deadline": null,
       "summary": "[07-30]",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "d8342e13c24aec99",
@@ -1332,7 +1385,7 @@
       "deadline": null,
       "summary": "2026-07-30",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "c67bb2d858d03b9b",
@@ -1352,7 +1405,7 @@
       "deadline": "2026-08-21",
       "summary": "[2026-07-30]",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1409,7 +1462,7 @@
       "deadline": null,
       "summary": "2026-07-29",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "d7c85a853b3ff4c0",
@@ -1429,7 +1482,7 @@
       "deadline": null,
       "summary": "2026-07-29",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "06a7a2f002659fc3",
@@ -1449,7 +1502,7 @@
       "deadline": null,
       "summary": "[07-29]",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1484,7 +1537,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1542,7 +1595,7 @@
       "deadline": null,
       "summary": "[07-28]",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "0bdeb07f450c4d8d",
@@ -1562,7 +1615,7 @@
       "deadline": null,
       "summary": "[07-28]",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1597,7 +1650,7 @@
       "deadline": null,
       "summary": "[07-28]",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1652,7 +1705,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1697,7 +1750,7 @@
       "deadline": null,
       "summary": "[07-24]",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1729,7 +1782,7 @@
       "deadline": null,
       "summary": "2026-07-23",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "d41023454acb3be7",
@@ -1769,7 +1822,7 @@
       "deadline": null,
       "summary": "2026-07-20",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "c05db9f4c768393c",
@@ -1789,7 +1842,7 @@
       "deadline": "2027-02-28",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1845,7 +1898,7 @@
       "deadline": null,
       "summary": "[07-16] var purl=\"../../../n2588035/n2588325/n2588350/index_7325475\" var org= jQuery(\"#comp_7325475\").html(); function goPub(uu){ if(pageName==maxPageNum) { pageName=0;} if(pageNam",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00",
+      "collectedAt": "2026-08-19T07:40:19+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1891,7 +1944,7 @@
       "deadline": null,
       "summary": "2026-07-16",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "cb638492c6bb1253",
@@ -1911,7 +1964,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "f3e8e244ddaadc8e",
@@ -1931,7 +1984,7 @@
       "deadline": null,
       "summary": "2026-07-15",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "47bb4d8d4c44e1b1",
@@ -1971,7 +2024,7 @@
       "deadline": null,
       "summary": "2026-07-08",
       "official": true,
-      "collectedAt": "2026-08-18T07:45:54+08:00"
+      "collectedAt": "2026-08-19T07:40:19+08:00"
     },
     {
       "id": "d7252c7e379c7640",
@@ -2161,8 +2214,9 @@
     },
     {
       "name": "湖南省事业单位招聘",
-      "status": "ok",
-      "count": 9
+      "status": "error",
+      "count": 0,
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "name": "吉林省人社厅招聘公告",
@@ -2172,7 +2226,7 @@
     {
       "name": "福建省事业单位公开招聘",
       "status": "ok",
-      "count": 7
+      "count": 8
     }
   ]
 }
