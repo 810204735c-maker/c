@@ -73,7 +73,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260717_580418.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -117,7 +117,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35610581/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -153,7 +153,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260715_580262.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -187,7 +187,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260714_580212.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -211,7 +211,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260714_580213.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -571,7 +571,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35428690/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-05-29",
@@ -605,7 +605,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260424_1963395.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -633,7 +633,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260416_1963335.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-04-22",
@@ -661,7 +661,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260403_1962991.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": "2026-04-20",
         "registrationEnd": "2026-04-20",
@@ -700,7 +700,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260722_580688.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -724,7 +724,7 @@
     },
     "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/zpgg/202607/t20260723_5981936.shtml": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": "2026-07-24",
         "registrationEnd": "2026-07-31",
@@ -759,7 +759,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202603/t20260316_1962788.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -783,7 +783,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202602/t20260210_1962581.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": "2026-02-24",
         "registrationEnd": "2026-02-24",
@@ -820,7 +820,7 @@
     },
     "https://www.moe.gov.cn/s78/A04/tongzhi/202601/t20260115_1426701.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -877,7 +877,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35666878/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -905,7 +905,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35687833/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-07-31",
@@ -935,7 +935,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35687694/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -959,7 +959,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35687717/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -990,7 +990,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35687596/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1021,7 +1021,7 @@
     },
     "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/zpgg/202607/t20260727_5984486.shtml": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1056,7 +1056,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260728_581063.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1080,7 +1080,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260728_581062.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1104,7 +1104,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35693219/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1135,7 +1135,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35700418/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1159,7 +1159,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260729_581143.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1505,7 +1505,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35726023/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1634,7 +1634,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260731_581269.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1658,7 +1658,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260731_581268.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1682,7 +1682,7 @@
     },
     "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/zpgg/202608/t20260803_5987944.shtml": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1717,7 +1717,7 @@
     },
     "http://www.ceehe.ceec.net.cn/art/2026/4/27/art_60241_1926.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-05-20",
@@ -1754,7 +1754,7 @@
     },
     "https://www.tsinghua.edu.cn/rsc/info/1044/2013.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": "2026-04-29",
         "registrationEnd": "2026-04-29",
@@ -1793,7 +1793,7 @@
     },
     "http://www.ceehe.ceec.net.cn/art/2026/1/26/art_60241_1808.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-02-28",
@@ -1825,7 +1825,7 @@
     },
     "https://www.tsinghua.edu.cn/rsc/info/1044/2012.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": "2026-05-07",
         "registrationEnd": "2026-05-07",
@@ -1862,7 +1862,7 @@
     },
     "https://zwgk.mct.gov.cn/zfxxgkml/rsxx/gwyzkly/202507/t20250704_960996.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1886,7 +1886,7 @@
     },
     "https://www.tsinghua.edu.cn/rsc/info/1044/1983.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": "2025-12-29",
         "registrationEnd": "2025-12-29",
@@ -1934,7 +1934,7 @@
     },
     "https://www.tsinghua.edu.cn/rsc/info/1044/1953.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": "2025-05-06",
         "registrationEnd": "2025-05-06",
@@ -1972,7 +1972,7 @@
     },
     "http://www.ceehe.ceec.net.cn/art/2026/3/13/art_60241_1883.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-04-12",
@@ -2492,7 +2492,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260811_4817540.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": "2026-01-20",
         "registrationEnd": "2026-08-19",
@@ -2530,7 +2530,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260811_4818561.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": "2026-08-20",
         "registrationEnd": "2026-08-20",
@@ -2567,7 +2567,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260811_4817545.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-12T08:02:15+08:00",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -4119,6 +4119,280 @@
             "学信网证明": "（3）本科阶段以来的学历、学位扫描件及对应的教育部学历证书电子注册备案表、学位查询认证报告（需在有效期内），暂时未取得招考职位要求的毕业证书或学位证书的应届毕业生应提供学籍在线验证报告；",
             "资格证书": "（5）已参加工作的报考者，需提供历次的专业技术资格证书、历次的聘书等原件扫描件；",
             "近期照片": "（1）福建中医药大学高层次人才招聘报名登记表（见附件），照片为近期免冠正面2寸彩色相片。"
+          }
+        }
+      }
+    },
+    "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260819_34047708.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "应届": "育部一流本科专业建设“双万计划”高校、湖南省“十四五”应用特色学科建设高校,是教育部教育管理信息化应用优秀案例单位、“湖南省文明高等学校”“湖南省普通高校招生工作先进单位”“湖南省高校思想政治教育研究先进单位”和“湖南省综治工作先进单位”。",
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "现场报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "个人简历",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "现场报名": "采取现场报名的方式,每人限报一个岗位,多报则取消应聘资格。",
+            "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "个人简历": "(5)个人简历(含教育背景及工作经历),以及教学、科研及其他业绩成果的复印件或扫描件(包括但不限于获奖证书、科研项目立项证明、代表性论文(著)、专利证书等)。",
+            "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);"
+          }
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202608/t20260818_582359.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202608/t20260818_582358.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpfa/202608/t20260819_7201393.htm": {
+      "status": "ok",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fields": {
+        "registrationStart": "2026-08-20",
+        "registrationEnd": "2026-08-27",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "四、报名和资格审查 1、报名时间：2026年8月20日9：00—2026年8月27日16:00",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "新媒体"
+          ],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士"
+          ],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "新媒体": "新媒体矩阵",
+            "硕士": "4、硕士研究生年龄要求为18周岁以上，38周岁以下的，需在1987年8月至2008年8月期间出生。",
+            "2026届": "其中，2026届毕业生（含2026年境外高校）学历学位、学历学位认证书落款截止时间为2026年12月31日；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "身份证",
+            "学历学位证明",
+            "学信网证明"
+          ],
+          "evidence": {
+            "网上报名": "事业单位公开招聘考试报名平台",
+            "身份证": "（5）身份证正反面复印件（印制在同一页面）。",
+            "学历学位证明": "5、取得境外学历学位证书报名者应提供教育部留学服务中心出具的学历学位认证书；",
+            "学信网证明": "（1）境内学历学位（含自学考试、成人教育、网络教育、夜大、电大等）应可在中国高等教育学生信息网（简称“学信网”，http://www.chsi.com.cn/）上查询认证。"
+          }
+        }
+      }
+    },
+    "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260818_34046818.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日17:00",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士"
+          ],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "硕士": "现有博士后科研流动站5个,博士学位授权点16个(其中一级学科博士学位授权点13个、博士专业学位授权点3个),硕士学位授权点52个(其中一级学科硕士学位授权点30个、硕士专业学位授权点22个),具有授予同等学力硕士学位资格。",
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "网上报名": "采取网上报名的方式,每人限报一个岗位,多报则取消应聘资格。",
+            "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(附件2),须在承诺栏手写签名;",
+            "学历学位证明": "(3)学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "学信网证明": "(3)学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "就业推荐表": "(3)学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);"
+          }
+        }
+      }
+    },
+    "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260818_34046816.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届"
+          ],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "硕士": "经住培合格的本科学历临床医师,按临床医学、口腔医学、中医专业学位硕士研究生同等对待。",
+            "应届": "(6)招聘岗位对专业研究方向有要求的,毕业证专业与岗位要求专业一致的无需提供专业证明材料,暂未发毕业证的应届毕业生及所学专业为上一级学科的应聘人员须提供就读学校出具的专业证明材料(导师签字且毕业学院盖章);",
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "现场报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "工作经历证明",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "现场报名": "采取现场报名的方式,每人限报一个岗位,多报则取消应聘资格。",
+            "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "工作经历证明": "(5)招聘岗位明确要求有工作经历的,应聘人员须提供工作经历证明(加盖工作单位公章或人事部门公章);",
+            "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);"
+          }
+        }
+      }
+    },
+    "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260818_34046813.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日下午24:00",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "现场报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "工作经历证明",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "现场报名": "采取现场报名的方式,每人限报一个岗位,多报则取消应聘资格。",
+            "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "工作经历证明": "(5)招聘岗位明确要求有工作经历的,应聘人员须提供工作经历证明(加盖工作单位公章或人事部门公章)。",
+            "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);"
           }
         }
       }
