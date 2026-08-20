@@ -2609,7 +2609,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260812_4819268.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-13T08:00:45+08:00",
+      "fetchedAt": "2026-08-21T07:43:24+08:00",
       "fields": {
         "registrationStart": "2026-08-14",
         "registrationEnd": "2026-08-20",
@@ -4394,6 +4394,30 @@
             "工作经历证明": "(5)招聘岗位明确要求有工作经历的,应聘人员须提供工作经历证明(加盖工作单位公章或人事部门公章)。",
             "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);"
           }
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35792139/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-21T07:43:24+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     }
