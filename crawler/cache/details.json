@@ -4911,6 +4911,522 @@
           "evidence": {}
         }
       }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260821/t0035_1443233.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fields": {
+        "registrationStart": "2026-09-30",
+        "registrationEnd": "2026-09-30",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "2.报名时间 自发布之日起至2026年9月30日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "外省市高级专业技术人员、符合条件的留学回国人员和应届毕业生，不受本市居住证满一年的限制；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260819/t0035_1443195.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-08-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名截止时间2026年8月31日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "个人简历"
+          ],
+          "evidence": {
+            "个人简历": "个人简历中需提供居住证相关证明，可登录上海市民信息服务网，注册个人账号，打印居住证详细信息。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260817/t0035_1443087.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fields": {
+        "registrationStart": "2026-08-28",
+        "registrationEnd": "2026-08-28",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间： 即日起至2026年8月28日(招满即止)",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "工作经历"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "工作经历": "医师：临床医学本科或以上学历，具备执业医师资格，2年或以上二甲或以上医院相关专业工作经验，具有规培证书优先。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "个人简历"
+          ],
+          "evidence": {
+            "个人简历": "本次招聘采取电子邮件方式，请将个人简历、学历证明文件、执业证书文件发送至上海建工医院人事科邮箱rsk409@163.com邮箱 。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260817/t0035_1443089.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fields": {
+        "registrationStart": "2026-08-25",
+        "registrationEnd": "2026-08-25",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间：即日起至2026年8月25日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "2.1医师岗位：具有医学硕士研究生以上学历和学位，具有医师资格证，从事皮肤病相关专业，2010年（含）以后毕业的需具有2010年前取得的中级职称资格或住院医师规范化培训合格证书，独立工作能力强，有良好的沟通能力、团队协作能力和较强的科研能力"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "个人简历",
+            "资格证书"
+          ],
+          "evidence": {
+            "个人简历": "本次报名采取邮件报名方式，请将个人简历、学历证明及其他资格证书等材料发送邮件至人事处邮箱：pfbrs2011@163.com。",
+            "资格证书": "2.3 医技岗位：具有医疗技术相关专业本科以上学历，持有相应专业技术资格证书，独立工作能力强，有良好的沟通能力、团队协作精神，有三甲医院工作经历者优先考虑。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260813/t0035_1443026.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fields": {
+        "registrationStart": "2026-08-21",
+        "registrationEnd": "2026-08-21",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间：即日起至2026年8月21日止",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "临床医学相关专业硕士及以上学历/学位，博士学历/学位优先，具有医师资格证书和住院医师规培合格证书，独立工作能力强，有良好的沟通能力、团队协作精神和较强的科研能力，部分紧缺科室视情况降低学历要求。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "个人简历"
+          ],
+          "evidence": {
+            "个人简历": "请将个人简历、学历证明及其他资格证书等材料电子版发送至华东医院招聘邮箱（huadongrsc@126.com）。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260813/t0035_1443025.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fields": {
+        "registrationStart": "2026-09-30",
+        "registrationEnd": "2026-09-30",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "（具体招聘计划与岗位详见附件1：上海城建职业学院2026年度公开招聘计划(第二批)） 三、招聘办法 1.报名时间 本次招聘有效期至2026年9月30日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "高校行政"
+          ],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "高校行政": "教学管理岗位、会计岗位、实训管理岗位等职能教辅岗位学校统一组织组织面试、考核；",
+            "应届": "根据《上海市事业单位公开招聘人员办法》（沪人社规〔2019〕15号），按照公开、平等、竞争、择优的原则，现面向社会公开招聘学科引领高层次人才、行业企业高技能人才、优秀成熟师资、优秀应届毕业生等。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "学历学位证明",
+            "学信网证明",
+            "个人简历"
+          ],
+          "evidence": {
+            "报名表": "本次报名采取电子邮件的报名方式，请应聘者将《上海城建职业学院应聘登记表》（见附件2）及招聘岗位要求的证明材料扫描件发送至学校人事处邮箱zhaopin@succ.edu.cn，邮件主题命名格式为：“应聘学院/部门+岗位+姓名+毕业院校+最高学",
+            "身份证": "聘登记表》，在本人承诺一栏签署姓名、日期，并提供《应聘登记表》、个人简历、最高学历学位证书及《教育部学籍在线验证报告》、身份证正反面、居住证正反面（外省市户籍社会人员）、教学科研成果、资格证书等招聘岗位要求的相关材料扫描件，报考时还未取得毕",
+            "学历学位证明": "重复投递简历，如实填写《上海城建职业学院应聘登记表》，在本人承诺一栏签署姓名、日期，并提供《应聘登记表》、个人简历、最高学历学位证书及《教育部学籍在线验证报告》、身份证正反面、居住证正反面（外省市户籍社会人员）、教学科研成果、资格证书等招聘",
+            "学信网证明": "、个人简历、最高学历学位证书及《教育部学籍在线验证报告》、身份证正反面、居住证正反面（外省市户籍社会人员）、教学科研成果、资格证书等招聘岗位要求的相关材料扫描件，报考时还未取得毕业证书的，需提供学信网上带二维码的《教育部学籍在线验证报告》。",
+            "个人简历": "定格式命名，勿重复投递简历，如实填写《上海城建职业学院应聘登记表》，在本人承诺一栏签署姓名、日期，并提供《应聘登记表》、个人简历、最高学历学位证书及《教育部学籍在线验证报告》、身份证正反面、居住证正反面（外省市户籍社会人员）、教学科研成果、"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260807/t0035_1442941.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-08-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "本次报名截止时间为2026年8月31日（含）",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "其中，外省市高级专技人员、符合条件的留学回国人员和应届毕业生，不受居住证一年的限制。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260807/t0035_1442943.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "教师资格证"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "教师资格证": "（4）其他材料，如教师资格证书、职业资格证书、技能等级证书、获奖证书及证明材料等（扫描件）；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "学信网证明",
+            "资格证书"
+          ],
+          "evidence": {
+            "学信网证明": "注：国内院校毕业人员需提供《教育部学历证书电子注册备案表》（详见“学信网”）；",
+            "资格证书": "（4）其他材料，如教师资格证书、职业资格证书、技能等级证书、获奖证书及证明材料等（扫描件）；"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260805/t0035_1442922.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-08-14",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "五、报名时间和方式 （一）报名时间 截止时间：2026年8月14日中午12：00之前",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "身份证"
+          ],
+          "evidence": {
+            "报名表": "1、上海中医药大学附属龙华医院业务科室科主任选拔任用报名表（详情请登录龙华医院官方网站 http://www.longhua.net/ “下载专区”栏目中下载），签字后扫描成电子版；",
+            "身份证": "2、身份证正反面扫描件；"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260804/t0035_1442901.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fields": {
+        "registrationStart": "2026-08-31",
+        "registrationEnd": "2026-08-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间为：即日起至2026年8月31日16:00结束",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届",
+            "教师资格证"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "1.招聘对象为应届高校毕业生、社会在职和非在职人员。",
+            "教师资格证": "2.具有中职及以上数学教师资格证书者优先；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "学历学位证明",
+            "学信网证明",
+            "个人简历",
+            "资格证书",
+            "近期照片"
+          ],
+          "evidence": {
+            "报名表": "1.《2026年度上海科技管理学校工作人员公开招聘报名表》（详见附件1），（承诺及本人签名必须手写，word或pdf格式）；",
+            "身份证": "（2）身份证正反面；",
+            "学历学位证明": "应聘人员参加考试时须携带身份证、户口本、上海市居住证（如有）、中专及以上全部教育经历的学历学位证书及验证材料、《2026年度上海科技管理学校工作人员公开招聘报名表》《2026年度上海科技管理学校应聘信息统计汇总表》《社会招聘应聘人员登记表》",
+            "学信网证明": "①国内院校毕业生已取得毕业证学位证的考生，须提供高等教育各阶段《教育部学历证书电子注册备案表》《中国高等教育学位在线验证报告》",
+            "个人简历": "不接受其他格式的报名表或者个人简历，未按上述要求提交报名材料的，证明材料不符合要求的，视作无效报名，产生的影响和后果，由报考者本人负责。",
+            "资格证书": "2.具有中职及以上数学教师资格证书者优先；",
+            "近期照片": "聘者必须在规定的时间内提交完整报考信息、须在附件1《2026年度上海科技管理学校工作人员公开招聘报名表》中粘贴或插入本人近期免冠正面证件照片，因照片模糊不清或不符合要求而造成的不能正常报考等情况由报考者本人承担后果，《2026年度上海科技管"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260731/t0035_1442782.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fields": {
+        "registrationStart": "2026-08-12",
+        "registrationEnd": "2026-08-12",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间：即日起至2026年8月12日17:00前",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表"
+          ],
+          "evidence": {
+            "报名表": "应聘材料：（1）填写《上海市同济口腔医院（同济大学附属口腔医院）、同济大学口腔医学院内部组织机构负责人选拔报名表》，签字并提交扫描件；"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260730/t0035_1442780.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fields": {
+        "registrationStart": "2026-08-20",
+        "registrationEnd": "2026-08-20",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "四、招聘办法 （一）报名时间 自公告发布之日起至2026年8月20日17：00止",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届",
+            "工作经历"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "（1）45周岁及以下（1981年1月1日及以后出生），研究生学历，硕士及以上学位，公共管理、工商管理专业，身体健康；",
+            "应届": "（2）外省市户籍非应届毕业人员还需提交一年以上且在有效期内的上海市居住证，2026年应届毕业生或根据相关规定可视作为应届毕业生的外省市人员无需提交。",
+            "工作经历": "（5）5年以上文化行业相关工作经验。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "学信网证明",
+            "个人简历"
+          ],
+          "evidence": {
+            "网上报名": "本次报名采取网上报名方式进行，请关注“东方文化人才”微信公众号，点击“人才考试”菜单栏，选择“事业单位招考”进入报名系统，为保证及时获取报名审核结果及后续相关通知，请允许报名小程序的“通知发送功能”。",
+            "学信网证明": "（1）国内院校毕业人员：《教育部学历证书电子注册备案表》（详见“学信网”），并同时提供所有学历证明、学位证明；",
+            "个人简历": "1．为提高报名成功率，建议应聘人员先行检查报名系统中个人简历完整性及相关证明材料是否已全部上传成功，确认无误后再点击报名。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260729/t0035_1442762.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260729/t0035_1442761.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fields": {
+        "registrationStart": "2026-08-06",
+        "registrationEnd": "2026-08-06",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "请联系64376279、17714959954） 报名时间：即日起至2026年8月6日止",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260728/t0035_1442705.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "附件1 上海市工艺美术学校招聘计划.xls"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "学历学位证明",
+            "资格证书"
+          ],
+          "evidence": {
+            "学历学位证明": "（1）提供简历中所涉及材料的佐证材料，包括且不限于身份证、居住证、学历学位证书（境外获学历学位须同时提交教育部认证材料）、职称证明、职业资格证书以及岗位要求相关的其他必要材料的扫描件。",
+            "资格证书": "（1）提供简历中所涉及材料的佐证材料，包括且不限于身份证、居住证、学历学位证书（境外获学历学位须同时提交教育部认证材料）、职称证明、职业资格证书以及岗位要求相关的其他必要材料的扫描件。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260728/t0035_1442702.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "学历学位证明",
+            "资格证书"
+          ],
+          "evidence": {
+            "学历学位证明": "（1）提供简历中所涉及材料的佐证材料，包括且不限于身份证、居住证、学历学位证书（境外获学历学位须同时提交教育部认证材料）、职称证明、职业资格证书以及岗位要求相关的其他必要材料的扫描件。",
+            "资格证书": "（1）提供简历中所涉及材料的佐证材料，包括且不限于身份证、居住证、学历学位证书（境外获学历学位须同时提交教育部认证材料）、职称证明、职业资格证书以及岗位要求相关的其他必要材料的扫描件。"
+          }
+        }
+      }
     }
   }
 }
