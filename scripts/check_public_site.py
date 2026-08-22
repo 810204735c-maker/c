@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Smoke-check the deployed homepage and both public JSON snapshots."""
+"""Smoke-check the deployed homepage and both channels' public JSON snapshots."""
 
 from __future__ import annotations
 

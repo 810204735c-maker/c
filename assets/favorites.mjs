@@ -105,14 +105,28 @@ function subsetMap(value, ids) {
 }
 
 function publicJob(job) {
-  return {
+  const isForeign = job?.channel === 'foreign';
+  const common = {
     id: cleanId(job.id),
     title: String(job.title || '').slice(0, 200),
     url: /^https?:\/\//.test(String(job.url || '')) ? String(job.url) : '',
     deadline: /^\d{4}-\d{2}-\d{2}$/.test(String(job.deadline || '')) ? job.deadline : null,
-    source: String(job.source || '').slice(0, 100),
+    source: String(job.source?.name || job.source || '').slice(0, 100),
     category: String(job.category || '').slice(0, 30),
-    location: String(job.location || '').slice(0, 30),
+    location: String(job.location || (isForeign ? job.cities?.join('、') : '') || '')
+      .slice(0, isForeign ? 100 : 30),
+  };
+  if (!isForeign) return common;
+  return {
+    id: common.id,
+    channel: 'foreign',
+    company: String(job.company?.name || job.company || '').slice(0, 100),
+    title: common.title,
+    url: common.url,
+    deadline: common.deadline,
+    source: common.source,
+    category: common.category,
+    location: common.location,
   };
 }
 

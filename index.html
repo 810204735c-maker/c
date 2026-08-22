@@ -24,6 +24,10 @@
       <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
       <span>招考雷达</span>
     </a>
+    <nav class="channel-nav" id="channelNav" aria-label="招聘频道">
+      <a id="publicChannelLink" href="./" data-channel="public" aria-current="page">公考招录</a>
+      <a id="foreignChannelLink" href="?channel=foreign" data-channel="foreign">外企校招</a>
+    </nav>
     <div class="header-status">
       <span class="live-dot" aria-hidden="true"></span>
       <span id="updateStatus">正在读取最新公告</span>
@@ -38,23 +42,23 @@
 
   <main>
     <section class="masthead" aria-labelledby="pageTitle">
-      <p class="eyebrow">PUBLIC RECRUITMENT INTELLIGENCE / 公开招考情报</p>
+      <p class="eyebrow" id="pageEyebrow">PUBLIC RECRUITMENT INTELLIGENCE / 公开招考情报</p>
       <div class="masthead-grid">
         <div>
           <h1 id="pageTitle">把分散的招考公告，<br>收进一张每日清单。</h1>
-          <p class="intro">聚合考公、考编与央国企招聘信息。只保留可核验来源，点击即可回到原公告。</p>
+          <p class="intro" id="pageIntro">聚合考公、考编与央国企招聘信息。只保留可核验来源，点击即可回到原公告。</p>
         </div>
         <dl class="snapshot" aria-label="数据概览">
           <div>
-            <dt>当前收录</dt>
-            <dd><strong id="totalCount">—</strong><span>条</span></dd>
+            <dt id="totalLabel">当前收录</dt>
+            <dd><strong id="totalCount">—</strong><span id="totalUnit">条</span></dd>
           </div>
           <div>
-            <dt>近 7 日发布</dt>
-            <dd><strong id="weekCount">—</strong><span>条</span></dd>
+            <dt id="weekLabel">近 7 日发布</dt>
+            <dd><strong id="weekCount">—</strong><span id="weekUnit">条</span></dd>
           </div>
           <div>
-            <dt>可用来源</dt>
+            <dt id="sourceLabel">可用来源</dt>
             <dd><strong id="sourceCount">—</strong><span>个</span></dd>
           </div>
         </dl>
@@ -66,7 +70,7 @@
         <p class="section-index">MY JOB PROFILE / 本地保存</p>
         <h2 id="profileSummaryTitle">中文硕士求职画像</h2>
         <p id="profileSummary">硕士 · 中国语言文学 · 应届</p>
-        <p class="profile-privacy">只保存在当前浏览器；匹配结果用于缩小范围，报考资格仍以原职位表为准。</p>
+        <p class="profile-privacy" id="profilePrivacy">只保存在当前浏览器；匹配结果用于缩小范围，报考资格仍以原职位表为准。</p>
       </div>
       <button class="profile-edit" id="profileEdit" type="button">完善我的画像</button>
     </section>
@@ -81,22 +85,24 @@
 
         <div class="match-row" id="matchTabs" aria-label="个人匹配范围">
           <span>个人匹配</span>
-          <button class="match-tab is-active" type="button" data-match="all" aria-pressed="true">全部公告</button>
-          <button class="match-tab" type="button" data-match="recommended" aria-pressed="false">适合我的</button>
-          <button class="match-tab" type="button" data-match="exact" aria-pressed="false">专业相关</button>
-          <button class="match-tab" type="button" data-match="writing" aria-pressed="false">文字岗位</button>
-          <button class="match-tab" type="button" data-match="verify" aria-pressed="false">需要核对</button>
+          <button class="match-tab is-active" type="button" data-match="all" data-public-match="all" data-foreign-match="all" aria-pressed="true">全部公告</button>
+          <button class="match-tab" type="button" data-match="recommended" data-public-match="recommended" data-foreign-match="recommended" aria-pressed="false">适合我的</button>
+          <button class="match-tab" type="button" data-match="exact" data-public-match="exact" data-foreign-match="function" aria-pressed="false">专业相关</button>
+          <button class="match-tab" type="button" data-match="writing" data-public-match="writing" data-foreign-match="location" aria-pressed="false">文字岗位</button>
+          <button class="match-tab" type="button" data-match="verify" data-public-match="verify" data-foreign-match="verify" aria-pressed="false">需要核对</button>
         </div>
 
         <div class="category-row" id="categoryTabs" aria-label="招聘类型">
-          <button class="category-tab is-active" type="button" data-category="全部">全部 <span data-count="全部">0</span></button>
-          <button class="category-tab" type="button" data-category="公务员">公务员 <span data-count="公务员">0</span></button>
-          <button class="category-tab" type="button" data-category="事业单位">事业单位 <span data-count="事业单位">0</span></button>
-          <button class="category-tab" type="button" data-category="央国企">央国企 <span data-count="央国企">0</span></button>
+          <div class="public-category-tabs" data-channel-fields="public">
+            <button class="category-tab is-active" type="button" data-category="全部">全部 <span data-count="全部">0</span></button>
+            <button class="category-tab" type="button" data-category="公务员">公务员 <span data-count="公务员">0</span></button>
+            <button class="category-tab" type="button" data-category="事业单位">事业单位 <span data-count="事业单位">0</span></button>
+            <button class="category-tab" type="button" data-category="央国企">央国企 <span data-count="央国企">0</span></button>
+          </div>
           <button class="saved-tab" id="savedOnly" type="button" aria-pressed="false">我的收藏 <span id="savedCount">0</span></button>
         </div>
 
-        <div class="filter-row">
+        <div class="filter-row" data-channel-fields="public">
           <label>
             <span>地区</span>
             <select id="location" name="location">
@@ -133,7 +139,42 @@
           </label>
           <button id="clearFilters" class="clear-button" type="button">重置筛选</button>
         </div>
+
+        <fieldset class="foreign-filter-grid" id="foreignFilters" data-channel-fields="foreign" hidden>
+          <legend class="visually-hidden">外企校招筛选</legend>
+          <label><span>企业</span><select id="foreignCompany" name="company"><option value="全部">全部企业</option></select></label>
+          <label><span>岗位职能</span><select id="foreignFunction" name="function"><option value="全部">全部职能</option></select></label>
+          <label><span>城市</span><select id="foreignCity" name="city"><option value="全部">全部城市</option></select></label>
+          <label><span>毕业年份</span><select id="foreignGraduationYear" name="graduationYear"><option value="2027">2027 届</option></select></label>
+          <label><span>学历</span><select id="foreignDegree" name="degree"><option value="全部">不限学历</option><option value="本科">本科</option><option value="硕士">硕士</option><option value="博士">博士</option></select></label>
+          <label><span>招聘类型</span><select id="foreignRecruitmentType" name="recruitmentType"><option value="全部">全部类型</option><option value="campus_recruitment">校园招聘</option><option value="graduate_program">Graduate Program</option><option value="management_trainee">管培生</option><option value="supplemental">补录</option></select></label>
+          <label><span>发布时间</span><select id="foreignFreshness" name="foreignFreshness"><option value="all">不限时间</option><option value="1">今天</option><option value="3">近 3 天</option><option value="7">近 7 天</option><option value="30">近 30 天</option><option value="90">近 90 天</option></select></label>
+          <label><span>截止状态</span><select id="foreignDeadline" name="deadline"><option value="open">开放申请与日期待核</option><option value="7days">7 天内截止</option><option value="30days">30 天内截止</option><option value="unknown">日期待核</option><option value="expired">已截止</option><option value="all">全部状态</option></select></label>
+        </fieldset>
+        <div class="foreign-filter-actions" data-channel-fields="foreign" hidden>
+          <label class="foreign-sort-control"><span>排序</span><select id="foreignSort" name="foreignSort"><option value="newest">最新发布</option><option value="match">适配优先</option><option value="deadline">截止时间</option><option value="company">企业名称</option></select></label>
+          <button id="foreignClearFilters" class="clear-button" type="button">重置外企筛选</button>
+        </div>
       </form>
+    </section>
+
+    <section class="daily-summary" id="foreignTodaySummary" data-channel-fields="foreign" aria-labelledby="foreignSummaryTitle" hidden>
+      <div class="daily-summary-head">
+        <div>
+          <p class="section-index">TODAY / 每日新增</p>
+          <h2 id="foreignSummaryTitle">今日新增外企校招</h2>
+          <p class="daily-summary-copy" id="foreignSummaryText">正在读取今日摘要…</p>
+        </div>
+        <div class="daily-summary-actions">
+          <time id="foreignSummaryDate"></time>
+          <button id="foreignTodayOnly" type="button" aria-pressed="false">只看今日新增</button>
+        </div>
+      </div>
+      <ul class="daily-summary-list" id="foreignTodayItems"></ul>
+      <details class="summary-history" id="summaryHistory">
+        <summary>查看近 7 日新增记录</summary>
+        <ol id="summaryHistoryList"></ol>
+      </details>
     </section>
 
     <section class="feed" aria-labelledby="feedTitle">
@@ -151,7 +192,7 @@
         <button id="retryButton" type="button">重新读取</button>
       </div>
 
-      <ol id="results" class="job-list" aria-live="polite" aria-busy="true"></ol>
+      <ol id="results" class="job-list" aria-busy="true"></ol>
 
       <div id="emptyState" class="empty-state" hidden>
         <p class="empty-code">NO MATCH / 00</p>
@@ -162,10 +203,10 @@
     </section>
 
     <section class="method" aria-labelledby="methodTitle">
-      <p class="section-index">02 / METHOD</p>
+      <p class="section-index" id="methodIndex">02 / METHOD</p>
       <div class="method-grid">
         <h2 id="methodTitle">信息如何到达这里</h2>
-        <ol>
+        <ol id="methodSteps">
           <li><span>01</span><strong>每日发现</strong><p>定时检查国家与地方官方招聘栏目，持续补充新公告。</p></li>
           <li><span>02</span><strong>校验去重</strong><p>按域名白名单过滤来源，相同公告只保留信息更完整的一条。</p></li>
           <li><span>03</span><strong>直达原文</strong><p>网站不代替报名系统；资格、时间与岗位要求均以原公告为准。</p></li>
@@ -176,7 +217,7 @@
 
   <footer>
     <p>招考雷达 · 每日公开信息索引</p>
-    <p>本站仅聚合公开链接，不代表任何招录单位。报名前请务必核验原公告。</p>
+    <p>本站仅聚合公开链接，不代表任何招聘或招录单位。申请或报名前请务必核验原文。</p>
   </footer>
 
   <dialog id="profileDialog" class="utility-dialog profile-dialog" aria-labelledby="profileTitle">
@@ -225,6 +266,11 @@
           <span>偏好地区</span>
           <input id="profileLocations" name="preferredLocations" type="text" maxlength="120" placeholder="例如：北京、湖北；留空表示不限">
         </label>
+        <label>
+          <span>英语水平</span>
+          <select id="profileEnglish" name="englishLevel"><option value="未设置">暂不设置</option></select>
+        </label>
+        <p class="profile-cohort-note">外企校招频道当前仅展示面向 2027 届的正式全职招聘活动。</p>
       </div>
       <fieldset class="profile-options">
         <legend>关注方向</legend>
@@ -244,6 +290,14 @@
           <label><input type="checkbox" name="profileCertificate" value="普通话证书">普通话证书</label>
           <label><input type="checkbox" name="profileCertificate" value="英语等级">英语等级证书</label>
         </div>
+      </fieldset>
+      <fieldset class="profile-options">
+        <legend>外企目标职能（可不选）</legend>
+        <div class="option-grid foreign-profile-options" id="foreignFunctionOptions"></div>
+      </fieldset>
+      <fieldset class="profile-options">
+        <legend>外企偏好行业（可不选）</legend>
+        <div class="option-grid foreign-profile-options" id="foreignIndustryOptions"></div>
       </fieldset>
       <div class="profile-form-actions">
         <button class="secondary-action" id="profileReset" type="button">恢复默认</button>
@@ -267,7 +321,7 @@
       </div>
       <section class="application-section" aria-labelledby="applicationFlowTitle">
         <div class="application-section-head">
-          <p class="section-index">01 / 报名流程</p>
+          <p class="section-index" id="applicationFlowIndex">01 / 报名流程</p>
           <h3 id="applicationFlowTitle">五步报名核对</h3>
         </div>
         <div id="applicationSteps" class="application-checklist"></div>
@@ -280,7 +334,7 @@
         <p id="materialsNote" class="dialog-note"></p>
         <div id="materialChecklist" class="application-checklist material-grid"></div>
         <details id="applicationEvidence" class="application-evidence">
-          <summary>查看报名原文证据</summary>
+          <summary id="applicationEvidenceSummary">查看报名原文证据</summary>
           <ul></ul>
         </details>
       </section>
@@ -385,7 +439,7 @@
           <div class="match-explain">
             <div class="match-head">
               <strong class="match-label"></strong>
-              <span>依据官方详情页原文线索</span>
+              <span class="match-caption">依据官方详情页原文线索</span>
             </div>
             <ul class="match-reasons"></ul>
             <p class="match-caution"></p>

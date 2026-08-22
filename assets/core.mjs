@@ -108,14 +108,24 @@ export function stateFromSearchParams(params) {
   };
 }
 
-export function searchParamsFromState(state) {
+export function searchParamsFromState(state = {}) {
+  const selected = {
+    q: '',
+    category: '全部',
+    location: '全部',
+    audience: '全部',
+    freshness: 'all',
+    sort: 'newest',
+    match: 'all',
+    ...state,
+  };
   const params = new URLSearchParams();
-  if (state.q) params.set('q', state.q);
-  if (state.category !== '全部') params.set('category', state.category);
-  if (state.location !== '全部') params.set('location', state.location);
-  if (state.audience !== '全部') params.set('audience', state.audience);
-  if (state.freshness !== 'all') params.set('freshness', state.freshness);
-  if (state.sort !== 'newest') params.set('sort', state.sort);
-  if (state.match && state.match !== 'all') params.set('match', state.match);
+  if (selected.q) params.set('q', selected.q);
+  if (selected.category !== '全部') params.set('category', selected.category);
+  if (selected.location !== '全部') params.set('location', selected.location);
+  if (selected.audience !== '全部') params.set('audience', selected.audience);
+  if (selected.freshness !== 'all') params.set('freshness', selected.freshness);
+  if (selected.sort !== 'newest') params.set('sort', selected.sort);
+  if (selected.match && selected.match !== 'all') params.set('match', selected.match);
   return params;
 }

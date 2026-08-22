@@ -46,6 +46,18 @@ class ApplicationHintTests(unittest.TestCase):
 
         self.assertLessEqual(len(hints["evidence"]["报名表"]), 120)
 
+    def test_extracts_english_application_materials(self):
+        hints = extract_application_hints(
+            "Apply online with your resume, transcript, cover letter, portfolio and IELTS score."
+        )
+
+        self.assertEqual(hints["methods"], ["网上报名"])
+        self.assertEqual(
+            hints["materialTags"],
+            ["个人简历", "成绩单", "作品材料", "求职信", "语言成绩"],
+        )
+        self.assertIn("Apply online", hints["evidence"]["网上报名"])
+
 
 if __name__ == "__main__":
     unittest.main()

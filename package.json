@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests/core.test.mjs",
-    "serve": "python -m http.server 4173"
+    "test": "node --test tests/core.test.mjs tests/foreign-core.test.mjs tests/matching.test.mjs tests/foreign-matching.test.mjs tests/application.test.mjs tests/favorites.test.mjs",
+    "serve": "python -m http.server 4173",
+    "test:browser": "node tests/browser-smoke.mjs"
   }
 }

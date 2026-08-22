@@ -32,6 +32,11 @@ try:
 except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
     from application_hints import APPLICATION_HINTS_SCHEMA_VERSION, extract_application_hints
 
+try:
+    from crawler.foreign_hints import FOREIGN_HINTS_SCHEMA_VERSION, extract_foreign_hints
+except ModuleNotFoundError:  # Support `python crawler/foreign_crawl.py`.
+    from foreign_hints import FOREIGN_HINTS_SCHEMA_VERSION, extract_foreign_hints
+
 
 SHANGHAI = shanghai_timezone()
 USER_AGENT = "Mozilla/5.0 (compatible; JobRadarCN/1.0; public-detail-enricher)"
@@ -47,11 +52,29 @@ BLOCK_TAGS = {
 SKIP_TAGS = {"script", "style", "noscript", "template"}
 
 
-def _is_allowed_url(url: str, allowed_domains: list[str]) -> bool:
+def _is_allowed_url(
+    url: str,
+    allowed_domains: list[str],
+    allowed_url_prefixes: list[str] | tuple[str, ...] | None = None,
+) -> bool:
     parsed = urlparse(url)
     if parsed.scheme not in {"http", "https"}:
         return False
     host = (parsed.hostname or "").lower().rstrip(".")
+    for prefix in allowed_url_prefixes or []:
+        candidate = str(prefix or "").strip()
+        allowed = urlparse(candidate)
+        allowed_host = (allowed.hostname or "").lower().rstrip(".")
+        base_path = allowed.path.rstrip("/")
+        same_origin = (
+            allowed.scheme == "https"
+            and parsed.scheme == allowed.scheme
+            and host == allowed_host
+            and parsed.port == allowed.port
+        )
+        path_allowed = parsed.path == base_path or parsed.path.startswith(base_path + "/")
+        if same_origin and base_path and path_allowed:
+            return True
     for domain in allowed_domains:
         allowed = str(domain).lower().strip().rstrip(".")
         if allowed and (host == allowed or host.endswith("." + allowed)):
@@ -131,8 +154,9 @@ def fetch_detail_text(
     allowed_domains: list[str],
     timeout: int = 20,
     opener: Callable = urlopen,
+    allowed_url_prefixes: list[str] | tuple[str, ...] | None = None,
 ) -> str:
-    if not _is_allowed_url(url, allowed_domains):
+    if not _is_allowed_url(url, allowed_domains, allowed_url_prefixes):
         raise RuntimeError("detail URL is outside allowed domains")
     request = Request(url, headers={
         "User-Agent": USER_AGENT,
@@ -142,7 +166,7 @@ def fetch_detail_text(
     })
     with opener(request, timeout=timeout) as response:
         final_url = response.geturl()
-        if not _is_allowed_url(final_url, allowed_domains):
+        if not _is_allowed_url(final_url, allowed_domains, allowed_url_prefixes):
             raise RuntimeError("detail URL redirected outside allowed domains")
         body = response.read(MAX_RESPONSE_BYTES + 1)
         if len(body) > MAX_RESPONSE_BYTES:
@@ -169,7 +193,11 @@ def load_detail_cache(path: Path) -> dict:
     return {"version": 1, "entries": dict(document["entries"])}
 
 
-def _cache_is_fresh(entry: object, now: datetime) -> bool:
+def _cache_is_fresh(
+    entry: object,
+    now: datetime,
+    fields_are_current: Callable[[dict], bool] | None = None,
+) -> bool:
     if not isinstance(entry, dict):
         return False
     fetched_at = _parse_datetime(entry.get("fetchedAt"))
@@ -177,14 +205,34 @@ def _cache_is_fresh(entry: object, now: datetime) -> bool:
         return False
     fields = entry.get("fields")
     if entry.get("status") == "ok":
-        hints = fields.get("profileHints") if isinstance(fields, dict) else None
-        if not isinstance(hints, dict) or hints.get("schemaVersion") != PROFILE_HINTS_SCHEMA_VERSION:
+        if not isinstance(fields, dict):
             return False
-        application = fields.get("applicationHints") if isinstance(fields, dict) else None
-        if not isinstance(application, dict) or application.get("schemaVersion") != APPLICATION_HINTS_SCHEMA_VERSION:
+        if fields_are_current is not None and not fields_are_current(fields):
             return False
     ttl = SUCCESS_TTL if entry.get("status") == "ok" else FAILURE_TTL
     return now.astimezone(timezone.utc) - fetched_at.astimezone(timezone.utc) <= ttl
+
+
+def _public_fields_are_current(fields: dict) -> bool:
+    hints = fields.get("profileHints")
+    application = fields.get("applicationHints")
+    return (
+        isinstance(hints, dict)
+        and hints.get("schemaVersion") == PROFILE_HINTS_SCHEMA_VERSION
+        and isinstance(application, dict)
+        and application.get("schemaVersion") == APPLICATION_HINTS_SCHEMA_VERSION
+    )
+
+
+def _foreign_fields_are_current(fields: dict) -> bool:
+    hints = fields.get("foreignHints")
+    application = fields.get("applicationHints")
+    return (
+        isinstance(hints, dict)
+        and hints.get("schemaVersion") == FOREIGN_HINTS_SCHEMA_VERSION
+        and isinstance(application, dict)
+        and application.get("schemaVersion") == APPLICATION_HINTS_SCHEMA_VERSION
+    )
 
 
 def _apply_fields(job: dict, entry: object) -> dict:
@@ -212,6 +260,143 @@ def _apply_fields(job: dict, entry: object) -> dict:
     return enriched
 
 
+def _apply_foreign_fields(campaign: dict, entry: object) -> dict:
+    if not isinstance(entry, dict) or entry.get("status") != "ok":
+        return dict(campaign)
+    fields = entry.get("fields")
+    if not isinstance(fields, dict):
+        return dict(campaign)
+    enriched = dict(campaign)
+    hints = fields.get("foreignHints")
+    if isinstance(hints, dict):
+        enriched["foreignHints"] = hints
+        for key in ("cities", "jobFunctions", "educationLevels", "englishRequirements"):
+            if hints.get(key):
+                enriched[key] = list(hints[key])
+        if hints.get("deadline"):
+            enriched["deadline"] = hints["deadline"]
+            enriched["deadlineConfidence"] = hints.get("deadlineConfidence", "high")
+            enriched["deadlineEvidence"] = hints.get("deadlineEvidence", "")
+    application = fields.get("applicationHints")
+    if isinstance(application, dict) and any(
+        application.get(key) for key in ("methods", "materialTags")
+    ):
+        enriched["applicationHints"] = application
+    return enriched
+
+
+def _extract_public_fields(text: str, now: datetime) -> dict:
+    fields = extract_registration_window(text, now)
+    fields["profileHints"] = extract_profile_hints(text)
+    fields["applicationHints"] = extract_application_hints(text)
+    return fields
+
+
+def _extract_foreign_fields(text: str, now: datetime) -> dict:
+    return {
+        "foreignHints": extract_foreign_hints(text, now),
+        "applicationHints": extract_application_hints(text),
+    }
+
+
+def _source_for_record(record: dict, sources_by_id: dict, sources_by_name: dict) -> dict | None:
+    source_value = record.get("source")
+    source_id = source_value.get("id") if isinstance(source_value, dict) else None
+    source_name = source_value.get("name") if isinstance(source_value, dict) else None
+    return (
+        sources_by_id.get(source_id)
+        or sources_by_name.get(record.get("collector"))
+        or sources_by_name.get(source_name)
+    )
+
+
+def enrich_records(
+    records: list[dict],
+    sources: list[dict],
+    cache: dict,
+    now: datetime,
+    extractor: Callable[[str, datetime], dict],
+    max_fetches: int = 40,
+    max_workers: int = 4,
+    fetcher: Callable[[str, list[str], int], str] | None = None,
+    *,
+    fields_are_current: Callable[[dict], bool] | None = None,
+    apply_fields: Callable[[dict, object], dict] | None = None,
+    is_complete: Callable[[dict], bool] | None = None,
+) -> tuple[list[dict], dict]:
+    """Enrich allowlisted records while sharing cache and concurrency safety."""
+    custom_fetcher = fetcher
+    apply_fields = apply_fields or (lambda record, _entry: dict(record))
+    is_complete = is_complete or (lambda _record: False)
+    sources_by_id = {
+        source.get("id"): source
+        for source in sources
+        if isinstance(source, dict) and source.get("id")
+    }
+    sources_by_name = {
+        source.get("name"): source
+        for source in sources
+        if isinstance(source, dict) and source.get("name")
+    }
+    entries = dict(cache.get("entries", {})) if isinstance(cache, dict) else {}
+    enriched_records = [dict(record) for record in records]
+    tasks: list[tuple[int, dict, dict, list[str], list[str]]] = []
+
+    for index, record in enumerate(enriched_records):
+        if is_complete(record):
+            continue
+        source = _source_for_record(record, sources_by_id, sources_by_name)
+        if not source:
+            continue
+        allowed_domains = list(record.get("_allowedDomains") or source.get("allowedDomains", []))
+        allowed_prefixes = list(record.get("_allowedUrlPrefixes") or source.get("allowedUrlPrefixes", []))
+        url = record.get("url", "")
+        if not _is_allowed_url(url, allowed_domains, allowed_prefixes):
+            continue
+        cached = entries.get(url)
+        if _cache_is_fresh(cached, now, fields_are_current):
+            enriched_records[index] = apply_fields(record, cached)
+            continue
+        if len(tasks) < max(0, max_fetches):
+            tasks.append((index, record, source, allowed_domains, allowed_prefixes))
+
+    host_limits: dict[str, BoundedSemaphore] = {}
+    for _, record, _, _, _ in tasks:
+        host = (urlparse(record["url"]).hostname or "").lower()
+        host_limits.setdefault(host, BoundedSemaphore(2))
+    fetched_at = now.astimezone(SHANGHAI).replace(microsecond=0).isoformat()
+
+    def fetch_one(task: tuple[int, dict, dict, list[str], list[str]]) -> tuple[int, str, dict]:
+        index, record, source, allowed_domains, allowed_prefixes = task
+        url = record["url"]
+        host = (urlparse(url).hostname or "").lower()
+        try:
+            with host_limits[host]:
+                if custom_fetcher is None:
+                    html_text = fetch_detail_text(
+                        url,
+                        allowed_domains,
+                        int(source.get("timeout", 20)),
+                        allowed_url_prefixes=allowed_prefixes,
+                    )
+                else:
+                    html_text = custom_fetcher(url, allowed_domains, int(source.get("timeout", 20)))
+            fields = extractor(extract_main_text(html_text), now)
+            entry = {"status": "ok", "fetchedAt": fetched_at, "fields": fields}
+        except (OSError, RuntimeError, TimeoutError, ValueError) as error:
+            entry = {"status": "error", "fetchedAt": fetched_at, "error": _safe_error(error)}
+        return index, url, entry
+
+    if tasks:
+        worker_count = max(1, min(max_workers, len(tasks)))
+        with ThreadPoolExecutor(max_workers=worker_count) as executor:
+            for index, url, entry in executor.map(fetch_one, tasks):
+                entries[url] = entry
+                enriched_records[index] = apply_fields(enriched_records[index], entry)
+
+    return enriched_records, {"version": 1, "entries": entries}
+
+
 def enrich_jobs(
     jobs: list[dict],
     sources: list[dict],
@@ -221,82 +406,42 @@ def enrich_jobs(
     max_workers: int = 4,
     fetcher: Callable[[str, list[str], int], str] | None = None,
 ) -> tuple[list[dict], dict]:
-    fetcher = fetcher or fetch_detail_text
-    source_by_name = {
-        source.get("name"): source
-        for source in sources
-        if isinstance(source, dict) and source.get("name")
-    }
-    entries = dict(cache.get("entries", {})) if isinstance(cache, dict) else {}
-    enriched_jobs = [dict(job) for job in jobs]
-    tasks: list[tuple[int, dict, dict]] = []
+    return enrich_records(
+        jobs,
+        sources,
+        cache,
+        now,
+        _extract_public_fields,
+        max_fetches,
+        max_workers,
+        fetcher,
+        fields_are_current=_public_fields_are_current,
+        apply_fields=_apply_fields,
+        is_complete=lambda job: bool(
+            job.get("deadline") and job.get("profileHints") and job.get("applicationHints")
+        ),
+    )
 
-    for index, job in enumerate(enriched_jobs):
-        if job.get("deadline") and job.get("profileHints") and job.get("applicationHints"):
-            continue
-        source = source_by_name.get(job.get("collector"))
-        if not source:
-            continue
-        allowed_domains = source.get("allowedDomains", [])
-        url = job.get("url", "")
-        if not _is_allowed_url(url, allowed_domains):
-            continue
-        cached = entries.get(url)
-        if _cache_is_fresh(cached, now):
-            enriched_jobs[index] = _apply_fields(job, cached)
-            continue
-        if len(tasks) < max(0, max_fetches):
-            tasks.append((index, job, source))
 
-    host_limits: dict[str, BoundedSemaphore] = {}
-    for _, job, _ in tasks:
-        host = (urlparse(job["url"]).hostname or "").lower()
-        host_limits.setdefault(host, BoundedSemaphore(2))
-    fetched_at = now.astimezone(SHANGHAI).replace(microsecond=0).isoformat()
-
-    def fetch_one(task: tuple[int, dict, dict]) -> tuple[int, str, dict]:
-        index, job, source = task
-        url = job["url"]
-        host = (urlparse(url).hostname or "").lower()
-        try:
-            with host_limits[host]:
-                html_text = fetcher(
-                    url,
-                    list(source.get("allowedDomains", [])),
-                    int(source.get("timeout", 20)),
-                )
-            detail_text = extract_main_text(html_text)
-            fields = extract_registration_window(detail_text, now)
-            fields["profileHints"] = extract_profile_hints(detail_text)
-            fields["applicationHints"] = extract_application_hints(detail_text)
-            entry = {
-                "status": "ok",
-                "fetchedAt": fetched_at,
-                "fields": {
-                    key: fields.get(key)
-                    for key in (
-                        "registrationStart",
-                        "registrationEnd",
-                        "deadlineConfidence",
-                        "deadlineEvidence",
-                        "profileHints",
-                        "applicationHints",
-                    )
-                },
-            }
-        except (OSError, RuntimeError, TimeoutError, ValueError) as error:
-            entry = {
-                "status": "error",
-                "fetchedAt": fetched_at,
-                "error": _safe_error(error),
-            }
-        return index, url, entry
-
-    if tasks:
-        worker_count = max(1, min(max_workers, len(tasks)))
-        with ThreadPoolExecutor(max_workers=worker_count) as executor:
-            for index, url, entry in executor.map(fetch_one, tasks):
-                entries[url] = entry
-                enriched_jobs[index] = _apply_fields(enriched_jobs[index], entry)
-
-    return enriched_jobs, {"version": 1, "entries": entries}
+def enrich_foreign_campaigns(
+    campaigns: list[dict],
+    sources: list[dict],
+    cache: dict,
+    now: datetime,
+    max_fetches: int = 80,
+    max_workers: int = 4,
+    fetcher: Callable[[str, list[str], int], str] | None = None,
+) -> tuple[list[dict], dict]:
+    return enrich_records(
+        campaigns,
+        sources,
+        cache,
+        now,
+        _extract_foreign_fields,
+        max_fetches,
+        max_workers,
+        fetcher,
+        fields_are_current=_foreign_fields_are_current,
+        apply_fields=_apply_foreign_fields,
+        is_complete=lambda campaign: bool(campaign.get("_detailComplete")),
+    )

@@ -58,6 +58,12 @@ QUALIFICATION_RULES = {
     "教师资格证": ("教师资格证", "教师资格"),
 }
 
+ENGLISH_RULES = {
+    "英语四级": ("英语四级", "cet-4", "cet 4"),
+    "英语六级": ("英语六级", "cet-6", "cet 6"),
+    "英语流利": ("英语流利", "流利英语", "fluent english", "english fluency", "fluency in english"),
+}
+
 
 def _sentences(text: str) -> list[str]:
     compact = re.sub(r"[\t\r ]+", " ", text or "")
@@ -68,7 +74,7 @@ def _sentences(text: str) -> list[str]:
 def _bounded_evidence(sentence: str, term: str, limit: int = 120) -> str:
     if len(sentence) <= limit:
         return sentence
-    index = sentence.find(term)
+    index = sentence.lower().find(term.lower())
     if index < 0:
         return sentence[:limit]
     start = max(0, index - limit // 2)
@@ -80,7 +86,7 @@ def _bounded_evidence(sentence: str, term: str, limit: int = 120) -> str:
 def _first_match(sentences: list[str], terms: tuple[str, ...]) -> tuple[str, str] | None:
     for sentence in sentences:
         for term in terms:
-            if term in sentence:
+            if term.lower() in sentence.lower():
                 return sentence, term
     return None
 
@@ -104,6 +110,7 @@ def extract_profile_hints(text: str) -> dict:
     role_tags: list[str] = []
     major_tags: list[str] = []
     qualification_tags: list[str] = []
+    english_requirements: list[str] = []
     evidence: dict[str, str] = {}
 
     for tag, terms in ROLE_RULES.items():
@@ -127,6 +134,13 @@ def extract_profile_hints(text: str) -> dict:
             qualification_tags.append(tag)
             evidence[tag] = _bounded_evidence(sentence, term)
 
+    for tag, terms in ENGLISH_RULES.items():
+        match = _first_match(sentences, terms)
+        if match:
+            sentence, term = match
+            english_requirements.append(tag)
+            evidence[tag] = _bounded_evidence(sentence, term)
+
     experience_pattern = re.compile(r"\d+\s*年(?:以上)?[^。！？；;\n]{0,16}工作(?:经历|经验)")
     for sentence in sentences:
         experience = experience_pattern.search(sentence)
@@ -135,9 +149,22 @@ def extract_profile_hints(text: str) -> dict:
             evidence["工作经历"] = _bounded_evidence(sentence, experience.group(0))
             break
 
-    graduate_years = sorted(set(re.findall(r"(20\d{2})\s*届", text or "")))
+    year_matches = re.findall(
+        r"(20\d{2})\s*届|(20\d{2})\s+(?:new\s+)?(?:graduate|graduates|class)|"
+        r"(?:class\s+of|graduates?)\s+(20\d{2})",
+        text or "",
+        re.IGNORECASE,
+    )
+    graduate_years = sorted({year for groups in year_matches for year in groups if year})
     for year in graduate_years:
-        match = _first_match(sentences, (f"{year}届", f"{year} 届"))
+        match = _first_match(sentences, (
+            f"{year}届",
+            f"{year} 届",
+            f"{year} graduate",
+            f"{year} graduates",
+            f"class of {year}",
+            f"graduates {year}",
+        ))
         if match:
             evidence[f"{year}届"] = _bounded_evidence(match[0], match[1])
 
@@ -146,6 +173,7 @@ def extract_profile_hints(text: str) -> dict:
         "roleTags": role_tags,
         "majorTags": major_tags,
         "qualificationTags": qualification_tags,
+        "englishRequirements": english_requirements,
         "graduateYears": graduate_years,
         "evidence": evidence,
     }
