@@ -1,10 +1,14 @@
 # 招考雷达
 
-一个零服务器成本的公开招考信息聚合站。它每天自动检查公务员、事业单位和央国企招聘来源，把可核验链接整理成可搜索、筛选和收藏的清单。
+一个零服务器成本的双频道招聘信息聚合站。它每天自动检查公务员、事业单位、央国企和外企校园招聘来源，把可核验链接整理成可搜索、筛选和收藏的清单。
 
 ## 已实现
 
 - 公务员、事业单位、央国企三类信息聚合
+- 页头切换“公考招录 / 外企校招”，两个频道各自保留搜索、筛选和列表状态
+- 外企频道只收录在中国大陆发布、明确面向 2027 届的正式全职校园招聘活动
+- 每家公司每场校招只展示一张活动卡，优先直达官网；第三方信息会显式提示复核
+- “今日新增外企校招”按首次发现时间生成，并保留最近 7 天摘要
 - 单位、岗位、专业、地区全文搜索
 - 地区、招聘对象、发布时间和截止时间筛选/排序
 - 浏览器本地收藏，不上传个人数据
@@ -16,6 +20,18 @@
 - 官方域名白名单、标题去重、来源故障保留旧数据
 - 公开健康快照、来源连续失败记录和异常质量门禁
 - 每天北京时间 07:20 自动更新并重新部署
+
+## 外企校招频道
+
+外企频道当前聚合外资独资、外资控股、外资品牌独立招聘的合资企业，以及港澳台企业在中国大陆发布的 2027 届正式全职校招。中国企业的海外岗位、实习、兼职和社会招聘不在此频道。每场校招按公司级活动展示，进入招聘官网后再选择具体岗位。
+
+- 官网公告和公开招聘系统优先；牛客、应届生求职网等允许的第三方页面只作发现或官网不可用时的回退，并显示“第三方信息，请核验”。
+- 英文招聘标题保留原文，不调用翻译服务改写。
+- “今日新增”按网站首次发现计算，不等同于企业发布日期；首次建立快照时显示“首批收录”，不把既有活动伪装成当日新增，基线建立后当天新发现的活动仍会单独计入今日新增。
+- 已过期活动默认从列表隐藏并保留 60 天，便于收藏用户复查；没有明确截止日期的活动在 45 天未更新后标记为“待复核”。
+- 我的画像可补充意向职能、行业和英语水平；收藏、备注、申请进度、材料清单和日历继续跨频道共用，数据只保存在当前浏览器。
+
+受登录、验证码、访问条款和动态页面限制，网站无法保证覆盖所有外企。来源的启用状态和限制记录在 `docs/foreign-source-coverage.md`，申请前仍须回到公司官网核验届别、工作地点、岗位要求和截止时间。
 
 ## 中文硕士个性化匹配
 
@@ -57,19 +73,21 @@ python -m http.server 4173
 
 ```powershell
 python -m unittest discover -s tests -p "test_*.py" -v
-node --test tests/core.test.mjs tests/matching.test.mjs tests/application.test.mjs tests/favorites.test.mjs
+npm test
 ```
 
 采集器联网试运行但不覆盖当前数据：
 
 ```powershell
 python crawler/crawl.py --config crawler/sources.json --output data/jobs.json --dry-run
+python crawler/foreign_crawl.py --config crawler/foreign_sources.json --companies crawler/foreign_companies.json --output data/foreign-campus.json --health-output data/foreign-health.json --dry-run
 ```
 
 正式更新：
 
 ```powershell
 python crawler/crawl.py --config crawler/sources.json --output data/jobs.json
+python crawler/foreign_crawl.py --config crawler/foreign_sources.json --companies crawler/foreign_companies.json --output data/foreign-campus.json --health-output data/foreign-health.json
 ```
 
 ## 免费上线到 GitHub Pages
@@ -127,7 +145,9 @@ python crawler/crawl.py --config crawler/sources.json --output data/jobs.json
 
 `data/health.json` 公开记录数据生成时间、当前公告数、最近 7 日新增数、截止日期覆盖率、来源成功率、连续失败次数和快照数量变化。它不包含令牌、Cookie 或完整失败响应正文。
 
-采集完成后会运行质量门禁：公告总数为 0、相对上一版骤降超过 40%、启用来源成功率低于 60% 或数据超过 36 小时时停止部署，保留上一份稳定快照。部署完成后，工作流还会检查公网首页、`data/jobs.json` 和 `data/health.json` 均返回可解析内容。
+外企频道读取 `data/foreign-campus.json`，以 `campaigns` 保存公司级校园招聘活动。活动包含稳定 `id`、公司、原标题、官网或第三方来源级别、首次/最近发现时间、届别、校招类型、城市、职能、学历、行业、英语要求、截止日期和状态；`todaySummary` 与 `summaryHistory` 保存今日及最近 7 天首次发现摘要。`data/foreign-health.json` 公开记录活动数、官网来源比例、已注册企业数、待人工核验数、来源成功率和连续失败状态。
+
+采集完成后会分别运行两个频道的质量门禁：记录总数为 0、相对上一版骤降超过 40%、启用来源成功率低于 60% 或数据超过 36 小时时停止部署；外企来源若本次全部失败但 7 天内仍有稳定快照，则保留旧快照并发出警告。部署完成后，工作流还会检查公网首页以及两个频道的四份 JSON 均返回可解析内容。
 
 ## 边界与排查
 

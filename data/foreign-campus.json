@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 1,
+  "channel": "foreign-campus",
+  "generatedAt": "2026-08-23T01:09:50+08:00",
+  "targetGraduateYear": "2027",
+  "total": 5,
+  "campaigns": [
+    {
+      "id": "foreign_68f27a4e03dea2fc9b49",
+      "campaignKey": "roche|2027|campus_recruitment|annual|startupchinapharma",
+      "channel": "foreign",
+      "company": {
+        "id": "roche",
+        "name": "罗氏",
+        "nameEn": "Roche",
+        "ownership": "foreign_owned",
+        "homeCountryOrRegion": "瑞士",
+        "industryTags": [
+          "医药/医疗"
+        ]
+      },
+      "title": "StartUp 罗氏制药中国人才发展项目（2027届校园招聘）",
+      "titleLanguage": "zh",
+      "url": "https://careers.roche.com/cn/zh/startup-china-pharma",
+      "source": {
+        "id": "roche-china-startup-2027",
+        "name": "罗氏制药中国 StartUp 人才发展项目",
+        "tier": "official_verified"
+      },
+      "alternateSources": [],
+      "official": true,
+      "publishedAt": "2026-08-23",
+      "dateEstimated": true,
+      "graduateYears": [
+        "2027"
+      ],
+      "campaignType": "campus_recruitment",
+      "season": "annual",
+      "employmentType": "full_time",
+      "cities": [
+        "上海"
+      ],
+      "jobFunctions": [
+        "市场/品牌",
+        "内容/传播",
+        "产品"
+      ],
+      "educationLevels": [],
+      "industryTags": [
+        "医药/医疗"
+      ],
+      "englishRequirements": [],
+      "deadline": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "summary": "正式 offer 可签三方 Widget link 申请时间 医学、药学、生物科学、公共卫生等相关专业。 申请时间 2027届招聘将于2026年9月启动，面向人群： • 中国大陆学校：2027届毕业生 • 中国港澳台及海外地区学校：2026年7月—2027年6月毕业的同学 A sense of mutual respect and mindfulness permeates our culture-in fact, it’s the key to our success. L",
+      "status": "deadline_unknown",
+      "collector": "罗氏制药中国 StartUp 人才发展项目",
+      "collectedAt": "2026-08-23T01:09:50+08:00",
+      "firstSeenAt": "2026-08-23T01:09:50+08:00",
+      "lastSeenAt": "2026-08-23T01:09:50+08:00"
+    },
+    {
+      "id": "foreign_b77b138acbdea8011306",
+      "campaignKey": "pwc|2027|campus_recruitment|annual|general",
+      "channel": "foreign",
+      "company": {
+        "id": "pwc",
+        "name": "普华永道",
+        "nameEn": "PwC",
+        "ownership": "foreign_controlled",
+        "homeCountryOrRegion": "英国",
+        "industryTags": [
+          "咨询/专业服务"
+        ]
+      },
+      "title": "PwC China 2027 Campus Recruitment",
+      "titleLanguage": "en",
+      "url": "https://www.pwccn.com/en/careers/students.html",
+      "source": {
+        "id": "pwc-china-students",
+        "name": "普华永道中国学生招聘",
+        "tier": "official_verified"
+      },
+      "alternateSources": [],
+      "official": true,
+      "publishedAt": "2026-08-23",
+      "dateEstimated": true,
+      "graduateYears": [
+        "2027"
+      ],
+      "campaignType": "campus_recruitment",
+      "season": "annual",
+      "employmentType": "full_time",
+      "cities": [],
+      "jobFunctions": [],
+      "educationLevels": [
+        "本科"
+      ],
+      "industryTags": [
+        "咨询/专业服务"
+      ],
+      "englishRequirements": [],
+      "deadline": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "summary": "2027 graduates with a bachelor’s degree or above, and all majors are eligible. Apply now Application journey Online application Online assessment Meet with PwC PwC Superday Receiving your offer Offer celebration Start from August 2026 Submi",
+      "status": "deadline_unknown",
+      "collector": "普华永道中国学生招聘",
+      "collectedAt": "2026-08-23T01:09:50+08:00",
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [
+          "网上报名"
+        ],
+        "materialTags": [],
+        "evidence": {
+          "网上报名": " and all majors are eligible. Apply now Application journey Online application Online assessment Meet with PwC PwC Super"
+        }
+      },
+      "firstSeenAt": "2026-08-23T00:39:44+08:00",
+      "lastSeenAt": "2026-08-23T01:09:50+08:00"
+    },
+    {
+      "id": "foreign_e481419c0e156efecd7a",
+      "campaignKey": "deutsche-bank|2027|graduate_program|annual|general",
+      "channel": "foreign",
+      "company": {
+        "id": "deutsche-bank",
+        "name": "德意志银行",
+        "nameEn": "Deutsche Bank",
+        "ownership": "foreign_owned",
+        "homeCountryOrRegion": "德国",
+        "industryTags": [
+          "金融"
+        ]
+      },
+      "title": "Deutsche Bank China 2027 Graduate Programme",
+      "titleLanguage": "en",
+      "url": "https://careers.db.com/students-graduates/your-application/",
+      "source": {
+        "id": "deutsche-bank-apac-graduates",
+        "name": "德意志银行亚太毕业生项目",
+        "tier": "official_verified"
+      },
+      "alternateSources": [],
+      "official": true,
+      "publishedAt": "2026-08-23",
+      "dateEstimated": true,
+      "graduateYears": [
+        "2027"
+      ],
+      "campaignType": "graduate_program",
+      "season": "annual",
+      "employmentType": "full_time",
+      "cities": [],
+      "jobFunctions": [],
+      "educationLevels": [],
+      "industryTags": [
+        "金融"
+      ],
+      "englishRequirements": [],
+      "deadline": "2026-10-18",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "7 Sep - 18 Oct 2026",
+      "summary": "China 2027 Graduate Programme Investment Bank: Fixed Income & Currencies Corporate Bank 7 Sep - 18 Oct 2026 To be eligible for the 2027 Graduate Programme, you must: Complete your studies (all final exams, coursework and have no outstanding",
+      "status": "open",
+      "collector": "德意志银行亚太毕业生项目",
+      "collectedAt": "2026-08-23T01:09:50+08:00",
+      "firstSeenAt": "2026-08-23T00:39:44+08:00",
+      "lastSeenAt": "2026-08-23T01:09:50+08:00"
+    },
+    {
+      "id": "foreign_2b0bb5d7a93cc275361e",
+      "campaignKey": "deloitte|2027|graduate_program|annual|general",
+      "channel": "foreign",
+      "company": {
+        "id": "deloitte",
+        "name": "德勤",
+        "nameEn": "Deloitte",
+        "ownership": "foreign_controlled",
+        "homeCountryOrRegion": "英国",
+        "industryTags": [
+          "咨询/专业服务"
+        ]
+      },
+      "title": "Deloitte China 2027 Graduate Program",
+      "titleLanguage": "en",
+      "url": "https://www.deloitte.com/cn/en/careers/explore-your-fit/students/graduate-program.html",
+      "source": {
+        "id": "deloitte-china-graduate",
+        "name": "德勤中国 Graduate Program",
+        "tier": "official_verified"
+      },
+      "alternateSources": [],
+      "official": true,
+      "publishedAt": "2026-08-23",
+      "dateEstimated": true,
+      "graduateYears": [
+        "2027"
+      ],
+      "campaignType": "graduate_program",
+      "season": "annual",
+      "employmentType": "full_time",
+      "cities": [],
+      "jobFunctions": [
+        "财务",
+        "咨询"
+      ],
+      "educationLevels": [],
+      "industryTags": [
+        "咨询/专业服务"
+      ],
+      "englishRequirements": [],
+      "deadline": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "summary": "2027 Graduate Recruitment is now live — Join Us and Make Your Impact Print Share Our 2027 graduate program provides first-hand exposure to our culture, people, and society. As a graduate, you'll have a wealth of career paths and possibiliti",
+      "status": "deadline_unknown",
+      "collector": "德勤中国 Graduate Program",
+      "collectedAt": "2026-08-23T01:09:50+08:00",
+      "firstSeenAt": "2026-08-23T00:39:44+08:00",
+      "lastSeenAt": "2026-08-23T01:09:50+08:00"
+    },
+    {
+      "id": "foreign_d787c34744edd2daf9e1",
+      "campaignKey": "shell|2027|graduate_program|annual|graduateprogramme2027china",
+      "channel": "foreign",
+      "company": {
+        "id": "shell",
+        "name": "壳牌",
+        "nameEn": "Shell",
+        "ownership": "foreign_owned",
+        "homeCountryOrRegion": "英国",
+        "industryTags": [
+          "能源",
+          "工业/制造"
+        ]
+      },
+      "title": "Shell Graduate Programme 2027 - China",
+      "titleLanguage": "en",
+      "url": "https://shell.wd3.myworkdayjobs.com/ShellCareers/job/Shell-Graduate-Programme-2027---China_R205121",
+      "source": {
+        "id": "shell-graduate-programme-2027-china",
+        "name": "Shell Graduate Programme 2027 - China",
+        "tier": "official_verified"
+      },
+      "alternateSources": [],
+      "official": true,
+      "publishedAt": "2026-08-23",
+      "dateEstimated": true,
+      "graduateYears": [
+        "2027"
+      ],
+      "campaignType": "graduate_program",
+      "season": "annual",
+      "employmentType": "full_time",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "jobFunctions": [],
+      "educationLevels": [],
+      "industryTags": [
+        "能源",
+        "工业/制造"
+      ],
+      "englishRequirements": [],
+      "deadline": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "summary": "Shell Graduate Programme 2027 - China Beijing, China Worker Type: Regular Posting Start Date: August 20, 2026 Job Description: What’s the role Join us as a Graduate at Shell China where you will embark on a comprehensive 3-year programme de",
+      "status": "deadline_unknown",
+      "collector": "Shell Graduate Programme 2027 - China",
+      "collectedAt": "2026-08-23T01:09:50+08:00",
+      "firstSeenAt": "2026-08-23T01:09:50+08:00",
+      "lastSeenAt": "2026-08-23T01:09:50+08:00"
+    }
+  ],
+  "todaySummary": {
+    "date": "2026-08-23",
+    "bootstrap": true,
+    "addedCount": 2,
+    "baselineCount": 3,
+    "items": [
+      {
+        "id": "foreign_d787c34744edd2daf9e1",
+        "company": "壳牌",
+        "title": "Shell Graduate Programme 2027 - China",
+        "url": "https://shell.wd3.myworkdayjobs.com/ShellCareers/job/Shell-Graduate-Programme-2027---China_R205121",
+        "official": true
+      },
+      {
+        "id": "foreign_68f27a4e03dea2fc9b49",
+        "company": "罗氏",
+        "title": "StartUp 罗氏制药中国人才发展项目（2027届校园招聘）",
+        "url": "https://careers.roche.com/cn/zh/startup-china-pharma",
+        "official": true
+      }
+    ]
+  },
+  "summaryHistory": [
+    {
+      "date": "2026-08-23",
+      "bootstrap": true,
+      "addedCount": 2,
+      "baselineCount": 3,
+      "items": [
+        {
+          "id": "foreign_d787c34744edd2daf9e1",
+          "company": "壳牌",
+          "title": "Shell Graduate Programme 2027 - China",
+          "url": "https://shell.wd3.myworkdayjobs.com/ShellCareers/job/Shell-Graduate-Programme-2027---China_R205121",
+          "official": true
+        },
+        {
+          "id": "foreign_68f27a4e03dea2fc9b49",
+          "company": "罗氏",
+          "title": "StartUp 罗氏制药中国人才发展项目（2027届校园招聘）",
+          "url": "https://careers.roche.com/cn/zh/startup-china-pharma",
+          "official": true
+        }
+      ]
+    }
+  ],
+  "sourceStatus": [
+    {
+      "id": "deloitte-china-graduate",
+      "name": "德勤中国 Graduate Program",
+      "tier": "official_verified",
+      "status": "ok",
+      "count": 1,
+      "pendingReviewCount": 0
+    },
+    {
+      "id": "pwc-china-students",
+      "name": "普华永道中国学生招聘",
+      "tier": "official_verified",
+      "status": "ok",
+      "count": 1,
+      "pendingReviewCount": 0
+    },
+    {
+      "id": "deutsche-bank-apac-graduates",
+      "name": "德意志银行亚太毕业生项目",
+      "tier": "official_verified",
+      "status": "ok",
+      "count": 1,
+      "pendingReviewCount": 0
+    },
+    {
+      "id": "roche-china-startup-2027",
+      "name": "罗氏制药中国 StartUp 人才发展项目",
+      "tier": "official_verified",
+      "status": "ok",
+      "count": 1,
+      "pendingReviewCount": 0
+    },
+    {
+      "id": "shell-graduate-programme-2027-china",
+      "name": "Shell Graduate Programme 2027 - China",
+      "tier": "official_verified",
+      "status": "ok",
+      "count": 1,
+      "pendingReviewCount": 0
+    },
+    {
+      "id": "official-company-search",
+      "name": "外企官网公开搜索",
+      "tier": "official_job_feed",
+      "status": "empty",
+      "count": 0,
+      "pendingReviewCount": 0
+    },
+    {
+      "id": "nowcoder-campus-schedule",
+      "name": "牛客校招日程",
+      "tier": "third_party_only",
+      "status": "disabled",
+      "count": 0,
+      "pendingReviewCount": 0,
+      "reason": "启用前复核现行服务条款；不访问 robots 禁止的 /search"
+    },
+    {
+      "id": "yingjiesheng-public-discovery",
+      "name": "应届生求职网公开信息",
+      "tier": "third_party_only",
+      "status": "empty",
+      "count": 0,
+      "pendingReviewCount": 0
+    },
+    {
+      "id": "shixiseng-manual",
+      "name": "实习僧",
+      "tier": "manual_only",
+      "status": "disabled",
+      "count": 0,
+      "pendingReviewCount": 0,
+      "reason": "现行用户协议禁止未经许可的机器人或脚本自动访问"
+    }
+  ],
+  "pendingReviewCount": 0
+}

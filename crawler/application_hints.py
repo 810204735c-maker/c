@@ -8,7 +8,7 @@ import re
 APPLICATION_HINTS_SCHEMA_VERSION = 1
 
 METHOD_RULES = {
-    "网上报名": ("网上报名", "在线报名", "报名系统", "报名平台"),
+    "网上报名": ("网上报名", "在线报名", "报名系统", "报名平台", "apply online", "online application"),
     "邮箱报名": ("发送至报名邮箱", "报名材料发送至", "应聘材料发送至", "投递邮箱"),
     "现场报名": ("现场报名", "现场提交报名材料", "现场递交报名材料"),
 }
@@ -18,14 +18,17 @@ MATERIAL_RULES = {
     "身份证": ("身份证扫描件", "身份证正反面", "本人身份证"),
     "学历学位证明": ("学历学位证书", "毕业证书和学位证书", "毕业证、学位证"),
     "学信网证明": ("学信网", "学历证书电子注册备案表", "学籍在线验证报告"),
-    "个人简历": ("个人简历", "个人履历"),
+    "个人简历": ("个人简历", "个人履历", "resume", "curriculum vitae", " cv "),
+    "中英文简历": ("中英文简历", "中文和英文简历", "bilingual resume", "chinese and english resume"),
     "资格证书": ("职业资格证书", "教师资格证", "专业技术资格证书"),
     "党员证明": ("党员证明", "党组织关系证明"),
     "工作经历证明": ("工作经历证明", "工作单位出具的证明", "劳动合同"),
     "近期照片": ("近期免冠", "证件照"),
-    "成绩单": ("成绩单", "学习成绩证明"),
+    "成绩单": ("成绩单", "学习成绩证明", "transcript"),
     "就业推荐表": ("就业推荐表", "毕业生推荐表"),
-    "作品材料": ("代表作品", "作品集", "原创作品"),
+    "作品材料": ("代表作品", "作品集", "原创作品", "portfolio"),
+    "求职信": ("求职信", "cover letter"),
+    "语言成绩": ("语言成绩", "托福", "雅思", "toefl", "ielts", "language test score"),
 }
 
 
@@ -38,7 +41,7 @@ def _sentences(text: str) -> list[str]:
 def _bounded_evidence(sentence: str, term: str, limit: int = 120) -> str:
     if len(sentence) <= limit:
         return sentence
-    index = sentence.find(term)
+    index = sentence.lower().find(term.lower())
     if index < 0:
         return sentence[:limit]
     start = max(0, index - limit // 2)
@@ -49,7 +52,7 @@ def _bounded_evidence(sentence: str, term: str, limit: int = 120) -> str:
 def _first_match(sentences: list[str], terms: tuple[str, ...]) -> tuple[str, str] | None:
     for sentence in sentences:
         for term in terms:
-            if term in sentence:
+            if term.lower() in sentence.lower():
                 return sentence, term
     return None
 

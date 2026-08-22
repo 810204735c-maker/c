@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-08-23T01:09:50+08:00",
+  "lastSuccessfulAt": "2026-08-23T01:09:50+08:00",
+  "currentTotal": 5,
+  "activeTotal": 5,
+  "expiredRetainedTotal": 0,
+  "staleTotal": 0,
+  "newToday": 2,
+  "officialSourceRatio": 1.0,
+  "registeredCompanyCount": 51,
+  "pendingReviewCount": 0,
+  "sourceSuccessRate": 1.0,
+  "enabledSourceCount": 7,
+  "disabledSourceCount": 2,
+  "failedSourceCount": 0,
+  "previousTotal": 3,
+  "totalChangeRate": 0.6666666666666666,
+  "sources": [
+    {
+      "name": "德勤中国 Graduate Program",
+      "status": "ok",
+      "count": 1,
+      "lastSuccessAt": "2026-08-23T01:09:50+08:00",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "普华永道中国学生招聘",
+      "status": "ok",
+      "count": 1,
+      "lastSuccessAt": "2026-08-23T01:09:50+08:00",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "德意志银行亚太毕业生项目",
+      "status": "ok",
+      "count": 1,
+      "lastSuccessAt": "2026-08-23T01:09:50+08:00",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "罗氏制药中国 StartUp 人才发展项目",
+      "status": "ok",
+      "count": 1,
+      "lastSuccessAt": "2026-08-23T01:09:50+08:00",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Shell Graduate Programme 2027 - China",
+      "status": "ok",
+      "count": 1,
+      "lastSuccessAt": "2026-08-23T01:09:50+08:00",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "外企官网公开搜索",
+      "status": "empty",
+      "count": 0,
+      "lastSuccessAt": "2026-08-23T01:09:50+08:00",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "牛客校招日程",
+      "status": "disabled",
+      "count": 0,
+      "lastSuccessAt": null,
+      "lastFailureAt": null,
+      "consecutiveFailures": 0,
+      "reason": "启用前复核现行服务条款；不访问 robots 禁止的 /search"
+    },
+    {
+      "name": "应届生求职网公开信息",
+      "status": "empty",
+      "count": 0,
+      "lastSuccessAt": "2026-08-23T01:09:50+08:00",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "实习僧",
+      "status": "disabled",
+      "count": 0,
+      "lastSuccessAt": null,
+      "lastFailureAt": null,
+      "consecutiveFailures": 0,
+      "reason": "现行用户协议禁止未经许可的机器人或脚本自动访问"
+    }
+  ],
+  "violations": []
+}

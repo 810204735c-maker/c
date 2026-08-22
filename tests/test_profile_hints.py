@@ -77,6 +77,15 @@ class ProfileHintTests(unittest.TestCase):
 
         self.assertLessEqual(len(hints["evidence"]["中国语言文学"]), 120)
 
+    def test_extracts_english_graduate_year_and_language_evidence(self):
+        hints = extract_profile_hints(
+            "Class of 2027 applicants should have fluent English and submit an application online."
+        )
+
+        self.assertEqual(hints["graduateYears"], ["2027"])
+        self.assertEqual(hints["englishRequirements"], ["英语流利"])
+        self.assertIn("fluent English", hints["evidence"]["英语流利"])
+
 
 if __name__ == "__main__":
     unittest.main()

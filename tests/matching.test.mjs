@@ -110,3 +110,14 @@ test('profile normalization keeps only supported roles and clean values', () => 
   assert.deepEqual(profile.preferredLocations, ['北京', '湖北']);
   assert.deepEqual(profile.roleInterests, ['综合文字']);
 });
+
+test('legacy profiles gain safe foreign defaults without changing public fields', () => {
+  const profile = normalizeProfile({ major: '中国语言文学', graduationYear: '2027' });
+
+  assert.deepEqual(profile.targetFunctions, []);
+  assert.deepEqual(profile.preferredIndustries, []);
+  assert.equal(profile.englishLevel, '未设置');
+  assert.equal(profile.major, '中国语言文学');
+  assert.equal(profile.graduationYear, '2027');
+  assert.deepEqual(profile.roleInterests, DEFAULT_PROFILE.roleInterests);
+});

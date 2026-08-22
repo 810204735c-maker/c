@@ -29,20 +29,26 @@ jobs:
         run: python -m unittest discover -s tests -p "test_*.py" -v
 
       - name: 运行前端逻辑测试
-        run: node --test tests/core.test.mjs tests/matching.test.mjs tests/application.test.mjs tests/favorites.test.mjs
+        run: npm test
 
       - name: 更新招聘数据
         run: python crawler/crawl.py --config crawler/sources.json --output data/jobs.json --health-output data/health.json
 
+      - name: 更新外企校招数据
+        run: python crawler/foreign_crawl.py --config crawler/foreign_sources.json --companies crawler/foreign_companies.json --output data/foreign-campus.json --health-output data/foreign-health.json
+
       - name: 检查数据快照质量
         run: python scripts/check_snapshot.py --jobs data/jobs.json --health data/health.json
+
+      - name: 检查外企校招数据快照质量
+        run: python scripts/check_foreign_snapshot.py --campaigns data/foreign-campus.json --health data/foreign-health.json
 
       - name: 保存最新数据快照
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/jobs.json data/health.json crawler/cache/details.json
+          git add data/jobs.json data/health.json data/foreign-campus.json data/foreign-health.json crawler/cache/details.json crawler/cache/foreign-details.json crawler/cache/foreign-seen.json
           git diff --cached --quiet || git commit -m "data: refresh recruitment listings"
           git push origin "HEAD:${GITHUB_REF_NAME}"
 

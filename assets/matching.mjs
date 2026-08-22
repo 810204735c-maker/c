@@ -7,6 +7,48 @@ export const PROFILE_ROLES = Object.freeze([
   '中文教育',
 ]);
 
+export const FOREIGN_FUNCTIONS = Object.freeze([
+  '市场/品牌',
+  '内容/传播',
+  '产品',
+  '运营',
+  '人力资源',
+  '财务',
+  '销售/商务',
+  '供应链',
+  '技术/研发',
+  '数据/分析',
+  '法务/合规',
+  '咨询',
+]);
+
+export const FOREIGN_INDUSTRIES = Object.freeze([
+  '科技/互联网',
+  '软件/企业服务',
+  '半导体/硬件',
+  '工业/制造',
+  '能源',
+  '化工/材料',
+  '消费品',
+  '美妆',
+  '食品/饮料',
+  '零售/电商',
+  '零售/家居',
+  '体育',
+  '咨询/专业服务',
+  '金融',
+  '医药/医疗',
+  '汽车',
+  '物流/供应链',
+]);
+
+export const FOREIGN_ENGLISH_LEVELS = Object.freeze([
+  '未设置',
+  '英语四级',
+  '英语六级',
+  '英语流利',
+]);
+
 export const DEFAULT_PROFILE = Object.freeze({
   degree: '硕士',
   major: '中国语言文学',
@@ -17,10 +59,16 @@ export const DEFAULT_PROFILE = Object.freeze({
   certificates: [],
   preferredLocations: [],
   roleInterests: [...PROFILE_ROLES],
+  targetFunctions: [],
+  preferredIndustries: [],
+  englishLevel: '未设置',
 });
 
 const POLITICAL_STATUSES = new Set(['未设置', '中共党员', '中共预备党员', '共青团员', '群众', '其他']);
 const MATCH_MODES = new Set(['all', 'recommended', 'exact', 'writing', 'verify']);
+const FOREIGN_FUNCTION_SET = new Set(FOREIGN_FUNCTIONS);
+const FOREIGN_INDUSTRY_SET = new Set(FOREIGN_INDUSTRIES);
+const FOREIGN_ENGLISH_LEVEL_SET = new Set(FOREIGN_ENGLISH_LEVELS);
 const CHINESE_MAJOR_TERMS = [
   '中国语言文学', '汉语言文学', '汉语言文字学', '语言学及应用语言学', '文艺学',
   '中国古代文学', '中国现当代文学', '古典文献学', '比较文学与世界文学',
@@ -58,6 +106,17 @@ export function normalizeProfile(value = {}) {
     certificates: cleanList(candidate.certificates, { limit: 10 }),
     preferredLocations: cleanList(candidate.preferredLocations, { limit: 12 }),
     roleInterests: roles,
+    targetFunctions: cleanList(candidate.targetFunctions, {
+      allowed: FOREIGN_FUNCTION_SET,
+      limit: FOREIGN_FUNCTIONS.length,
+    }),
+    preferredIndustries: cleanList(candidate.preferredIndustries, {
+      allowed: FOREIGN_INDUSTRY_SET,
+      limit: FOREIGN_INDUSTRIES.length,
+    }),
+    englishLevel: FOREIGN_ENGLISH_LEVEL_SET.has(cleanText(candidate.englishLevel, 20))
+      ? cleanText(candidate.englishLevel, 20)
+      : '未设置',
   };
 }
 

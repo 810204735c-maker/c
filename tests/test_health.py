@@ -123,7 +123,7 @@ class HealthTests(unittest.TestCase):
             "generatedAt": "2026-07-21T12:30:00+08:00", "currentTotal": 1, "sources": [],
         }))
 
-    def test_public_site_check_requires_html_and_two_valid_json_documents(self):
+    def test_public_site_check_requires_html_and_four_valid_json_documents(self):
         responses = {
             "https://example.test/": FakeResponse(200, "<!doctype html><html><title>ok</title></html>", "text/html"),
             "https://example.test/data/jobs.json": FakeResponse(200, json.dumps({
@@ -133,11 +133,36 @@ class HealthTests(unittest.TestCase):
                 "generatedAt": "2026-07-21T12:30:00+08:00", "currentTotal": 0,
                 "sourceSuccessRate": 1.0, "sources": [],
             }), "application/json"),
+            "https://example.test/data/foreign-campus.json": FakeResponse(200, json.dumps({
+                "schemaVersion": 1,
+                "channel": "foreign-campus",
+                "generatedAt": "2026-07-21T12:30:00+08:00",
+                "targetGraduateYear": "2027",
+                "total": 0,
+                "campaigns": [],
+                "todaySummary": {
+                    "date": "2026-07-21", "bootstrap": True,
+                    "addedCount": 0, "baselineCount": 0, "items": [],
+                },
+                "summaryHistory": [{
+                    "date": "2026-07-21", "bootstrap": True,
+                    "addedCount": 0, "baselineCount": 0, "items": [],
+                }],
+                "sourceStatus": [],
+            }), "application/json"),
+            "https://example.test/data/foreign-health.json": FakeResponse(200, json.dumps({
+                "generatedAt": "2026-07-21T12:30:00+08:00", "currentTotal": 0,
+                "sourceSuccessRate": 0.0, "officialSourceRatio": 0.0, "sources": [],
+            }), "application/json"),
         }
 
         checks = check_public_site("https://example.test/", opener=lambda request, timeout: responses[request.full_url])
 
         self.assertTrue(all(check["ok"] for check in checks), checks)
+        self.assertEqual(
+            [check["name"] for check in checks],
+            ["homepage", "jobs", "health", "foreign-campus", "foreign-health"],
+        )
 
 
 if __name__ == "__main__":

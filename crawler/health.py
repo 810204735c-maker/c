@@ -11,8 +11,10 @@ from urllib.parse import urljoin
 from urllib.request import Request, urlopen
 try:
     from crawler.timezone import shanghai_timezone
+    from crawler.foreign_health import validate_foreign_health, validate_foreign_snapshot
 except ModuleNotFoundError:  # Support direct module execution.
     from timezone import shanghai_timezone
+    from foreign_health import validate_foreign_health, validate_foreign_snapshot
 
 
 SHANGHAI = shanghai_timezone()
@@ -205,6 +207,8 @@ def check_public_site(
         ("homepage", base_url, "html"),
         ("jobs", urljoin(base_url, "data/jobs.json"), "jobs"),
         ("health", urljoin(base_url, "data/health.json"), "health"),
+        ("foreign-campus", urljoin(base_url, "data/foreign-campus.json"), "foreign"),
+        ("foreign-health", urljoin(base_url, "data/foreign-health.json"), "foreign-health"),
     ]
     checks: list[dict] = []
     for name, url, expected in targets:
@@ -226,7 +230,13 @@ def check_public_site(
                 except (UnicodeDecodeError, json.JSONDecodeError):
                     errors.append("response is not valid JSON")
                 else:
-                    errors.extend(validate_jobs(document) if expected == "jobs" else validate_health(document))
+                    validators = {
+                        "jobs": validate_jobs,
+                        "health": validate_health,
+                        "foreign": validate_foreign_snapshot,
+                        "foreign-health": validate_foreign_health,
+                    }
+                    errors.extend(validators[expected](document))
             checks.append({"name": name, "url": url, "ok": not errors, "status": status, "errors": errors})
         except (HTTPError, URLError, TimeoutError, OSError) as error:
             status = int(error.code) if isinstance(error, HTTPError) else None

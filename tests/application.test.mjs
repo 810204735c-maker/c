@@ -76,3 +76,57 @@ test('calendar export is unavailable without a valid deadline', () => {
   assert.equal(buildCalendarFile({ title: '公告', deadline: null }), null);
   assert.equal(buildCalendarFile({ title: '公告', deadline: '待确认' }), null);
 });
+
+test('foreign guide keeps stable step ids and uses application wording', () => {
+  const guide = buildApplicationGuide({
+    channel: 'foreign',
+    official: false,
+    applicationHints: {},
+  });
+
+  assert.deepEqual(guide.steps.map((item) => item.id), [
+    'read', 'qualify', 'materials', 'submit', 'retain',
+  ]);
+  assert.match(guide.steps[1].detail, /学历.*2027届.*语言.*工作地点/);
+  assert.ok(guide.materials.some((item) => item.label === '中英文简历'));
+  assert.equal(guide.materialsAreGeneric, true);
+});
+
+test('foreign calendar uses application wording', () => {
+  const file = buildCalendarFile({
+    id: 'foreign_a',
+    channel: 'foreign',
+    title: '2027 Graduate Programme',
+    deadline: '2026-10-18',
+    url: 'https://example.com/graduate',
+  }, NOW);
+  assert.match(file.content, /SUMMARY:申请截止：2027 Graduate Programme/);
+  assert.match(file.content, /DESCRIPTION:申请截止前三天提醒/);
+});
+
+test('foreign third-party record produces source and condition verification alerts', () => {
+  const alerts = getJobAlerts(
+    { channel: 'foreign', official: false, deadline: null },
+    { tier: 'verify' },
+    NOW,
+  );
+
+  assert.ok(alerts.some((item) => item.type === 'source'));
+  assert.ok(alerts.some((item) => item.label.includes('第三方')));
+  assert.ok(alerts.some((item) => item.label === '申请条件待核对'));
+});
+
+test('foreign guide uses extracted materials when reliable hints exist', () => {
+  const guide = buildApplicationGuide({
+    channel: 'foreign',
+    applicationHints: {
+      methods: ['网上报名'],
+      materialTags: ['中英文简历', '成绩单'],
+      evidence: { '中英文简历': 'Please upload your Chinese and English resumes.' },
+    },
+  });
+
+  assert.equal(guide.materialsAreGeneric, false);
+  assert.deepEqual(guide.materials.map((item) => item.label), ['中英文简历', '成绩单']);
+  assert.match(guide.steps[3].detail, /招聘页.*网上报名/);
+});

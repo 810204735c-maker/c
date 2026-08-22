@@ -1,7 +1,12 @@
 import unittest
 from datetime import datetime, timezone
 
-from crawler.detail import enrich_jobs, extract_main_text, fetch_detail_text
+from crawler.detail import (
+    enrich_foreign_campaigns,
+    enrich_jobs,
+    extract_main_text,
+    fetch_detail_text,
+)
 
 
 NOW = datetime(2026, 7, 23, 6, 0, tzinfo=timezone.utc)
@@ -322,6 +327,84 @@ class DetailTests(unittest.TestCase):
 
         self.assertEqual(jobs, [untrusted])
         self.assertEqual(cache["entries"], {})
+
+    def test_fetch_detail_accepts_exact_delegated_prefix_only(self):
+        url = "https://jobs.shared-ats.example/employer-a/campaign"
+
+        def accepted(request, timeout):
+            return FakeResponse("https://jobs.shared-ats.example/employer-a/final")
+
+        self.assertEqual(
+            fetch_detail_text(
+                url,
+                [],
+                opener=accepted,
+                allowed_url_prefixes=["https://jobs.shared-ats.example/employer-a/"],
+            ),
+            "<html></html>",
+        )
+
+        def rejected(request, timeout):
+            return FakeResponse("https://jobs.shared-ats.example/employer-b/final")
+
+        with self.assertRaisesRegex(RuntimeError, "redirected outside allowed domains"):
+            fetch_detail_text(
+                url,
+                [],
+                opener=rejected,
+                allowed_url_prefixes=["https://jobs.shared-ats.example/employer-a/"],
+            )
+
+        for malicious in (
+            "https://jobs.shared-ats.example.evil/employer-a/campaign",
+            "https://jobs.shared-ats.example/employer-a-evil/campaign",
+        ):
+            with self.subTest(url=malicious):
+                with self.assertRaisesRegex(RuntimeError, "outside allowed domains"):
+                    fetch_detail_text(
+                        malicious,
+                        [],
+                        opener=lambda *_args, **_kwargs: self.fail("malicious URL must not be fetched"),
+                        allowed_url_prefixes=["https://jobs.shared-ats.example/employer-a/"],
+                    )
+
+    def test_enrich_foreign_campaigns_uses_bilingual_extractor_and_separate_schema(self):
+        source = {
+            "id": "deloitte-test",
+            "name": "德勤测试来源",
+            "allowedDomains": ["deloitte.example"],
+            "timeout": 12,
+        }
+        campaign = {
+            "id": "foreign_test",
+            "url": "https://jobs.deloitte.example/2027",
+            "collector": "德勤测试来源",
+            "source": {"id": "deloitte-test", "name": "德勤测试来源"},
+            "graduateYears": ["2027"],
+            "deadline": None,
+        }
+        html = (
+            "<main><p>China 2027 Graduate Programme for Marketing in Shanghai.</p>"
+            "<p>Bachelor degree. Applications close on 18 October 2026.</p>"
+            "<p>Apply online with your resume and transcript.</p></main>"
+        )
+
+        campaigns, cache = enrich_foreign_campaigns(
+            [campaign],
+            [source],
+            {"version": 1, "entries": {}},
+            NOW,
+            fetcher=lambda *args: html,
+        )
+
+        self.assertEqual(campaigns[0]["cities"], ["上海"])
+        self.assertEqual(campaigns[0]["jobFunctions"], ["市场/品牌"])
+        self.assertEqual(campaigns[0]["educationLevels"], ["本科"])
+        self.assertEqual(campaigns[0]["deadline"], "2026-10-18")
+        self.assertEqual(campaigns[0]["applicationHints"]["methods"], ["网上报名"])
+        fields = cache["entries"][campaign["url"]]["fields"]
+        self.assertEqual(fields["foreignHints"]["schemaVersion"], 1)
+        self.assertNotIn("profileHints", fields)
 
 
 if __name__ == "__main__":

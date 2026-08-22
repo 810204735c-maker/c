@@ -87,3 +87,36 @@ test('backup import validates schema and merges without dropping current data', 
   assert.equal(merged.notes.b, '导入备注');
   assert.throws(() => importWorkspace('{"schema":"other"}'), /无法识别/);
 });
+
+test('backup preserves optional foreign identity while remaining version 1', () => {
+  const workspace = normalizeWorkspace({ savedIds: ['foreign_a'] });
+  const backup = exportWorkspace(workspace, [{
+    id: 'foreign_a',
+    channel: 'foreign',
+    company: { name: '德勤' },
+    title: '2027 Graduate Program',
+    url: 'https://example.com/a',
+    deadline: null,
+    source: { name: '德勤官网' },
+    cities: ['上海', '北京'],
+  }], '2026-08-22T12:00:00.000Z');
+
+  assert.equal(backup.version, 1);
+  assert.equal(backup.jobs[0].channel, 'foreign');
+  assert.equal(backup.jobs[0].company, '德勤');
+  assert.equal(backup.jobs[0].source, '德勤官网');
+  assert.equal(backup.jobs[0].location, '上海、北京');
+  assert.deepEqual(importWorkspace(JSON.stringify(backup)).savedIds, ['foreign_a']);
+});
+
+test('public backup records retain their legacy field shape', () => {
+  const workspace = normalizeWorkspace({ savedIds: ['a'] });
+  const [record] = exportWorkspace(workspace, [{
+    id: 'a', title: '岗位', url: 'https://example.gov.cn/a', deadline: null,
+    source: '官方来源', category: '事业单位', location: '北京',
+  }]).jobs;
+
+  assert.deepEqual(Object.keys(record), [
+    'id', 'title', 'url', 'deadline', 'source', 'category', 'location',
+  ]);
+});
