@@ -53,6 +53,27 @@ HTML_FIXTURE = """<!doctype html><html><body>
 
 
 class CrawlTests(unittest.TestCase):
+    def test_august_22_expansion_sources_are_official_and_allowlisted(self):
+        required = {
+            "广东省事业单位招聘公告": ("hrss.gd.gov.cn", "招聘公告"),
+            "浙江省事业单位公开招聘": ("rlsbt.zj.gov.cn", "事业单位"),
+        }
+        config_path = Path(__file__).resolve().parents[1] / "crawler" / "sources.json"
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+        selected = {
+            source["name"]: source
+            for source in config["sources"]
+            if source["name"] in required
+        }
+
+        self.assertEqual(set(selected), set(required))
+        for name, (domain, marker) in required.items():
+            source = selected[name]
+            self.assertEqual(source["allowedDomains"], [domain])
+            self.assertTrue(source["url"].startswith("https://"))
+            self.assertTrue(source.get("allowEmpty"))
+            self.assertEqual(source.get("emptyPageMarker"), marker)
+
     def test_weekly_expansion_sources_are_official_and_allowlisted(self):
         required = {
             "湖南省事业单位招聘": ("http://", ["hunan.gov.cn"]),

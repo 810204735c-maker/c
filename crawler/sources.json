@@ -180,6 +180,28 @@
       "emptyPageMarker": "事业单位公开招聘",
       "maxItems": 50,
       "timeout": 20
+    },
+    {
+      "name": "广东省事业单位招聘公告",
+      "kind": "html",
+      "url": "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/index.html",
+      "category": "事业单位",
+      "allowedDomains": ["hrss.gd.gov.cn"],
+      "allowEmpty": true,
+      "emptyPageMarker": "招聘公告",
+      "maxItems": 50,
+      "timeout": 25
+    },
+    {
+      "name": "浙江省事业单位公开招聘",
+      "kind": "html",
+      "url": "https://rlsbt.zj.gov.cn/col/col1229743683/index.html",
+      "category": "事业单位",
+      "allowedDomains": ["rlsbt.zj.gov.cn"],
+      "allowEmpty": true,
+      "emptyPageMarker": "事业单位",
+      "maxItems": 50,
+      "timeout": 25
     }
   ]
 }

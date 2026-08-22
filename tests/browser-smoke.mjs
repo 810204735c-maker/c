@@ -27,11 +27,17 @@ assert.ok(await page.locator('.job-item').count() >= 1, 'search should find the 
 await page.locator('[data-category="央国企"]').click();
 assert.ok(await page.locator('.job-item').count() >= 1, 'category and search should combine');
 
-await page.locator('.save-button').click();
-assert.equal(await page.locator('.save-button').getAttribute('aria-pressed'), 'true');
+const saveButton = page.locator('.save-button').first();
+const savedId = await saveButton.getAttribute('data-save');
+await saveButton.click();
+assert.equal(await saveButton.getAttribute('aria-pressed'), 'true');
 await page.reload({ waitUntil: 'networkidle' });
 await page.locator('.job-item').first().waitFor();
-assert.equal(await page.locator('.save-button').getAttribute('aria-pressed'), 'true', 'favorite should survive reload');
+assert.equal(
+  await page.locator(`[data-save="${savedId}"]`).getAttribute('aria-pressed'),
+  'true',
+  'favorite should survive reload',
+);
 
 await page.locator('.application-button').first().click();
 assert.equal(await page.locator('#applicationDialog').getAttribute('open'), '');
