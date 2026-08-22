@@ -56,10 +56,11 @@ class CrawlTests(unittest.TestCase):
     def test_august_22_expansion_sources_are_official_and_allowlisted(self):
         required = {
             "广东省事业单位招聘公告": ("hrss.gd.gov.cn", "招聘公告"),
-            "浙江省事业单位公开招聘": ("rlsbt.zj.gov.cn", "事业单位"),
+            "上海市事业单位招聘公告": ("rsj.sh.gov.cn", "招聘公告"),
         }
         config_path = Path(__file__).resolve().parents[1] / "crawler" / "sources.json"
         config = json.loads(config_path.read_text(encoding="utf-8"))
+        configured_names = {source["name"] for source in config["sources"]}
         selected = {
             source["name"]: source
             for source in config["sources"]
@@ -67,6 +68,7 @@ class CrawlTests(unittest.TestCase):
         }
 
         self.assertEqual(set(selected), set(required))
+        self.assertNotIn("浙江省事业单位公开招聘", configured_names)
         for name, (domain, marker) in required.items():
             source = selected[name]
             self.assertEqual(source["allowedDomains"], [domain])

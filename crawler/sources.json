@@ -193,13 +193,13 @@
       "timeout": 25
     },
     {
-      "name": "浙江省事业单位公开招聘",
+      "name": "上海市事业单位招聘公告",
       "kind": "html",
-      "url": "https://rlsbt.zj.gov.cn/col/col1229743683/index.html",
+      "url": "https://rsj.sh.gov.cn/tzpgg_17408/",
       "category": "事业单位",
-      "allowedDomains": ["rlsbt.zj.gov.cn"],
+      "allowedDomains": ["rsj.sh.gov.cn"],
       "allowEmpty": true,
-      "emptyPageMarker": "事业单位",
+      "emptyPageMarker": "招聘公告",
       "maxItems": 50,
       "timeout": 25
     }
