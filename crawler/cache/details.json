@@ -4645,6 +4645,272 @@
           }
         }
       }
+    },
+    "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4943820.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:21:45+08:00",
+      "fields": {
+        "registrationStart": "2026-08-25",
+        "registrationEnd": "2026-09-30",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "首批报名时间为2026年8月25日0:00至2026年9月30日23:59",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届",
+            "中共党员"
+          ],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "应届": "2026年应届毕业生和社会上具有国家承认学历的人员。",
+            "中共党员": "（1）岗位要求为中共党员（含预备党员）的，需上传近六个月内组织关系所在党组织开具的党员证明（PDF格式）。",
+            "2026届": "4.2026届国内普通高校应届毕业生（非在职）须于2026年12月31日前取得相应毕业证书和学位证书（以毕业证书、学位证书落款时间为准）及岗位要求的其他证明材料。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "党员证明",
+            "近期照片",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "网上报名": "应聘人员请登录“广东建设职业技术学院招聘报名系统”（https://recruit.gdcvi.edu.cn）报名。",
+            "报名表": "1.《广东省事业单位公开招聘人员报名表》；",
+            "学历学位证明": "4.毕业证、学位证书（PDF格式，毕业证、学位证书各1个文件，国（境）外留学回国人员还需提供教育部留学服务中心国（境）外学历、学位认证书）；",
+            "党员证明": "（1）岗位要求为中共党员（含预备党员）的，需上传近六个月内组织关系所在党组织开具的党员证明（PDF格式）。",
+            "近期照片": "2.本人彩色证件照（JPEG或JPG格式）；",
+            "成绩单": "（3）以相近专业报考的，还需提供所学专业课程成绩单、课程对比情况说明及毕业院校设置专业的依据等材料（PDF格式）。",
+            "就业推荐表": "（2）未取得学历、学位证书的应届博士毕业生须提交毕业生就业推荐表、教育部学籍验证报告（PDF格式）。"
+          }
+        }
+      }
+    },
+    "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4942462.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:21:45+08:00",
+      "fields": {
+        "registrationStart": "2026-08-27",
+        "registrationEnd": "2026-09-02",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间为2026年8月27日0:00至2026年9月2日23:59",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "2026年应届毕业生和社会上具有国家承认学历的人员。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "邮箱报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "资格证书",
+            "成绩单"
+          ],
+          "evidence": {
+            "邮箱报名": "请应聘人员将报名材料发送至邮箱zzrsk08@163.com。",
+            "报名表": "1.《广东省事业单位公开招聘人员报名表》；",
+            "学历学位证明": "3.毕业证、学位证书（PDF格式，毕业证、学位证书各1个文件，国（境）外留学回国人员还需提供教育部留学服务中心国（境）外学历、学位认证书）；",
+            "资格证书": "4.岗位要求的其他条件对应的佐证材料：如专业技术资格证书、执业资格证书、业绩成果证明材料等。",
+            "成绩单": "列入专业目录（没有专业代码）的，可选择招聘专业中相近专业报考，所学专业必修课程须与报考岗位要求的专业主要课程基本一致，并在资格审核时提供毕业证书、所学专业课程成绩单（须教务处盖章）、院校出具的课程对比情况说明及毕业院校设置专业的依据等材料。"
+          }
+        }
+      }
+    },
+    "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4940941.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:21:45+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "2026年应届毕业生和社会上具有国家承认学历的人员。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "近期照片",
+            "成绩单"
+          ],
+          "evidence": {
+            "网上报名": "请在报名系统内相应页面提交岗位所需要的有关材料。",
+            "报名表": "1.《广东省事业单位公开招聘人员报名表》；",
+            "学历学位证明": "4.毕业证、学位证书（PDF格式，毕业证、学位证书各1个文件，国（境）外留学回国人员还需提供教育部留学服务中心国（境）外学历、学位认证书）；",
+            "近期照片": "2.本人彩色证件照（JPEG或JPG格式）；",
+            "成绩单": "列入专业目录（没有专业代码）的，可选择招聘专业中相近专业报考，所学专业必修课程须与报考岗位要求的专业主要课程基本一致，并在资格审核时提供毕业证书、所学专业课程成绩单（须教务处盖章）、院校出具的课程对比情况说明及毕业院校设置专业的依据等材料。"
+          }
+        }
+      }
+    },
+    "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4942125.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:21:45+08:00",
+      "fields": {
+        "registrationStart": "2026-08-20",
+        "registrationEnd": "2026-08-27",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间为2026年8月20日0:00至2026年8月27日23:59",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "2026年应届毕业生和社会上具有国家承认学历的人员。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "邮箱报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "成绩单"
+          ],
+          "evidence": {
+            "邮箱报名": "请应聘人员在报名时间内，将报名材料发送至邮箱zjyyzhaopin@126.com。",
+            "报名表": "1.《广东省事业单位公开招聘人员报名表》；",
+            "学历学位证明": "3.毕业证、学位证书（PDF格式，毕业证、学位证书各1个文件，国（境）外留学回国人员还需提供教育部留学服务中心国（境）外学历、学位认证书）；",
+            "成绩单": "列入专业目录（没有专业代码）的，可选择招聘专业中相近专业报考，所学专业必修课程须与报考岗位要求的专业主要课程基本一致，并在资格审核时提供毕业证书、所学专业课程成绩单（须教务处盖章）、院校出具的课程对比情况说明及毕业院校设置专业的依据等材料。"
+          }
+        }
+      }
+    },
+    "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4939049.html": {
+      "status": "error",
+      "fetchedAt": "2026-08-22T19:21:45+08:00",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4938298.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:21:45+08:00",
+      "fields": {
+        "registrationStart": "2026-08-14",
+        "registrationEnd": "2026-08-21",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "首批报名时间为2026年8月14日9:00至2026年8月21日17:00",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "2026年应届毕业生和社会上具有国家承认学历的人员。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "近期照片",
+            "成绩单"
+          ],
+          "evidence": {
+            "报名表": "1.《广东省事业单位公开招聘人员报名表》；",
+            "学历学位证明": "4.毕业证、学位证书（PDF格式，毕业证、学位证书各1个文件，国（境）外留学回国人员还需提供教育部留学服务中心国（境）外学历、学位认证书）；",
+            "近期照片": "2.本人彩色证件照（JPEG或JPG格式）；",
+            "成绩单": "列入专业目录（没有专业代码）的，可选择招聘专业中相近专业报考，所学专业必修课程须与报考岗位要求的专业主要课程基本一致，并在资格审核时提供毕业证书、所学专业课程成绩单（须教务处盖章）、院校出具的课程对比情况说明及毕业院校设置专业的依据等材料。"
+          }
+        }
+      }
+    },
+    "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4878994.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:21:45+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4848983.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-22T19:21:45+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "2026届": "（一）2026届国内普通高校、职业学校、技工院校毕业生（非在职）须于2026年9月30日前取得相应毕业证书、学位证书及岗位要求的其他证明材料。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
     }
   }
 }
