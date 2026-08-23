@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-23T07:38:11+08:00",
-  "lastSuccessfulAt": "2026-08-23T07:38:11+08:00",
+  "generatedAt": "2026-08-24T07:39:25+08:00",
+  "lastSuccessfulAt": "2026-08-24T07:39:25+08:00",
   "currentTotal": 5,
   "activeTotal": 5,
   "expiredRetainedTotal": 0,
   "staleTotal": 0,
-  "newToday": 2,
+  "newToday": 0,
   "officialSourceRatio": 1.0,
   "registeredCompanyCount": 51,
   "pendingReviewCount": 0,
@@ -20,7 +20,7 @@
       "name": "德勤中国 Graduate Program",
       "status": "ok",
       "count": 1,
-      "lastSuccessAt": "2026-08-23T07:38:11+08:00",
+      "lastSuccessAt": "2026-08-24T07:39:25+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -28,7 +28,7 @@
       "name": "普华永道中国学生招聘",
       "status": "ok",
       "count": 1,
-      "lastSuccessAt": "2026-08-23T07:38:11+08:00",
+      "lastSuccessAt": "2026-08-24T07:39:25+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -36,7 +36,7 @@
       "name": "德意志银行亚太毕业生项目",
       "status": "ok",
       "count": 1,
-      "lastSuccessAt": "2026-08-23T07:38:11+08:00",
+      "lastSuccessAt": "2026-08-24T07:39:25+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -44,7 +44,7 @@
       "name": "罗氏制药中国 StartUp 人才发展项目",
       "status": "ok",
       "count": 1,
-      "lastSuccessAt": "2026-08-23T07:38:11+08:00",
+      "lastSuccessAt": "2026-08-24T07:39:25+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -52,7 +52,7 @@
       "name": "Shell Graduate Programme 2027 - China",
       "status": "ok",
       "count": 1,
-      "lastSuccessAt": "2026-08-23T07:38:11+08:00",
+      "lastSuccessAt": "2026-08-24T07:39:25+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -60,7 +60,7 @@
       "name": "外企官网公开搜索",
       "status": "empty",
       "count": 0,
-      "lastSuccessAt": "2026-08-23T07:38:11+08:00",
+      "lastSuccessAt": "2026-08-24T07:39:25+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },
@@ -77,7 +77,7 @@
       "name": "应届生求职网公开信息",
       "status": "empty",
       "count": 0,
-      "lastSuccessAt": "2026-08-23T07:38:11+08:00",
+      "lastSuccessAt": "2026-08-24T07:39:25+08:00",
       "lastFailureAt": null,
       "consecutiveFailures": 0
     },

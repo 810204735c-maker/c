@@ -2723,7 +2723,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202608/t20260814_7200009.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:52:16+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -2739,6 +2739,7 @@
             "应届",
             "中共党员"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "新媒体": "新媒体矩阵",
@@ -2763,7 +2764,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202608/t20260813_7199402.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:52:16+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -2777,17 +2778,16 @@
           "majorTags": [],
           "qualificationTags": [
             "硕士",
-            "应届",
-            "工作经历"
+            "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
           "evidence": {
             "新媒体": "新媒体矩阵",
-            "硕士": "研究生学历，硕士及以上学位",
+            "硕士": "硕士及以上学位",
             "应届": "（4）本科阶段以来的学历、学位证书扫描件及对应的教育部学历证书电子注册备案表（需在有效期内）、学位查询认证报告，暂时未取得招考职位要求的毕业证书或学位证书的应届毕业生应提供学籍在线验证报告；",
-            "工作经历": "2.具备5年以上三甲医院信息部门管理工作经历，具有信息部门主任、副主任（或同等职务）任职经历者优先。",
             "2026届": "（9）普通高等院校全日制在读的非2026届毕业生；"
           }
         },
@@ -2850,7 +2850,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202608/t20260804_7195927.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:52:16+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -2868,6 +2868,7 @@
             "应届",
             "中共党员"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "新媒体": "新闻传播学类：传播学、新闻与传播、新闻传播学、网络与新媒体、媒体与文化分析、网络直播与运营、媒体营销等相关专业；",
@@ -2903,7 +2904,7 @@
     },
     "https://hrss.jl.gov.cn/gg/202608/t20260806_9677623.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:52:16+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": "2026-08-17",
         "registrationEnd": "2026-08-21",
@@ -2917,6 +2918,7 @@
             "硕士",
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "硕士": "对经住培合格的本科学历临床医师，在人员招聘、职称晋升、岗位聘用、薪酬待遇等方面，与临床医学、中医专业学位硕士研究生同等对待。",
@@ -2950,7 +2952,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202607/t20260729_7193452.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:52:16+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -2965,6 +2967,7 @@
           "qualificationTags": [
             "硕士"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "新媒体": "新媒体矩阵",
@@ -2998,7 +3001,7 @@
     },
     "https://hrss.jl.gov.cn/gg/202607/t20260729_9672160.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:52:16+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": "2026-08-03",
         "registrationEnd": "2026-08-07",
@@ -3014,6 +3017,7 @@
             "中共党员",
             "工作经历"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "综合文字": "职位2为文字综合岗，招聘1人；",
@@ -3088,7 +3092,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpfa/202605/t20260512_7146909.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:52:16+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": "2026-05-13",
         "registrationEnd": "2026-05-21",
@@ -3101,6 +3105,7 @@
           ],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -3172,7 +3177,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zc/202603/t20260321_7114300.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:52:16+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -3190,6 +3195,7 @@
             "中国语言文学"
           ],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "综合文字": "言文字学，中医文化学，中国古典文献学，中国古代文学，中国现当代文学，文学阅读与文学教育，比较文学与世界文学，秘书（学），文秘（学），中文（文秘或秘书）教育，现代秘书，司法文秘（秘书）、法律文秘、医学文秘等专业秘书，涉外文秘，文秘与办公自动化",
@@ -3216,7 +3222,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260814_34045173.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:56:52+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -3227,6 +3233,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -3257,7 +3264,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260813_34044608.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:56:52+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -3271,6 +3278,7 @@
             "硕士",
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -3305,7 +3313,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260813_34044609.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:56:52+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -3318,6 +3326,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -3351,7 +3360,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260810_34042836.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:56:52+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": "2026-08-12",
         "registrationEnd": "2026-08-19",
@@ -3364,6 +3373,7 @@
           "qualificationTags": [
             "中共党员"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -3401,7 +3411,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202607/t20260727_34033822.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:56:52+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -3412,6 +3422,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -3425,7 +3436,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202607/t20260720_34030554.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:56:52+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -3436,6 +3447,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -3449,7 +3461,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202607/t20260720_34030521.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:56:52+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": "2026-07-27",
         "registrationEnd": "2026-07-31",
@@ -3463,6 +3475,7 @@
             "硕士",
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -3497,7 +3510,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202607/t20260716_34028109.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:56:52+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": "2026-07-20",
         "registrationEnd": "2026-07-26",
@@ -3511,6 +3524,7 @@
             "应届",
             "中共党员"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -3542,7 +3556,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202607/t20260716_34028105.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:56:52+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": "2026-07-21",
         "registrationEnd": "2026-07-28",
@@ -3555,6 +3569,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -3588,7 +3603,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202607/t20260716_34027720.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-16T09:56:52+08:00",
+      "fetchedAt": "2026-08-24T07:38:56+08:00",
       "fields": {
         "registrationStart": "2026-07-20",
         "registrationEnd": "2026-07-30",
@@ -3601,6 +3616,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
