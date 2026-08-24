@@ -5475,6 +5475,157 @@
           }
         }
       }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260824_4834693.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-25T07:40:10+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "3.学历为硕士研究生及以上学历；",
+            "应届": "证书落款年度2年内（2025年、2026年）及2024年离校未就业（未与任何单位签订合同且无单位缴纳社会保险记录）的高校应届毕业生，海外留学归国人员（符合北京市留学人员引进条件），2026年出站博士后（符合博士后在京落户条件），社会人员（须"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "个人简历",
+            "成绩单"
+          ],
+          "evidence": {
+            "个人简历": "截止时间为2026年9月2日，请符合条件的应聘者登录https://www.jobmd.cn/company/3501557.htm网址，在系统中注册基本信息，并填报个人简历，确保信息真实准确无误。",
+            "成绩单": "国外院校考生提供专业课程目录及成绩单（中文译文）；"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260824_4834648.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-25T07:40:10+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "岗位要求仅限硕士研究生的需以最高学历报考。",
+            "应届": "3.应届毕业生要求：限列入国家统一招生计划（不含委培生、定向生）的普通高等学校毕业生，按时毕业并取得相应学历学位，毕业证书落款年度2年内（2025年、2026年）的高校毕业生，及2024年离校未就业（未与任何单位签订合同且无社会保险缴纳记录"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "学历学位证明",
+            "工作经历证明",
+            "成绩单"
+          ],
+          "evidence": {
+            "网上报名": "招聘程序主要包括：网上报名、网上资格初审、现场资格审核、笔试、面试、考察、体检、拟聘用人员公示、办理聘用手续。",
+            "报名表": "现场资格审核所需材料：除填写完整准确并有本人在诚信声明处签字的报名表（网上资格初审通过后，从北京市事业单位公开招聘服务平台打印），其余材料同网上报名所需材料。",
+            "身份证": "1.本人身份证正反面（须在有效期内）；",
+            "学历学位证明": "5.尚未取得岗位要求的学历学位证书的人员。",
+            "工作经历证明": "相关工作经历年限，时间应当足年足月据实累计计算，计算时间截至公告发布之日（含），岗位要求相关工作经历的须提交工作单位出具的证明或是能体现出该要求的《劳动合同》。",
+            "成绩单": "国外高等教育院校所学学科专业与招聘专业相近但不在选定参考目录的，招聘单位可比照招聘专业主要必修科目和其研究方向确定，须上传课程表、成绩单或论文等。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260824/t0035_1443213.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-25T07:40:10+08:00",
+      "fields": {
+        "registrationStart": "2026-09-01",
+        "registrationEnd": "2026-09-01",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "三、招聘办法 （一）报名 1、报名时间：即日起至2026年9月1日17:00止",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "个人简历"
+          ],
+          "evidence": {
+            "报名表": "3、报名材料：《上海港引航站2026年公开招聘报名表》（见附件）、身份证（正反面）、户口本（首页和本人页）、居住证（外地户籍人员）、学历学位证书、学信网证明、本人社会保险缴纳记录证明、任职资格证书及其他能反映个人综合素质的材料。",
+            "学历学位证明": "3、报名材料：《上海港引航站2026年公开招聘报名表》（见附件）、身份证（正反面）、户口本（首页和本人页）、居住证（外地户籍人员）、学历学位证书、学信网证明、本人社会保险缴纳记录证明、任职资格证书及其他能反映个人综合素质的材料。",
+            "学信网证明": "3、报名材料：《上海港引航站2026年公开招聘报名表》（见附件）、身份证（正反面）、户口本（首页和本人页）、居住证（外地户籍人员）、学历学位证书、学信网证明、本人社会保险缴纳记录证明、任职资格证书及其他能反映个人综合素质的材料。",
+            "个人简历": "（3）超过报名截止日期、邮件命名错误、提交其他格式报名表或个人简历、未按要求提交报名材料等情况，视作无效报名。"
+          }
+        }
+      }
+    },
+    "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpgs/202608/t20260824_7203085.htm": {
+      "status": "ok",
+      "fetchedAt": "2026-08-25T07:40:10+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "新媒体"
+          ],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "新媒体": "新媒体矩阵"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [],
+          "evidence": {
+            "网上报名": "事业单位公开招聘考试报名平台"
+          }
+        }
+      }
     }
   }
 }
