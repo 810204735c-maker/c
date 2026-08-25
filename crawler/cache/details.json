@@ -2418,7 +2418,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35747841/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-18T07:45:54+08:00",
+      "fetchedAt": "2026-08-26T07:41:32+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -2431,6 +2431,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2027"
           ],
@@ -3816,7 +3817,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260817_4825939.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-18T07:45:54+08:00",
+      "fetchedAt": "2026-08-26T07:41:32+08:00",
       "fields": {
         "registrationStart": "2026-08-26",
         "registrationEnd": "2025-01-01",
@@ -3830,6 +3831,7 @@
             "应届",
             "教师资格证"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "应届": "（一）应届毕业生：按时毕业并获得相应学历学位，毕业证书落款年度2年内（2025年、2026年）的应届毕业生，以及2024年离校且取得相应学历学位后未就业（未与任何单位签订合同且无单位缴纳社会保险记录）的毕业生。",
@@ -3859,7 +3861,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260817_4825274.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-18T07:45:54+08:00",
+      "fetchedAt": "2026-08-26T07:41:32+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -3873,6 +3875,7 @@
             "应届",
             "教师资格证"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "应届": "（一）招聘范围为“应届毕业生（北京生源）”的岗位，报考人员指列入国家统一招生计划（不含定向和委托培养）的普通高等学校，按时毕业并如期取得相应学历学位，毕业证书落款年度2年内（2025、2026年）的北京生源高校毕业生，及2024年离校未就业",
@@ -3906,7 +3909,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260817_4825920.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-18T07:45:54+08:00",
+      "fetchedAt": "2026-08-26T07:41:32+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -3919,6 +3922,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "应届": "（五）应届毕业生未能按时取得学历证书、学位证书的；"
@@ -3977,7 +3981,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpfa/202608/t20260817_7200696.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-18T07:45:54+08:00",
+      "fetchedAt": "2026-08-26T07:41:32+08:00",
       "fields": {
         "registrationStart": "2026-08-18",
         "registrationEnd": "2026-08-25",
@@ -3992,6 +3996,7 @@
           "qualificationTags": [
             "硕士"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -4022,7 +4027,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260818_4827515.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-19T07:40:19+08:00",
+      "fetchedAt": "2026-08-26T07:41:32+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-08-27",
@@ -4033,6 +4038,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -4050,7 +4056,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260818_4827546.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-19T07:40:19+08:00",
+      "fetchedAt": "2026-08-26T07:41:32+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-09-06",
@@ -4065,6 +4071,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -4095,7 +4102,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202608/t20260818_7201045.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-19T07:40:19+08:00",
+      "fetchedAt": "2026-08-26T07:41:32+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -4111,6 +4118,7 @@
             "硕士",
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "新媒体": "新媒体矩阵",
@@ -5623,6 +5631,323 @@
           "materialTags": [],
           "evidence": {
             "网上报名": "事业单位公开招聘考试报名平台"
+          }
+        }
+      }
+    },
+    "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpgs/202608/t20260825_7203930.htm": {
+      "status": "ok",
+      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "新媒体"
+          ],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "新媒体": "新媒体矩阵"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [],
+          "evidence": {
+            "网上报名": "事业单位公开招聘考试报名平台"
+          }
+        }
+      }
+    },
+    "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260825_34050452.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "应届": "(2)本人有效身份证(正反面)、学历学位证书原件(及学信网教育部学历证书电子注册备案表)和岗位要求的资格证书等相关材料原件,应届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "邮箱报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "邮箱报名": "请应聘人员将报名材料扫描或拍照,以压缩包(命名为“学院+岗位名称+姓名”)形式发送至报名邮箱www248@163.com。",
+            "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(及学信网教育部学历证书电子注册备案表)和岗位要求的资格证书等相关材料原件,应届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(及学信网教育部学历证书电子注册备案表)和岗位要求的资格证书等相关材料原件,应届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书原件(及学信网教育部学历证书电子注册备案表)和岗位要求的资格证书等相关材料原件,应届毕业生还须提供毕业生就业推荐表(需盖学校公章);"
+          }
+        }
+      }
+    },
+    "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260825_34050455.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届",
+            "中共党员"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "硕士": "学校2016年被确定为国家“产教融合工程应用型本科规划高校”,2017年被确定为新增硕士学位授予立项建设单位,2018年被确认为湖南省“双一流”高水平应用特色学院,2020年学校调入湖南省本科一批录取高校,2024年获批硕士学位授予单位。",
+            "应届": "(5)招聘岗位对专业研究方向有要求的,毕业证专业与岗位要求专业一致的无需提供专业证明材料,暂未发毕业证的应届毕业生及所学专业为上一级学科的应聘人员须提供就读学校出具的专业证明材料(导师签字且毕业学院盖章);",
+            "中共党员": "(4)招聘岗位政治面貌要求是中共党员(含预备党员)的,应聘人员须提供所在基层党组织开具的党员身份证明(加盖党组织公章,自报名之日起前6个月内开具的党员身份证明有效);",
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "现场报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "现场报名": "2.报名方式采取现场报名或邮箱报名的方式。",
+            "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件及复印件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件及复印件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件及复印件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);"
+          }
+        }
+      }
+    },
+    "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4946438.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fields": {
+        "registrationStart": "2026-08-31",
+        "registrationEnd": "2026-09-04",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间：2026年8月31日至2026年9月4日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "现场报名"
+          ],
+          "materialTags": [
+            "报名表"
+          ],
+          "evidence": {
+            "现场报名": "本次招聘仅受理现场报名。",
+            "报名表": "（8）《广东省优秀运动员招聘报名表》(附件2）；"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260825_4835587.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fields": {
+        "registrationStart": "2026-08-27",
+        "registrationEnd": "2026-09-04",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "三、招聘安排 （一）网上报名 报名时间为2026年8月27日上午9:00至9月4日16:30",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "教师资格证"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "教师资格证": "（四）具备岗位所需要的专业或技能，具备岗位所需的教师资格证；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学信网证明",
+            "资格证书"
+          ],
+          "evidence": {
+            "网上报名": "（一）网上报名",
+            "报名表": "8.昌平区教委所属事业单位公开招聘报名表（附件2）",
+            "学信网证明": "3.学历证书、学位证书（附学信网查询记录截图）；",
+            "资格证书": "（四）具备岗位所需要的专业或技能，具备岗位所需的教师资格证；"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260825/t0035_1443269.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-09-08",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名截止时间为2026年9月8日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "最终按照笔试、面试4:6百分制计算综合成绩确定进入校招聘评议小组会议人员，通过会议审定后确定为拟录用人员。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "工作经历证明"
+          ],
+          "evidence": {
+            "工作经历证明": "3.应聘者一经录用，签订劳动合同，其工资、福利和社会保险等相关待遇按照学校相关规定执行。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260825/t0035_1443267.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fields": {
+        "registrationStart": "2026-09-11",
+        "registrationEnd": "2026-09-11",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "四、招聘办法 1.报名时间： 自公告发布之日起至2026年9月11日17：00止",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "中共党员"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "（1）38周岁及以下（1988年1月1日后出生），研究生及以上学历，硕士及以上学位，法学、文学、历史学、哲学、管理学相关专业；",
+            "中共党员": "（2）中共党员；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学信网证明",
+            "个人简历",
+            "资格证书"
+          ],
+          "evidence": {
+            "报名表": "（5）上海博物馆公开招聘报名表（见附件2）；",
+            "学信网证明": "（7）国内院校尚未毕业的须提供《教育部学籍在线验证报告》（PDF版，详见“学信网”）；",
+            "个人简历": "不接受其他格式的报名表或者个人简历等，且未按上述要求提交报名材料，视作无效报名。",
+            "资格证书": "（8）所报岗位要求的专业技术、职业资格证书或其它相关材料。"
+          }
+        }
+      }
+    },
+    "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4945757.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fields": {
+        "registrationStart": "2026-09-01",
+        "registrationEnd": "2026-09-30",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "首批报名时间为2026年9月1日9:00至2026年9月30日16:00",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "应届": "2026年应届毕业生和社会上具有国家承认学历的人员。",
+            "2026届": "其中，2026届国内普通高校应届毕业生以及在境内就读的2026届中外合作办学毕业生须于2026年9月30日前取得相应毕业证书、学位证书。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "近期照片",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "报名表": "1.《广东省事业单位公开招聘人员报名表》（系统填报后自动生成，无需上传）；",
+            "学历学位证明": "4.毕业证、学位证书（PDF格式，港澳台学习、国外留学人员需提供教育部留学服务中心国（境）外学历、学位认证书，应届毕业生需提供毕业生就业推荐表或在读证明）；",
+            "近期照片": "2.本人彩色证件照（JPEG或JPG格式）；",
+            "成绩单": "入专业目录（没有专业代码）的，可选择招聘专业中相近专业报考，所学专业必修课程须与报考岗位要求的专业主要课程基本一致，并在资格审核时提供毕业证书、所学专业课程成绩单（须教务部门盖章）、院校出具的课程对比情况说明及毕业院校设置专业的依据等材料。",
+            "就业推荐表": "4.毕业证、学位证书（PDF格式，港澳台学习、国外留学人员需提供教育部留学服务中心国（境）外学历、学位认证书，应届毕业生需提供毕业生就业推荐表或在读证明）；"
           }
         }
       }
