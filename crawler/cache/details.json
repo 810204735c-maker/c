@@ -73,7 +73,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260717_580418.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -84,6 +84,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -153,7 +154,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260715_580262.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -164,6 +165,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -571,7 +573,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35428690/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-05-29",
@@ -584,6 +586,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "应届": "2026年国内高校应届毕业生（不含定向、委培人员，含2年择业期内未落实工作单位的高校毕业生）。"
@@ -605,7 +608,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260424_1963395.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -618,6 +621,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "应届": "国家统计局在京直属企事业单位2026年公开招聘应届毕业生笔试公告 - 国家统计局"
@@ -633,7 +637,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260416_1963335.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-04-22",
@@ -646,6 +650,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "应届": "国家统计局在京直属事业单位2026年度公开招聘应届高校毕业生补充公告 - 国家统计局"
@@ -661,7 +666,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260403_1962991.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": "2026-04-20",
         "registrationEnd": "2026-04-20",
@@ -674,9 +679,15 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [
+            "英语四级",
+            "英语六级"
+          ],
           "graduateYears": [],
           "evidence": {
-            "应届": "国家统计局在京直属企事业单位2026年公开招聘应届毕业生公告 - 国家统计局"
+            "应届": "国家统计局在京直属企事业单位2026年公开招聘应届毕业生公告 - 国家统计局",
+            "英语四级": "（九）大学本科生大学英语四级考试成绩应不低于425分；",
+            "英语六级": "研究生大学英语六级考试成绩应不低于425分。"
           }
         },
         "applicationHints": {
@@ -700,7 +711,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260722_580688.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -711,6 +722,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -724,7 +736,7 @@
     },
     "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/zpgg/202607/t20260723_5981936.shtml": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": "2026-07-24",
         "registrationEnd": "2026-07-31",
@@ -737,6 +749,7 @@
           ],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -759,7 +772,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202603/t20260316_1962788.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -770,6 +783,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -783,7 +797,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202602/t20260210_1962581.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": "2026-02-24",
         "registrationEnd": "2026-02-24",
@@ -796,6 +810,7 @@
           "qualificationTags": [
             "中共党员"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "中共党员": "（一）具有中华人民共和国国籍，中共党员（含预备党员）。"
@@ -820,7 +835,7 @@
     },
     "https://www.moe.gov.cn/s78/A04/tongzhi/202601/t20260115_1426701.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -834,9 +849,13 @@
             "应届",
             "工作经历"
           ],
+          "englishRequirements": [
+            "英语六级"
+          ],
           "graduateYears": [],
           "evidence": {
             "应届": "（1）考生身份为应届毕业生的，需提供报名推荐表原件（附件2，加盖院系党委公章）。",
+            "英语六级": "（3）报考人事司驻外储备人员职位（职位代码：200110003001）的，需提供大学英语六级等外语水平等级证书复印件。",
             "工作经历": "（4）2025年10月报考后，学习、工作经历和奖惩情况有变化的，请补充说明，并提供相关证明材料。"
           }
         },
@@ -905,7 +924,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35687833/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-07-31",
@@ -919,6 +938,7 @@
             "硕士",
             "工作经历"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "硕士": "1.研究生及以上学历或硕士学位，年龄原则上不超过40周岁；",
@@ -959,7 +979,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35687717/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -972,6 +992,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -1021,7 +1042,7 @@
     },
     "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/zpgg/202607/t20260727_5984486.shtml": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1032,6 +1053,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -1056,7 +1078,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260728_581063.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1067,6 +1089,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -1080,7 +1103,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260728_581062.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1091,6 +1114,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -1104,7 +1128,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35693219/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1117,6 +1141,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2027"
           ],
@@ -1135,7 +1160,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35700418/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1146,6 +1171,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -1159,7 +1185,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260729_581143.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1170,6 +1196,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -1505,7 +1532,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35726023/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1520,6 +1547,7 @@
           ],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "宣传文化": "报纸在锚定发展方向、聚焦改革实践、传递一线声音、弘扬企业文化等方面发挥着不可替代的作用，获得了公司内各层级读者的广泛认可，已成为联结各级企业员工的最重要宣传平台。",
@@ -1634,7 +1662,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260731_581269.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1645,6 +1673,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -1658,7 +1687,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202607/t20260731_581268.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1669,6 +1698,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -1682,7 +1712,7 @@
     },
     "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/zpgg/202608/t20260803_5987944.shtml": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1693,6 +1723,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -1717,7 +1748,7 @@
     },
     "http://www.ceehe.ceec.net.cn/art/2026/4/27/art_60241_1926.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-05-20",
@@ -1731,6 +1762,7 @@
             "硕士",
             "工作经历"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "硕士": "4.要求具有全日制硕士研究生学历，参加工作时间为3年及以上。",
@@ -1754,7 +1786,7 @@
     },
     "https://www.tsinghua.edu.cn/rsc/info/1044/2013.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": "2026-04-29",
         "registrationEnd": "2026-04-29",
@@ -1771,6 +1803,7 @@
             "应届",
             "中共党员"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "综合文字": "3.参与文字综合工作；",
@@ -1793,7 +1826,7 @@
     },
     "http://www.ceehe.ceec.net.cn/art/2026/1/26/art_60241_1808.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-02-28",
@@ -1806,6 +1839,7 @@
           "qualificationTags": [
             "硕士"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "硕士": "4.要求具有全日制硕士研究生学历，参加工作时间为3年及以上。"
@@ -1825,7 +1859,7 @@
     },
     "https://www.tsinghua.edu.cn/rsc/info/1044/2012.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": "2026-05-07",
         "registrationEnd": "2026-05-07",
@@ -1840,6 +1874,7 @@
           "qualificationTags": [
             "工作经历"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "高校行政": "4、负责实验室智能化管理体系建设，运用智能技术优化实验资源配置、教学效果评估及实验教学管理流程。",
@@ -1862,7 +1897,7 @@
     },
     "https://zwgk.mct.gov.cn/zfxxgkml/rsxx/gwyzkly/202507/t20250704_960996.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1873,6 +1908,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -1886,7 +1922,7 @@
     },
     "https://www.tsinghua.edu.cn/rsc/info/1044/1983.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": "2025-12-29",
         "registrationEnd": "2025-12-29",
@@ -1907,6 +1943,7 @@
             "应届",
             "中共党员"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "综合文字": "3.参与文字综合工作；",
@@ -1934,7 +1971,7 @@
     },
     "https://www.tsinghua.edu.cn/rsc/info/1044/1953.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": "2025-05-06",
         "registrationEnd": "2025-05-06",
@@ -1949,6 +1986,7 @@
             "应届",
             "中共党员"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "硕士": "2.硕士研究生及以上；",
@@ -1972,7 +2010,7 @@
     },
     "http://www.ceehe.ceec.net.cn/art/2026/3/13/art_60241_1883.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-04-12",
@@ -1985,6 +2023,7 @@
           "qualificationTags": [
             "工作经历"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "工作经历": "1.具有全日制大学本科学历，具备8年以上化工或能源电力行业工作经验，熟悉国家相关法律法规与产业政策，对氢能行业有深刻理解。"
@@ -4195,7 +4234,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202608/t20260818_582359.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -4206,6 +4245,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -4219,7 +4259,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202608/t20260818_582358.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -4230,6 +4270,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -4243,7 +4284,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpfa/202608/t20260819_7201393.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
       "fields": {
         "registrationStart": "2026-08-20",
         "registrationEnd": "2026-08-27",
@@ -4258,6 +4299,7 @@
           "qualificationTags": [
             "硕士"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -5948,6 +5990,203 @@
             "近期照片": "2.本人彩色证件照（JPEG或JPG格式）；",
             "成绩单": "入专业目录（没有专业代码）的，可选择招聘专业中相近专业报考，所学专业必修课程须与报考岗位要求的专业主要课程基本一致，并在资格审核时提供毕业证书、所学专业课程成绩单（须教务部门盖章）、院校出具的课程对比情况说明及毕业院校设置专业的依据等材料。",
             "就业推荐表": "4.毕业证、学位证书（PDF格式，港澳台学习、国外留学人员需提供教育部留学服务中心国（境）外学历、学位认证书，应届毕业生需提供毕业生就业推荐表或在读证明）；"
+          }
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35816109/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "中电信人工智能科技（北京）有限公司2027届校园招聘全面启动－国务院国有资产监督管理委员会",
+            "2027届": "中电信人工智能科技（北京）有限公司2027届校园招聘全面启动－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35816071/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "中国电信集团2027年度校园招聘全面启动－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260827/t0035_1443369.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
+      "fields": {
+        "registrationStart": "2026-09-04",
+        "registrationEnd": "2026-09-04",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间从即日起至2026年9月4日17:00止",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "个人简历"
+          ],
+          "evidence": {
+            "报名表": "本次招聘不接受其他格式的报名表或者个人简历，未按上述要求提交报名材料的，视作无效报名。",
+            "学历学位证明": "附件《上海市经济和信息化发展研究中心应聘人员基本情况表》（本人签名必须手写），填妥后将《基本情况表》、身份证（正反面）、学历学位证书（如为国外大学毕业需提供留服认证）、职称证书、个人研究成果证明及其他能反映个人专业素质的相关材料，扫描并合并",
+            "个人简历": "本次招聘不接受其他格式的报名表或者个人简历，未按上述要求提交报名材料的，视作无效报名。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260827/t0035_1443365.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "学历学位证明",
+            "资格证书"
+          ],
+          "evidence": {
+            "学历学位证明": "（1）提供简历中所涉及材料的佐证材料，包括且不限于身份证、居住证、学历学位证书（境外获学历学位须同时提交教育部认证材料）、职称证明、职业资格证书以及岗位要求相关的其他必要材料的扫描件。",
+            "资格证书": "（1）提供简历中所涉及材料的佐证材料，包括且不限于身份证、居住证、学历学位证书（境外获学历学位须同时提交教育部认证材料）、职称证明、职业资格证书以及岗位要求相关的其他必要材料的扫描件。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260827/t0035_1443331.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
+      "fields": {
+        "registrationStart": "2026-08-27",
+        "registrationEnd": "2026-09-04",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "三、报名时间和方式 （一）报名时间：2026年8月27日至2026年9月4日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "个人简历"
+          ],
+          "evidence": {
+            "报名表": "本次公开招聘报名不接受其他格式报名表或个人简历等，应聘人员应仔细阅读《上海体育科学研究所（上海市反兴奋剂中心）2026年第二轮公开招聘公告》，并按规定要求报名。",
+            "个人简历": "本次公开招聘报名不接受其他格式报名表或个人简历等，应聘人员应仔细阅读《上海体育科学研究所（上海市反兴奋剂中心）2026年第二轮公开招聘公告》，并按规定要求报名。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260826/t0035_1443333.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-27T12:32:35+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-09-25",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名截止时间：即日起至 9月25日止",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "（5）学历（学位）证书（暂未拿到学历学位的应届毕业生，需提供学校盖章的成绩单及学信网学籍证明；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学信网证明",
+            "个人简历",
+            "资格证书",
+            "成绩单"
+          ],
+          "evidence": {
+            "报名表": "（1）《公开招聘报名表》（附件2）并填写完整",
+            "学信网证明": "（5）学历（学位）证书（暂未拿到学历学位的应届毕业生，需提供学校盖章的成绩单及学信网学籍证明；",
+            "个人简历": "（2）个人简历",
+            "资格证书": "持海外学历的，需提供海外学历证书和教育部留学生服务中心出具的学历认证报告）、专业技术职称证书（聘书）、职业资格证书、个人荣誉证书等相关材料。",
+            "成绩单": "（5）学历（学位）证书（暂未拿到学历学位的应届毕业生，需提供学校盖章的成绩单及学信网学籍证明；"
           }
         }
       }
