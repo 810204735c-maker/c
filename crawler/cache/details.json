@@ -6347,6 +6347,179 @@
           "evidence": {}
         }
       }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260828/t0035_1443396.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-28T14:57:01+08:00",
+      "fields": {
+        "registrationStart": "2026-08-31",
+        "registrationEnd": "2026-09-04",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "三、报名时间和方式 （一）报名时间：2026年8月31日至2026年9月4日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "个人简历"
+          ],
+          "evidence": {
+            "报名表": "本次公开招聘报名不接受其他格式报名表或个人简历等，应聘人员应仔细阅读《上海市竞技体育训练管理中心2026年公开招聘公告》，并按规定要求报名。",
+            "个人简历": "本次公开招聘报名不接受其他格式报名表或个人简历等，应聘人员应仔细阅读《上海市竞技体育训练管理中心2026年公开招聘公告》，并按规定要求报名。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260828/t0035_1443398.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-28T14:57:01+08:00",
+      "fields": {
+        "registrationStart": "2026-09-20",
+        "registrationEnd": "2026-09-20",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "四、招聘办法 （一）报名时间 自公告发布之日起至2026年9月20日17：00止",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "新媒体"
+          ],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届",
+            "工作经历"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "新媒体": "熟悉Figma、Sketch等交互设计工具，具备新媒体艺术设计的创新思维与制作能力；",
+            "硕士": "（1）38周岁及以下（1988年1月1日及以后出生），研究生学历，硕士及以上学位，电子科学与技术、信息与通信工程、计算机科学与技术、电子信息、软件工程、智能科学与技术、数学专业，身体健康；",
+            "应届": "（2）外省市户籍非应届毕业人员还需提交一年以上且在有效期内的上海市居住证，2026年应届毕业生或根据相关规定可视作为应届毕业生的外省市人员无需提交。",
+            "工作经历": "（5）2年以上相关工作经验，熟悉人工智能领域的前沿技术与应用场景规划，对人工智能发展有敏锐的洞察能力与前瞻性思维，有文旅数字化、智慧景区、AI应用项目实践或相关工作经验者优先。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "学信网证明",
+            "个人简历",
+            "成绩单"
+          ],
+          "evidence": {
+            "网上报名": "本次报名采取网上报名方式进行，请关注“东方文化人才”微信公众号，点击“人才考试”菜单栏，选择“事业单位招考”进入报名系统，为保证及时获取报名审核结果及后续相关通知，请允许报名小程序的“通知发送功能”。",
+            "学信网证明": "（1）国内院校毕业人员：《教育部学历证书电子注册备案表》（详见“学信网”），并同时提供所有学历证明、学位证明；",
+            "个人简历": "1.为提高报名成功率，建议应聘人员先行检查报名系统中个人简历完整性及相关证明材料是否已全部上传成功，确认无误后再点击报名。",
+            "成绩单": "2026年本市事业单位公开招聘集中笔试成绩单，根据所报岗位要求必须提供的语言能力、专业技术职称、职业技能证书或其它相关材料，详见岗位说明及招聘条件。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260828/t0035_1443394.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-28T14:57:01+08:00",
+      "fields": {
+        "registrationStart": "2026-09-30",
+        "registrationEnd": "2026-09-30",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间：即日起至2026年 9月30日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "个人简历"
+          ],
+          "evidence": {
+            "个人简历": "应聘者请将个人简历、学历证明及其他资格证书等材料以邮件形式发送至我院人事部邮箱：tjkqhr@tongji.edu.cn，邮件名称：应聘岗位+姓名。"
+          }
+        }
+      }
+    },
+    "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpgs/202608/t20260828_7206044.htm": {
+      "status": "ok",
+      "fetchedAt": "2026-08-28T14:57:01+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "新媒体"
+          ],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "新媒体": "新媒体矩阵"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [],
+          "evidence": {
+            "网上报名": "事业单位公开招聘考试报名平台"
+          }
+        }
+      }
+    },
+    "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpgs/202608/t20260828_7206041.htm": {
+      "status": "ok",
+      "fetchedAt": "2026-08-28T14:57:01+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "新媒体"
+          ],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "新媒体": "新媒体矩阵"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [],
+          "evidence": {
+            "网上报名": "事业单位公开招聘考试报名平台"
+          }
+        }
+      }
     }
   }
 }
