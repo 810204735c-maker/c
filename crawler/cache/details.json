@@ -4188,7 +4188,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260819_34047708.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-28T08:49:58+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -4201,6 +4201,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -4330,7 +4331,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260818_34046818.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-28T08:49:58+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -4343,6 +4344,7 @@
           "qualificationTags": [
             "硕士"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -4374,7 +4376,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260818_34046816.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-28T08:49:58+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -4388,6 +4390,7 @@
             "硕士",
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -4422,7 +4425,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260818_34046813.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-20T07:40:50+08:00",
+      "fetchedAt": "2026-08-28T08:49:58+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -4433,6 +4436,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -4465,7 +4469,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35792139/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-21T07:43:24+08:00",
+      "fetchedAt": "2026-08-28T08:49:58+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -4476,6 +4480,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -6188,6 +6193,158 @@
             "资格证书": "持海外学历的，需提供海外学历证书和教育部留学生服务中心出具的学历认证报告）、专业技术职称证书（聘书）、职业资格证书、个人荣誉证书等相关材料。",
             "成绩单": "（5）学历（学位）证书（暂未拿到学历学位的应届毕业生，需提供学校盖章的成绩单及学信网学籍证明；"
           }
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35819287/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-28T08:49:58+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202608/t20260826_582824.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-28T08:49:58+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260827_4839132.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-28T08:49:58+08:00",
+      "fields": {
+        "registrationStart": "2026-08-31",
+        "registrationEnd": "2026-09-07",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "（一）报名 1.网上报名及打印报名表 报名时间：2026年8月31日10:00—2026年9月7日16:00 报名网址：北京卫生人才网（bjwsrc.cn）区卫健委公开招聘栏 报名人员需按要求填报个人信息和岗位信息",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "1.毕业生要求：面向应届毕业生招聘的岗位，限列入国家统一招生计划，培养方式为非定向（不含定向、委培），按时毕业并获得相应学历学位，毕业证书落款年度2年内（2025年、2026年）的高校毕业生，及2024年离校未就业（未与任何单位签订合同且无"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "网上报名": "1.网上报名及打印报名表",
+            "报名表": "1.网上报名及打印报名表",
+            "就业推荐表": "（5）2026年度应届毕业生须提供学历证书、学位证书或就业推荐表（需校级毕业生就业主管部门盖章，就业推荐表上未注明“统招”或“非定向”的，须提供统招证明或非定向证明）、存档证明、统招证明或非定向证明。"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260827_4839062.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-28T08:49:58+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届",
+            "教师资格证"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "（一）“应届毕业生”岗位，要求列入国家统一招生计划（不含委培生、定向生）的普通高等院校的应届毕业生（包含毕业证书落款年度为2025年、2026年的高校毕业生，以及2024年离校未就业的高校毕业生）。",
+            "教师资格证": "上岗前应取得招聘岗位所需级别和学科的教师资格证；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "资格证书"
+          ],
+          "evidence": {
+            "报名表": "（二）打印报名表",
+            "学历学位证明": "8.聘用前不能取得毕业证、学位证、相应教师资格证的；",
+            "资格证书": "上岗前应取得招聘岗位所需级别和学科的教师资格证；"
+          }
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202608/t20260826_582825.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-28T08:49:58+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     }
