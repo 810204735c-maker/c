@@ -2257,7 +2257,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202608/t20260805_581569.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T07:42:03+08:00",
+      "fetchedAt": "2026-08-29T12:11:06+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -2268,6 +2268,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -2281,7 +2282,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35738169/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T07:42:03+08:00",
+      "fetchedAt": "2026-08-29T12:11:06+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -2292,6 +2293,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -2691,7 +2693,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35769358/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T07:42:03+08:00",
+      "fetchedAt": "2026-08-29T12:11:06+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -2702,6 +2704,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -2715,7 +2718,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202608/t20260810_581810.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T07:42:03+08:00",
+      "fetchedAt": "2026-08-29T12:11:06+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -2726,6 +2729,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -2739,7 +2743,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202608/t20260810_581811.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T07:42:03+08:00",
+      "fetchedAt": "2026-08-29T12:11:06+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -2750,6 +2754,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -4494,7 +4499,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpfa/202608/t20260821_7202088.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T07:42:03+08:00",
+      "fetchedAt": "2026-08-29T12:11:06+08:00",
       "fields": {
         "registrationStart": "2026-08-21",
         "registrationEnd": "2026-08-27",
@@ -4507,6 +4512,7 @@
           ],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -4536,7 +4542,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260821_4831284.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T07:42:03+08:00",
+      "fetchedAt": "2026-08-29T12:11:06+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2025-01-01",
@@ -4550,6 +4556,7 @@
             "应届",
             "教师资格证"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "应届": "非北京生源应届毕业生须符合北京市引进毕业生的相关政策。",
@@ -4576,7 +4583,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260821_4831251.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T07:42:03+08:00",
+      "fetchedAt": "2026-08-29T12:11:06+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2025-01-01",
@@ -4589,6 +4596,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "应届": "列入国家统一招生计划，培养方式为非定向（不含定向、委培），按时毕业并获得相应学历学位，毕业证书落款年度2年内（2025年、2026年）的普通高等院校应届毕业生，及2024年离校未就业（未与任何单位签订合同且无缴纳社会保险记录）的毕业生。"
@@ -4615,7 +4623,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35795890/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T07:42:03+08:00",
+      "fetchedAt": "2026-08-29T12:11:06+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -4628,6 +4636,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2027"
           ],
@@ -4678,7 +4687,7 @@
     },
     "https://hrss.jl.gov.cn/gg/202608/t20260821_9685989.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T07:42:03+08:00",
+      "fetchedAt": "2026-08-29T12:11:06+08:00",
       "fields": {
         "registrationStart": "2026-09-07",
         "registrationEnd": "2026-09-11",
@@ -4691,6 +4700,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "应届": "符合岗位资格条件的2026年普通高校应届毕业生报考不受年龄限制。"
@@ -6517,6 +6527,51 @@
           "materialTags": [],
           "evidence": {
             "网上报名": "事业单位公开招聘考试报名平台"
+          }
+        }
+      }
+    },
+    "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260828_34052477.html": {
+      "status": "ok",
+      "fetchedAt": "2026-08-29T12:11:06+08:00",
+      "fields": {
+        "registrationStart": "2026-12-30",
+        "registrationEnd": "2026-12-30",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月30日17:00",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "编辑出版"
+          ],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "编辑出版": "《湖南社会科学》编辑出版;",
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "网上报名": "采取网上报名的方式。",
+            "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名,PDF格式;",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);"
           }
         }
       }
