@@ -4729,7 +4729,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4943820.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T19:21:45+08:00",
+      "fetchedAt": "2026-08-30T09:17:49+08:00",
       "fields": {
         "registrationStart": "2026-08-25",
         "registrationEnd": "2026-09-30",
@@ -4743,6 +4743,7 @@
             "应届",
             "中共党员"
           ],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -4778,49 +4779,13 @@
       }
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4942462.html": {
-      "status": "ok",
-      "fetchedAt": "2026-08-22T19:21:45+08:00",
-      "fields": {
-        "registrationStart": "2026-08-27",
-        "registrationEnd": "2026-09-02",
-        "deadlineConfidence": "high",
-        "deadlineEvidence": "报名时间为2026年8月27日0:00至2026年9月2日23:59",
-        "profileHints": {
-          "schemaVersion": 3,
-          "roleTags": [],
-          "majorTags": [],
-          "qualificationTags": [
-            "应届"
-          ],
-          "graduateYears": [],
-          "evidence": {
-            "应届": "2026年应届毕业生和社会上具有国家承认学历的人员。"
-          }
-        },
-        "applicationHints": {
-          "schemaVersion": 1,
-          "methods": [
-            "邮箱报名"
-          ],
-          "materialTags": [
-            "报名表",
-            "学历学位证明",
-            "资格证书",
-            "成绩单"
-          ],
-          "evidence": {
-            "邮箱报名": "请应聘人员将报名材料发送至邮箱zzrsk08@163.com。",
-            "报名表": "1.《广东省事业单位公开招聘人员报名表》；",
-            "学历学位证明": "3.毕业证、学位证书（PDF格式，毕业证、学位证书各1个文件，国（境）外留学回国人员还需提供教育部留学服务中心国（境）外学历、学位认证书）；",
-            "资格证书": "4.岗位要求的其他条件对应的佐证材料：如专业技术资格证书、执业资格证书、业绩成果证明材料等。",
-            "成绩单": "列入专业目录（没有专业代码）的，可选择招聘专业中相近专业报考，所学专业必修课程须与报考岗位要求的专业主要课程基本一致，并在资格审核时提供毕业证书、所学专业课程成绩单（须教务处盖章）、院校出具的课程对比情况说明及毕业院校设置专业的依据等材料。"
-          }
-        }
-      }
+      "status": "error",
+      "fetchedAt": "2026-08-30T09:17:49+08:00",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4940941.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T19:21:45+08:00",
+      "fetchedAt": "2026-08-30T09:17:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -4833,6 +4798,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "应届": "2026年应届毕业生和社会上具有国家承认学历的人员。"
@@ -4861,7 +4827,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4942125.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T19:21:45+08:00",
+      "fetchedAt": "2026-08-30T09:17:49+08:00",
       "fields": {
         "registrationStart": "2026-08-20",
         "registrationEnd": "2026-08-27",
@@ -4874,6 +4840,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "应届": "2026年应届毕业生和社会上具有国家承认学历的人员。"
@@ -4975,7 +4942,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4878994.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T19:21:45+08:00",
+      "fetchedAt": "2026-08-30T09:17:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -4986,6 +4953,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -4999,7 +4967,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4848983.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T19:21:45+08:00",
+      "fetchedAt": "2026-08-30T09:17:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -5010,6 +4978,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [
             "2026"
           ],
@@ -5027,7 +4996,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260821/t0035_1443233.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fetchedAt": "2026-08-30T09:17:49+08:00",
       "fields": {
         "registrationStart": "2026-09-30",
         "registrationEnd": "2026-09-30",
@@ -5040,6 +5009,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "应届": "外省市高级专业技术人员、符合条件的留学回国人员和应届毕业生，不受本市居住证满一年的限制；"
@@ -5055,7 +5025,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260819/t0035_1443195.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fetchedAt": "2026-08-30T09:17:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-08-31",
@@ -5066,6 +5036,7 @@
           "roleTags": [],
           "majorTags": [],
           "qualificationTags": [],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {}
         },
@@ -5083,7 +5054,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260817/t0035_1443087.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fetchedAt": "2026-08-30T09:17:49+08:00",
       "fields": {
         "registrationStart": "2026-08-28",
         "registrationEnd": "2026-08-28",
@@ -5096,6 +5067,7 @@
           "qualificationTags": [
             "工作经历"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "工作经历": "医师：临床医学本科或以上学历，具备执业医师资格，2年或以上二甲或以上医院相关专业工作经验，具有规培证书优先。"
@@ -5115,7 +5087,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260817/t0035_1443089.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fetchedAt": "2026-08-30T09:17:49+08:00",
       "fields": {
         "registrationStart": "2026-08-25",
         "registrationEnd": "2026-08-25",
@@ -5128,6 +5100,7 @@
           "qualificationTags": [
             "硕士"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "硕士": "2.1医师岗位：具有医学硕士研究生以上学历和学位，具有医师资格证，从事皮肤病相关专业，2010年（含）以后毕业的需具有2010年前取得的中级职称资格或住院医师规范化培训合格证书，独立工作能力强，有良好的沟通能力、团队协作能力和较强的科研能力"
@@ -5149,7 +5122,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260813/t0035_1443026.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fetchedAt": "2026-08-30T09:17:49+08:00",
       "fields": {
         "registrationStart": "2026-08-21",
         "registrationEnd": "2026-08-21",
@@ -5162,6 +5135,7 @@
           "qualificationTags": [
             "硕士"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "硕士": "临床医学相关专业硕士及以上学历/学位，博士学历/学位优先，具有医师资格证书和住院医师规培合格证书，独立工作能力强，有良好的沟通能力、团队协作精神和较强的科研能力，部分紧缺科室视情况降低学历要求。"
@@ -5181,7 +5155,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260813/t0035_1443025.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-22T19:34:08+08:00",
+      "fetchedAt": "2026-08-30T09:17:49+08:00",
       "fields": {
         "registrationStart": "2026-09-30",
         "registrationEnd": "2026-09-30",
@@ -5196,6 +5170,7 @@
           "qualificationTags": [
             "应届"
           ],
+          "englishRequirements": [],
           "graduateYears": [],
           "evidence": {
             "高校行政": "教学管理岗位、会计岗位、实训管理岗位等职能教辅岗位学校统一组织组织面试、考核；",
