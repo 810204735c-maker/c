@@ -5555,7 +5555,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260824_4834693.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-25T07:40:10+08:00",
+      "fetchedAt": "2026-09-01T09:51:08+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -5592,7 +5592,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260824_4834648.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-25T07:40:10+08:00",
+      "fetchedAt": "2026-09-01T09:51:08+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -5638,7 +5638,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260824/t0035_1443213.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-25T07:40:10+08:00",
+      "fetchedAt": "2026-09-01T09:51:08+08:00",
       "fields": {
         "registrationStart": "2026-09-01",
         "registrationEnd": "2026-09-01",
@@ -6610,6 +6610,343 @@
           "methods": [],
           "materialTags": [],
           "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35841981/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "航空工业沈飞2027届校园招聘正式启动－国务院国有资产监督管理委员会",
+            "2027届": "航空工业沈飞2027届校园招聘正式启动－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35841850/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "校园招聘！",
+            "2027届": "中远海运船员公司招录2027届航海类专业毕业生－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4949166.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "高校行政"
+          ],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "高校行政": "广东石油化工学院2026年公开招聘辅导员（第二批）公告-广东省人力资源和社会保障厅",
+            "硕士": "油化工集团公司、中国石油天然气集团公司、中国海洋石油集团有限公司共建的公办普通本科高校，华南地区唯一一所石油化工特色高校，教育部“卓越工程师教育培养计划”试点高校，广东省高水平理工科大学建设高校，硕士学位授予单位，博士学位授予立项建设单位。",
+            "应届": "2026年应届毕业生和社会上具有国家承认学历的人员。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "党员证明",
+            "工作经历证明",
+            "近期照片",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "报名表": "1.《广东省事业单位公开招聘人员报名表》；",
+            "学历学位证明": "4.毕业证、学位证书（PDF格式，毕业证、学位证书各1个文件，国（境）外留学回国人员还需提供教育部留学服务中心国（境）外学历、学位认证书）；",
+            "党员证明": "（2）近三个月内隶属基层党组织开具的党员证明。",
+            "工作经历证明": "（3）学生干部工作经历证明材料；",
+            "近期照片": "2.本人彩色证件照（JPEG或JPG格式）；",
+            "成绩单": "国（境）外留学人员报名时未取得毕业证书的提供中、外文成绩单和在读证明。",
+            "就业推荐表": "（1）应届毕业生提交就业推荐表。"
+          }
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35842048/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "中国航空工业集团2027届校园招聘正式启动－国务院国有资产监督管理委员会",
+            "2027届": "中国航空工业集团2027届校园招聘正式启动－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35842071/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "中国航天科工二院二十三所2027届校园招聘正式开启－国务院国有资产监督管理委员会",
+            "2027届": "中国航天科工二院二十三所2027届校园招聘正式开启－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260901/t0035_1443446.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "招聘报名截止时间为2026年12月31日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "中共党员"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "中共党员": "2.中共党员（含中共预备党员），政治立场坚定，深刻领悟“两个确立”的决定性意义，增强“四个意识”，坚定“四个自信”，坚决做到“两个维护”，自觉在思想上政治上行动上同以习近平同志为核心的党中央保持高度一致。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "个人简历",
+            "近期照片"
+          ],
+          "evidence": {
+            "报名表": "（一）填写“上海市团校应聘人员报名表”（详见附件）。",
+            "个人简历": "有应聘意向者下载并填写《上海市团校应聘人员报名表》（详见附件），连同个人简历、近期免冠正面证件电子照片、身份证（正反面）、学历（学位）证书、学术成果等各类证明材料打包压缩发送至电子邮箱：shstxzp@shstx.cn，文件和邮件均命名为：",
+            "近期照片": "有应聘意向者下载并填写《上海市团校应聘人员报名表》（详见附件），连同个人简历、近期免冠正面证件电子照片、身份证（正反面）、学历（学位）证书、学术成果等各类证明材料打包压缩发送至电子邮箱：shstxzp@shstx.cn，文件和邮件均命名为："
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260831_4843483.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-09-09",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "四、报名时间及方式 （一）报名截止时间 2026年9月9日 （二）报名方式 应聘人员填写《首都医科大学附属北京世纪坛医院应聘登记表》（见附件2）",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "成绩单"
+          ],
+          "evidence": {
+            "报名表": "应聘人员填写《首都医科大学附属北京世纪坛医院应聘登记表》（见附件2），并将学历学位证书、职称证书、主要业绩成果及获奖证书等电子版以压缩包形式一并发送到bjsjtzp@163.com邮箱，邮件标题为：“姓名+职称+专业”。",
+            "学历学位证明": "应聘人员填写《首都医科大学附属北京世纪坛医院应聘登记表》（见附件2），并将学历学位证书、职称证书、主要业绩成果及获奖证书等电子版以压缩包形式一并发送到bjsjtzp@163.com邮箱，邮件标题为：“姓名+职称+专业”。",
+            "成绩单": "国外院校应聘人员提供翻译过的专业课程目录及成绩单；"
+          }
+        }
+      }
+    },
+    "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260831_34053513.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "中共党员"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "中共党员": "(4)招聘岗位政治面貌要求是中共党员(含预备党员)的,应聘人员须提供所在基层党组织开具的党员身份证明(加盖党组织公章,自报名之日起前6个月内开具的党员身份证明有效)。",
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "网上报名": "采取网上报名方式,每人限报一个岗位,多报则取消应聘资格。",
+            "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2)一式一份,须在承诺栏手写签名。",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件及复印件一式一份,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章)。",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件及复印件一式一份,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章)。",
+            "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件及复印件一式一份,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章)。"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260831_4843445.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fields": {
+        "registrationStart": "2026-09-03",
+        "registrationEnd": "2026-09-09",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "（一）网上报名及资格初审 1.报名时间：2026年9月3日9:00至2026年9月9日17:00",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "1.学历要求为硕士研究生及以上的岗位：",
+            "应届": "1.应届毕业生，限列入国家统一招生计划（不含委培生、定向生）的普通高等学校毕业生，按时毕业并取得相应学历学位，毕业证书落款年度2年内（2025年、2026年）的高校毕业生，及2024年离校未就业（未与任何单位签订合同且无社会保险缴纳记录）毕"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "网上报名": "采取网上报名、资格初审与现场资格复审的方式。",
+            "报名表": "（1）报名表（见附件2，填写打印后在指定位置由本人签字）；",
+            "身份证": "（2）身份证正反面扫描件（报名与考试时使用的身份证必须一致）；",
+            "成绩单": "（5）2026年应届毕业生需提供学校就业主管部门盖章的毕业生就业推荐表（须注明“非定向”，未注明须开具证明）、所学全部课程成绩单（学校教务部门盖章）等材料的扫描件；",
+            "就业推荐表": "（5）2026年应届毕业生需提供学校就业主管部门盖章的毕业生就业推荐表（须注明“非定向”，未注明须开具证明）、所学全部课程成绩单（学校教务部门盖章）等材料的扫描件；"
+          }
         }
       }
     }
