@@ -4025,7 +4025,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpfa/202608/t20260817_7200696.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fetchedAt": "2026-09-02T09:03:42+08:00",
       "fields": {
         "registrationStart": "2026-08-18",
         "registrationEnd": "2026-08-25",
@@ -4071,7 +4071,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260818_4827515.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fetchedAt": "2026-09-02T09:03:42+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-08-27",
@@ -4100,7 +4100,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260818_4827546.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fetchedAt": "2026-09-02T09:03:42+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-09-06",
@@ -4146,7 +4146,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202608/t20260818_7201045.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fetchedAt": "2026-09-02T09:03:42+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -5706,7 +5706,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpgs/202608/t20260825_7203930.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fetchedAt": "2026-09-02T09:03:42+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -5739,7 +5739,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260825_34050452.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fetchedAt": "2026-09-02T09:03:42+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -5784,7 +5784,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260825_34050455.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fetchedAt": "2026-09-02T09:03:42+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -5833,7 +5833,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4946438.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fetchedAt": "2026-09-02T09:03:42+08:00",
       "fields": {
         "registrationStart": "2026-08-31",
         "registrationEnd": "2026-09-04",
@@ -5865,7 +5865,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260825_4835587.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fetchedAt": "2026-09-02T09:03:42+08:00",
       "fields": {
         "registrationStart": "2026-08-27",
         "registrationEnd": "2026-09-04",
@@ -5905,7 +5905,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260825/t0035_1443269.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fetchedAt": "2026-09-02T09:03:42+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-09-08",
@@ -5938,7 +5938,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260825/t0035_1443267.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fetchedAt": "2026-09-02T09:03:42+08:00",
       "fields": {
         "registrationStart": "2026-09-11",
         "registrationEnd": "2026-09-11",
@@ -5979,7 +5979,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4945757.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-26T07:41:32+08:00",
+      "fetchedAt": "2026-09-02T09:03:42+08:00",
       "fields": {
         "registrationStart": "2026-09-01",
         "registrationEnd": "2026-09-30",
@@ -6947,6 +6947,129 @@
             "成绩单": "（5）2026年应届毕业生需提供学校就业主管部门盖章的毕业生就业推荐表（须注明“非定向”，未注明须开具证明）、所学全部课程成绩单（学校教务部门盖章）等材料的扫描件；",
             "就业推荐表": "（5）2026年应届毕业生需提供学校就业主管部门盖章的毕业生就业推荐表（须注明“非定向”，未注明须开具证明）、所学全部课程成绩单（学校教务部门盖章）等材料的扫描件；"
           }
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35848177/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-02T09:03:42+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "2027届": "航天科工2027届秋季招聘全面启动－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35848028/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-02T09:03:42+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "中电信量子集团2027校园招聘正式启动－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35848048/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-02T09:03:42+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "六、报名时间 2026年12月31日 17:00截止 七、报名方式 登录东方航空招聘官网（网址：http://job.ceair.com）",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届"
+          ],
+          "englishRequirements": [
+            "英语四级",
+            "英语六级"
+          ],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "1.应届硕士研究生及以上学历（学习优异可适当放宽至本科），院校为理工类、综合类院校；",
+            "应届": "登录东方航空招聘官网（网址：http://job.ceair.com），完成实名注册后选择“校园招聘”栏目，在所属单位栏点击“东方航空技术有限公司”，并根据职位名称点击“立即申请”进行报名。",
+            "英语四级": "3.大学英语四级，雅思5.5、托福70分可相当于大学英语四级（不含家考）；",
+            "英语六级": "3.大学英语六级，英语专业四级、雅思6.0、托福80分可相当于大学英语六级（不含家考）；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "语言成绩"
+          ],
+          "evidence": {
+            "语言成绩": "3.大学英语四级，雅思5.5、托福70分可相当于大学英语四级（不含家考）；"
+          }
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202608/t20260831_583080.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-02T09:03:42+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     }
