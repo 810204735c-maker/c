@@ -2257,7 +2257,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202608/t20260805_581569.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-29T12:11:06+08:00",
+      "fetchedAt": "2026-09-06T09:02:45+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -2718,7 +2718,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202608/t20260810_581810.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-29T12:11:06+08:00",
+      "fetchedAt": "2026-09-06T09:02:45+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -2743,7 +2743,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202608/t20260810_581811.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-29T12:11:06+08:00",
+      "fetchedAt": "2026-09-06T09:02:45+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -4542,7 +4542,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260821_4831284.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-29T12:11:06+08:00",
+      "fetchedAt": "2026-09-06T09:02:45+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2025-01-01",
@@ -4583,7 +4583,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260821_4831251.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-29T12:11:06+08:00",
+      "fetchedAt": "2026-09-06T09:02:45+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2025-01-01",
@@ -4687,7 +4687,7 @@
     },
     "https://hrss.jl.gov.cn/gg/202608/t20260821_9685989.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-29T12:11:06+08:00",
+      "fetchedAt": "2026-09-06T09:02:45+08:00",
       "fields": {
         "registrationStart": "2026-09-07",
         "registrationEnd": "2026-09-11",
@@ -6545,7 +6545,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260828_34052477.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-29T12:11:06+08:00",
+      "fetchedAt": "2026-09-06T09:02:45+08:00",
       "fields": {
         "registrationStart": "2026-12-30",
         "registrationEnd": "2026-12-30",
