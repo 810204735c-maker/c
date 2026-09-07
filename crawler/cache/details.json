@@ -4728,55 +4728,9 @@
       }
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4943820.html": {
-      "status": "ok",
-      "fetchedAt": "2026-08-30T09:17:49+08:00",
-      "fields": {
-        "registrationStart": "2026-08-25",
-        "registrationEnd": "2026-09-30",
-        "deadlineConfidence": "high",
-        "deadlineEvidence": "首批报名时间为2026年8月25日0:00至2026年9月30日23:59",
-        "profileHints": {
-          "schemaVersion": 3,
-          "roleTags": [],
-          "majorTags": [],
-          "qualificationTags": [
-            "应届",
-            "中共党员"
-          ],
-          "englishRequirements": [],
-          "graduateYears": [
-            "2026"
-          ],
-          "evidence": {
-            "应届": "2026年应届毕业生和社会上具有国家承认学历的人员。",
-            "中共党员": "（1）岗位要求为中共党员（含预备党员）的，需上传近六个月内组织关系所在党组织开具的党员证明（PDF格式）。",
-            "2026届": "4.2026届国内普通高校应届毕业生（非在职）须于2026年12月31日前取得相应毕业证书和学位证书（以毕业证书、学位证书落款时间为准）及岗位要求的其他证明材料。"
-          }
-        },
-        "applicationHints": {
-          "schemaVersion": 1,
-          "methods": [
-            "网上报名"
-          ],
-          "materialTags": [
-            "报名表",
-            "学历学位证明",
-            "党员证明",
-            "近期照片",
-            "成绩单",
-            "就业推荐表"
-          ],
-          "evidence": {
-            "网上报名": "应聘人员请登录“广东建设职业技术学院招聘报名系统”（https://recruit.gdcvi.edu.cn）报名。",
-            "报名表": "1.《广东省事业单位公开招聘人员报名表》；",
-            "学历学位证明": "4.毕业证、学位证书（PDF格式，毕业证、学位证书各1个文件，国（境）外留学回国人员还需提供教育部留学服务中心国（境）外学历、学位认证书）；",
-            "党员证明": "（1）岗位要求为中共党员（含预备党员）的，需上传近六个月内组织关系所在党组织开具的党员证明（PDF格式）。",
-            "近期照片": "2.本人彩色证件照（JPEG或JPG格式）；",
-            "成绩单": "（3）以相近专业报考的，还需提供所学专业课程成绩单、课程对比情况说明及毕业院校设置专业的依据等材料（PDF格式）。",
-            "就业推荐表": "（2）未取得学历、学位证书的应届博士毕业生须提交毕业生就业推荐表、教育部学籍验证报告（PDF格式）。"
-          }
-        }
-      }
+      "status": "error",
+      "fetchedAt": "2026-09-07T09:04:41+08:00",
+      "error": "The read operation timed out"
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4942462.html": {
       "status": "ok",
@@ -4864,7 +4818,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4942125.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-30T09:17:49+08:00",
+      "fetchedAt": "2026-09-07T09:04:41+08:00",
       "fields": {
         "registrationStart": "2026-08-20",
         "registrationEnd": "2026-08-27",
@@ -4979,7 +4933,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4878994.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-30T09:17:49+08:00",
+      "fetchedAt": "2026-09-07T09:04:41+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -5004,7 +4958,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4848983.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-30T09:17:49+08:00",
+      "fetchedAt": "2026-09-07T09:04:41+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -5033,7 +4987,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260821/t0035_1443233.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-30T09:17:49+08:00",
+      "fetchedAt": "2026-09-07T09:04:41+08:00",
       "fields": {
         "registrationStart": "2026-09-30",
         "registrationEnd": "2026-09-30",
@@ -5062,7 +5016,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260819/t0035_1443195.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-30T09:17:49+08:00",
+      "fetchedAt": "2026-09-07T09:04:41+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-08-31",
@@ -5091,7 +5045,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260817/t0035_1443087.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-30T09:17:49+08:00",
+      "fetchedAt": "2026-09-07T09:04:41+08:00",
       "fields": {
         "registrationStart": "2026-08-28",
         "registrationEnd": "2026-08-28",
@@ -5124,7 +5078,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260817/t0035_1443089.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-30T09:17:49+08:00",
+      "fetchedAt": "2026-09-07T09:04:41+08:00",
       "fields": {
         "registrationStart": "2026-08-25",
         "registrationEnd": "2026-08-25",
@@ -7306,6 +7260,38 @@
           ],
           "evidence": {
             "2027届": "中国兵器工业第二〇八研究所2027届高校精英招募－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35866983/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-07T09:04:41+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "航天科工九院2027届校园招聘全面启动－国务院国有资产监督管理委员会",
+            "2027届": "航天科工九院2027届校园招聘全面启动－国务院国有资产监督管理委员会"
           }
         },
         "applicationHints": {
