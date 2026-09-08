@@ -2768,7 +2768,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202608/t20260814_7200009.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-31T09:23:34+08:00",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -2809,7 +2809,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202608/t20260813_7199402.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-31T09:23:34+08:00",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -2895,7 +2895,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202608/t20260804_7195927.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-31T09:23:34+08:00",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -2949,7 +2949,7 @@
     },
     "https://hrss.jl.gov.cn/gg/202608/t20260806_9677623.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-31T09:23:34+08:00",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
       "fields": {
         "registrationStart": "2026-08-17",
         "registrationEnd": "2026-08-21",
@@ -2997,7 +2997,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202607/t20260729_7193452.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-31T09:23:34+08:00",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -3222,7 +3222,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zc/202603/t20260321_7114300.htm": {
       "status": "ok",
-      "fetchedAt": "2026-08-31T09:23:34+08:00",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -3267,7 +3267,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260814_34045173.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-31T09:23:34+08:00",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -3309,7 +3309,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260813_34044608.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-31T09:23:34+08:00",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -3358,7 +3358,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260813_34044609.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-31T09:23:34+08:00",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -3405,7 +3405,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260810_34042836.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-31T09:23:34+08:00",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
       "fields": {
         "registrationStart": "2026-08-12",
         "registrationEnd": "2026-08-19",
@@ -4729,12 +4729,12 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4943820.html": {
       "status": "error",
-      "fetchedAt": "2026-09-07T09:04:41+08:00",
-      "error": "The read operation timed out"
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4942462.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-31T09:23:34+08:00",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
       "fields": {
         "registrationStart": "2026-08-27",
         "registrationEnd": "2026-09-02",
@@ -7299,6 +7299,253 @@
           "methods": [],
           "materialTags": [],
           "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35884296/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35884168/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "中远海运重工开启2027届全国校园招聘－国务院国有资产监督管理委员会",
+            "2027届": "中远海运重工开启2027届全国校园招聘－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35884240/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "中国移动2027校园招聘启动－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260907_34058445.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "（二）报名 1.报名时间 自公告发布之日至2026年12月31日17:00时止",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "2026届": "2.在读高校学生（指2027年及以后毕业的毕业生，2026届毕业生可根据条件报考）；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "现场报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "现场报名": "采取现场报名的方式。",
+            "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书、学信网教育部学历证书电子注册备案表和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章)。",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书、学信网教育部学历证书电子注册备案表和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章)。",
+            "成绩单": "出国留学人员须提供毕业论文和成绩单的原件及中文翻译件;",
+            "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书、学信网教育部学历证书电子注册备案表和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章)。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260907/t0035_1443513.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "（1）硕士研究生及以上学历学位，年龄40周岁及以下。",
+            "应届": "应聘人员为外省市户籍的（应届毕业生除外），须持有上海市居住证一年以上（在有效期内），计算截止时间为2026年12月31日。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "学信网证明",
+            "资格证书"
+          ],
+          "evidence": {
+            "报名表": "报名人员填写《报名表》（见附件），请将报名表、简历、身份证、学历证明及其他资格证书及其他相关材料发送至zp2026@cwidrc.org.cn。",
+            "身份证": "（1）身份证正反面；",
+            "学信网证明": "（4）国内院校应届生须提供《教育部学籍在线验证报告》（PDF版，详见“学信网”）；",
+            "资格证书": "（5）所报岗位要求的专业技术、职业资格证书及其它与任职条件相关的材料。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260904/t0035_1443511.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "身份证"
+          ],
+          "evidence": {
+            "报名表": "（1）干部选拔任用报名表，填写后签字扫描成电子版（详见附件）；",
+            "身份证": "（2）身份证正反面扫描件；"
+          }
+        }
+      }
+    },
+    "https://hrss.jl.gov.cn/gg/202609/t20260907_9702080.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-08T09:14:05+08:00",
+      "fields": {
+        "registrationStart": "2026-09-14",
+        "registrationEnd": "2026-09-18",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "（一）网上报名 1.报名时间：2026年9月14日9:00—9月18日14:30 2.报名网址：http://zp.cpta.com.cn/tyzpwb/?examid=dddCdj 考生需登录报名网站（全国人事考试服务平台）",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "高校行政"
+          ],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "高校行政": "为确保高等教育教学质量，本次招聘所有高校教师岗位（不含辅导员、教辅及其他管理岗位）可设置一般聘用控制分数线，分数为65分。",
+            "应届": "1.定向、委培应届毕业生报考，须征得定向、委培单位同意；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "身份证",
+            "学历学位证明",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "网上报名": "（一）网上报名",
+            "身份证": "年龄计算时间点均以9月7日为准（以本人身份证出生日期为准）。",
+            "学历学位证明": "2026年毕业生尚未取得学历学位证书的，按本校毕业生就业指导部门签署意见的毕业生就业推荐表上的专业进行报考。",
+            "成绩单": "证书专业为一级学科的，需上传成绩单和毕业论文研究方向等佐证材料。",
+            "就业推荐表": "2026年毕业生尚未取得学历学位证书的，按本校毕业生就业指导部门签署意见的毕业生就业推荐表上的专业进行报考。"
+          }
         }
       }
     }
