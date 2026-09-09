@@ -4146,7 +4146,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202608/t20260818_7201045.htm": {
       "status": "ok",
-      "fetchedAt": "2026-09-02T09:03:42+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -4728,9 +4728,55 @@
       }
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4943820.html": {
-      "status": "error",
-      "fetchedAt": "2026-09-08T09:14:05+08:00",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+      "status": "ok",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
+      "fields": {
+        "registrationStart": "2026-08-25",
+        "registrationEnd": "2026-09-30",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "首批报名时间为2026年8月25日0:00至2026年9月30日23:59",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届",
+            "中共党员"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "应届": "2026年应届毕业生和社会上具有国家承认学历的人员。",
+            "中共党员": "（1）岗位要求为中共党员（含预备党员）的，需上传近六个月内组织关系所在党组织开具的党员证明（PDF格式）。",
+            "2026届": "4.2026届国内普通高校应届毕业生（非在职）须于2026年12月31日前取得相应毕业证书和学位证书（以毕业证书、学位证书落款时间为准）及岗位要求的其他证明材料。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "党员证明",
+            "近期照片",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "网上报名": "应聘人员请登录“广东建设职业技术学院招聘报名系统”（https://recruit.gdcvi.edu.cn）报名。",
+            "报名表": "1.《广东省事业单位公开招聘人员报名表》；",
+            "学历学位证明": "4.毕业证、学位证书（PDF格式，毕业证、学位证书各1个文件，国（境）外留学回国人员还需提供教育部留学服务中心国（境）外学历、学位认证书）；",
+            "党员证明": "（1）岗位要求为中共党员（含预备党员）的，需上传近六个月内组织关系所在党组织开具的党员证明（PDF格式）。",
+            "近期照片": "2.本人彩色证件照（JPEG或JPG格式）；",
+            "成绩单": "（3）以相近专业报考的，还需提供所学专业课程成绩单、课程对比情况说明及毕业院校设置专业的依据等材料（PDF格式）。",
+            "就业推荐表": "（2）未取得学历、学位证书的应届博士毕业生须提交毕业生就业推荐表、教育部学籍验证报告（PDF格式）。"
+          }
+        }
+      }
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4942462.html": {
       "status": "ok",
@@ -5509,7 +5555,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260824_4834693.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -5546,7 +5592,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260824_4834648.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -5592,7 +5638,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260824/t0035_1443213.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": "2026-09-01",
         "registrationEnd": "2026-09-01",
@@ -5660,7 +5706,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpgs/202608/t20260825_7203930.htm": {
       "status": "ok",
-      "fetchedAt": "2026-09-02T09:03:42+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -5693,7 +5739,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260825_34050452.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-02T09:03:42+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -5738,7 +5784,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260825_34050455.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-02T09:03:42+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -5787,7 +5833,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4946438.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-02T09:03:42+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": "2026-08-31",
         "registrationEnd": "2026-09-04",
@@ -5819,7 +5865,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260825_4835587.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-02T09:03:42+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": "2026-08-27",
         "registrationEnd": "2026-09-04",
@@ -5859,7 +5905,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260825/t0035_1443269.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-02T09:03:42+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-09-08",
@@ -5892,7 +5938,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260825/t0035_1443267.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-02T09:03:42+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": "2026-09-11",
         "registrationEnd": "2026-09-11",
@@ -5932,48 +5978,9 @@
       }
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4945757.html": {
-      "status": "ok",
-      "fetchedAt": "2026-09-02T09:03:42+08:00",
-      "fields": {
-        "registrationStart": "2026-09-01",
-        "registrationEnd": "2026-09-30",
-        "deadlineConfidence": "high",
-        "deadlineEvidence": "首批报名时间为2026年9月1日9:00至2026年9月30日16:00",
-        "profileHints": {
-          "schemaVersion": 3,
-          "roleTags": [],
-          "majorTags": [],
-          "qualificationTags": [
-            "应届"
-          ],
-          "englishRequirements": [],
-          "graduateYears": [
-            "2026"
-          ],
-          "evidence": {
-            "应届": "2026年应届毕业生和社会上具有国家承认学历的人员。",
-            "2026届": "其中，2026届国内普通高校应届毕业生以及在境内就读的2026届中外合作办学毕业生须于2026年9月30日前取得相应毕业证书、学位证书。"
-          }
-        },
-        "applicationHints": {
-          "schemaVersion": 1,
-          "methods": [],
-          "materialTags": [
-            "报名表",
-            "学历学位证明",
-            "近期照片",
-            "成绩单",
-            "就业推荐表"
-          ],
-          "evidence": {
-            "报名表": "1.《广东省事业单位公开招聘人员报名表》（系统填报后自动生成，无需上传）；",
-            "学历学位证明": "4.毕业证、学位证书（PDF格式，港澳台学习、国外留学人员需提供教育部留学服务中心国（境）外学历、学位认证书，应届毕业生需提供毕业生就业推荐表或在读证明）；",
-            "近期照片": "2.本人彩色证件照（JPEG或JPG格式）；",
-            "成绩单": "入专业目录（没有专业代码）的，可选择招聘专业中相近专业报考，所学专业必修课程须与报考岗位要求的专业主要课程基本一致，并在资格审核时提供毕业证书、所学专业课程成绩单（须教务部门盖章）、院校出具的课程对比情况说明及毕业院校设置专业的依据等材料。",
-            "就业推荐表": "4.毕业证、学位证书（PDF格式，港澳台学习、国外留学人员需提供教育部留学服务中心国（境）外学历、学位认证书，应届毕业生需提供毕业生就业推荐表或在读证明）；"
-          }
-        }
-      }
+      "status": "error",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
+      "error": "The read operation timed out"
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35816109/content.html": {
       "status": "ok",
@@ -6633,7 +6640,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4949166.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -6683,7 +6690,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35842048/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -6747,7 +6754,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260901/t0035_1443446.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-12-31",
@@ -6784,7 +6791,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260831_4843483.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-09-09",
@@ -6817,7 +6824,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260831_34053513.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -6862,7 +6869,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260831_4843445.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-01T09:51:08+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": "2026-09-03",
         "registrationEnd": "2026-09-09",
@@ -6906,7 +6913,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35848177/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-02T09:03:42+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -6935,7 +6942,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35848028/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-02T09:03:42+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -6964,7 +6971,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35848048/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-02T09:03:42+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-12-31",
@@ -7004,7 +7011,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202608/t20260831_583080.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-02T09:03:42+08:00",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -7546,6 +7553,143 @@
             "成绩单": "证书专业为一级学科的，需上传成绩单和毕业论文研究方向等佐证材料。",
             "就业推荐表": "2026年毕业生尚未取得学历学位证书的，按本校毕业生就业指导部门签署意见的毕业生就业推荐表上的专业进行报考。"
           }
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35891271/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "航天科工下属企业2027届校园招聘全面启动－国务院国有资产监督管理委员会",
+            "2027届": "航天科工下属企业2027届校园招聘全面启动－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35891254/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260908_34059489.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
+      "fields": {
+        "registrationStart": "2026-09-09",
+        "registrationEnd": "2026-09-16",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)网上报名 1.报名时间 2026年9月9日9:00至9月16日17:00",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届",
+            "中共党员"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "硕士": "经住院医师规范化培训合格的本科学历临床医师,按临床医学、口腔医学、中医专业学位硕士研究生同等对待。",
+            "应届": "(6)面向社会招收的住院医师如为普通高校应届毕业生的,其住院医师规范化培训合格当年在医疗机构就业,按当年应届毕业生同等对待;",
+            "中共党员": "(4)招聘岗位要求是中共党员(含预备党员)的,应聘人员须提供所在基层党组织开具的党员身份证明(加盖党组织公章)或各级组织部门信息系统查询截图,公告发布之日(不含)前6个月内开具的党员身份证明有效;",
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名",
+            "现场报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "学历学位证明",
+            "学信网证明",
+            "工作经历证明",
+            "近期照片"
+          ],
+          "evidence": {
+            "网上报名": "本次考试采用网上报名方式,考生需使用手机APP扫码登录报名网站完成报名,实行诚信报考制度,不受理现场报名。",
+            "现场报名": "本次考试采用网上报名方式,考生需使用手机APP扫码登录报名网站完成报名,实行诚信报考制度,不受理现场报名。",
+            "报名表": "(1)自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+            "身份证": "用本人身份证号码和手机号码进行注册。",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件;",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件;",
+            "工作经历证明": "(6)招聘岗位明确要求有工作经历的,须提供加盖工作单位公章(或单位人事部门公章)的工作经历证明;",
+            "近期照片": "慧人社”APP扫码登录湖南人社公共服务网上服务大厅→点击首页右侧“湖南人事考试”专栏选择“网上报名”→选择考试点击“我要报考”→填写报名信息→上传近期清晰免冠证件照片及相关审核材料→仔细核对报名信息并确认后提交审核→等待审核并关注审核结果。"
+          }
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202609/t20260908_583509.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-09T09:16:48+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     }
