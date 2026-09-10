@@ -18,9 +18,9 @@ except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
     from timezone import shanghai_timezone
 
 try:
-    from crawler.lifecycle import extract_registration_window
+    from crawler.lifecycle import REGISTRATION_WINDOW_SCHEMA_VERSION, extract_registration_window
 except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
-    from lifecycle import extract_registration_window
+    from lifecycle import REGISTRATION_WINDOW_SCHEMA_VERSION, extract_registration_window
 
 try:
     from crawler.profile_hints import PROFILE_HINTS_SCHEMA_VERSION, extract_profile_hints
@@ -221,6 +221,10 @@ def _public_fields_are_current(fields: dict) -> bool:
         and hints.get("schemaVersion") == PROFILE_HINTS_SCHEMA_VERSION
         and isinstance(application, dict)
         and application.get("schemaVersion") == APPLICATION_HINTS_SCHEMA_VERSION
+        and (
+            bool(fields.get("registrationEnd"))
+            or fields.get("registrationWindowSchemaVersion") == REGISTRATION_WINDOW_SCHEMA_VERSION
+        )
     )
 
 
@@ -287,6 +291,7 @@ def _apply_foreign_fields(campaign: dict, entry: object) -> dict:
 
 def _extract_public_fields(text: str, now: datetime) -> dict:
     fields = extract_registration_window(text, now)
+    fields["registrationWindowSchemaVersion"] = REGISTRATION_WINDOW_SCHEMA_VERSION
     fields["profileHints"] = extract_profile_hints(text)
     fields["applicationHints"] = extract_application_hints(text)
     return fields

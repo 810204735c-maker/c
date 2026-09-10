@@ -20,6 +20,17 @@ class RegistrationWindowTests(unittest.TestCase):
         self.assertIn("报名时间", result["deadlineEvidence"])
         self.assertNotIn("笔试", result["deadlineEvidence"])
 
+    def test_numbered_registration_label_with_full_stop_is_parsed(self):
+        result = extract_registration_window(
+            "（二）时间安排 1．报名。7月29日11:00—8月7日17:00。"
+            "2．资格审查。7月29日11:00—8月8日9:00。",
+            NOW,
+        )
+
+        self.assertEqual(result["registrationStart"], "2026-07-29")
+        self.assertEqual(result["registrationEnd"], "2026-08-07")
+        self.assertIn("报名时间", result["deadlineEvidence"])
+
     def test_explicit_registration_extension_overrides_original_end(self):
         result = extract_registration_window(
             "原报名时间为7月10日至7月20日。经研究，报名截止时间延长至7月23日。",
