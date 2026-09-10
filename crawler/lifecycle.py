@@ -7,6 +7,7 @@ import html
 import re
 
 
+REGISTRATION_WINDOW_SCHEMA_VERSION = 2
 _DATE_PATTERN = re.compile(
     r"(?:(?P<year>20\d{2})\s*[年./\-]\s*)?"
     r"(?P<month>\d{1,2})\s*[月./\-]\s*"
@@ -55,9 +56,14 @@ def _dates_in_order(clause: str, now: datetime) -> list[date]:
 
 
 def _registration_clauses(text: str) -> list[str]:
+    cleaned = re.sub(
+        r"((?:网上|现场)?报名)[。．]\s*(?=(?:20\d{2}\s*年)?\d{1,2}\s*月)",
+        r"\1时间：",
+        _clean_text(text),
+    )
     return [
         clause.strip()
-        for clause in _CLAUSE_SEPARATOR.split(_clean_text(text))
+        for clause in _CLAUSE_SEPARATOR.split(cleaned)
         if clause.strip() and _REGISTRATION_CONTEXT.search(clause)
     ]
 

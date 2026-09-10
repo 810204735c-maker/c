@@ -137,6 +137,7 @@ class DetailTests(unittest.TestCase):
                     "status": "ok",
                     "fetchedAt": "2026-07-22T14:00:00+08:00",
                     "fields": {
+                        "registrationWindowSchemaVersion": 2,
                         "registrationStart": "2026-07-20",
                         "registrationEnd": "2026-07-25",
                         "deadlineConfidence": "high",
@@ -172,6 +173,51 @@ class DetailTests(unittest.TestCase):
         self.assertEqual(jobs[0]["profileHints"]["majorTags"], ["中国语言文学"])
         self.assertEqual(jobs[0]["applicationHints"]["methods"], ["网上报名"])
         self.assertEqual(updated, cache)
+
+    def test_legacy_unknown_deadline_cache_is_refreshed(self):
+        cache = {
+            "version": 1,
+            "entries": {
+                JOB["url"]: {
+                    "status": "ok",
+                    "fetchedAt": "2026-07-22T14:00:00+08:00",
+                    "fields": {
+                        "registrationStart": None,
+                        "registrationEnd": None,
+                        "deadlineConfidence": "unknown",
+                        "deadlineEvidence": "",
+                        "profileHints": {
+                            "schemaVersion": 3,
+                            "roleTags": [],
+                            "majorTags": [],
+                            "qualificationTags": [],
+                            "graduateYears": [],
+                            "evidence": {},
+                        },
+                        "applicationHints": {
+                            "schemaVersion": 1,
+                            "methods": ["网上报名"],
+                            "materialTags": [],
+                            "evidence": {"网上报名": "请登录报名系统网上报名"},
+                        },
+                    },
+                }
+            },
+        }
+
+        jobs, updated = enrich_jobs(
+            [JOB],
+            [SOURCE],
+            cache,
+            NOW,
+            fetcher=lambda *args: "<main><p>1．报名。7月20日至7月25日。</p></main>",
+        )
+
+        self.assertEqual(jobs[0]["deadline"], "2026-07-25")
+        self.assertEqual(
+            updated["entries"][JOB["url"]]["fields"]["registrationWindowSchemaVersion"],
+            2,
+        )
 
     def test_old_profile_hint_schema_refreshes_success_cache(self):
         cache = {
