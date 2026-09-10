@@ -1,4 +1,56 @@
 {
   "version": 1,
-  "entries": {}
+  "entries": {
+    "https://careers.roche.com/cn/zh/startup-china-pharma": {
+      "status": "ok",
+      "fetchedAt": "2026-09-10T09:08:47+08:00",
+      "fields": {
+        "foreignHints": {
+          "schemaVersion": 1,
+          "cities": [
+            "上海"
+          ],
+          "jobFunctions": [
+            "市场/品牌",
+            "内容/传播",
+            "产品",
+            "销售/商务",
+            "供应链",
+            "技术/研发",
+            "数据/分析"
+          ],
+          "educationLevels": [
+            "硕士",
+            "博士"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "excludedEmploymentTerms": [],
+          "deadline": null,
+          "deadlineConfidence": "unknown",
+          "deadlineEvidence": "",
+          "evidence": {
+            "上海": "招聘地点：上海",
+            "市场/品牌": "在为期36个月的轮岗期间，学员将在罗氏制药中国的不同部门进行4次轮岗，深入体验医疗领域核心职能，市场、准入、医学，加速个人成长与职业发展。",
+            "内容/传播": "This text should capture attention and provide a brief overview of engaging content that awaits users in this widget.",
+            "产品": "的引领者，罗氏制药全球和中国的客户交互模式（Customer Engagement）以疾病治疗领域为核心，为客户提供相关产品和疾病治疗解决方案的同时，为患者提供差异化价值，并确保公司不断推动新产品的上市，打造包括医疗机构在内的各利益相关方的",
+            "销售/商务": "Sales team help Phenom customers reach their business potential.",
+            "供应链": "专业学位：硕士 │药学类、公共卫生类、商业分析、信息管理与信息系统、供应链",
+            "技术/研发": "在大型跨国药企中，罗氏率先建成并不断升级和完善端到端的完整医药价值产业链，包括：早期研发、药品开发、生产、营销以及开放合作，满足中国患者的未尽之需。",
+            "数据/分析": "培养目标：精通政策环境和分析的策略经理",
+            "硕士": "专业学位：硕士 │ 药学类、公共卫生类、保险学",
+            "博士": "学位及专业：博士 │ 医学类、药学类、生物科学类、公共卫生类"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    }
+  }
 }
