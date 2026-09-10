@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "channel": "foreign-campus",
-  "generatedAt": "2026-09-10T09:08:47+08:00",
+  "generatedAt": "2026-09-10T11:33:32+08:00",
   "targetGraduateYear": "2027",
   "total": 5,
   "campaigns": [
@@ -52,7 +52,7 @@
       "summary": "2027 graduates with a bachelor’s degree or above, and all majors are eligible. Apply now Application journey Online application Online assessment Meet with PwC PwC Superday Receiving your offer Offer celebration Start from August 2026 Submi",
       "status": "deadline_unknown",
       "collector": "普华永道中国学生招聘",
-      "collectedAt": "2026-09-10T09:08:47+08:00",
+      "collectedAt": "2026-09-10T11:33:32+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [
@@ -64,7 +64,7 @@
         }
       },
       "firstSeenAt": "2026-08-23T00:39:44+08:00",
-      "lastSeenAt": "2026-09-10T09:08:47+08:00"
+      "lastSeenAt": "2026-09-10T11:33:32+08:00"
     },
     {
       "id": "foreign_e481419c0e156efecd7a",
@@ -111,9 +111,9 @@
       "summary": "China 2027 Graduate Programme Investment Bank: Fixed Income & Currencies Corporate Bank 7 Sep - 18 Oct 2026 To be eligible for the 2027 Graduate Programme, you must: Complete your studies (all final exams, coursework and have no outstanding",
       "status": "open",
       "collector": "德意志银行亚太毕业生项目",
-      "collectedAt": "2026-09-10T09:08:47+08:00",
+      "collectedAt": "2026-09-10T11:33:32+08:00",
       "firstSeenAt": "2026-08-23T00:39:44+08:00",
-      "lastSeenAt": "2026-09-10T09:08:47+08:00"
+      "lastSeenAt": "2026-09-10T11:33:32+08:00"
     },
     {
       "id": "foreign_2b0bb5d7a93cc275361e",
@@ -163,9 +163,9 @@
       "summary": "2027 Graduate Recruitment is now live — Join Us and Make Your Impact Print Share Our 2027 graduate program provides first-hand exposure to our culture, people, and society. As a graduate, you'll have a wealth of career paths and possibiliti",
       "status": "deadline_unknown",
       "collector": "德勤中国 Graduate Program",
-      "collectedAt": "2026-09-10T09:08:47+08:00",
+      "collectedAt": "2026-09-10T11:33:32+08:00",
       "firstSeenAt": "2026-08-23T00:39:44+08:00",
-      "lastSeenAt": "2026-09-10T09:08:47+08:00"
+      "lastSeenAt": "2026-09-10T11:33:32+08:00"
     },
     {
       "id": "foreign_d787c34744edd2daf9e1",
@@ -217,9 +217,9 @@
       "summary": "Shell Graduate Programme 2027 - China Beijing, China Worker Type: Regular Posting Start Date: August 20, 2026 Job Description: What’s the role Join us as a Graduate at Shell China where you will embark on a comprehensive 3-year programme de",
       "status": "deadline_unknown",
       "collector": "Shell Graduate Programme 2027 - China",
-      "collectedAt": "2026-09-10T09:08:47+08:00",
+      "collectedAt": "2026-09-10T11:33:32+08:00",
       "firstSeenAt": "2026-08-23T01:09:50+08:00",
-      "lastSeenAt": "2026-09-10T09:08:47+08:00"
+      "lastSeenAt": "2026-09-10T11:33:32+08:00"
     },
     {
       "id": "foreign_68f27a4e03dea2fc9b49",
