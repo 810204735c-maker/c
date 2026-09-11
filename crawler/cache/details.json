@@ -573,12 +573,13 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35428690/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-05-29",
         "deadlineConfidence": "high",
         "deadlineEvidence": "报名时间从即日起至2026年5月29日17:00截止",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -638,12 +639,13 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260416_1963335.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-04-22",
         "deadlineConfidence": "high",
         "deadlineEvidence": "三、以上岗位报名时间延长至2026年4月22日17：00",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -667,12 +669,13 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260403_1962991.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": "2026-04-20",
         "registrationEnd": "2026-04-20",
         "deadlineConfidence": "high",
         "deadlineEvidence": "三、招聘程序 （一）网上报名 1.请考生在规定的报名时间内（自公告发布之日起至4月20日17：00）",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -737,12 +740,13 @@
     },
     "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/zpgg/202607/t20260723_5981936.shtml": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": "2026-07-24",
         "registrationEnd": "2026-07-31",
         "deadlineConfidence": "high",
         "deadlineEvidence": "报名时间为2026年7月24日11:00至7月31日17:00",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [
@@ -799,12 +803,13 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202602/t20260210_1962581.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": "2026-02-24",
         "registrationEnd": "2026-02-24",
         "deadlineConfidence": "high",
         "deadlineEvidence": "三、招聘程序 （一）报名 1.报考人员在规定的报名时间内（自公告发布之日起至2月24日17:00）",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -1757,12 +1762,13 @@
     },
     "http://www.ceehe.ceec.net.cn/art/2026/4/27/art_60241_1926.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-05-20",
         "deadlineConfidence": "high",
         "deadlineEvidence": "四、其他事项 1.报名时间截至2026年5月20日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -1795,12 +1801,13 @@
     },
     "https://www.tsinghua.edu.cn/rsc/info/1044/2013.htm": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": "2026-04-29",
         "registrationEnd": "2026-04-29",
         "deadlineConfidence": "high",
         "deadlineEvidence": "报名时间自通知发布之日起至2026年4月29日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [
@@ -1835,12 +1842,13 @@
     },
     "http://www.ceehe.ceec.net.cn/art/2026/1/26/art_60241_1808.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-02-28",
         "deadlineConfidence": "high",
         "deadlineEvidence": "四、其他事项 1.报名时间截至2026年2月28日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -1868,12 +1876,13 @@
     },
     "https://www.tsinghua.edu.cn/rsc/info/1044/2012.htm": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": "2026-05-07",
         "registrationEnd": "2026-05-07",
         "deadlineConfidence": "high",
         "deadlineEvidence": "报名时间自通知发布之日起至2026年5月7日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [
@@ -1932,12 +1941,13 @@
     },
     "https://www.tsinghua.edu.cn/rsc/info/1044/1983.htm": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": "2025-12-29",
         "registrationEnd": "2025-12-29",
         "deadlineConfidence": "high",
         "deadlineEvidence": "报名时间自通知发布之日起至2025年12月29日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [
@@ -1981,12 +1991,13 @@
     },
     "https://www.tsinghua.edu.cn/rsc/info/1044/1953.htm": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": "2025-05-06",
         "registrationEnd": "2025-05-06",
         "deadlineConfidence": "high",
         "deadlineEvidence": "报名时间自通知发布之日起至2025年5月6日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -2020,12 +2031,13 @@
     },
     "http://www.ceehe.ceec.net.cn/art/2026/3/13/art_60241_1883.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-04-12",
         "deadlineConfidence": "high",
         "deadlineEvidence": "四、其他事项 1.报名时间截至2026年4月12日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -4207,12 +4219,13 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260819_34047708.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
         "deadlineConfidence": "high",
         "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -4352,12 +4365,13 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260818_34046818.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
         "deadlineConfidence": "high",
         "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日17:00",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -4397,12 +4411,13 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260818_34046816.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
         "deadlineConfidence": "high",
         "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -4446,12 +4461,13 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260818_34046813.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
         "deadlineConfidence": "high",
         "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日下午24:00",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -6105,12 +6121,13 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260827/t0035_1443369.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": "2026-09-04",
         "registrationEnd": "2026-09-04",
         "deadlineConfidence": "high",
         "deadlineEvidence": "报名时间从即日起至2026年9月4日17:00止",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -6170,12 +6187,13 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260827/t0035_1443331.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": "2026-08-27",
         "registrationEnd": "2026-09-04",
         "deadlineConfidence": "high",
         "deadlineEvidence": "三、报名时间和方式 （一）报名时间：2026年8月27日至2026年9月4日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -6201,12 +6219,13 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260826/t0035_1443333.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-09-25",
         "deadlineConfidence": "high",
         "deadlineEvidence": "报名截止时间：即日起至 9月25日止",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -6293,12 +6312,13 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260827_4839132.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": "2026-08-31",
         "registrationEnd": "2026-09-07",
         "deadlineConfidence": "high",
         "deadlineEvidence": "（一）报名 1.网上报名及打印报名表 报名时间：2026年8月31日10:00—2026年9月7日16:00 报名网址：北京卫生人才网（bjwsrc.cn）区卫健委公开招聘栏 报名人员需按要求填报个人信息和岗位信息",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -7252,12 +7272,13 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202609/t20260903_4848731.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-04T09:02:17+08:00",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-09-15",
         "deadlineConfidence": "high",
         "deadlineEvidence": "报名截止时间：2026 年 9 月 15日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -7901,6 +7922,65 @@
           "graduateYears": [],
           "evidence": {
             "应届": "2、任职要求：身心健康，品德良好，热爱教育事业，符合学校招聘规定的条件。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35904654/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35904595/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-11T09:10:06+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "中国电科2027届校园招聘正式启动－国务院国有资产监督管理委员会",
+            "2027届": "中国电科2027届校园招聘正式启动－国务院国有资产监督管理委员会"
           }
         },
         "applicationHints": {
