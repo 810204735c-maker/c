@@ -4574,12 +4574,13 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260821_4831284.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-06T09:02:45+08:00",
+      "fetchedAt": "2026-09-13T09:05:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2025-01-01",
         "deadlineConfidence": "high",
         "deadlineEvidence": "2025年1月1日至报名截止日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -4719,12 +4720,13 @@
     },
     "https://hrss.jl.gov.cn/gg/202608/t20260821_9685989.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-06T09:02:45+08:00",
+      "fetchedAt": "2026-09-13T09:05:49+08:00",
       "fields": {
         "registrationStart": "2026-09-07",
         "registrationEnd": "2026-09-11",
         "deadlineConfidence": "high",
         "deadlineEvidence": "（二）报名时间和地点 报名时间：2026年9月7日至9月11日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -6595,12 +6597,13 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260828_34052477.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-06T09:02:45+08:00",
+      "fetchedAt": "2026-09-13T09:05:49+08:00",
       "fields": {
         "registrationStart": "2026-12-30",
         "registrationEnd": "2026-12-30",
         "deadlineConfidence": "high",
         "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月30日17:00",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [
