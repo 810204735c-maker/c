@@ -5069,12 +5069,13 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260821/t0035_1443233.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-07T09:04:41+08:00",
+      "fetchedAt": "2026-09-14T09:11:32+08:00",
       "fields": {
         "registrationStart": "2026-09-30",
         "registrationEnd": "2026-09-30",
         "deadlineConfidence": "high",
         "deadlineEvidence": "2.报名时间 自发布之日起至2026年9月30日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -8117,6 +8118,105 @@
           "evidence": {
             "网上报名": "事业单位公开招聘考试报名平台"
           }
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35914224/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-14T09:11:32+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "航天科工二院203所2027届校园招聘－国务院国有资产监督管理委员会",
+            "2027届": "航天科工二院203所2027届校园招聘－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35912849/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-14T09:11:32+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "天翼安全科技有限公司2027届校园招聘全面启动－国务院国有资产监督管理委员会",
+            "2027届": "天翼安全科技有限公司2027届校园招聘全面启动－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35912749/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-14T09:11:32+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "哈电集团2027届校园招聘正式启动－国务院国有资产监督管理委员会",
+            "2027届": "哈电集团2027届校园招聘正式启动－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     }
