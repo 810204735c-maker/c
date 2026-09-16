@@ -1,5 +1,6 @@
 import unittest
 from datetime import datetime, timezone
+from http.client import IncompleteRead
 
 from crawler.detail import (
     enrich_foreign_campaigns,
@@ -359,6 +360,23 @@ class DetailTests(unittest.TestCase):
         entry = cache["entries"][JOB["url"]]
         self.assertEqual(entry["status"], "error")
         self.assertNotIn("secret-token", entry["error"])
+
+    def test_incomplete_detail_response_keeps_job_and_caches_error(self):
+        def incomplete_fetcher(url, allowed_domains, timeout):
+            raise IncompleteRead(b"partial response", 128)
+
+        jobs, cache = enrich_jobs(
+            [JOB],
+            [SOURCE],
+            {"version": 1, "entries": {}},
+            NOW,
+            fetcher=incomplete_fetcher,
+        )
+
+        self.assertEqual(jobs, [JOB])
+        entry = cache["entries"][JOB["url"]]
+        self.assertEqual(entry["status"], "error")
+        self.assertIn("IncompleteRead", entry["error"])
 
     def test_enrichment_skips_non_allowlisted_job(self):
         untrusted = {**JOB, "url": "https://example.com/notice.html"}
