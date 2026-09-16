@@ -1221,12 +1221,34 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35714069/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-08-01T08:13:39+08:00",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-08-24",
         "deadlineConfidence": "high",
-        "deadlineEvidence": "二、招聘程序 （一）报名 报名时间从即日起至2026年8月24日17:00截止"
+        "deadlineEvidence": "二、招聘程序 （一）报名 报名时间从即日起至2026年8月24日17:00截止",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明"
+          ],
+          "evidence": {
+            "报名表": "2.国务院国资委委属事业单位公开招聘报名表（社会招聘）",
+            "学历学位证明": "4.具有大学本科及以上学位学历，取得毕业证、学位证，所学专业及学历和其他条件符合岗位要求，详见《国务院国资委委属事业单位2026年面向社会公开招聘岗位需求表》（附件1）；"
+          }
+        }
       }
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260731_4803134.html": {
@@ -4176,12 +4198,13 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202608/t20260818_7201045.htm": {
       "status": "ok",
-      "fetchedAt": "2026-09-09T09:16:48+08:00",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
         "deadlineConfidence": "high",
         "deadlineEvidence": "四、报名和资格审查 1.报名时间：即日起至2026年12月31日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [
@@ -4767,12 +4790,13 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4943820.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-09T09:16:48+08:00",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
       "fields": {
         "registrationStart": "2026-08-25",
         "registrationEnd": "2026-09-30",
         "deadlineConfidence": "high",
         "deadlineEvidence": "首批报名时间为2026年8月25日0:00至2026年9月30日23:59",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -5784,12 +5808,13 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260825_34050452.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-09T09:16:48+08:00",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
         "deadlineConfidence": "high",
         "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -5829,12 +5854,13 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260825_34050455.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-09T09:16:48+08:00",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
         "deadlineConfidence": "high",
         "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -5878,12 +5904,13 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4946438.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-09T09:16:48+08:00",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
       "fields": {
         "registrationStart": "2026-08-31",
         "registrationEnd": "2026-09-04",
         "deadlineConfidence": "high",
         "deadlineEvidence": "报名时间：2026年8月31日至2026年9月4日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -6853,12 +6880,13 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260901/t0035_1443446.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-09T09:16:48+08:00",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-12-31",
         "deadlineConfidence": "high",
         "deadlineEvidence": "招聘报名截止时间为2026年12月31日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -6890,12 +6918,13 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260831_4843483.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-09T09:16:48+08:00",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-09-09",
         "deadlineConfidence": "high",
         "deadlineEvidence": "四、报名时间及方式 （一）报名截止时间 2026年9月9日 （二）报名方式 应聘人员填写《首都医科大学附属北京世纪坛医院应聘登记表》（见附件2）",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -6923,12 +6952,13 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260831_34053513.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-09T09:16:48+08:00",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
         "deadlineConfidence": "high",
         "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -6968,12 +6998,13 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260831_4843445.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-09T09:16:48+08:00",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
       "fields": {
         "registrationStart": "2026-09-03",
         "registrationEnd": "2026-09-09",
         "deadlineConfidence": "high",
         "deadlineEvidence": "（一）网上报名及资格初审 1.报名时间：2026年9月3日9:00至2026年9月9日17:00",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -7733,12 +7764,13 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260908_34059489.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-09T09:16:48+08:00",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
       "fields": {
         "registrationStart": "2026-09-09",
         "registrationEnd": "2026-09-16",
         "deadlineConfidence": "high",
         "deadlineEvidence": "(二)网上报名 1.报名时间 2026年9月9日9:00至9月16日17:00",
+        "registrationWindowSchemaVersion": 2,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -8824,6 +8856,317 @@
             "学历学位证明": "⑤个人学历学位证书复印件（应届生提供毕业推荐表复印件）；",
             "学信网证明": "⑥学历学位认证（需在学信网自行认证并下载）；"
           }
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35937290/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35936655/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "中国通服海南公司2027届校园招聘－国务院国有资产监督管理委员会",
+            "2027届": "中国通服海南公司2027届校园招聘－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35931685/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "2027届": "中国电子下属企业2027届招聘启动－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260915/t0035_1443714.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fields": {
+        "registrationStart": "2026-09-21",
+        "registrationEnd": "2026-09-28",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "三、报名时间和方式 （一）报名时间：2026年9月21日至2026年9月28日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "个人简历"
+          ],
+          "evidence": {
+            "报名表": "本次公开招聘报名不接受其他格式报名表或个人简历等，应聘人员应仔细阅读《上海市竞技体育训练管理中心2026年公开招聘公告》，并按规定要求报名。",
+            "个人简历": "本次公开招聘报名不接受其他格式报名表或个人简历等，应聘人员应仔细阅读《上海市竞技体育训练管理中心2026年公开招聘公告》，并按规定要求报名。"
+          }
+        }
+      }
+    },
+    "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260915_34065330.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日17:00",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "应届": "(5)招聘岗位对专业研究方向有要求的,毕业证专业与岗位要求专业一致的无需提供专业证明材料,暂未发放毕业证的应届毕业生及所学专业为上一级学科的应聘人员须提供就读学校出具的专业证明材料(导师签字且毕业学院盖章);",
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "邮箱报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "工作经历证明",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "邮箱报名": "请应聘人员将报名材料扫描或拍照,以压缩包(命名为“岗位代码+姓名+电话号码”)形式发送至报名邮箱hnxcygkzp@163.com,收到邮件将自动回复。",
+            "报名表": "(1)应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书、学信网教育部学历证书电子注册备案表、岗位要求的资格证书及相关材料扫描件,2026届毕业生还须提供毕业生就业推荐表扫描件(需加盖学校公章);",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书、学信网教育部学历证书电子注册备案表、岗位要求的资格证书及相关材料扫描件,2026届毕业生还须提供毕业生就业推荐表扫描件(需加盖学校公章);",
+            "工作经历证明": "(4)招聘岗位明确要求有工作经历的,应聘人员须提供工作经历证明(加盖工作单位公章或人事部门公章);",
+            "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书、学信网教育部学历证书电子注册备案表、岗位要求的资格证书及相关材料扫描件,2026届毕业生还须提供毕业生就业推荐表扫描件(需加盖学校公章);"
+          }
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202609/t20260914_583882.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202609/t20260914_583881.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202609/t20260914_583884.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260914/t0035_1443675.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "普通高校应届或非应届毕业生，年龄为38周岁及以下。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "学历学位证明"
+          ],
+          "evidence": {
+            "报名表": "本次采用电子邮件投送简历材料，材料包括：《上海市环境监测中心工作人员应聘报名表》（本人签字）、本人身份证（外省市社会人员还需提交居住证）、学历学位证书、职务职称证书聘书、获奖证书、参与课题及论文及本人2026年本市公开招考成绩的相关证明等材",
+            "身份证": "本次采用电子邮件投送简历材料，材料包括：《上海市环境监测中心工作人员应聘报名表》（本人签字）、本人身份证（外省市社会人员还需提交居住证）、学历学位证书、职务职称证书聘书、获奖证书、参与课题及论文及本人2026年本市公开招考成绩的相关证明等材",
+            "学历学位证明": "采用电子邮件投送简历材料，材料包括：《上海市环境监测中心工作人员应聘报名表》（本人签字）、本人身份证（外省市社会人员还需提交居住证）、学历学位证书、职务职称证书聘书、获奖证书、参与课题及论文及本人2026年本市公开招考成绩的相关证明等材料。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260914/t0035_1443696.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-09-27",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "本次招聘报名截止时间为2026年 09月27日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     }
