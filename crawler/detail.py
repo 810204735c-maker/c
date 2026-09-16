@@ -5,6 +5,7 @@ from __future__ import annotations
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
+from http.client import HTTPException
 import json
 import re
 from pathlib import Path
@@ -388,7 +389,7 @@ def enrich_records(
                     html_text = custom_fetcher(url, allowed_domains, int(source.get("timeout", 20)))
             fields = extractor(extract_main_text(html_text), now)
             entry = {"status": "ok", "fetchedAt": fetched_at, "fields": fields}
-        except (OSError, RuntimeError, TimeoutError, ValueError) as error:
+        except (HTTPException, OSError, RuntimeError, TimeoutError, ValueError) as error:
             entry = {"status": "error", "fetchedAt": fetched_at, "error": _safe_error(error)}
         return index, url, entry
 
