@@ -4747,7 +4747,7 @@
     },
     "https://hrss.jl.gov.cn/gg/202608/t20260821_9685989.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-13T09:05:49+08:00",
+      "fetchedAt": "2026-09-20T09:15:10+08:00",
       "fields": {
         "registrationStart": "2026-09-07",
         "registrationEnd": "2026-09-11",
@@ -6631,7 +6631,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260828_34052477.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-13T09:05:49+08:00",
+      "fetchedAt": "2026-09-20T09:15:10+08:00",
       "fields": {
         "registrationStart": "2026-12-30",
         "registrationEnd": "2026-12-30",
@@ -9687,6 +9687,32 @@
             "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件;",
             "近期照片": "范学院人才招聘网→点击右上角“登录”,登录报名系统→在菜单栏点击“我的应聘”→创建简历,并填写简历信息,上传近期清晰免冠证件照片及相关报名材料→在菜单栏点击“招聘岗位”,选择对应的岗位名称,仔细核对报名信息并确认后提交审核→等待审核,并关注"
           }
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35954334/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-20T09:15:10+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     }
