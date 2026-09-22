@@ -2815,7 +2815,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202608/t20260814_7200009.htm": {
       "status": "ok",
-      "fetchedAt": "2026-09-15T09:32:41+08:00",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -2857,7 +2857,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202608/t20260813_7199402.htm": {
       "status": "ok",
-      "fetchedAt": "2026-09-15T09:32:41+08:00",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -4842,7 +4842,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4942462.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-15T09:32:41+08:00",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
       "fields": {
         "registrationStart": "2026-08-27",
         "registrationEnd": "2026-09-02",
@@ -7541,7 +7541,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260907_34058445.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-15T09:32:41+08:00",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -7660,7 +7660,7 @@
     },
     "https://hrss.jl.gov.cn/gg/202609/t20260907_9702080.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-15T09:32:41+08:00",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
       "fields": {
         "registrationStart": "2026-09-14",
         "registrationEnd": "2026-09-18",
@@ -8461,7 +8461,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202609/t20260914_4862579.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-15T09:32:41+08:00",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-09-27",
@@ -8500,7 +8500,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202609/t20260914_4863237.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-15T09:32:41+08:00",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-09-22",
@@ -8533,7 +8533,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202609/t20260914_4863215.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-15T09:32:41+08:00",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
       "fields": {
         "registrationStart": "2026-09-15",
         "registrationEnd": "2026-09-28",
@@ -8580,7 +8580,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202609/t20260914_4863253.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-15T09:32:41+08:00",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
       "fields": {
         "registrationStart": "2026-09-23",
         "registrationEnd": "2026-09-23",
@@ -8612,7 +8612,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202609/t20260914_4862453.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-15T09:32:41+08:00",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
       "fields": {
         "registrationStart": "2026-09-17",
         "registrationEnd": "2026-09-22",
@@ -8655,7 +8655,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260910/t0035_1443630.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-15T09:32:41+08:00",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
       "fields": {
         "registrationStart": "2026-09-24",
         "registrationEnd": "2026-09-24",
@@ -8701,7 +8701,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260909/t0035_1443601.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-15T09:32:41+08:00",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
       "fields": {
         "registrationStart": "2026-09-23",
         "registrationEnd": "2026-09-23",
@@ -8733,7 +8733,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260910/t0035_1443628.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-15T09:32:41+08:00",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
       "fields": {
         "registrationStart": "2026-09-23",
         "registrationEnd": "2026-09-23",
@@ -8765,7 +8765,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260910/t0035_1443629.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-15T09:32:41+08:00",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
       "fields": {
         "registrationStart": "2026-09-23",
         "registrationEnd": "2026-09-23",
@@ -8797,7 +8797,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260910/t0035_1443631.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-15T09:32:41+08:00",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
       "fields": {
         "registrationStart": "2026-09-23",
         "registrationEnd": "2026-09-23",
@@ -8831,7 +8831,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260909/t0035_1443602.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-15T09:32:41+08:00",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
       "fields": {
         "registrationStart": "2026-09-23",
         "registrationEnd": "2026-09-23",
@@ -9816,6 +9816,181 @@
           "materialTags": [],
           "evidence": {
             "网上报名": "事业单位公开招聘考试报名平台"
+          }
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35968095/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "矿冶集团2027届校园招聘正式启动！",
+            "2027届": "矿冶集团2027届校园招聘正式启动！"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202609/t20260920_584204.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260918/t0035_1443794.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-09-30",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名截止时间：2026年9月30日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "1. 医师岗位：临床医学相关专业硕士研究生及以上学历，取得医师二证及住院医师规范化培训合格证书。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "个人简历"
+          ],
+          "evidence": {
+            "个人简历": "1. 个人申请：应聘者在规定时间内将个人简历、学历证明及其他资格证书复印件等材料以邮件形式发送至人力资源部邮箱，邮件主题请注明应聘岗位；"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260918/t0035_1443792.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
+      "fields": {
+        "registrationStart": "2026-10-07",
+        "registrationEnd": "2026-10-07",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间为即日起至2026年10月7日止",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "个人简历"
+          ],
+          "evidence": {
+            "报名表": "本次报名采取电子邮件报名方式，请将公开招聘报名表（需统一格式word文档下载）、个人简历、身份证、学历学位证书、职称证书、科研学术成果等证明材料电子文档或扫描件发至电子邮箱rsb@sibpt.cn（邮件标题格式：姓名 应聘岗位序号 岗位名称",
+            "学历学位证明": "本次报名采取电子邮件报名方式，请将公开招聘报名表（需统一格式word文档下载）、个人简历、身份证、学历学位证书、职称证书、科研学术成果等证明材料电子文档或扫描件发至电子邮箱rsb@sibpt.cn（邮件标题格式：姓名 应聘岗位序号 岗位名称",
+            "个人简历": "本次报名采取电子邮件报名方式，请将公开招聘报名表（需统一格式word文档下载）、个人简历、身份证、学历学位证书、职称证书、科研学术成果等证明材料电子文档或扫描件发至电子邮箱rsb@sibpt.cn（邮件标题格式：姓名 应聘岗位序号 岗位名称"
+          }
+        }
+      }
+    },
+    "https://hrss.jl.gov.cn/gg/202609/t20260921_9719418.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-22T09:37:45+08:00",
+      "fields": {
+        "registrationStart": "2026-10-08",
+        "registrationEnd": "2026-10-13",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "（二）报名时间 2026年10月8日至10月13日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "定向、委培应届毕业生报考，需征得定向、委培单位同意。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "学历学位证明",
+            "学信网证明",
+            "个人简历",
+            "党员证明",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "报名表": "1.报名人员需填写《2026年吉林省省直事业单位公开招聘工作人员报名表（13号）》（附件2，需考生网上下载打印并按要求自行填写，照片处需粘贴个人彩色免冠照片），将个人各阶段毕业证、学位证、学位验证报告、学历证书电子注册备案表，以及岗位要求的",
+            "身份证": "年龄计算时间点均以9月21日为准（以本人身份证出生日期为准）。",
+            "学历学位证明": "4.在读的非2026年毕业生（2027年1月1日后取得毕业证、学位证的考生不视为2026年毕业生），不得用已取得的学历、学位报考；",
+            "学信网证明": "（附件2，需考生网上下载打印并按要求自行填写，照片处需粘贴个人彩色免冠照片），将个人各阶段毕业证、学位证、学位验证报告、学历证书电子注册备案表，以及岗位要求的相关资格证、劳动（聘用）合同、工作经历、党员证明、个人简历等佐证材料，在规定时间内",
+            "个人简历": "要求自行填写，照片处需粘贴个人彩色免冠照片），将个人各阶段毕业证、学位证、学位验证报告、学历证书电子注册备案表，以及岗位要求的相关资格证、劳动（聘用）合同、工作经历、党员证明、个人简历等佐证材料，在规定时间内按照各单位招聘报名要求准时提交。",
+            "党员证明": "要求自行填写，照片处需粘贴个人彩色免冠照片），将个人各阶段毕业证、学位证、学位验证报告、学历证书电子注册备案表，以及岗位要求的相关资格证、劳动（聘用）合同、工作经历、党员证明、个人简历等佐证材料，在规定时间内按照各单位招聘报名要求准时提交。",
+            "成绩单": "证书专业为一级学科的，需上传成绩单和毕业论文研究方向等佐证材料。",
+            "就业推荐表": "其中，符合岗位条件的在读2026年毕业尚未取得学历学位证的考生需提供由本校毕业生就业指导部门签署意见的《毕业生就业推荐表》；"
           }
         }
       }
