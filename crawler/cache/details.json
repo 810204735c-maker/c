@@ -9994,6 +9994,39 @@
           }
         }
       }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35972487/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-23T09:32:02+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "航空工业集团下属企业启动2027届校园招聘－国务院国有资产监督管理委员会",
+            "2027届": "航空工业集团下属企业启动2027届校园招聘－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
     }
   }
 }
