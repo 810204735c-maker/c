@@ -1221,7 +1221,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35714069/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-08-24",
@@ -4198,7 +4198,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202608/t20260818_7201045.htm": {
       "status": "ok",
-      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -4790,7 +4790,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4943820.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
       "fields": {
         "registrationStart": "2026-08-25",
         "registrationEnd": "2026-09-30",
@@ -5903,37 +5903,9 @@
       }
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4946438.html": {
-      "status": "ok",
-      "fetchedAt": "2026-09-16T13:04:52+08:00",
-      "fields": {
-        "registrationStart": "2026-08-31",
-        "registrationEnd": "2026-09-04",
-        "deadlineConfidence": "high",
-        "deadlineEvidence": "报名时间：2026年8月31日至2026年9月4日",
-        "registrationWindowSchemaVersion": 2,
-        "profileHints": {
-          "schemaVersion": 3,
-          "roleTags": [],
-          "majorTags": [],
-          "qualificationTags": [],
-          "englishRequirements": [],
-          "graduateYears": [],
-          "evidence": {}
-        },
-        "applicationHints": {
-          "schemaVersion": 1,
-          "methods": [
-            "现场报名"
-          ],
-          "materialTags": [
-            "报名表"
-          ],
-          "evidence": {
-            "现场报名": "本次招聘仅受理现场报名。",
-            "报名表": "（8）《广东省优秀运动员招聘报名表》(附件2）；"
-          }
-        }
-      }
+      "status": "error",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260825_4835587.html": {
       "status": "ok",
@@ -6953,7 +6925,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260831_34053513.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -7765,7 +7737,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260908_34059489.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
       "fields": {
         "registrationStart": "2026-09-09",
         "registrationEnd": "2026-09-16",
@@ -8952,7 +8924,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260915/t0035_1443714.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
       "fields": {
         "registrationStart": "2026-09-21",
         "registrationEnd": "2026-09-28",
@@ -8984,7 +8956,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260915_34065330.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -9032,7 +9004,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202609/t20260914_583882.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -9058,7 +9030,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202609/t20260914_583881.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -9084,7 +9056,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202609/t20260914_583884.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -9110,7 +9082,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260914/t0035_1443675.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -9148,7 +9120,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260914/t0035_1443696.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-16T13:04:52+08:00",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-09-27",
@@ -10025,6 +9997,286 @@
           "methods": [],
           "materialTags": [],
           "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35977827/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "湖南航天2027年校园招聘正式启动－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35977327/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "中国大唐2027年校园招聘正式启动－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202609/t20260923_4877245.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "教师资格证"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "教师资格证": "（五）具有高级教师及以上职称，高中及以上教师资格；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "资格证书"
+          ],
+          "evidence": {
+            "网上报名": "（一）网上报名",
+            "报名表": "7.门头沟区教育系统公开招聘校长岗位报名表（见附件2），需提交本人签字后扫描件；",
+            "身份证": "1.本人身份证（正反面均需扫描）、户口簿（首页、本人页；",
+            "资格证书": "2.学历和学位证书（在国外取得学历、学位的，还须提供教育部留学服务中心的认证书）、教师资格证书、专业技术资格(职称)证书；"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260922/t0035_1443879.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
+      "fields": {
+        "registrationStart": "2026-11-20",
+        "registrationEnd": "2026-11-20",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "（二）报名时间 自本公告发布之日起至2026年11月20日24点前",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "高校行政"
+          ],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届",
+            "中共党员"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "高校行政": "本次公开招聘专业技术岗位共计34个，包含专任教师岗位25个、实验实训教师岗位6个、辅导员岗位3个。",
+            "硕士": "具备高级职称人员，学历学位可放宽至硕士研究生；",
+            "应届": "应聘人员登录学校招聘平台（http://stiei.zp.kooci.net/），完成账号注册，选择对应岗位提交应聘申请。",
+            "中共党员": "1.基本资格条件：政治面貌须为中共党员；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "身份证",
+            "学历学位证明",
+            "学信网证明",
+            "个人简历",
+            "资格证书"
+          ],
+          "evidence": {
+            "身份证": "应聘人员上传的基础材料中应至少包含：个人简历、身份证正反面、最高学历和学位证书并附《教育部学籍在线验证报告》等。",
+            "学历学位证明": "国内应届毕业生未按期毕业并取得相应学历学位证书的，本录用资格无效。",
+            "学信网证明": "应聘人员上传的基础材料中应至少包含：个人简历、身份证正反面、最高学历和学位证书并附《教育部学籍在线验证报告》等。",
+            "个人简历": "应聘人员上传的基础材料中应至少包含：个人简历、身份证正反面、最高学历和学位证书并附《教育部学籍在线验证报告》等。",
+            "资格证书": "如有专业技术资格证书、聘任文件、职业技能等级证书、荣誉奖励证明等佐证材料，需要一并上传系统。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260920/t0035_1443815.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
+      "fields": {
+        "registrationStart": "2026-10-08",
+        "registrationEnd": "2026-10-08",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "请联系64376279、18121263039、17714959954） 报名时间：即日起至2026年10月8日止",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260921/t0035_1443846.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间： 其他专业技术岗位自发布之日起至2026年12月31日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [],
+          "evidence": {
+            "网上报名": "应聘人员原则上采用网上报名方式，请登录上海商学院人才招聘网（https://zhaopin.sbs.edu.cn/zp.html#/）进行应聘，每名应聘人员限投一个岗位。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260921/t0035_1443847.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
+      "fields": {
+        "registrationStart": "2026-10-16",
+        "registrationEnd": "2026-10-16",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间从即日起至2026年10月16日止",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "符合招聘岗位专业要求的社会在职人员及普通高校应届毕业生。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [],
+          "evidence": {
+            "网上报名": "请登录上海商业会计学校网上招聘系统（网址：http://job.scasqhwz.edu.cn），按照要求进行网上报名，报名时间从即日起至2026年10月16日止。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20260921/t0035_1443852.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-24T09:28:18+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-10-10",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名截止时间:2026年10月10日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届",
+            "教师资格证"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": ":教育学相关专业、心理学相关专业、社会学相关专业、哲学相关专业、文学相关专业、现代教育技术学相关专业、家庭教育相关学业等硕士研究生及以上学历(持香港、澳门、台湾地区高等学校学历或国外高等学校学历的,须提供教育部留学服务中心出具的相关认证证明",
+            "应届": "应届毕业生,具有教师资格证;",
+            "教师资格证": "应届毕业生,具有教师资格证;"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "个人简历",
+            "资格证书"
+          ],
+          "evidence": {
+            "个人简历": "(一)报名:请将个人简历投递至邮箱,注明“应聘教师+应聘岗位”。",
+            "资格证书": "应届毕业生,具有教师资格证;"
+          }
         }
       }
     }
