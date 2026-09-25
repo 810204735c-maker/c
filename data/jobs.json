@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T09:28:18+08:00",
+  "generatedAt": "2026-09-25T09:35:41+08:00",
   "total": 63,
   "jobs": [
     {
@@ -20,7 +20,7 @@
       "deadline": null,
       "summary": "[09-24]",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -34,6 +34,26 @@
           "应届": "湖南航天2027年校园招聘正式启动－国务院国有资产监督管理委员会"
         }
       }
+    },
+    {
+      "id": "98d14a0c08d8df65",
+      "title": "司法部机关服务中心面向社会公开招聘工作人员的公告",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202609/t20260923_584467.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-09-24",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "社会",
+      "registrationStart": null,
+      "registrationEnd": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "deadline": null,
+      "summary": "2026-09-24",
+      "official": true,
+      "collectedAt": "2026-09-25T09:35:41+08:00"
     },
     {
       "id": "4892f8e1e2b49803",
@@ -53,7 +73,7 @@
       "deadline": null,
       "summary": "[09-24]",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -65,6 +85,143 @@
         "graduateYears": [],
         "evidence": {
           "应届": "中国大唐2027年校园招聘正式启动－国务院国有资产监督管理委员会"
+        }
+      }
+    },
+    {
+      "id": "ad445b2e5c3981cd",
+      "title": "中国地震局2027年度事业单位公开招聘公告",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202609/t20260923_584466.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-09-24",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "deadline": null,
+      "summary": "2026-09-24",
+      "official": true,
+      "collectedAt": "2026-09-25T09:35:41+08:00"
+    },
+    {
+      "id": "216fd43ffe8eb72a",
+      "title": "上海第二工业大学2026年专职辅导员公开招聘公告（下半年）",
+      "url": "https://rsj.sh.gov.cn/tzpgg_17408/20260923/t0035_1443901.html",
+      "source": "上海市事业单位招聘公告",
+      "collector": "上海市事业单位招聘公告",
+      "publishedAt": "2026-09-24",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "上海",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": "2026-10-30",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "1.报名时间 即日起至2026年10月30日17:00截止",
+      "deadline": "2026-10-30",
+      "summary": "2026-09-24",
+      "official": true,
+      "collectedAt": "2026-09-25T09:35:41+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [
+          "高校行政"
+        ],
+        "majorTags": [],
+        "qualificationTags": [
+          "硕士",
+          "应届"
+        ],
+        "englishRequirements": [],
+        "graduateYears": [],
+        "evidence": {
+          "高校行政": "上海第二工业大学2026年专职辅导员公开招聘公告（下半年）_招聘公告_上海市人力资源和社会保障局",
+          "硕士": "上海第二工业大学成立于1960年，是一所工科为主，多学科协调发展的上海市属普通高等学校，是上海市“高水平地方高校建设”培育单位，硕士学位授权单位，博士学位授权建设（培育）单位，浦东新区博士后创新实践基地。",
+          "应届": "外省市社会人员应聘（非应届毕业生），须持有上海市居住证一年以上（在有效期内），计算截止时间为2026年12月31日。"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [],
+        "materialTags": [
+          "个人简历",
+          "工作经历证明"
+        ],
+        "evidence": {
+          "个人简历": "应聘者填写附件2：《上海第二工业大学求职申请表》，连同相关材料（个人简历、学历、学位、专业技术职称、获奖证书、科研成果的复印件、推荐信等集成一个PDF）通过电子邮件（邮件主题：姓名-专业-最高学历-培养院校-应聘岗位）方式发送至联系人邮箱。",
+          "工作经历证明": "劳动合同制聘用者按照规定办理企业编录用手续。"
+        }
+      }
+    },
+    {
+      "id": "dd2a9e738bfad7e3",
+      "title": "上海海事大学2026年下半年专任教师招聘公告",
+      "url": "https://rsj.sh.gov.cn/tzpgg_17408/20260923/t0035_1443904.html",
+      "source": "上海市事业单位招聘公告",
+      "collector": "上海市事业单位招聘公告",
+      "publishedAt": "2026-09-24",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "上海",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": "2026-12-31",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "报名截止时间为2026年12月31日（招满即止）",
+      "deadline": "2026-12-31",
+      "summary": "2026-09-24",
+      "official": true,
+      "collectedAt": "2026-09-25T09:35:41+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "硕士",
+          "应届"
+        ],
+        "englishRequirements": [],
+        "graduateYears": [],
+        "evidence": {
+          "硕士": "学校设有3个博士后科研流动站（交通运输工程、电气工程、管理科学与工程），4个一级学科博士点（交通运输工程、管理科学与工程、船舶与海洋工程、电气工程），17个一级学科硕士学位授权点，14个专业学位授权类别，53个本科专业。",
+          "应届": "外省市高级专业技术人员、符合条件的留学回国人员和应届毕业生，不受本市居住证满一年的限制；"
+        }
+      }
+    },
+    {
+      "id": "36f60a55d08ff549",
+      "title": "上海市第二体育运动学校（上海市体育中学）2026年第二轮公开招聘公告",
+      "url": "https://rsj.sh.gov.cn/tzpgg_17408/20260923/t0035_1443903.html",
+      "source": "上海市事业单位招聘公告",
+      "collector": "上海市事业单位招聘公告",
+      "publishedAt": "2026-09-24",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "上海",
+      "audience": "不限",
+      "registrationStart": "2026-10-15",
+      "registrationEnd": "2026-10-15",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "三、报名时间和方式 （一）报名时间：自公告发布之日起至2026年10月15日",
+      "deadline": "2026-10-15",
+      "summary": "2026-09-24",
+      "official": true,
+      "collectedAt": "2026-09-25T09:35:41+08:00",
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [],
+        "materialTags": [
+          "报名表",
+          "个人简历"
+        ],
+        "evidence": {
+          "报名表": "本次公开招聘报名不接受其他格式报名表或个人简历等，应聘人员应仔细阅读《上海市第二体育运动学校（上海市体育中学）2026年公开招聘公告》，并按规定要求报名。",
+          "个人简历": "本次公开招聘报名不接受其他格式报名表或个人简历等，应聘人员应仔细阅读《上海市第二体育运动学校（上海市体育中学）2026年公开招聘公告》，并按规定要求报名。"
         }
       }
     },
@@ -86,7 +243,7 @@
       "deadline": null,
       "summary": "2026-09-23",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -136,7 +293,7 @@
       "deadline": null,
       "summary": "[09-23]",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -172,7 +329,7 @@
       "deadline": "2026-11-20",
       "summary": "2026-09-23",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -230,7 +387,7 @@
       "deadline": null,
       "summary": "[09-22]",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -266,7 +423,7 @@
       "deadline": "2026-10-08",
       "summary": "2026-09-22",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
+      "collectedAt": "2026-09-25T09:35:41+08:00"
     },
     {
       "id": "04411411cd607ddb",
@@ -286,7 +443,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-22",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [
@@ -316,7 +473,7 @@
       "deadline": "2026-10-16",
       "summary": "2026-09-22",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -359,7 +516,7 @@
       "deadline": "2026-10-10",
       "summary": "2026-09-22",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -408,7 +565,7 @@
       "deadline": null,
       "summary": "2026-09-21",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
+      "collectedAt": "2026-09-25T09:35:41+08:00"
     },
     {
       "id": "5ae7239c9e9f8f2f",
@@ -428,7 +585,7 @@
       "deadline": null,
       "summary": "[09-21]",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -461,7 +618,7 @@
       "deadline": "2026-09-30",
       "summary": "2026-09-21",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -504,7 +661,7 @@
       "deadline": "2026-10-07",
       "summary": "2026-09-21",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [],
@@ -538,7 +695,7 @@
       "deadline": null,
       "summary": "[09-20]",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
+      "collectedAt": "2026-09-25T09:35:41+08:00"
     },
     {
       "id": "15b1c9d844d4afd4",
@@ -558,7 +715,7 @@
       "deadline": "2026-09-30",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -607,7 +764,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -629,42 +786,6 @@
         "materialTags": [],
         "evidence": {
           "网上报名": "事业单位公开招聘考试报名平台"
-        }
-      }
-    },
-    {
-      "id": "84c4818841a2d593",
-      "title": "航天精工2027届校园招聘正式启动",
-      "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35948533/content.html",
-      "source": "国务院国资委",
-      "collector": "国务院国资委招聘",
-      "publishedAt": "2026-09-18",
-      "dateEstimated": false,
-      "category": "央国企",
-      "location": "全国",
-      "audience": "应届",
-      "registrationStart": null,
-      "registrationEnd": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "deadline": null,
-      "summary": "[09-18]",
-      "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
-      "profileHints": {
-        "schemaVersion": 3,
-        "roleTags": [],
-        "majorTags": [],
-        "qualificationTags": [
-          "应届"
-        ],
-        "englishRequirements": [],
-        "graduateYears": [
-          "2027"
-        ],
-        "evidence": {
-          "应届": "航天精工2027届校园招聘正式启动－国务院国有资产监督管理委员会",
-          "2027届": "航天精工2027届校园招聘正式启动－国务院国有资产监督管理委员会"
         }
       }
     },
@@ -728,6 +849,42 @@
       }
     },
     {
+      "id": "84c4818841a2d593",
+      "title": "航天精工2027届校园招聘正式启动",
+      "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35948533/content.html",
+      "source": "国务院国资委",
+      "collector": "国务院国资委招聘",
+      "publishedAt": "2026-09-18",
+      "dateEstimated": false,
+      "category": "央国企",
+      "location": "全国",
+      "audience": "应届",
+      "registrationStart": null,
+      "registrationEnd": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "deadline": null,
+      "summary": "[09-18]",
+      "official": true,
+      "collectedAt": "2026-09-25T09:35:41+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "应届"
+        ],
+        "englishRequirements": [],
+        "graduateYears": [
+          "2027"
+        ],
+        "evidence": {
+          "应届": "航天精工2027届校园招聘正式启动－国务院国有资产监督管理委员会",
+          "2027届": "航天精工2027届校园招聘正式启动－国务院国有资产监督管理委员会"
+        }
+      }
+    },
+    {
       "id": "dc0544fc8ac15463",
       "title": "中国电气装备集团2027届校园招聘正式启动",
       "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35948550/content.html",
@@ -745,7 +902,7 @@
       "deadline": null,
       "summary": "[09-18]",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -833,7 +990,7 @@
       "deadline": null,
       "summary": "2026-09-17",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -878,7 +1035,7 @@
       "deadline": null,
       "summary": "[09-17]",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -911,7 +1068,7 @@
       "deadline": null,
       "summary": "[09-17]",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
+      "collectedAt": "2026-09-25T09:35:41+08:00"
     },
     {
       "id": "95a74c3b1d5b362e",
@@ -931,7 +1088,7 @@
       "deadline": null,
       "summary": "[09-17] var purl=\"../../../n2588035/n2588325/n2588350/index_7325475\" var org= jQuery(\"#comp_7325475\").html(); function goPub(uu){ if(pageName==maxPageNum) { pageName=0;} if(pageNam",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -967,7 +1124,7 @@
       "deadline": "2026-09-28",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1001,49 +1158,6 @@
       }
     },
     {
-      "id": "5c361ee57b490e57",
-      "title": "2026年泉州师范学院公开招聘高层次人才拟聘人员公示（一）",
-      "url": "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpgs/202609/t20260917_7214760.htm",
-      "source": "福建省事业单位公开招聘",
-      "collector": "福建省事业单位公开招聘",
-      "publishedAt": "2026-09-17",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "全国",
-      "audience": "不限",
-      "registrationStart": null,
-      "registrationEnd": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "deadline": null,
-      "summary": "",
-      "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
-      "profileHints": {
-        "schemaVersion": 3,
-        "roleTags": [
-          "新媒体"
-        ],
-        "majorTags": [],
-        "qualificationTags": [],
-        "englishRequirements": [],
-        "graduateYears": [],
-        "evidence": {
-          "新媒体": "新媒体矩阵"
-        }
-      },
-      "applicationHints": {
-        "schemaVersion": 1,
-        "methods": [
-          "网上报名"
-        ],
-        "materialTags": [],
-        "evidence": {
-          "网上报名": "事业单位公开招聘考试报名平台"
-        }
-      }
-    },
-    {
       "id": "1aceebe6de578735",
       "title": "2026年三明学院公开招聘高层次人才拟聘人员公示（三）",
       "url": "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpgs/202609/t20260917_7214762.htm",
@@ -1061,7 +1175,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1127,7 +1241,7 @@
       "deadline": null,
       "summary": "2026-09-16",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1172,7 +1286,7 @@
       "deadline": null,
       "summary": "2026-09-16",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [
@@ -1205,7 +1319,7 @@
       "deadline": null,
       "summary": "2026-09-16",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
+      "collectedAt": "2026-09-25T09:35:41+08:00"
     },
     {
       "id": "1265445c8286cee0",
@@ -1225,7 +1339,7 @@
       "deadline": "2026-09-28",
       "summary": "2026-09-16",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [],
@@ -1314,7 +1428,7 @@
       "deadline": null,
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
+      "collectedAt": "2026-09-25T09:35:41+08:00"
     },
     {
       "id": "e5152aa20bae0ad3",
@@ -1334,7 +1448,7 @@
       "deadline": null,
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
+      "collectedAt": "2026-09-25T09:35:41+08:00"
     },
     {
       "id": "ac7b7ab96b387f0a",
@@ -1354,7 +1468,7 @@
       "deadline": null,
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
+      "collectedAt": "2026-09-25T09:35:41+08:00"
     },
     {
       "id": "285b378e4399a51f",
@@ -1374,7 +1488,7 @@
       "deadline": null,
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1421,7 +1535,7 @@
       "deadline": "2026-09-27",
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
+      "collectedAt": "2026-09-25T09:35:41+08:00"
     },
     {
       "id": "c830d922e4402257",
@@ -1441,7 +1555,7 @@
       "deadline": "2026-09-27",
       "summary": "2026-09-14",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1489,7 +1603,7 @@
       "deadline": "2026-09-28",
       "summary": "2026-09-14",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1528,61 +1642,6 @@
       }
     },
     {
-      "id": "69e741082f7cdedd",
-      "title": "上海药品审评核查中心2026年公开招聘工作人员公告",
-      "url": "https://rsj.sh.gov.cn/tzpgg_17408/20260910/t0035_1443630.html",
-      "source": "上海市事业单位招聘公告",
-      "collector": "上海市事业单位招聘公告",
-      "publishedAt": "2026-09-14",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "上海",
-      "audience": "不限",
-      "registrationStart": "2026-09-24",
-      "registrationEnd": "2026-09-24",
-      "deadlineConfidence": "high",
-      "deadlineEvidence": "报名时间：即日起至2026年9月24日",
-      "deadline": "2026-09-24",
-      "summary": "2026-09-14",
-      "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
-      "profileHints": {
-        "schemaVersion": 3,
-        "roleTags": [
-          "高校行政"
-        ],
-        "majorTags": [],
-        "qualificationTags": [
-          "应届"
-        ],
-        "englishRequirements": [],
-        "graduateYears": [],
-        "evidence": {
-          "高校行政": "科研管理岗",
-          "应届": "以应届毕业生身份报考的考生无需上传上海市居住证、社保证明。"
-        }
-      },
-      "applicationHints": {
-        "schemaVersion": 1,
-        "methods": [
-          "网上报名"
-        ],
-        "materialTags": [
-          "报名表",
-          "学历学位证明",
-          "资格证书",
-          "近期照片"
-        ],
-        "evidence": {
-          "网上报名": "报名采取在线报名方式，网址：https://jjrcksbm.jjrc.zjw.sh.gov.cn/website/ecloudform/260903114509 (建议使用谷歌或火狐浏览器打开)，应聘者根据网上提示在线填写个人报名表并提交",
-          "报名表": "名采取在线报名方式，网址：https://jjrcksbm.jjrc.zjw.sh.gov.cn/website/ecloudform/260903114509 (建议使用谷歌或火狐浏览器打开)，应聘者根据网上提示在线填写个人报名表并提交。",
-          "学历学位证明": "2.成功上传居民身份证、学历学位证书、社保证明、专业技术职业资格证书等岗位要求相关资料的扫描件。",
-          "资格证书": "2.成功上传居民身份证、学历学位证书、社保证明、专业技术职业资格证书等岗位要求相关资料的扫描件。",
-          "近期照片": "3.成功上传电子照片（近期免冠彩色正面证件照，照片格式为jpg，图片大小为100-200KB，高度等于480像素，宽度等于330像素）。"
-        }
-      }
-    },
-    {
       "id": "5dcef9f8598d097f",
       "title": "2026年福建省肿瘤医院公开招聘高层次人才方案（二）",
       "url": "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202609/t20260911_7212292.htm",
@@ -1600,7 +1659,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1662,7 +1721,7 @@
       "deadline": "2026-10-13",
       "summary": "[2026-09-11]",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1719,45 +1778,7 @@
       "deadline": null,
       "summary": "2026-09-09",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
-      "profileHints": {
-        "schemaVersion": 3,
-        "roleTags": [],
-        "majorTags": [],
-        "qualificationTags": [
-          "应届",
-          "中共党员"
-        ],
-        "englishRequirements": [],
-        "graduateYears": [],
-        "evidence": {
-          "应届": "2026年应届毕业生和社会上具有国家承认学历的人员。",
-          "中共党员": "（3）政治面貌要求为中共党员的，由现党组织关系所在的党委或党总支（党支部）出具党员身份证明，开具时间离报名首日不超过1个月。"
-        }
-      },
-      "applicationHints": {
-        "schemaVersion": 1,
-        "methods": [
-          "网上报名"
-        ],
-        "materialTags": [
-          "报名表",
-          "学历学位证明",
-          "资格证书",
-          "工作经历证明",
-          "近期照片",
-          "成绩单"
-        ],
-        "evidence": {
-          "网上报名": "应聘人员请于2026年9月14日0:00至2026年9月18日23:59登录报名系统“全国事业单位招聘网”（网址https://www.qgsydw.com）报名。",
-          "报名表": "1.《广东省事业单位公开招聘人员报名表》；",
-          "学历学位证明": "4.毕业证、学位证书（PDF格式，毕业证、学位证书各1个文件，国（境）外留学回国人员还需提供教育部留学服务中心国（境）外学历、学位认证书）；",
-          "资格证书": "（1）报考岗位要求的专业技术资格证书（从初级起各个层级的）、执业证书（PDF格式）；",
-          "工作经历证明": "（2）报考岗位要求的工作经历佐证材料（劳动合同或单位开具的工作证明等，及相对应的社会保险缴费证明）；",
-          "近期照片": "2.本人彩色证件照（JPEG或JPG格式）；",
-          "成绩单": "列入专业目录（没有专业代码）的，可选择招聘专业中相近专业报考，所学专业必修课程须与报考岗位要求的专业主要课程基本一致，并在资格审核时提供毕业证书、所学专业课程成绩单（须教务处盖章）、院校出具的课程对比情况说明及毕业院校设置专业的依据等材料。"
-        }
-      }
+      "collectedAt": "2026-09-25T09:35:41+08:00"
     },
     {
       "id": "b6775c6709e594d8",
@@ -1777,7 +1798,7 @@
       "deadline": null,
       "summary": "2026-09-08",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
+      "collectedAt": "2026-09-25T09:35:41+08:00"
     },
     {
       "id": "2598aba25f307de9",
@@ -1851,7 +1872,7 @@
       "deadline": null,
       "summary": "2026-09-01",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1911,7 +1932,7 @@
       "deadline": null,
       "summary": "2026-09-01",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
+      "collectedAt": "2026-09-25T09:35:41+08:00"
     },
     {
       "id": "1c1d7276ed1f5a39",
@@ -2041,7 +2062,7 @@
       "deadline": null,
       "summary": "2026-08-27",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
+      "collectedAt": "2026-09-25T09:35:41+08:00"
     },
     {
       "id": "31e48103be98ff7d",
@@ -2061,27 +2082,7 @@
       "deadline": null,
       "summary": "2026-08-27",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
-    },
-    {
-      "id": "6ef0a225a148fb2a",
-      "title": "广东省体育局直属事业单位2026年公开招聘优秀运动员公告",
-      "url": "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4946438.html",
-      "source": "广东省事业单位招聘公告",
-      "collector": "广东省事业单位招聘公告",
-      "publishedAt": "2026-08-25",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "广东",
-      "audience": "不限",
-      "registrationStart": null,
-      "registrationEnd": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "deadline": null,
-      "summary": "2026-08-25",
-      "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
+      "collectedAt": "2026-09-25T09:35:41+08:00"
     },
     {
       "id": "73e92628b4e0a7ad",
@@ -2101,7 +2102,7 @@
       "deadline": "2026-09-30",
       "summary": "2026-08-24",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -2155,7 +2156,7 @@
       "deadline": null,
       "summary": "2026-08-21",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
+      "collectedAt": "2026-09-25T09:35:41+08:00"
     },
     {
       "id": "7c672bfff1890b2b",
@@ -2175,7 +2176,7 @@
       "deadline": null,
       "summary": "2026-08-21",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
+      "collectedAt": "2026-09-25T09:35:41+08:00"
     },
     {
       "id": "b31e57617152dcbd",
@@ -2195,7 +2196,7 @@
       "deadline": "2026-09-30",
       "summary": "2026-08-18",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -2256,7 +2257,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -2313,7 +2314,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -2364,7 +2365,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00",
+      "collectedAt": "2026-09-25T09:35:41+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -2409,46 +2410,6 @@
           "资格证书": "（5）已参加工作的应聘人员，需提供历次的专业技术资格证书、历次的聘书等原件扫描件、博士后需提供出站证明；"
         }
       }
-    },
-    {
-      "id": "7f16f183c6e383ce",
-      "title": "国家广播电视总局直属事业单位2026年度公开招聘公告（第二批）",
-      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202608/t20260810_581810.html",
-      "source": "人力资源社会保障部",
-      "collector": "中国公共招聘网事业单位",
-      "publishedAt": "2026-08-11",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "全国",
-      "audience": "不限",
-      "registrationStart": null,
-      "registrationEnd": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "deadline": null,
-      "summary": "2026-08-11",
-      "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
-    },
-    {
-      "id": "64a6572ac2108e34",
-      "title": "中国文物交流中心面向社会公开招聘博士后研究人员公告",
-      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202608/t20260810_581811.html",
-      "source": "人力资源社会保障部",
-      "collector": "中国公共招聘网事业单位",
-      "publishedAt": "2026-08-11",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "全国",
-      "audience": "社会",
-      "registrationStart": null,
-      "registrationEnd": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "deadline": null,
-      "summary": "2026-08-11",
-      "official": true,
-      "collectedAt": "2026-09-24T09:28:18+08:00"
     }
   ],
   "sourceStatus": [
@@ -2525,8 +2486,9 @@
     },
     {
       "name": "湖南省事业单位招聘",
-      "status": "ok",
-      "count": 7
+      "status": "error",
+      "count": 0,
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "name": "吉林省人社厅招聘公告",
@@ -2536,17 +2498,17 @@
     {
       "name": "福建省事业单位公开招聘",
       "status": "ok",
-      "count": 9
+      "count": 8
     },
     {
       "name": "广东省事业单位招聘公告",
       "status": "ok",
-      "count": 5
+      "count": 4
     },
     {
       "name": "上海市事业单位招聘公告",
       "status": "ok",
-      "count": 11
+      "count": 13
     }
   ]
 }
