@@ -7902,9 +7902,53 @@
       }
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4953420.html": {
-      "status": "error",
-      "fetchedAt": "2026-09-25T09:35:41+08:00",
-      "error": "The read operation timed out"
+      "status": "ok",
+      "fetchedAt": "2026-09-26T09:38:43+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届",
+            "中共党员"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "2026年应届毕业生和社会上具有国家承认学历的人员。",
+            "中共党员": "（3）政治面貌要求为中共党员的，由现党组织关系所在的党委或党总支（党支部）出具党员身份证明，开具时间离报名首日不超过1个月。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "资格证书",
+            "工作经历证明",
+            "近期照片",
+            "成绩单"
+          ],
+          "evidence": {
+            "网上报名": "应聘人员请于2026年9月14日0:00至2026年9月18日23:59登录报名系统“全国事业单位招聘网”（网址https://www.qgsydw.com）报名。",
+            "报名表": "1.《广东省事业单位公开招聘人员报名表》；",
+            "学历学位证明": "4.毕业证、学位证书（PDF格式，毕业证、学位证书各1个文件，国（境）外留学回国人员还需提供教育部留学服务中心国（境）外学历、学位认证书）；",
+            "资格证书": "（1）报考岗位要求的专业技术资格证书（从初级起各个层级的）、执业证书（PDF格式）；",
+            "工作经历证明": "（2）报考岗位要求的工作经历佐证材料（劳动合同或单位开具的工作证明等，及相对应的社会保险缴费证明）；",
+            "近期照片": "2.本人彩色证件照（JPEG或JPG格式）；",
+            "成绩单": "列入专业目录（没有专业代码）的，可选择招聘专业中相近专业报考，所学专业必修课程须与报考岗位要求的专业主要课程基本一致，并在资格审核时提供毕业证书、所学专业课程成绩单（须教务处盖章）、院校出具的课程对比情况说明及毕业院校设置专业的依据等材料。"
+          }
+        }
+      }
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260908/t0035_1443551.html": {
       "status": "ok",
@@ -7997,7 +8041,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202609/t20260911_7212292.htm": {
       "status": "ok",
-      "fetchedAt": "2026-09-19T09:15:00+08:00",
+      "fetchedAt": "2026-09-26T09:38:43+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -9129,9 +9173,30 @@
       }
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260916_34065996.html": {
-      "status": "error",
-      "fetchedAt": "2026-09-25T09:35:41+08:00",
-      "error": "<urlopen error [Errno 101] Network is unreachable>"
+      "status": "ok",
+      "fetchedAt": "2026-09-26T09:38:43+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202609/t20260916_4866325.html": {
       "status": "ok",
@@ -9296,7 +9361,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260917_34066590.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-18T09:18:50+08:00",
+      "fetchedAt": "2026-09-26T09:38:43+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -9577,7 +9642,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260918_34067501.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-19T09:15:00+08:00",
+      "fetchedAt": "2026-09-26T09:38:43+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
