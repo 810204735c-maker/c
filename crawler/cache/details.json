@@ -6631,7 +6631,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202608/t20260828_34052477.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-20T09:15:10+08:00",
+      "fetchedAt": "2026-09-28T09:43:41+08:00",
       "fields": {
         "registrationStart": "2026-12-30",
         "registrationEnd": "2026-12-30",
@@ -9718,7 +9718,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35963130/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-09-21T09:11:16+08:00",
+      "fetchedAt": "2026-09-28T09:43:41+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -9748,7 +9748,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202609/t20260920_7216032.htm": {
       "status": "ok",
-      "fetchedAt": "2026-09-21T09:11:16+08:00",
+      "fetchedAt": "2026-09-28T09:43:41+08:00",
       "fields": {
         "registrationStart": "2026-09-21",
         "registrationEnd": "2026-09-30",
@@ -9788,7 +9788,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpgs/202609/t20260920_7216041.htm": {
       "status": "ok",
-      "fetchedAt": "2026-09-21T09:11:16+08:00",
+      "fetchedAt": "2026-09-28T09:43:41+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -10462,6 +10462,39 @@
             "报名表": "本次公开招聘报名不接受其他格式报名表或个人简历等，应聘人员应仔细阅读《上海市第二体育运动学校（上海市体育中学）2026年公开招聘公告》，并按规定要求报名。",
             "个人简历": "本次公开招聘报名不接受其他格式报名表或个人简历等，应聘人员应仔细阅读《上海市第二体育运动学校（上海市体育中学）2026年公开招聘公告》，并按规定要求报名。"
           }
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35979831/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-09-28T09:43:41+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "中远海运散运2027届校园招聘－国务院国有资产监督管理委员会",
+            "2027届": "中远海运散运2027届校园招聘－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     }
