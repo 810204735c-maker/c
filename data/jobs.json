@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T10:43:17+08:00",
+  "generatedAt": "2026-10-05T10:03:17+08:00",
   "total": 60,
   "jobs": [
     {
@@ -20,7 +20,7 @@
       "deadline": null,
       "summary": "2026-09-30",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [
@@ -50,7 +50,7 @@
       "deadline": null,
       "summary": "[09-30]",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -86,7 +86,7 @@
       "deadline": "2026-10-15",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -150,7 +150,7 @@
       "deadline": "2026-10-18",
       "summary": "2026-09-29",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -198,7 +198,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-29",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -247,7 +247,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -290,7 +290,7 @@
       "deadline": null,
       "summary": "[09-29]",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -326,7 +326,7 @@
       "deadline": "2026-10-15",
       "summary": "[09-29]",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -372,7 +372,7 @@
       "deadline": null,
       "summary": "[09-29]",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -405,7 +405,7 @@
       "deadline": "2026-10-15",
       "summary": "2026-09-29",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -448,7 +448,7 @@
       "deadline": null,
       "summary": "2026-09-29",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -484,7 +484,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -527,7 +527,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -570,7 +570,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -613,7 +613,7 @@
       "deadline": null,
       "summary": "[09-28]",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -649,7 +649,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -707,7 +707,7 @@
       "deadline": null,
       "summary": "[09-24]",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -740,7 +740,7 @@
       "deadline": null,
       "summary": "2026-09-24",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00"
+      "collectedAt": "2026-10-05T10:03:17+08:00"
     },
     {
       "id": "4892f8e1e2b49803",
@@ -760,7 +760,7 @@
       "deadline": null,
       "summary": "[09-24]",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -793,7 +793,7 @@
       "deadline": null,
       "summary": "2026-09-24",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00"
+      "collectedAt": "2026-10-05T10:03:17+08:00"
     },
     {
       "id": "216fd43ffe8eb72a",
@@ -813,7 +813,7 @@
       "deadline": "2026-10-30",
       "summary": "2026-09-24",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -863,7 +863,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-24",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -898,7 +898,7 @@
       "deadline": "2026-10-15",
       "summary": "2026-09-24",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [],
@@ -930,7 +930,7 @@
       "deadline": null,
       "summary": "2026-09-23",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -980,7 +980,7 @@
       "deadline": null,
       "summary": "[09-23]",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1016,7 +1016,7 @@
       "deadline": "2026-11-20",
       "summary": "2026-09-23",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1074,7 +1074,7 @@
       "deadline": null,
       "summary": "[09-22]",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1110,7 +1110,7 @@
       "deadline": "2026-10-08",
       "summary": "2026-09-22",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00"
+      "collectedAt": "2026-10-05T10:03:17+08:00"
     },
     {
       "id": "04411411cd607ddb",
@@ -1130,7 +1130,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-22",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [
@@ -1160,7 +1160,7 @@
       "deadline": "2026-10-16",
       "summary": "2026-09-22",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1203,7 +1203,7 @@
       "deadline": "2026-10-10",
       "summary": "2026-09-22",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1252,7 +1252,7 @@
       "deadline": null,
       "summary": "2026-09-21",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00"
+      "collectedAt": "2026-10-05T10:03:17+08:00"
     },
     {
       "id": "5ae7239c9e9f8f2f",
@@ -1272,7 +1272,7 @@
       "deadline": null,
       "summary": "[09-21]",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1305,7 +1305,7 @@
       "deadline": "2026-10-07",
       "summary": "2026-09-21",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [],
@@ -1339,7 +1339,7 @@
       "deadline": null,
       "summary": "[09-20] var purl=\"../../../n2588035/n2588325/n2588350/index_7325475\" var org= jQuery(\"#comp_7325475\").html(); function goPub(uu){ if(pageName==maxPageNum) { pageName=0;} if(pageNam",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00"
+      "collectedAt": "2026-10-05T10:03:17+08:00"
     },
     {
       "id": "ebfdf347644adeb8",
@@ -1359,7 +1359,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-18",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1418,7 +1418,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-17",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1470,7 +1470,7 @@
       "deadline": null,
       "summary": "2026-09-17",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1515,7 +1515,7 @@
       "deadline": null,
       "summary": "2026-09-16",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00"
+      "collectedAt": "2026-10-05T10:03:17+08:00"
     },
     {
       "id": "0e232f468c5bc467",
@@ -1535,7 +1535,7 @@
       "deadline": null,
       "summary": "2026-09-16",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1580,7 +1580,7 @@
       "deadline": null,
       "summary": "2026-09-16",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [
@@ -1613,7 +1613,7 @@
       "deadline": null,
       "summary": "2026-09-16",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00"
+      "collectedAt": "2026-10-05T10:03:17+08:00"
     },
     {
       "id": "ffa3c212adf67d64",
@@ -1633,7 +1633,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1690,7 +1690,7 @@
       "deadline": null,
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00"
+      "collectedAt": "2026-10-05T10:03:17+08:00"
     },
     {
       "id": "e5152aa20bae0ad3",
@@ -1710,7 +1710,7 @@
       "deadline": null,
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00"
+      "collectedAt": "2026-10-05T10:03:17+08:00"
     },
     {
       "id": "ac7b7ab96b387f0a",
@@ -1730,7 +1730,7 @@
       "deadline": null,
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00"
+      "collectedAt": "2026-10-05T10:03:17+08:00"
     },
     {
       "id": "285b378e4399a51f",
@@ -1750,7 +1750,7 @@
       "deadline": null,
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1797,7 +1797,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1859,7 +1859,7 @@
       "deadline": "2026-10-13",
       "summary": "[2026-09-11]",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1916,7 +1916,7 @@
       "deadline": null,
       "summary": "2026-09-09",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1974,7 +1974,7 @@
       "deadline": null,
       "summary": "2026-09-08",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00"
+      "collectedAt": "2026-10-05T10:03:17+08:00"
     },
     {
       "id": "2598aba25f307de9",
@@ -1994,7 +1994,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-07",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -2048,7 +2048,7 @@
       "deadline": null,
       "summary": "2026-09-01",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -2108,7 +2108,7 @@
       "deadline": null,
       "summary": "2026-09-01",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00"
+      "collectedAt": "2026-10-05T10:03:17+08:00"
     },
     {
       "id": "087a3986394e8d9d",
@@ -2128,7 +2128,7 @@
       "deadline": null,
       "summary": "2026-08-27",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00"
+      "collectedAt": "2026-10-05T10:03:17+08:00"
     },
     {
       "id": "31e48103be98ff7d",
@@ -2148,7 +2148,7 @@
       "deadline": null,
       "summary": "2026-08-27",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00"
+      "collectedAt": "2026-10-05T10:03:17+08:00"
     },
     {
       "id": "8a65835b0d5a2652",
@@ -2168,7 +2168,7 @@
       "deadline": null,
       "summary": "2026-08-21",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00"
+      "collectedAt": "2026-10-05T10:03:17+08:00"
     },
     {
       "id": "7c672bfff1890b2b",
@@ -2188,7 +2188,7 @@
       "deadline": null,
       "summary": "2026-08-21",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00"
+      "collectedAt": "2026-10-05T10:03:17+08:00"
     },
     {
       "id": "8db16228d200071e",
@@ -2208,7 +2208,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -2265,7 +2265,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-04T10:43:17+08:00",
+      "collectedAt": "2026-10-05T10:03:17+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
