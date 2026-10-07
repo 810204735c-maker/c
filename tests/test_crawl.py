@@ -12,6 +12,7 @@ from crawler.crawl import (
     crawl,
     dedupe_jobs,
     is_allowed_url,
+    is_recruitment_title,
     merge_with_previous,
     parse_html,
     parse_rss,
@@ -225,6 +226,19 @@ class CrawlTests(unittest.TestCase):
         }
         html = '<a href="/result/20260720.html">某机关2026年度考试录用公务员拟录用人员公示</a><span>2026-07-20</span>'
         self.assertEqual(parse_html(html, source, NOW), [])
+
+    def test_post_recruitment_notices_are_not_treated_as_open_opportunities(self):
+        excluded_titles = (
+            "湖南省2026年省直事业单位第四次公开招聘取消部分岗位招聘计划的公告",
+            "福建省农业科学院2026年公开招聘博士研究生拟聘人选的公示（二）",
+            "2026年福建中医药大学高层次人才招聘公告拟聘人员公示（七）",
+        )
+
+        for title in excluded_titles:
+            with self.subTest(title=title):
+                self.assertFalse(is_recruitment_title(title))
+
+        self.assertTrue(is_recruitment_title("某单位2026年公开招聘计划调整公告"))
 
     def test_date_inside_anchor_is_removed_from_the_title(self):
         source = {
