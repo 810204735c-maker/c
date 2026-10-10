@@ -6765,9 +6765,55 @@
       }
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4949166.html": {
-      "status": "error",
-      "fetchedAt": "2026-10-09T10:58:06+08:00",
-      "error": "The read operation timed out"
+      "status": "ok",
+      "fetchedAt": "2026-10-10T10:23:41+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "高校行政"
+          ],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "高校行政": "广东石油化工学院2026年公开招聘辅导员（第二批）公告-广东省人力资源和社会保障厅",
+            "硕士": "油化工集团公司、中国石油天然气集团公司、中国海洋石油集团有限公司共建的公办普通本科高校，华南地区唯一一所石油化工特色高校，教育部“卓越工程师教育培养计划”试点高校，广东省高水平理工科大学建设高校，硕士学位授予单位，博士学位授予立项建设单位。",
+            "应届": "2026年应届毕业生和社会上具有国家承认学历的人员。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "党员证明",
+            "工作经历证明",
+            "近期照片",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "报名表": "1.《广东省事业单位公开招聘人员报名表》；",
+            "学历学位证明": "4.毕业证、学位证书（PDF格式，毕业证、学位证书各1个文件，国（境）外留学回国人员还需提供教育部留学服务中心国（境）外学历、学位认证书）；",
+            "党员证明": "（2）近三个月内隶属基层党组织开具的党员证明。",
+            "工作经历证明": "（3）学生干部工作经历证明材料；",
+            "近期照片": "2.本人彩色证件照（JPEG或JPG格式）；",
+            "成绩单": "国（境）外留学人员报名时未取得毕业证书的提供中、外文成绩单和在读证明。",
+            "就业推荐表": "（1）应届毕业生提交就业推荐表。"
+          }
+        }
+      }
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35842048/content.html": {
       "status": "ok",
@@ -7995,7 +8041,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202609/t20260911_7212292.htm": {
       "status": "ok",
-      "fetchedAt": "2026-10-03T10:03:41+08:00",
+      "fetchedAt": "2026-10-10T10:23:41+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -9127,30 +9173,9 @@
       }
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260916_34065996.html": {
-      "status": "ok",
-      "fetchedAt": "2026-10-03T10:03:41+08:00",
-      "fields": {
-        "registrationStart": null,
-        "registrationEnd": null,
-        "deadlineConfidence": "unknown",
-        "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
-        "profileHints": {
-          "schemaVersion": 3,
-          "roleTags": [],
-          "majorTags": [],
-          "qualificationTags": [],
-          "englishRequirements": [],
-          "graduateYears": [],
-          "evidence": {}
-        },
-        "applicationHints": {
-          "schemaVersion": 1,
-          "methods": [],
-          "materialTags": [],
-          "evidence": {}
-        }
-      }
+      "status": "error",
+      "fetchedAt": "2026-10-10T10:23:41+08:00",
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202609/t20260916_4866325.html": {
       "status": "ok",
@@ -11292,6 +11317,295 @@
           "methods": [],
           "materialTags": [],
           "evidence": {}
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20261009/t0035_1444074.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-10T10:23:41+08:00",
+      "fields": {
+        "registrationStart": "2026-10-23",
+        "registrationEnd": "2026-10-23",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "四、招聘办法 1.报名时间： 即日起至2026年10月23日17:00止",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "中共党员",
+            "工作经历"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "4.年龄38周岁以下（1988年1月以后出生)，研究生及以上学历，硕士及以上学位；",
+            "中共党员": "完成领导交办的其他工作，中共党员优先。",
+            "工作经历": "纸质文物（含古籍、近现代文献及档案、书画等）修复实操能力突出，非应届生应具有3年以上相关工作经验；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学信网证明",
+            "个人简历",
+            "资格证书"
+          ],
+          "evidence": {
+            "报名表": "（4）上海韬奋纪念馆公开招聘报名表（见附件2）；",
+            "学信网证明": "（6）国内院校尚未毕业的须提供《教育部学籍在线验证报告》（PDF版，详见“学信网”）；",
+            "个人简历": "不接受其他格式的报名表或者个人简历等，且未按上述要求提交报名材料，视作无效报名。",
+            "资格证书": "（7）所报岗位要求的专业技术、职业资格证书或其他相关材料。"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202610/t20261009_4894342.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-10T10:23:41+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-10-19",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "三、报名时间及方法 （一）报名时间截止到2026年10月19日 （二）报名方法： 1.学科带头人及学科骨干岗位 申请人网上注册填报简历",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2024"
+          ],
+          "evidence": {
+            "应届": "4.列入国家统一招生计划的北京生源应届毕业生，海外留学归国人员（符合北京市留学人员引进条件），北京市常住户口且人事行政关系在京的社会人员，符合北京市人才引进条件人员；",
+            "2024届": "列入国家统一招生计划的普通高等学校应届毕业生（毕业证书落款年度为2025年、2026年的高校毕业生，不含定向、委培）、及2024届离校未就业毕业生（未与任何单位签订合同且无单位缴纳社会保险记录），要求已取得学历和学位证书，在校期间成绩优秀，"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "身份证",
+            "学信网证明",
+            "成绩单"
+          ],
+          "evidence": {
+            "身份证": "，同时将个人详细简历发送至邮箱bjxkyyrcyj@126.com，邮件主题为“应聘岗位名称+姓名”，附资格审查材料：（身份证正反面，户口簿（卡）首页、本人页，最高学历、学位证书及学信网最高学历、学位在线验证报告，岗位中要求相关职称、教学任",
+            "学信网证明": "com，邮件主题为“应聘岗位名称+姓名”，附资格审查材料：（身份证正反面，户口簿（卡）首页、本人页，最高学历、学位证书及学信网最高学历、学位在线验证报告，岗位中要求相关职称、教学任职及工作经验的务必根据岗位要求提供相关证明）以压缩包形式上传",
+            "成绩单": "国外院校毕业生提供翻译过的专业课程目录及成绩单；"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202610/t20261009_4894075.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-10T10:23:41+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-10-19",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "三、报名时间及方法 （一）报名时间截止到2026年10月19日 （二）报名方法： 1.学科带头人及学科骨干岗位 申请人网上注册填报简历",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "身份证",
+            "学信网证明",
+            "成绩单"
+          ],
+          "evidence": {
+            "身份证": "，同时将个人详细简历发送至邮箱bjxkyyrcyj@126.com，邮件主题为“应聘岗位名称+姓名”，附资格审查材料：（身份证正反面，户口簿（卡）首页、本人页，最高学历、学位证书及学信网最高学历、学位在线验证报告，岗位中要求相关职称、教学任",
+            "学信网证明": "com，邮件主题为“应聘岗位名称+姓名”，附资格审查材料：（身份证正反面，户口簿（卡）首页、本人页，最高学历、学位证书及学信网最高学历、学位在线验证报告，岗位中要求相关职称、教学任职及工作经验的务必根据岗位要求提供相关证明）以压缩包形式上传",
+            "成绩单": "国外院校毕业生提供翻译过的专业课程目录及成绩单；"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202610/t20261009_4894451.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-10T10:23:41+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-10-25",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名截止时间：2026年10月25日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "工作经历证明",
+            "成绩单"
+          ],
+          "evidence": {
+            "工作经历证明": "（5）能够证明工作经历的相关证明材料（劳动合同、社保缴费记录、工资待遇、档案存放证明等）；",
+            "成绩单": "国外院校考生提供翻译过的专业课程目录及成绩单；"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20261008/t0035_1444019.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-10T10:23:41+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "从外省市引进的高级专业技术人员、紧缺急需专业人才、符合条件的留学回国人员、应届毕业生可不受居住证满一年的限制。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "个人简历"
+          ],
+          "evidence": {
+            "个人简历": "1.报名：有意者请将个人简历及应聘材料（学历、学位、职称、获奖、科研成果目录及代表作等）电子版发至各学院/学部邮箱，在邮件主题中注明“应聘××学院/学部××岗位+姓名”。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20261008/t0035_1444037.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-10T10:23:41+08:00",
+      "fields": {
+        "registrationStart": "2026-10-16",
+        "registrationEnd": "2026-10-16",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间：即日起至2026年10月16日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "相关专业硕士及以上学位，有良好的科研基础，熟练掌握相关领域的实验技术，工作责任心强、有团队协作精神，有三甲医院工作经历者优先考虑。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "个人简历"
+          ],
+          "evidence": {
+            "个人简历": "请将个人简历、学历证明及其他资格证书等材料电子版发送至上海市第六人民医院招聘邮箱（rsc6th@163.com）。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20261008/t0035_1444038.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-10T10:23:41+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-10-20",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名截止时间：2026年10月20日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "创伤专业，研究生学历，硕士学位，取得高级职称并且聘任，1名；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20261008/t0035_1444039.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-10T10:23:41+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "普通高校应届或非应届毕业生，年龄为38周岁及以下。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "学历学位证明",
+            "工作经历证明"
+          ],
+          "evidence": {
+            "报名表": "材料包括：《上海市环境科学研究院工作人员应聘报名表》（本人签字）、本人身份证（外省市社会人员还需提交居住证）、大学本科至最高学历学位证书（境外学历考生需提供学位认证材料）、能够证明全部工作经历的劳动合同、社保缴费记录证明、职务职称证书聘书、",
+            "身份证": "材料包括：《上海市环境科学研究院工作人员应聘报名表》（本人签字）、本人身份证（外省市社会人员还需提交居住证）、大学本科至最高学历学位证书（境外学历考生需提供学位认证材料）、能够证明全部工作经历的劳动合同、社保缴费记录证明、职务职称证书聘书、",
+            "学历学位证明": "包括：《上海市环境科学研究院工作人员应聘报名表》（本人签字）、本人身份证（外省市社会人员还需提交居住证）、大学本科至最高学历学位证书（境外学历考生需提供学位认证材料）、能够证明全部工作经历的劳动合同、社保缴费记录证明、职务职称证书聘书、获奖",
+            "工作经历证明": "证（外省市社会人员还需提交居住证）、大学本科至最高学历学位证书（境外学历考生需提供学位认证材料）、能够证明全部工作经历的劳动合同、社保缴费记录证明、职务职称证书聘书、获奖证书、参与课题及论文及本人2026年本市公开招考成绩的相关证明等材料。"
+          }
         }
       }
     }
