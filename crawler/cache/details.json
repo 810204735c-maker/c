@@ -4842,7 +4842,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4942462.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-06T11:04:48+08:00",
+      "fetchedAt": "2026-10-13T11:36:37+08:00",
       "fields": {
         "registrationStart": "2026-08-27",
         "registrationEnd": "2026-09-02",
@@ -7659,50 +7659,9 @@
       }
     },
     "https://hrss.jl.gov.cn/gg/202609/t20260907_9702080.html": {
-      "status": "ok",
-      "fetchedAt": "2026-10-06T11:04:48+08:00",
-      "fields": {
-        "registrationStart": "2026-09-14",
-        "registrationEnd": "2026-09-18",
-        "deadlineConfidence": "high",
-        "deadlineEvidence": "（一）网上报名 1.报名时间：2026年9月14日9:00—9月18日14:30 2.报名网址：http://zp.cpta.com.cn/tyzpwb/?examid=dddCdj 考生需登录报名网站（全国人事考试服务平台）",
-        "registrationWindowSchemaVersion": 2,
-        "profileHints": {
-          "schemaVersion": 3,
-          "roleTags": [
-            "高校行政"
-          ],
-          "majorTags": [],
-          "qualificationTags": [
-            "应届"
-          ],
-          "englishRequirements": [],
-          "graduateYears": [],
-          "evidence": {
-            "高校行政": "为确保高等教育教学质量，本次招聘所有高校教师岗位（不含辅导员、教辅及其他管理岗位）可设置一般聘用控制分数线，分数为65分。",
-            "应届": "1.定向、委培应届毕业生报考，须征得定向、委培单位同意；"
-          }
-        },
-        "applicationHints": {
-          "schemaVersion": 1,
-          "methods": [
-            "网上报名"
-          ],
-          "materialTags": [
-            "身份证",
-            "学历学位证明",
-            "成绩单",
-            "就业推荐表"
-          ],
-          "evidence": {
-            "网上报名": "（一）网上报名",
-            "身份证": "年龄计算时间点均以9月7日为准（以本人身份证出生日期为准）。",
-            "学历学位证明": "2026年毕业生尚未取得学历学位证书的，按本校毕业生就业指导部门签署意见的毕业生就业推荐表上的专业进行报考。",
-            "成绩单": "证书专业为一级学科的，需上传成绩单和毕业论文研究方向等佐证材料。",
-            "就业推荐表": "2026年毕业生尚未取得学历学位证书的，按本校毕业生就业指导部门签署意见的毕业生就业推荐表上的专业进行报考。"
-          }
-        }
-      }
+      "status": "error",
+      "fetchedAt": "2026-10-13T11:36:37+08:00",
+      "error": "HTTP Error 502: Bad Gateway"
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35891271/content.html": {
       "status": "ok",
@@ -8580,7 +8539,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202609/t20260914_4863253.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-06T11:04:48+08:00",
+      "fetchedAt": "2026-10-13T11:36:37+08:00",
       "fields": {
         "registrationStart": "2026-09-23",
         "registrationEnd": "2026-09-23",
@@ -9855,7 +9814,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202609/t20260920_584204.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-06T11:04:48+08:00",
+      "fetchedAt": "2026-10-13T11:36:37+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -9949,7 +9908,7 @@
     },
     "https://hrss.jl.gov.cn/gg/202609/t20260921_9719418.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-06T11:04:48+08:00",
+      "fetchedAt": "2026-10-13T11:36:37+08:00",
       "fields": {
         "registrationStart": "2026-10-08",
         "registrationEnd": "2026-10-13",
@@ -10500,7 +10459,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35992780/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-06T11:04:48+08:00",
+      "fetchedAt": "2026-10-13T11:36:37+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -10533,7 +10492,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35992800/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-06T11:04:48+08:00",
+      "fetchedAt": "2026-10-13T11:36:37+08:00",
       "fields": {
         "registrationStart": "2026-09-24",
         "registrationEnd": "2026-10-15",
@@ -10570,7 +10529,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35991460/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-06T11:04:48+08:00",
+      "fetchedAt": "2026-10-13T11:36:37+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -10600,7 +10559,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260928/t0035_1443938.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-06T11:04:48+08:00",
+      "fetchedAt": "2026-10-13T11:36:37+08:00",
       "fields": {
         "registrationStart": "2026-10-15",
         "registrationEnd": "2026-10-15",
@@ -10634,7 +10593,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260924/t0035_1443928.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-06T11:04:48+08:00",
+      "fetchedAt": "2026-10-13T11:36:37+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -10769,7 +10728,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202609/t20260928_7219040.htm": {
       "status": "ok",
-      "fetchedAt": "2026-10-06T11:04:48+08:00",
+      "fetchedAt": "2026-10-13T11:36:37+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -11748,6 +11707,157 @@
           "methods": [],
           "materialTags": [],
           "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36049782/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-13T11:36:37+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202610/t20261012_34079439.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-13T11:36:37+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "应届": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,应届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "工作经历证明",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,应届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,应届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "工作经历证明": "(4)招聘岗位明确要求有工作经历的,应聘人员须提供工作经历证明(加盖工作单位公章或人事部门公章);",
+            "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,应届毕业生还须提供毕业生就业推荐表(需盖学校公章);"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20261012/7909232734724afeadc14ef8c8d858a4.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-13T11:36:37+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "现场报名"
+          ],
+          "materialTags": [
+            "报名表"
+          ],
+          "evidence": {
+            "现场报名": "本次招聘采取现场报名的方式进行。",
+            "报名表": "合条件并有报考意向的运动员，由本人持有效居民身份证、户口簿、成绩证明、成绩册、秩序册、运动员注册证明等证件原件、复印件和报名表（附件2），于2026年10月12日至2026年10月16日（9:00至16:00）前往报名处（具体地址和联系方式"
+          }
+        }
+      }
+    },
+    "https://hrss.jl.gov.cn/gg/202610/t20261012_9728461.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-13T11:36:37+08:00",
+      "fields": {
+        "registrationStart": "2026-10-19",
+        "registrationEnd": "2026-10-23",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "（二）报名时间 2026年10月19日至10月23日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "1.定向、委培应届毕业生报考，需征得定向、委培单位同意。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "身份证",
+            "学历学位证明",
+            "资格证书",
+            "工作经历证明",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "网上报名": "本公告岗位资格审查结果于报名结束后5个工作日内由招聘部门（单位）回复电子邮件通知或查看报名系统。",
+            "身份证": "年龄计算时间点均以10月12日为准（以本人身份证出生日期为准）。",
+            "学历学位证明": "4.在读的非2026年毕业生（2027年1月1日后取得毕业证、学位证的考生不视为2026年毕业生），不得用已取得的学历、学位报考；",
+            "资格证书": "（3）专业技术资格证书扫描件；",
+            "工作经历证明": "（4）要求具有工作经历的岗位，需上传劳动合同与社保缴费明细。",
+            "成绩单": "证书专业为一级学科的，需上传成绩单和毕业论文研究方向等佐证材料。",
+            "就业推荐表": "其中在读2026年毕业尚未取得学历学位证的考生，须提供由本校毕业生就业指导部门签署意见的《毕业生就业推荐表》；"
+          }
         }
       }
     }
