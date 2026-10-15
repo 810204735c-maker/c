@@ -10811,7 +10811,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35997025/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-07T10:27:06+08:00",
+      "fetchedAt": "2026-10-15T09:32:10+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -10844,7 +10844,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202609/t20260929_4884769.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-07T10:27:06+08:00",
+      "fetchedAt": "2026-10-15T09:32:10+08:00",
       "fields": {
         "registrationStart": "2026-10-18",
         "registrationEnd": "2026-10-18",
@@ -10883,7 +10883,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260929_34074113.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-07T10:27:06+08:00",
+      "fetchedAt": "2026-10-15T09:32:10+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -11925,6 +11925,66 @@
           "evidence": {
             "网上报名": "事业单位公开招聘考试报名平台"
           }
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36058707/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-15T09:32:10+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "中国建研院2027校园招聘启动－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202610/t20261014_4901622.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-15T09:32:10+08:00",
+      "fields": {
+        "registrationStart": "2026-10-15",
+        "registrationEnd": "2026-10-23",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间为2026年10月15日至2026年10月23日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "列入国家统一招生计划的应届毕业生、社会人员。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     }
