@@ -1,7 +1,163 @@
 {
-  "generatedAt": "2026-10-16T09:26:58+08:00",
-  "total": 58,
+  "generatedAt": "2026-10-17T09:20:59+08:00",
+  "total": 56,
   "jobs": [
+    {
+      "id": "c4f2f286c631cda9",
+      "title": "能建绿氢新能源（松原）有限公司招聘公告",
+      "url": "http://www.ceehe.ceec.net.cn/art/2026/10/16/art_60241_2066.html",
+      "source": "中国能建所属企业招聘",
+      "collector": "中国能建所属企业招聘",
+      "publishedAt": "2026-10-16",
+      "dateEstimated": false,
+      "category": "央国企",
+      "location": "全国",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": "2027-10-08",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "四、其他事项 1.报名时间截止至2027年10月8日",
+      "deadline": "2027-10-08",
+      "summary": "能建绿氢新能源（松原）有限公司（以下简称松原绿氢公司）是中能建氢能源有限公司（以下简称氢能公司）的控... 08 2026.05 05-08",
+      "official": false,
+      "collectedAt": "2026-10-17T09:20:59+08:00",
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [],
+        "materialTags": [
+          "学历学位证明"
+        ],
+        "evidence": {
+          "学历学位证明": "（松原）有限公司应聘人员统计表》（附件3），将应聘人员登记表（Word版本）、应聘人员统计表（Excel版本）、身份证、毕业证、学位证、学历验证报告、职称证书、职业资格证、工作履历证明材料等报名材料电子版整理为一个压缩文件，以“应聘岗位+姓"
+        }
+      }
+    },
+    {
+      "id": "2d818fbca82c1976",
+      "title": "2027年福建省福州第一中学校园公开招聘教师方案",
+      "url": "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpfa/202610/t20261016_7226730.htm",
+      "source": "福建省事业单位公开招聘",
+      "collector": "福建省事业单位公开招聘",
+      "publishedAt": "2026-10-16",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "福建",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "deadline": null,
+      "summary": "",
+      "official": true,
+      "collectedAt": "2026-10-17T09:20:59+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [
+          "新媒体",
+          "中文教育"
+        ],
+        "majorTags": [
+          "中国语言文学"
+        ],
+        "qualificationTags": [
+          "硕士",
+          "应届",
+          "教师资格证"
+        ],
+        "englishRequirements": [],
+        "graduateYears": [],
+        "evidence": {
+          "新媒体": "新媒体矩阵",
+          "中文教育": "语文教师岗",
+          "中国语言文学": "汉语言文学（教育），汉语（言），中国语言文学（教育），汉语言文学，语言学及应用语言学，中国古代文学，中国现当代文学，学科教学（语文），语文教育",
+          "硕士": "5.具备研究生学历、硕士及以上学位。",
+          "应届": "）证书的复印件及对应的教育部学历证书电子注册备案表（需在有效期内，可扫码验证）、学位在线验证报告（学信网https://www.chsi.com.cn），暂未取得报考岗位要求的毕业证书或学位证书的应届毕业生应提供学籍在线验证报告（学信网）；",
+          "教师资格证": "2.身体健康，符合福建省教师资格认定体检标准。"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [
+          "网上报名"
+        ],
+        "materialTags": [
+          "学历学位证明",
+          "学信网证明",
+          "个人简历",
+          "资格证书"
+        ],
+        "evidence": {
+          "网上报名": "事业单位公开招聘考试报名平台",
+          "学历学位证明": "6.取得境外学历学位证书报考人员应提供教育部留学服务中心出具的学历学位认证书。",
+          "学信网证明": "（含前置学历到最高学历）证书的复印件及对应的教育部学历证书电子注册备案表（需在有效期内，可扫码验证）、学位在线验证报告（学信网https://www.chsi.com.cn），暂未取得报考岗位要求的毕业证书或学位证书的应届毕业生应提供学籍在",
+          "个人简历": "符合条件的报考人员微信扫描进入“2027年福建省福州第一中学校园公开招聘教师”小程序（附件1）预报名，选择一个岗位，按要求完成信息填写，并上传《福建省福州第一中学招聘报名登记表》（附件2）及个人简历。",
+          "资格证书": "7.学历证、学位证、认证书、教师资格证书等各项资格认定落款截止时间为2027年7月31日。"
+        }
+      }
+    },
+    {
+      "id": "cd1ddb1c2c6566fd",
+      "title": "2026年福建技术师范学院公开招聘高层次人才方案（二）",
+      "url": "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202610/t20261016_7237044.htm",
+      "source": "福建省事业单位公开招聘",
+      "collector": "福建省事业单位公开招聘",
+      "publishedAt": "2026-10-16",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "福建",
+      "audience": "不限",
+      "registrationStart": "2026-12-31",
+      "registrationEnd": "2026-12-31",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "四、报名和资格审查 1.报名时间：即日起至2026年12月31日",
+      "deadline": "2026-12-31",
+      "summary": "",
+      "official": true,
+      "collectedAt": "2026-10-17T09:20:59+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [
+          "新媒体"
+        ],
+        "majorTags": [
+          "中国语言文学"
+        ],
+        "qualificationTags": [
+          "硕士",
+          "中共党员"
+        ],
+        "englishRequirements": [],
+        "graduateYears": [],
+        "evidence": {
+          "新媒体": "新媒体矩阵",
+          "中国语言文学": "中国语言文学类；",
+          "硕士": "学校是全国十二所职业技术师范院校之一、福建省唯一一所以职教师资培养为特色的应用型本科高校，是福建省一流应用型建设培育高校、福建省硕士学位授予单位培育高校和福建省高校“三全育人”综合改革试点高校。",
+          "中共党员": "中共党员"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [
+          "网上报名"
+        ],
+        "materialTags": [
+          "身份证",
+          "学历学位证明",
+          "学信网证明",
+          "个人简历",
+          "就业推荐表"
+        ],
+        "evidence": {
+          "网上报名": "事业单位公开招聘考试报名平台",
+          "身份证": "（3）身份证正反面原件扫描件（印制在同一页面）。",
+          "学历学位证明": "（4）本科阶段以来的学历学位证明材料复印件(如毕业证、学位证、应届生就业推荐表、学信网学历学位验证报告等)，取得境外学历学位的报考人员应提供教育部留学服务中心出具的学历学位认证书;",
+          "学信网证明": "（4）本科阶段以来的学历学位证明材料复印件(如毕业证、学位证、应届生就业推荐表、学信网学历学位验证报告等)，取得境外学历学位的报考人员应提供教育部留学服务中心出具的学历学位认证书;",
+          "个人简历": "（2）个人简历",
+          "就业推荐表": "（4）本科阶段以来的学历学位证明材料复印件(如毕业证、学位证、应届生就业推荐表、学信网学历学位验证报告等)，取得境外学历学位的报考人员应提供教育部留学服务中心出具的学历学位认证书;"
+        }
+      }
+    },
     {
       "id": "5fea0d2a714fad50",
       "title": "首都医科大学附属北京佑安医院2026年第三批社会人员公开招聘公告",
@@ -20,7 +176,7 @@
       "deadline": null,
       "summary": "2026-10-15",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -63,7 +219,7 @@
       "deadline": null,
       "summary": "[10-15]",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -96,7 +252,7 @@
       "deadline": "2026-12-04",
       "summary": "2026-10-15",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -148,7 +304,7 @@
       "deadline": "2026-10-23",
       "summary": "2026-10-15",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -197,7 +353,7 @@
       "deadline": "2026-10-23",
       "summary": "2026-10-14",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -230,7 +386,7 @@
       "deadline": null,
       "summary": "[10-14]",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -266,7 +422,7 @@
       "deadline": null,
       "summary": "[10-13]",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00"
+      "collectedAt": "2026-10-17T09:20:59+08:00"
     },
     {
       "id": "0bd36f0ca4d2bd00",
@@ -286,7 +442,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -329,7 +485,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-10-12",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -383,7 +539,7 @@
       "deadline": null,
       "summary": "2026-10-12",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [
@@ -416,7 +572,7 @@
       "deadline": null,
       "summary": "2026-10-10",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00"
+      "collectedAt": "2026-10-17T09:20:59+08:00"
     },
     {
       "id": "16f236661160fda4",
@@ -436,7 +592,7 @@
       "deadline": "2026-10-23",
       "summary": "2026-10-10",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -489,7 +645,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -541,7 +697,7 @@
       "deadline": "2026-10-19",
       "summary": "2026-10-09",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -591,7 +747,7 @@
       "deadline": null,
       "summary": "2026-10-09",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00"
+      "collectedAt": "2026-10-17T09:20:59+08:00"
     },
     {
       "id": "08bebff0ec183e50",
@@ -611,7 +767,7 @@
       "deadline": "2026-10-19",
       "summary": "2026-10-09",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [],
@@ -645,7 +801,7 @@
       "deadline": "2026-10-25",
       "summary": "2026-10-09",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [],
@@ -677,7 +833,7 @@
       "deadline": null,
       "summary": "[10-09]",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -713,7 +869,7 @@
       "deadline": null,
       "summary": "2026-10-09",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00"
+      "collectedAt": "2026-10-17T09:20:59+08:00"
     },
     {
       "id": "49a42d065408478a",
@@ -733,7 +889,7 @@
       "deadline": null,
       "summary": "2026-10-09",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -759,49 +915,6 @@
       }
     },
     {
-      "id": "b5e69e318b9e0501",
-      "title": "上海市第六人民医院公开招聘工作人员公告",
-      "url": "https://rsj.sh.gov.cn/tzpgg_17408/20261008/t0035_1444037.html",
-      "source": "上海市事业单位招聘公告",
-      "collector": "上海市事业单位招聘公告",
-      "publishedAt": "2026-10-09",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "上海",
-      "audience": "不限",
-      "registrationStart": "2026-10-16",
-      "registrationEnd": "2026-10-16",
-      "deadlineConfidence": "high",
-      "deadlineEvidence": "报名时间：即日起至2026年10月16日",
-      "deadline": "2026-10-16",
-      "summary": "2026-10-09",
-      "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
-      "profileHints": {
-        "schemaVersion": 3,
-        "roleTags": [],
-        "majorTags": [],
-        "qualificationTags": [
-          "硕士"
-        ],
-        "englishRequirements": [],
-        "graduateYears": [],
-        "evidence": {
-          "硕士": "相关专业硕士及以上学位，有良好的科研基础，熟练掌握相关领域的实验技术，工作责任心强、有团队协作精神，有三甲医院工作经历者优先考虑。"
-        }
-      },
-      "applicationHints": {
-        "schemaVersion": 1,
-        "methods": [],
-        "materialTags": [
-          "个人简历"
-        ],
-        "evidence": {
-          "个人简历": "请将个人简历、学历证明及其他资格证书等材料电子版发送至上海市第六人民医院招聘邮箱（rsc6th@163.com）。"
-        }
-      }
-    },
-    {
       "id": "f7b4fd86d2437bfa",
       "title": "上海市第一人民医院公开招聘",
       "url": "https://rsj.sh.gov.cn/tzpgg_17408/20261008/t0035_1444038.html",
@@ -819,7 +932,7 @@
       "deadline": "2026-10-20",
       "summary": "2026-10-09",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -852,7 +965,7 @@
       "deadline": null,
       "summary": "2026-10-09",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -901,7 +1014,7 @@
       "deadline": "2026-10-18",
       "summary": "2026-10-08",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -946,7 +1059,7 @@
       "deadline": null,
       "summary": "[10-08]",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -979,7 +1092,7 @@
       "deadline": null,
       "summary": "[10-08]",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1015,7 +1128,7 @@
       "deadline": null,
       "summary": "[09-30]",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1051,7 +1164,7 @@
       "deadline": "2026-10-18",
       "summary": "2026-09-29",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1099,7 +1212,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-29",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1148,7 +1261,7 @@
       "deadline": null,
       "summary": "[09-29]",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1184,7 +1297,7 @@
       "deadline": null,
       "summary": "2026-09-29",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1220,7 +1333,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1278,7 +1391,7 @@
       "deadline": null,
       "summary": "2026-09-24",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00"
+      "collectedAt": "2026-10-17T09:20:59+08:00"
     },
     {
       "id": "ad445b2e5c3981cd",
@@ -1298,7 +1411,7 @@
       "deadline": null,
       "summary": "2026-09-24",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00"
+      "collectedAt": "2026-10-17T09:20:59+08:00"
     },
     {
       "id": "216fd43ffe8eb72a",
@@ -1318,7 +1431,7 @@
       "deadline": "2026-10-30",
       "summary": "2026-09-24",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1368,7 +1481,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-24",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1403,7 +1516,7 @@
       "deadline": "2026-10-23",
       "summary": "[2026-09-24]",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1459,7 +1572,7 @@
       "deadline": null,
       "summary": "2026-09-23",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1509,7 +1622,7 @@
       "deadline": "2026-11-20",
       "summary": "2026-09-23",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1567,7 +1680,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-22",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [
@@ -1576,49 +1689,6 @@
         "materialTags": [],
         "evidence": {
           "网上报名": "应聘人员原则上采用网上报名方式，请登录上海商学院人才招聘网（https://zhaopin.sbs.edu.cn/zp.html#/）进行应聘，每名应聘人员限投一个岗位。"
-        }
-      }
-    },
-    {
-      "id": "96c84a874fc3cb40",
-      "title": "上海商业会计学校2026下半年工作人员公开招聘公告",
-      "url": "https://rsj.sh.gov.cn/tzpgg_17408/20260921/t0035_1443847.html",
-      "source": "上海市事业单位招聘公告",
-      "collector": "上海市事业单位招聘公告",
-      "publishedAt": "2026-09-22",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "上海",
-      "audience": "不限",
-      "registrationStart": "2026-10-16",
-      "registrationEnd": "2026-10-16",
-      "deadlineConfidence": "high",
-      "deadlineEvidence": "报名时间从即日起至2026年10月16日止",
-      "deadline": "2026-10-16",
-      "summary": "2026-09-22",
-      "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
-      "profileHints": {
-        "schemaVersion": 3,
-        "roleTags": [],
-        "majorTags": [],
-        "qualificationTags": [
-          "应届"
-        ],
-        "englishRequirements": [],
-        "graduateYears": [],
-        "evidence": {
-          "应届": "符合招聘岗位专业要求的社会在职人员及普通高校应届毕业生。"
-        }
-      },
-      "applicationHints": {
-        "schemaVersion": 1,
-        "methods": [
-          "网上报名"
-        ],
-        "materialTags": [],
-        "evidence": {
-          "网上报名": "请登录上海商业会计学校网上招聘系统（网址：http://job.scasqhwz.edu.cn），按照要求进行网上报名，报名时间从即日起至2026年10月16日止。"
         }
       }
     },
@@ -1640,7 +1710,7 @@
       "deadline": null,
       "summary": "2026-09-21",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00"
+      "collectedAt": "2026-10-17T09:20:59+08:00"
     },
     {
       "id": "ebfdf347644adeb8",
@@ -1660,7 +1730,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-18",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1719,7 +1789,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-17",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1771,7 +1841,7 @@
       "deadline": null,
       "summary": "2026-09-17",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1816,7 +1886,7 @@
       "deadline": null,
       "summary": "2026-09-16",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00"
+      "collectedAt": "2026-10-17T09:20:59+08:00"
     },
     {
       "id": "2fe381cec140e1ae",
@@ -1836,7 +1906,7 @@
       "deadline": null,
       "summary": "2026-09-16 var NowChnl = '事业单位公开招聘'; var ParNowChnl='信息公开栏目'; var GparNowChnl='事业单位公开招聘'; document.getElementById(NowChnl).className = \"nav_li\"; document.getElementById(ParNowChnl)",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [
@@ -1869,7 +1939,7 @@
       "deadline": null,
       "summary": "2026-09-16",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00"
+      "collectedAt": "2026-10-17T09:20:59+08:00"
     },
     {
       "id": "ffa3c212adf67d64",
@@ -1889,7 +1959,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1946,7 +2016,7 @@
       "deadline": null,
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00"
+      "collectedAt": "2026-10-17T09:20:59+08:00"
     },
     {
       "id": "e5152aa20bae0ad3",
@@ -1966,7 +2036,7 @@
       "deadline": null,
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00"
+      "collectedAt": "2026-10-17T09:20:59+08:00"
     },
     {
       "id": "ac7b7ab96b387f0a",
@@ -1986,7 +2056,7 @@
       "deadline": null,
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00"
+      "collectedAt": "2026-10-17T09:20:59+08:00"
     },
     {
       "id": "5dcef9f8598d097f",
@@ -2006,7 +2076,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -2068,7 +2138,7 @@
       "deadline": null,
       "summary": "2026-09-09",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
+      "collectedAt": "2026-10-17T09:20:59+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -2126,144 +2196,7 @@
       "deadline": null,
       "summary": "2026-09-08",
       "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00"
-    },
-    {
-      "id": "fc44e2173667862e",
-      "title": "广东石油化工学院2026年公开招聘辅导员（第二批）公告",
-      "url": "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4949166.html",
-      "source": "广东省事业单位招聘公告",
-      "collector": "广东省事业单位招聘公告",
-      "publishedAt": "2026-09-01",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "广东",
-      "audience": "不限",
-      "registrationStart": null,
-      "registrationEnd": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "deadline": null,
-      "summary": "2026-09-01",
-      "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
-      "profileHints": {
-        "schemaVersion": 3,
-        "roleTags": [
-          "高校行政"
-        ],
-        "majorTags": [],
-        "qualificationTags": [
-          "硕士",
-          "应届"
-        ],
-        "englishRequirements": [],
-        "graduateYears": [],
-        "evidence": {
-          "高校行政": "广东石油化工学院2026年公开招聘辅导员（第二批）公告-广东省人力资源和社会保障厅",
-          "硕士": "油化工集团公司、中国石油天然气集团公司、中国海洋石油集团有限公司共建的公办普通本科高校，华南地区唯一一所石油化工特色高校，教育部“卓越工程师教育培养计划”试点高校，广东省高水平理工科大学建设高校，硕士学位授予单位，博士学位授予立项建设单位。",
-          "应届": "2026年应届毕业生和社会上具有国家承认学历的人员。"
-        }
-      },
-      "applicationHints": {
-        "schemaVersion": 1,
-        "methods": [],
-        "materialTags": [
-          "报名表",
-          "学历学位证明",
-          "党员证明",
-          "工作经历证明",
-          "近期照片",
-          "成绩单",
-          "就业推荐表"
-        ],
-        "evidence": {
-          "报名表": "1.《广东省事业单位公开招聘人员报名表》；",
-          "学历学位证明": "4.毕业证、学位证书（PDF格式，毕业证、学位证书各1个文件，国（境）外留学回国人员还需提供教育部留学服务中心国（境）外学历、学位认证书）；",
-          "党员证明": "（2）近三个月内隶属基层党组织开具的党员证明。",
-          "工作经历证明": "（3）学生干部工作经历证明材料；",
-          "近期照片": "2.本人彩色证件照（JPEG或JPG格式）；",
-          "成绩单": "国（境）外留学人员报名时未取得毕业证书的提供中、外文成绩单和在读证明。",
-          "就业推荐表": "（1）应届毕业生提交就业推荐表。"
-        }
-      }
-    },
-    {
-      "id": "4e15ce49000a219c",
-      "title": "中国天主教神哲学院2026年度面向社会公开招聘工作人员公告",
-      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202608/t20260831_583080.html",
-      "source": "人力资源社会保障部",
-      "collector": "中国公共招聘网事业单位",
-      "publishedAt": "2026-09-01",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "全国",
-      "audience": "社会",
-      "registrationStart": null,
-      "registrationEnd": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "deadline": null,
-      "summary": "2026-09-01",
-      "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00"
-    },
-    {
-      "id": "8db16228d200071e",
-      "title": "2026年福建中医药大学高层次人才招聘方案（二）",
-      "url": "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202608/t20260818_7201045.htm",
-      "source": "福建省事业单位公开招聘",
-      "collector": "福建省事业单位公开招聘",
-      "publishedAt": "2026-08-18",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "福建",
-      "audience": "不限",
-      "registrationStart": "2026-12-31",
-      "registrationEnd": "2026-12-31",
-      "deadlineConfidence": "high",
-      "deadlineEvidence": "四、报名和资格审查 1.报名时间：即日起至2026年12月31日",
-      "deadline": "2026-12-31",
-      "summary": "",
-      "official": true,
-      "collectedAt": "2026-10-16T09:26:58+08:00",
-      "profileHints": {
-        "schemaVersion": 3,
-        "roleTags": [
-          "新媒体"
-        ],
-        "majorTags": [],
-        "qualificationTags": [
-          "硕士",
-          "应届"
-        ],
-        "englishRequirements": [],
-        "graduateYears": [],
-        "evidence": {
-          "新媒体": "新媒体矩阵",
-          "硕士": "有中医学、中西医结合、中药学和中医博士专业学位4个博士学位授权点，有中医学、中西医结合、临床医学、药学、中药学、护理学等6个硕士学位授权一级学科，有中医、中药、针灸、护理、医学技术、临床医学、公共管理等7个硕士专业学位类别；",
-          "应届": "（3）本科阶段以来的学历、学位扫描件及对应的教育部学历证书电子注册备案表、学位查询认证报告（需在有效期内），暂时未取得招考职位要求的毕业证书或学位证书的应届毕业生应提供学籍在线验证报告；"
-        }
-      },
-      "applicationHints": {
-        "schemaVersion": 1,
-        "methods": [
-          "网上报名"
-        ],
-        "materialTags": [
-          "身份证",
-          "学信网证明",
-          "资格证书",
-          "近期照片"
-        ],
-        "evidence": {
-          "网上报名": "事业单位公开招聘考试报名平台",
-          "身份证": "（2）本人身份证正反面原件扫描件（印制在同一页面）。",
-          "学信网证明": "（3）本科阶段以来的学历、学位扫描件及对应的教育部学历证书电子注册备案表、学位查询认证报告（需在有效期内），暂时未取得招考职位要求的毕业证书或学位证书的应届毕业生应提供学籍在线验证报告；",
-          "资格证书": "（5）已参加工作的报考者，需提供历次的专业技术资格证书、历次的聘书等原件扫描件；",
-          "近期照片": "（1）福建中医药大学高层次人才招聘报名登记表（见附件），照片为近期免冠正面2寸彩色相片。"
-        }
-      }
+      "collectedAt": "2026-10-17T09:20:59+08:00"
     }
   ],
   "sourceStatus": [
@@ -2275,7 +2208,7 @@
     {
       "name": "中国公共招聘网事业单位",
       "status": "ok",
-      "count": 10
+      "count": 9
     },
     {
       "name": "国家广播电视总局公告公示",
@@ -2300,7 +2233,7 @@
     {
       "name": "中国能建所属企业招聘",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "name": "国家公务员局年度专题",
@@ -2352,17 +2285,17 @@
     {
       "name": "福建省事业单位公开招聘",
       "status": "ok",
-      "count": 5
+      "count": 6
     },
     {
       "name": "广东省事业单位招聘公告",
       "status": "ok",
-      "count": 2
+      "count": 1
     },
     {
       "name": "上海市事业单位招聘公告",
       "status": "ok",
-      "count": 14
+      "count": 12
     }
   ]
 }
