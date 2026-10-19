@@ -9133,7 +9133,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260916_34065996.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-11T09:57:56+08:00",
+      "fetchedAt": "2026-10-19T09:20:34+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -9320,7 +9320,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260917_34066590.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-11T09:57:56+08:00",
+      "fetchedAt": "2026-10-19T09:20:34+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -9601,7 +9601,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260918_34067501.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-11T09:57:56+08:00",
+      "fetchedAt": "2026-10-19T09:20:34+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -11591,7 +11591,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202610/t20261010_589712.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-11T09:57:56+08:00",
+      "fetchedAt": "2026-10-19T09:20:34+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -11617,7 +11617,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202610/t20261010_7222850.htm": {
       "status": "ok",
-      "fetchedAt": "2026-10-11T09:57:56+08:00",
+      "fetchedAt": "2026-10-19T09:20:34+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -11660,7 +11660,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202610/t20261009_34078103.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-11T09:57:56+08:00",
+      "fetchedAt": "2026-10-19T09:20:34+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -11686,7 +11686,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202610/t20261009_34078100.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-11T09:57:56+08:00",
+      "fetchedAt": "2026-10-19T09:20:34+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -12240,6 +12240,72 @@
             "个人简历": "（2）个人简历",
             "就业推荐表": "（4）本科阶段以来的学历学位证明材料复印件(如毕业证、学位证、应届生就业推荐表、学信网学历学位验证报告等)，取得境外学历学位的报考人员应提供教育部留学服务中心出具的学历学位认证书;"
           }
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36064990/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-19T09:20:34+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "航空工业集团下属企业招聘2027届校园招聘启动－国务院国有资产监督管理委员会",
+            "2027届": "航空工业集团下属企业招聘2027届校园招聘启动－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36064971/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-19T09:20:34+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "海南港航控股有限公司2027届校园招聘－国务院国有资产监督管理委员会",
+            "2027届": "海南港航控股有限公司2027届校园招聘－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     }
