@@ -10844,7 +10844,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202609/t20260929_4884769.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-15T09:32:10+08:00",
+      "fetchedAt": "2026-10-22T09:35:09+08:00",
       "fields": {
         "registrationStart": "2026-10-18",
         "registrationEnd": "2026-10-18",
@@ -10883,7 +10883,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260929_34074113.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-15T09:32:10+08:00",
+      "fetchedAt": "2026-10-22T09:35:09+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -11738,7 +11738,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202610/t20261012_34079439.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-13T11:36:37+08:00",
+      "fetchedAt": "2026-10-22T09:35:09+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -11863,7 +11863,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36053602/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-14T09:57:45+08:00",
+      "fetchedAt": "2026-10-22T09:35:09+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -11930,7 +11930,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36058707/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-15T09:32:10+08:00",
+      "fetchedAt": "2026-10-22T09:35:09+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -11960,7 +11960,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202610/t20261014_4901622.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-15T09:32:10+08:00",
+      "fetchedAt": "2026-10-22T09:35:09+08:00",
       "fields": {
         "registrationStart": "2026-10-15",
         "registrationEnd": "2026-10-23",
@@ -12610,6 +12610,78 @@
             "网上报名": "本次报名采取网上报名方式进行，请关注“东方文化人才”微信公众号，点击“人才考试”菜单栏，选择“事业单位招考”进入报名系统，为保证及时获取报名审核结果及后续相关通知，请允许报名小程序的“通知发送功能”。",
             "学信网证明": "（1）国内院校毕业人员：《教育部学历证书电子注册备案表》（详见“学信网”），并同时提供所有学历证明、学位证明；",
             "个人简历": "1.为提高报名成功率，建议应聘人员先行检查报名系统中个人简历完整性及相关证明材料是否已全部上传成功，确认无误后再点击报名。"
+          }
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36078063/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-22T09:35:09+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20261020/t0035_1444248.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-22T09:35:09+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "中文教育"
+          ],
+          "majorTags": [
+            "中国语言文学"
+          ],
+          "qualificationTags": [
+            "硕士",
+            "教师资格证"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "中文教育": "语文教师",
+            "中国语言文学": "1.汉语言文学相关专业毕业。",
+            "硕士": "硕士研究生",
+            "教师资格证": "4.具有高中或中职及以上学段教师资格证优先，师范类毕业生优先。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "学历学位证明",
+            "学信网证明",
+            "资格证书"
+          ],
+          "evidence": {
+            "学历学位证明": "具备岗位所需的学历、学位、专业、资格、技能等条件，并已取得相应学历学位证书。",
+            "学信网证明": "注：国内院校毕业人员需提供《教育部学历证书电子注册备案表》（详见“学信网”）；",
+            "资格证书": "4.具有高中或中职及以上学段教师资格证优先，师范类毕业生优先。"
           }
         }
       }
