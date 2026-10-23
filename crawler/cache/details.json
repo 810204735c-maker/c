@@ -1221,7 +1221,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35714069/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-16T09:26:58+08:00",
+      "fetchedAt": "2026-10-23T09:35:31+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-08-24",
@@ -4790,7 +4790,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4943820.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-16T09:26:58+08:00",
+      "fetchedAt": "2026-10-23T09:35:31+08:00",
       "fields": {
         "registrationStart": "2026-08-25",
         "registrationEnd": "2026-09-30",
@@ -8991,7 +8991,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202609/t20260914_583882.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-16T09:26:58+08:00",
+      "fetchedAt": "2026-10-23T09:35:31+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -9017,7 +9017,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202609/t20260914_583881.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-16T09:26:58+08:00",
+      "fetchedAt": "2026-10-23T09:35:31+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -9043,7 +9043,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202609/t20260914_583884.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-16T09:26:58+08:00",
+      "fetchedAt": "2026-10-23T09:35:31+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -10090,7 +10090,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20260922/t0035_1443879.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-16T09:26:58+08:00",
+      "fetchedAt": "2026-10-23T09:35:31+08:00",
       "fields": {
         "registrationStart": "2026-11-20",
         "registrationEnd": "2026-11-20",
@@ -11089,7 +11089,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202609/t20260930_7220872.htm": {
       "status": "ok",
-      "fetchedAt": "2026-10-16T09:26:58+08:00",
+      "fetchedAt": "2026-10-23T09:35:31+08:00",
       "fields": {
         "registrationStart": "2026-10-08",
         "registrationEnd": "2026-10-15",
@@ -11144,7 +11144,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202610/t20261008_4892286.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-16T09:26:58+08:00",
+      "fetchedAt": "2026-10-23T09:35:31+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-10-18",
@@ -11990,7 +11990,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202610/t20261015_4903453.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-16T09:26:58+08:00",
+      "fetchedAt": "2026-10-23T09:35:31+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -12024,7 +12024,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261014/t0035_1444186.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-16T09:26:58+08:00",
+      "fetchedAt": "2026-10-23T09:35:31+08:00",
       "fields": {
         "registrationStart": "2026-12-04",
         "registrationEnd": "2026-12-04",
@@ -12067,7 +12067,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261013/t0035_1444134.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-16T09:26:58+08:00",
+      "fetchedAt": "2026-10-23T09:35:31+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-10-23",
@@ -12683,6 +12683,103 @@
             "学信网证明": "注：国内院校毕业人员需提供《教育部学历证书电子注册备案表》（详见“学信网”）；",
             "资格证书": "4.具有高中或中职及以上学段教师资格证优先，师范类毕业生优先。"
           }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202610/t20261022_4914477.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-23T09:35:31+08:00",
+      "fields": {
+        "registrationStart": "2026-10-26",
+        "registrationEnd": "2026-11-03",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "三、招聘工作安排 （一）报名程序 1.报名时间 2026年10月26日9:00至2026年11月3日16:00",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "（四）应届毕业生"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名",
+            "现场报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学信网证明",
+            "工作经历证明",
+            "成绩单"
+          ],
+          "evidence": {
+            "网上报名": "采用网上报名方式，应聘人员可查看“北京朝阳”网站（http://www.bjchy.gov.cn/）的“公示公告”栏，登录公招系统（https://www.365sheq.com/RegistrationProjectDetails?Id=",
+            "现场报名": "本次招聘采取网上报名方式，不接受现场报名，未经网上报名的人员，不能进入之后的招聘环节。",
+            "报名表": "RegistrationProjectDetails?Id=jkLyb58hChRkJjP）打印《北京市朝阳区卫生健康委员会所属事业单位2026年第二批公开招聘报名表》（以下简称《报名表》），并在《报名表》中“诚信声明本人签名”处手签姓名。",
+            "学信网证明": "其中学历证书需提供教育部高等教育学生信息网打印的《教育部学历证书电子注册备案表》（须在有效期内）；",
+            "工作经历证明": "5.招聘岗位明确要求具有工作经历的，报考人员必须具备相应的工作年限（须有相应的劳动合同或聘用合同，且缴纳相应的社会保险），工作年限计算时间截至2026年10月26日（含）。",
+            "成绩单": "5.应届毕业生需提供所学全部课程成绩单（须校级教务主管部门盖章）、非定向、非委培证明等相关材料和教育部高等教育学生信息网《教育部学籍在线验证报告》（须在有效期内）；"
+          }
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202610/t20261019_594609.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-23T09:35:31+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202610/t20261019_594641.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-23T09:35:31+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     }
