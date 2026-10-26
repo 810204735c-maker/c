@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T09:15:21+08:00",
-  "total": 53,
+  "generatedAt": "2026-10-26T09:16:34+08:00",
+  "total": 52,
   "jobs": [
     {
       "id": "435fb32c6d0fbd10",
@@ -20,7 +20,7 @@
       "deadline": null,
       "summary": "2026-10-23",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00"
+      "collectedAt": "2026-10-26T09:16:34+08:00"
     },
     {
       "id": "624b5e04fff87694",
@@ -40,7 +40,7 @@
       "deadline": null,
       "summary": "2026-10-23",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00"
+      "collectedAt": "2026-10-26T09:16:34+08:00"
     },
     {
       "id": "0ac1309f7b55311b",
@@ -60,7 +60,7 @@
       "deadline": null,
       "summary": "2026-10-23",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00"
+      "collectedAt": "2026-10-26T09:16:34+08:00"
     },
     {
       "id": "694c68a3fa670b03",
@@ -80,7 +80,7 @@
       "deadline": "2026-11-03",
       "summary": "2026-10-23",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -134,7 +134,7 @@
       "deadline": "2026-11-03",
       "summary": "2026-10-23",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -177,7 +177,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -243,7 +243,7 @@
       "deadline": "2026-11-03",
       "summary": "2026-10-22",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -297,7 +297,7 @@
       "deadline": null,
       "summary": "2026-10-22",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00"
+      "collectedAt": "2026-10-26T09:16:34+08:00"
     },
     {
       "id": "ad280eb797097b5d",
@@ -317,7 +317,7 @@
       "deadline": null,
       "summary": "[10-22]",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00"
+      "collectedAt": "2026-10-26T09:16:34+08:00"
     },
     {
       "id": "6b1da0fac9619e33",
@@ -337,7 +337,7 @@
       "deadline": null,
       "summary": "2026-10-22",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00"
+      "collectedAt": "2026-10-26T09:16:34+08:00"
     },
     {
       "id": "0f09c86ad88bc534",
@@ -357,7 +357,7 @@
       "deadline": null,
       "summary": "[10-21]",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -393,7 +393,7 @@
       "deadline": null,
       "summary": "[10-21]",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -426,7 +426,7 @@
       "deadline": null,
       "summary": "[10-21]",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -459,7 +459,7 @@
       "deadline": null,
       "summary": "2026-10-21",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -514,7 +514,7 @@
       "deadline": "2026-10-31",
       "summary": "2026-10-20",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -559,7 +559,7 @@
       "deadline": null,
       "summary": "2026-10-20",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -612,7 +612,7 @@
       "deadline": "2026-11-03",
       "summary": "2026-10-20",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -660,7 +660,7 @@
       "deadline": null,
       "summary": "[10-19]",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -696,7 +696,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-10-19",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -755,7 +755,7 @@
       "deadline": null,
       "summary": "[10-19]",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -791,7 +791,7 @@
       "deadline": "2026-10-27",
       "summary": "2026-10-19",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -843,7 +843,7 @@
       "deadline": "2027-10-08",
       "summary": "能建绿氢新能源（松原）有限公司（以下简称松原绿氢公司）是中能建氢能源有限公司（以下简称氢能公司）的控... 27 2026.04 04-27",
       "official": false,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [],
@@ -873,7 +873,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -935,7 +935,7 @@
       "deadline": null,
       "summary": "2026-10-15",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -978,7 +978,7 @@
       "deadline": null,
       "summary": "[10-15]",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1011,7 +1011,7 @@
       "deadline": "2026-12-04",
       "summary": "2026-10-15",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1063,7 +1063,7 @@
       "deadline": null,
       "summary": "[10-14]",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1099,7 +1099,7 @@
       "deadline": null,
       "summary": "[10-13]",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00"
+      "collectedAt": "2026-10-26T09:16:34+08:00"
     },
     {
       "id": "ec5906259623412a",
@@ -1119,7 +1119,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-10-12",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1173,7 +1173,7 @@
       "deadline": null,
       "summary": "2026-10-12",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [
@@ -1206,7 +1206,7 @@
       "deadline": null,
       "summary": "2026-10-10",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00"
+      "collectedAt": "2026-10-26T09:16:34+08:00"
     },
     {
       "id": "2cca65a27468a2b7",
@@ -1226,7 +1226,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1278,39 +1278,7 @@
       "deadline": null,
       "summary": "2026-10-09",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00"
-    },
-    {
-      "id": "4a210677d683fbeb",
-      "title": "北京市疾病预防控制中心2026年度第二批社会人员公开招聘公告",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202610/t20261009_4894451.html",
-      "source": "北京事业单位公开招聘",
-      "collector": "北京事业单位公开招聘",
-      "publishedAt": "2026-10-09",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "北京",
-      "audience": "不限",
-      "registrationStart": null,
-      "registrationEnd": "2026-10-25",
-      "deadlineConfidence": "high",
-      "deadlineEvidence": "报名截止时间：2026年10月25日",
-      "deadline": "2026-10-25",
-      "summary": "2026-10-09",
-      "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
-      "applicationHints": {
-        "schemaVersion": 1,
-        "methods": [],
-        "materialTags": [
-          "工作经历证明",
-          "成绩单"
-        ],
-        "evidence": {
-          "工作经历证明": "（5）能够证明工作经历的相关证明材料（劳动合同、社保缴费记录、工资待遇、档案存放证明等）；",
-          "成绩单": "国外院校考生提供翻译过的专业课程目录及成绩单；"
-        }
-      }
+      "collectedAt": "2026-10-26T09:16:34+08:00"
     },
     {
       "id": "fe0d1784bc602f72",
@@ -1330,7 +1298,7 @@
       "deadline": null,
       "summary": "[10-09]",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1366,7 +1334,7 @@
       "deadline": null,
       "summary": "2026-10-09",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00"
+      "collectedAt": "2026-10-26T09:16:34+08:00"
     },
     {
       "id": "49a42d065408478a",
@@ -1386,7 +1354,7 @@
       "deadline": null,
       "summary": "2026-10-09",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1429,7 +1397,7 @@
       "deadline": null,
       "summary": "2026-10-09",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1478,7 +1446,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-29",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1527,7 +1495,7 @@
       "deadline": null,
       "summary": "2026-09-29",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1563,7 +1531,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1621,7 +1589,7 @@
       "deadline": null,
       "summary": "2026-09-24",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00"
+      "collectedAt": "2026-10-26T09:16:34+08:00"
     },
     {
       "id": "ad445b2e5c3981cd",
@@ -1641,7 +1609,7 @@
       "deadline": null,
       "summary": "2026-09-24",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00"
+      "collectedAt": "2026-10-26T09:16:34+08:00"
     },
     {
       "id": "216fd43ffe8eb72a",
@@ -1661,7 +1629,7 @@
       "deadline": "2026-10-30",
       "summary": "2026-09-24",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1711,7 +1679,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-24",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1746,7 +1714,7 @@
       "deadline": "2026-11-20",
       "summary": "2026-09-23",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1804,7 +1772,7 @@
       "deadline": null,
       "summary": "2026-09-21",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00"
+      "collectedAt": "2026-10-26T09:16:34+08:00"
     },
     {
       "id": "ebfdf347644adeb8",
@@ -1824,7 +1792,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-18 window.onload=function() {createPageHTML('paging',25, 1,'index','html',500);}",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1883,7 +1851,7 @@
       "deadline": null,
       "summary": "2026-09-16",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00"
+      "collectedAt": "2026-10-26T09:16:34+08:00"
     },
     {
       "id": "e9921565dd303edf",
@@ -1903,7 +1871,7 @@
       "deadline": null,
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00"
+      "collectedAt": "2026-10-26T09:16:34+08:00"
     },
     {
       "id": "e5152aa20bae0ad3",
@@ -1923,7 +1891,7 @@
       "deadline": null,
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00"
+      "collectedAt": "2026-10-26T09:16:34+08:00"
     },
     {
       "id": "ac7b7ab96b387f0a",
@@ -1943,7 +1911,7 @@
       "deadline": null,
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00"
+      "collectedAt": "2026-10-26T09:16:34+08:00"
     },
     {
       "id": "5dcef9f8598d097f",
@@ -1963,7 +1931,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-25T09:15:21+08:00",
+      "collectedAt": "2026-10-26T09:16:34+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -2069,7 +2037,7 @@
     {
       "name": "北京事业单位公开招聘",
       "status": "ok",
-      "count": 8
+      "count": 7
     },
     {
       "name": "湖北事业单位招聘公告",
