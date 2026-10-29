@@ -10883,7 +10883,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260929_34074113.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-22T09:35:09+08:00",
+      "fetchedAt": "2026-10-29T10:28:58+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -11738,7 +11738,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202610/t20261012_34079439.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-22T09:35:09+08:00",
+      "fetchedAt": "2026-10-29T10:28:58+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -11863,7 +11863,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36053602/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-22T09:35:09+08:00",
+      "fetchedAt": "2026-10-29T10:28:58+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -11930,7 +11930,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36058707/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-22T09:35:09+08:00",
+      "fetchedAt": "2026-10-29T10:28:58+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -11960,7 +11960,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202610/t20261014_4901622.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-22T09:35:09+08:00",
+      "fetchedAt": "2026-10-29T10:28:58+08:00",
       "fields": {
         "registrationStart": "2026-10-15",
         "registrationEnd": "2026-10-23",
@@ -12616,7 +12616,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36078063/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-22T09:35:09+08:00",
+      "fetchedAt": "2026-10-29T10:28:58+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -12642,7 +12642,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261020/t0035_1444248.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-22T09:35:09+08:00",
+      "fetchedAt": "2026-10-29T10:28:58+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -13154,6 +13154,75 @@
           "graduateYears": [],
           "evidence": {
             "应届": "外省市高级专业技术人员、符合条件的留学回国人员和应届毕业生，不受居住证一年的限制。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20261027/t0035_1444352.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-29T10:28:58+08:00",
+      "fields": {
+        "registrationStart": "2026-11-05",
+        "registrationEnd": "2026-11-05",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "本次招聘报名时间：即日起至2026年11月5日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "新媒体"
+          ],
+          "majorTags": [],
+          "qualificationTags": [
+            "工作经历"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "新媒体": "(5)了解新媒体技术并具备运用相关工具开展新媒体传播的能力。",
+            "工作经历": "(3)具备扎实的文字处理专业能力，具有3年以上专业编辑工作经历者优先；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明"
+          ],
+          "evidence": {
+            "报名表": "(1)《上海图书馆（上海科学技术情报研究所）高层次人才应聘报名表》（见附件1）",
+            "学历学位证明": "(4)学历学位证书扫描件（含本科阶段及以后的学历教育）；"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20261026/t0035_1444316.html": {
+      "status": "ok",
+      "fetchedAt": "2026-10-29T10:28:58+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间：即日起至2026年12月31日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "硕士学位授权一级学科9个，硕士专业学位授权类别5个。"
           }
         },
         "applicationHints": {
