@@ -1,7 +1,290 @@
 {
-  "generatedAt": "2026-10-29T10:28:58+08:00",
-  "total": 53,
+  "generatedAt": "2026-10-30T10:39:22+08:00",
+  "total": 58,
   "jobs": [
+    {
+      "id": "b64296b5e30c9821",
+      "title": "青年报社2026年度工作人员公开招聘公告（第三批）",
+      "url": "https://rsj.sh.gov.cn/tzpgg_17408/20261029/t0035_1444434.html",
+      "source": "上海市事业单位招聘公告",
+      "collector": "上海市事业单位招聘公告",
+      "publishedAt": "2026-10-30",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "registrationStart": "2026-11-12",
+      "registrationEnd": "2026-11-12",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "报名时间从即日起至2026年11月12日止",
+      "deadline": "2026-11-12",
+      "summary": "2026-10-30",
+      "official": true,
+      "collectedAt": "2026-10-30T10:39:22+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [
+          "宣传文化"
+        ],
+        "majorTags": [],
+        "qualificationTags": [],
+        "englishRequirements": [],
+        "graduateYears": [],
+        "evidence": {
+          "宣传文化": "2. 忠诚于党的新闻事业，认真执行党的新闻宣传工作方针，模范遵守新闻工作者职业道德和行为规范；"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [],
+        "materialTags": [
+          "报名表",
+          "个人简历",
+          "近期照片"
+        ],
+        "evidence": {
+          "报名表": "（一）青年报社应聘人员报名表",
+          "个人简历": "有应聘意向者下载并填写《青年报社应聘人员报名表》（附件2），连同个人简历、近期免冠正面证件电子照片、身份证（正反面）、学历（学位）证书、职称证明、成果佐证材料等打包压缩发送至电子邮箱：qnbzhaopin@126.com，文件和邮件均命名为",
+          "近期照片": "有应聘意向者下载并填写《青年报社应聘人员报名表》（附件2），连同个人简历、近期免冠正面证件电子照片、身份证（正反面）、学历（学位）证书、职称证明、成果佐证材料等打包压缩发送至电子邮箱：qnbzhaopin@126.com，文件和邮件均命名为"
+        }
+      }
+    },
+    {
+      "id": "e0708a85b48b5ab9",
+      "title": "水利部有关直属单位公开招聘2027年高校应届毕业生公告",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202610/t20261029_596851.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-10-30",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "应届",
+      "registrationStart": null,
+      "registrationEnd": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "deadline": null,
+      "summary": "2026-10-30",
+      "official": true,
+      "collectedAt": "2026-10-30T10:39:22+08:00"
+    },
+    {
+      "id": "2cd3407f651eb801",
+      "title": "上海市绿化和市容管理局2026年度部分直属事业单位中高级专业技术人员公开招聘公告",
+      "url": "https://rsj.sh.gov.cn/tzpgg_17408/20261029/t0035_1444435.html",
+      "source": "上海市事业单位招聘公告",
+      "collector": "上海市事业单位招聘公告",
+      "publishedAt": "2026-10-30",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "上海",
+      "audience": "不限",
+      "registrationStart": "2026-11-02",
+      "registrationEnd": "2026-11-13",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "三、报名时间和方式 1.报名时间：2026年11月2日9:00至2026年11月13日17:00",
+      "deadline": "2026-11-13",
+      "summary": "2026-10-30",
+      "official": true,
+      "collectedAt": "2026-10-30T10:39:22+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "应届"
+        ],
+        "englishRequirements": [],
+        "graduateYears": [],
+        "evidence": {
+          "应届": "正反面）、户口本（首页和本人页）、学历学位证书（境外学历考生需额外提供学历学位认证材料和国（境）外就读时的成绩单扫描件，应届毕业生提供学生证或在读证明）、教育部学籍在线验证报告（境外学历考生无需提交）、劳动合同及社保缴纳记录（无工作经历的应"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [],
+        "materialTags": [
+          "报名表",
+          "学历学位证明",
+          "学信网证明",
+          "个人简历",
+          "工作经历证明",
+          "成绩单"
+        ],
+        "evidence": {
+          "报名表": "2.报名方式：报名采取电子邮件报名方式，请在公告末下载附件2《上海市绿化和市容管理局事业单位公开招聘报名表》（以下简称《报名表》），并填写完整。",
+          "学历学位证明": "报名时须一并提交相关证明材料：身份证（正反面）、户口本（首页和本人页）、学历学位证书（境外学历考生需额外提供学历学位认证材料和国（境）外就读时的成绩单扫描件，应届毕业生提供学生证或在读证明）、教育部学籍在线验证报告（境外学历考生无需提交）、",
+          "学信网证明": "位证书（境外学历考生需额外提供学历学位认证材料和国（境）外就读时的成绩单扫描件，应届毕业生提供学生证或在读证明）、教育部学籍在线验证报告（境外学历考生无需提交）、劳动合同及社保缴纳记录（无工作经历的应届毕业生无需提交）、个人获奖、已发表学术",
+          "个人简历": "邮件标题及附件名称以“应聘单位-应聘岗位-姓名”(例如：上海市野生动植物和自然保护地研究中心-野生动植物保护研究-李某某)的格式命名，不接受其他格式的报名表或者个人简历，未按上述要求提交报名材料的考生，视作无效报名。",
+          "工作经历证明": "外提供学历学位认证材料和国（境）外就读时的成绩单扫描件，应届毕业生提供学生证或在读证明）、教育部学籍在线验证报告（境外学历考生无需提交）、劳动合同及社保缴纳记录（无工作经历的应届毕业生无需提交）、个人获奖、已发表学术文稿（著作）的证明材料。",
+          "成绩单": "材料：身份证（正反面）、户口本（首页和本人页）、学历学位证书（境外学历考生需额外提供学历学位认证材料和国（境）外就读时的成绩单扫描件，应届毕业生提供学生证或在读证明）、教育部学籍在线验证报告（境外学历考生无需提交）、劳动合同及社保缴纳记录（"
+        }
+      }
+    },
+    {
+      "id": "5f5f46553da4c43c",
+      "title": "湖南现代物流职业技术学院2026年公开招聘公告",
+      "url": "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202610/t20261029_34090988.html",
+      "source": "湖南省事业单位招聘",
+      "collector": "湖南省事业单位招聘",
+      "publishedAt": "2026-10-29",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "湖南",
+      "audience": "不限",
+      "registrationStart": "2026-12-31",
+      "registrationEnd": "2026-12-31",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "(二)报名 1.报名时间 A类岗位:自公告发布之日至2026年12月31日",
+      "deadline": "2026-12-31",
+      "summary": "2026-10-29",
+      "official": true,
+      "collectedAt": "2026-10-30T10:39:22+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "应届",
+          "中共党员"
+        ],
+        "englishRequirements": [],
+        "graduateYears": [
+          "2026"
+        ],
+        "evidence": {
+          "应届": "(6)招聘岗位对专业研究方向有要求的,毕业证专业与岗位要求专业一致的无需提供专业证明材料,暂未发放毕业证的应届毕业生及所学专业为上一级学科的应聘人员须提供就读学校出具的专业证明材料(导师签字且毕业学院盖章);",
+          "中共党员": "(4)招聘岗位政治面貌要求是中共党员(含预备党员)的,应聘人员须提供所在基层党组织开具的党员身份证明(加盖党组织公章,自公告发布之日(不含)前6个月内开具的党员身份证明有效);",
+          "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [
+          "网上报名"
+        ],
+        "materialTags": [
+          "报名表",
+          "学历学位证明",
+          "学信网证明",
+          "工作经历证明",
+          "成绩单"
+        ],
+        "evidence": {
+          "网上报名": "B类岗位:采取网上报名的方式,每人限报一个岗位,多报则取消应聘资格。",
+          "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+          "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件;",
+          "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件;",
+          "工作经历证明": "(5)招聘岗位明确要求有工作经历的,应聘人员须提供工作经历证明(加盖工作单位公章或人事部门公章);",
+          "成绩单": "(9)出国留学人员须提供毕业论文和成绩单的原件及中文翻译件。"
+        }
+      }
+    },
+    {
+      "id": "adf6e12e68181640",
+      "title": "湖南工艺美术职业大学2026年公开招聘公告",
+      "url": "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202610/t20261029_34090986.html",
+      "source": "湖南省事业单位招聘",
+      "collector": "湖南省事业单位招聘",
+      "publishedAt": "2026-10-29",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "湖南",
+      "audience": "不限",
+      "registrationStart": "2026-11-02",
+      "registrationEnd": "2026-11-10",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "(二)报名 1.报名时间 2026年11月2日0:00至2026年11月10日24:00 2.报名方式 采取网上报名的方式",
+      "deadline": "2026-11-10",
+      "summary": "2026-10-29",
+      "official": true,
+      "collectedAt": "2026-10-30T10:39:22+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "应届",
+          "中共党员"
+        ],
+        "englishRequirements": [],
+        "graduateYears": [
+          "2026"
+        ],
+        "evidence": {
+          "应届": "(5)招聘岗位对专业研究方向有要求的,毕业证专业与岗位要求专业一致的无需提供专业证明材料,暂未发毕业证的应届毕业生及所学专业为上一级学科的应聘人员须提供就读学校出具的专业证明材料(导师签字且毕业学院盖章);",
+          "中共党员": "(4)招聘岗位政治面貌要求是中共党员(含预备党员)的,应聘人员须提供所在基层党组织开具的党员身份证明(加盖党组织公章,自公告发布之日(不含)前6个月开具的党员身份证明有效);",
+          "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [
+          "网上报名"
+        ],
+        "materialTags": [
+          "报名表",
+          "学历学位证明",
+          "学信网证明"
+        ],
+        "evidence": {
+          "网上报名": "采取网上报名的方式,每人限报一个岗位,多报则取消应聘资格。",
+          "报名表": "(1)请应聘者自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+          "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件;",
+          "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件;"
+        }
+      }
+    },
+    {
+      "id": "f3548496ee845ce1",
+      "title": "湖南体育职业学院2026年公开招聘公告",
+      "url": "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202610/t20261029_34090987.html",
+      "source": "湖南省事业单位招聘",
+      "collector": "湖南省事业单位招聘",
+      "publishedAt": "2026-10-29",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "湖南",
+      "audience": "不限",
+      "registrationStart": "2026-10-30",
+      "registrationEnd": "2026-11-09",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "(二)报名 1.报名时间 2026年10月30日0:00至2026年11月9日24:00",
+      "deadline": "2026-11-09",
+      "summary": "2026-10-29",
+      "official": true,
+      "collectedAt": "2026-10-30T10:39:22+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [],
+        "englishRequirements": [],
+        "graduateYears": [
+          "2026"
+        ],
+        "evidence": {
+          "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [],
+        "materialTags": [
+          "报名表",
+          "学历学位证明",
+          "学信网证明",
+          "工作经历证明"
+        ],
+        "evidence": {
+          "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+          "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关证明材料原件;",
+          "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关证明材料原件;",
+          "工作经历证明": "(4)招聘岗位明确要求有工作经历的,应聘人员必须提供工作经历证明(加盖工作单位公章或人事部门公章);"
+        }
+      }
+    },
     {
       "id": "4b0267cb17f403f9",
       "title": "上海图书馆（上海科学技术情报研究所）公开招聘高层次人才公告",
@@ -20,7 +303,7 @@
       "deadline": "2026-11-05",
       "summary": "2026-10-28",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -68,7 +351,7 @@
       "deadline": "2028-05-31",
       "summary": "能建绿色氢氨新能源（松原）有限公司（以下简称松原公司）是中能建氢能源有限公司（以下简称氢能公司）的控... 16 2026.10 10-16",
       "official": false,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -111,7 +394,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-10-27",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -144,7 +427,7 @@
       "deadline": "2026-11-04",
       "summary": "2026-10-27",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -187,7 +470,7 @@
       "deadline": null,
       "summary": "2026-10-27",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -220,7 +503,7 @@
       "deadline": "2026-11-08",
       "summary": "2026-10-26",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [
@@ -255,7 +538,7 @@
       "deadline": "2026-11-05",
       "summary": "2026-10-26",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -298,7 +581,7 @@
       "deadline": null,
       "summary": "2026-10-23",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00"
+      "collectedAt": "2026-10-30T10:39:22+08:00"
     },
     {
       "id": "624b5e04fff87694",
@@ -318,7 +601,7 @@
       "deadline": null,
       "summary": "2026-10-23",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00"
+      "collectedAt": "2026-10-30T10:39:22+08:00"
     },
     {
       "id": "0ac1309f7b55311b",
@@ -338,7 +621,7 @@
       "deadline": null,
       "summary": "2026-10-23",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00"
+      "collectedAt": "2026-10-30T10:39:22+08:00"
     },
     {
       "id": "694c68a3fa670b03",
@@ -358,7 +641,7 @@
       "deadline": "2026-11-03",
       "summary": "2026-10-23",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -412,7 +695,7 @@
       "deadline": "2026-11-03",
       "summary": "2026-10-23",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -455,7 +738,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -521,7 +804,7 @@
       "deadline": "2026-11-03",
       "summary": "2026-10-22",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -575,7 +858,7 @@
       "deadline": null,
       "summary": "2026-10-22",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00"
+      "collectedAt": "2026-10-30T10:39:22+08:00"
     },
     {
       "id": "ad280eb797097b5d",
@@ -595,7 +878,7 @@
       "deadline": null,
       "summary": "[10-22]",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00"
+      "collectedAt": "2026-10-30T10:39:22+08:00"
     },
     {
       "id": "6b1da0fac9619e33",
@@ -615,7 +898,7 @@
       "deadline": null,
       "summary": "2026-10-22",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00"
+      "collectedAt": "2026-10-30T10:39:22+08:00"
     },
     {
       "id": "0f09c86ad88bc534",
@@ -635,7 +918,7 @@
       "deadline": null,
       "summary": "[10-21]",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -671,7 +954,7 @@
       "deadline": null,
       "summary": "[10-21]",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -704,7 +987,7 @@
       "deadline": null,
       "summary": "[10-21]",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -737,7 +1020,7 @@
       "deadline": null,
       "summary": "2026-10-21",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -792,7 +1075,7 @@
       "deadline": "2026-10-31",
       "summary": "2026-10-20",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -837,7 +1120,7 @@
       "deadline": null,
       "summary": "2026-10-20",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -890,7 +1173,7 @@
       "deadline": "2026-11-03",
       "summary": "2026-10-20",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -938,7 +1221,7 @@
       "deadline": null,
       "summary": "[10-19]",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -974,7 +1257,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-10-19",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1033,7 +1316,7 @@
       "deadline": null,
       "summary": "[10-19]",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1069,7 +1352,7 @@
       "deadline": "2027-10-08",
       "summary": "能建绿氢新能源（松原）有限公司（以下简称松原绿氢公司）是中能建氢能源有限公司（以下简称氢能公司）的控... 27 2026.04 04-27",
       "official": false,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [],
@@ -1099,7 +1382,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1161,7 +1444,7 @@
       "deadline": null,
       "summary": "2026-10-15",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1204,7 +1487,7 @@
       "deadline": null,
       "summary": "[10-15]",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1237,7 +1520,7 @@
       "deadline": "2026-12-04",
       "summary": "2026-10-15",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1289,7 +1572,7 @@
       "deadline": null,
       "summary": "[10-14]",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1325,7 +1608,7 @@
       "deadline": null,
       "summary": "[10-13]",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00"
+      "collectedAt": "2026-10-30T10:39:22+08:00"
     },
     {
       "id": "ec5906259623412a",
@@ -1345,7 +1628,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-10-12",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1399,7 +1682,7 @@
       "deadline": null,
       "summary": "2026-10-12",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [
@@ -1432,7 +1715,7 @@
       "deadline": null,
       "summary": "2026-10-10",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00"
+      "collectedAt": "2026-10-30T10:39:22+08:00"
     },
     {
       "id": "2cca65a27468a2b7",
@@ -1452,7 +1735,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1504,7 +1787,7 @@
       "deadline": null,
       "summary": "2026-10-09",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00"
+      "collectedAt": "2026-10-30T10:39:22+08:00"
     },
     {
       "id": "fe0d1784bc602f72",
@@ -1524,7 +1807,7 @@
       "deadline": null,
       "summary": "[10-09]",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1560,50 +1843,7 @@
       "deadline": null,
       "summary": "2026-10-09",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00"
-    },
-    {
-      "id": "49a42d065408478a",
-      "title": "上海电力大学2026年岗位招聘公告（第二批）",
-      "url": "https://rsj.sh.gov.cn/tzpgg_17408/20261008/t0035_1444019.html",
-      "source": "上海市事业单位招聘公告",
-      "collector": "上海市事业单位招聘公告",
-      "publishedAt": "2026-10-09",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "上海",
-      "audience": "不限",
-      "registrationStart": null,
-      "registrationEnd": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "deadline": null,
-      "summary": "2026-10-09",
-      "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
-      "profileHints": {
-        "schemaVersion": 3,
-        "roleTags": [],
-        "majorTags": [],
-        "qualificationTags": [
-          "应届"
-        ],
-        "englishRequirements": [],
-        "graduateYears": [],
-        "evidence": {
-          "应届": "从外省市引进的高级专业技术人员、紧缺急需专业人才、符合条件的留学回国人员、应届毕业生可不受居住证满一年的限制。"
-        }
-      },
-      "applicationHints": {
-        "schemaVersion": 1,
-        "methods": [],
-        "materialTags": [
-          "个人简历"
-        ],
-        "evidence": {
-          "个人简历": "1.报名：有意者请将个人简历及应聘材料（学历、学位、职称、获奖、科研成果目录及代表作等）电子版发至各学院/学部邮箱，在邮件主题中注明“应聘××学院/学部××岗位+姓名”。"
-        }
-      }
+      "collectedAt": "2026-10-30T10:39:22+08:00"
     },
     {
       "id": "3a99f5d35aa30474",
@@ -1623,7 +1863,7 @@
       "deadline": null,
       "summary": "2026-10-09",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1672,7 +1912,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-09-29",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1721,7 +1961,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1779,7 +2019,7 @@
       "deadline": null,
       "summary": "2026-09-24",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00"
+      "collectedAt": "2026-10-30T10:39:22+08:00"
     },
     {
       "id": "ad445b2e5c3981cd",
@@ -1799,7 +2039,7 @@
       "deadline": null,
       "summary": "2026-09-24",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00"
+      "collectedAt": "2026-10-30T10:39:22+08:00"
     },
     {
       "id": "52fe37d107a3ca50",
@@ -1819,7 +2059,7 @@
       "deadline": null,
       "summary": "2026-09-21",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00"
+      "collectedAt": "2026-10-30T10:39:22+08:00"
     },
     {
       "id": "aa9acf4d30bbf160",
@@ -1839,7 +2079,7 @@
       "deadline": null,
       "summary": "2026-09-16",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00"
+      "collectedAt": "2026-10-30T10:39:22+08:00"
     },
     {
       "id": "e9921565dd303edf",
@@ -1859,7 +2099,7 @@
       "deadline": null,
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00"
+      "collectedAt": "2026-10-30T10:39:22+08:00"
     },
     {
       "id": "e5152aa20bae0ad3",
@@ -1879,7 +2119,7 @@
       "deadline": null,
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00"
+      "collectedAt": "2026-10-30T10:39:22+08:00"
     },
     {
       "id": "ac7b7ab96b387f0a",
@@ -1899,7 +2139,7 @@
       "deadline": null,
       "summary": "2026-09-15",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00"
+      "collectedAt": "2026-10-30T10:39:22+08:00"
     },
     {
       "id": "5dcef9f8598d097f",
@@ -1919,7 +2159,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-10-29T10:28:58+08:00",
+      "collectedAt": "2026-10-30T10:39:22+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1973,7 +2213,7 @@
     {
       "name": "中国公共招聘网事业单位",
       "status": "ok",
-      "count": 13
+      "count": 14
     },
     {
       "name": "国家广播电视总局公告公示",
@@ -2040,7 +2280,7 @@
     {
       "name": "湖南省事业单位招聘",
       "status": "ok",
-      "count": 5
+      "count": 8
     },
     {
       "name": "吉林省人社厅招聘公告",
@@ -2060,7 +2300,7 @@
     {
       "name": "上海市事业单位招聘公告",
       "status": "ok",
-      "count": 12
+      "count": 13
     }
   ]
 }
