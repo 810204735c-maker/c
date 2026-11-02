@@ -13476,6 +13476,39 @@
           }
         }
       }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36108870/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-02T10:34:36+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "应届": "中国农业发展集团有限公司2027届校园招聘公告－国务院国有资产监督管理委员会",
+            "2027届": "中国农业发展集团有限公司2027届校园招聘公告－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
     }
   }
 }
