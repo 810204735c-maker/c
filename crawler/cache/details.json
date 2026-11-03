@@ -7862,7 +7862,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4953420.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-27T10:08:27+08:00",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -9707,7 +9707,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202609/t20260920_7216032.htm": {
       "status": "ok",
-      "fetchedAt": "2026-10-27T10:08:27+08:00",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
       "fields": {
         "registrationStart": "2026-09-21",
         "registrationEnd": "2026-09-30",
@@ -11591,7 +11591,7 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202610/t20261010_589712.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-27T10:08:27+08:00",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -11617,7 +11617,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202610/t20261010_7222850.htm": {
       "status": "ok",
-      "fetchedAt": "2026-10-27T10:08:27+08:00",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -11659,56 +11659,14 @@
       }
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202610/t20261009_34078103.html": {
-      "status": "ok",
-      "fetchedAt": "2026-10-27T10:08:27+08:00",
-      "fields": {
-        "registrationStart": null,
-        "registrationEnd": null,
-        "deadlineConfidence": "unknown",
-        "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
-        "profileHints": {
-          "schemaVersion": 3,
-          "roleTags": [],
-          "majorTags": [],
-          "qualificationTags": [],
-          "englishRequirements": [],
-          "graduateYears": [],
-          "evidence": {}
-        },
-        "applicationHints": {
-          "schemaVersion": 1,
-          "methods": [],
-          "materialTags": [],
-          "evidence": {}
-        }
-      }
+      "status": "error",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202610/t20261009_34078100.html": {
-      "status": "ok",
-      "fetchedAt": "2026-10-27T10:08:27+08:00",
-      "fields": {
-        "registrationStart": null,
-        "registrationEnd": null,
-        "deadlineConfidence": "unknown",
-        "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
-        "profileHints": {
-          "schemaVersion": 3,
-          "roleTags": [],
-          "majorTags": [],
-          "qualificationTags": [],
-          "englishRequirements": [],
-          "graduateYears": [],
-          "evidence": {}
-        },
-        "applicationHints": {
-          "schemaVersion": 1,
-          "methods": [],
-          "materialTags": [],
-          "evidence": {}
-        }
-      }
+      "status": "error",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36049782/content.html": {
       "status": "ok",
@@ -12245,7 +12203,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36064990/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-27T10:08:27+08:00",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -12278,7 +12236,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36064971/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-27T10:08:27+08:00",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -12361,7 +12319,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202610/t20261019_4908324.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-27T10:08:27+08:00",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
       "fields": {
         "registrationStart": "2026-10-21",
         "registrationEnd": "2026-10-27",
@@ -12999,7 +12957,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261023/t0035_1444305.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-27T10:08:27+08:00",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
       "fields": {
         "registrationStart": "2026-11-08",
         "registrationEnd": "2026-11-08",
@@ -13034,7 +12992,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261022/t0035_1444271.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-27T10:08:27+08:00",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
       "fields": {
         "registrationStart": "2026-11-05",
         "registrationEnd": "2026-11-05",
@@ -13507,6 +13465,246 @@
           "methods": [],
           "materialTags": [],
           "evidence": {}
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261102_4928095.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届",
+            "教师资格证"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "（不含定向和委托培养）的普通高等学校，按时毕业并如期取得相应学历学位，毕业证书落款年度2年内（2026、2027年）的高校毕业生，其中非北京生源毕业生仅限报考“招聘范围”为“应届毕业生”的岗位，非京生源毕业生须符合北京市引进毕业生相关政策；",
+            "教师资格证": "教师岗位须具有符合招聘岗位要求的教师资格证（仅笔试合格的不视为具有教师资格），如具有“中小学教师资格考试合格证明”，须在2027年9月前取得教师资格证；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "学历学位证明",
+            "学信网证明",
+            "资格证书",
+            "工作经历证明",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "网上报名": "（一）网上报名",
+            "报名表": "（1）填写完整准确并有本人在诚信声明处签字的报名表（网上资格初审通过后，从北京市事业单位公开招聘服务平台打印）；",
+            "身份证": "（2）本人身份证、户口簿（集体户口的需出示集体户口首页复印件和本人户口页）；",
+            "学历学位证明": "（5）留学回国人员须提供国（境）外学历学位证书及教育部留学服务中心出具的“国外学历学位认证书”；",
+            "学信网证明": "（4）2026年毕业生须提供国家承认的学历、学位证书，及从中国高等学校学生信息网（https://www.chsi.com.cn/）自行下载并打印的《教育部学历证书电子注册备案表》《中国高等教育学位在线验证报告》；",
+            "资格证书": "教师岗位须具有符合招聘岗位要求的教师资格证（仅笔试合格的不视为具有教师资格），如具有“中小学教师资格考试合格证明”，须在2027年9月前取得教师资格证；",
+            "工作经历证明": "拟聘用人员经公示无异议的，如仍然在职，应在公示期满后30日内与原工作单位解除劳动合同或聘用合同，解除后方可办理后续聘用手续；",
+            "成绩单": "（3）2027年应届毕业生须提供校级毕业生就业主管部门填写完整、盖章齐全的就业推荐表（就业推荐表上未注明“统招”或“非定向”的，还需要开具统招证明）、学校教务部门盖章的成绩单（成绩单有非百分制项目须提供说明）等材料；",
+            "就业推荐表": "（3）2027年应届毕业生须提供校级毕业生就业主管部门填写完整、盖章齐全的就业推荐表（就业推荐表上未注明“统招”或“非定向”的，还需要开具统招证明）、学校教务部门盖章的成绩单（成绩单有非百分制项目须提供说明）等材料；"
+          }
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202610/t20261030_596996.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202610/t20261030_596998.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202610/t20261030_596986.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202610/t20261030_596985.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261102_4927968.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "北京市文物局局属事业单位面向2027年应届毕业生和社会人员公开招聘工作人员公告_"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "学历学位证明",
+            "工作经历证明",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "网上报名": "（一）报名方式：本次招聘报名工作采取网上报名的方式进行。",
+            "学历学位证明": "（一）国内高等院校应届毕业生（不含委培生、定向生，含毕业证书落款年度为2026年、2027年的国内高校毕业生），毕业当年如期取得与最高学历对应的学历学位证书。",
+            "工作经历证明": "5.社会人员需提交符合岗位要求的工作经历相关材料（①盖章的工作经历说明②匹配的劳动合同与社保缴费记录，以上①②提供一项即可）以及存档说明。",
+            "成绩单": "4.应届毕业生需提交学校盖章的毕业生就业推荐表、成绩单。",
+            "就业推荐表": "4.应届毕业生需提交学校盖章的毕业生就业推荐表、成绩单。"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261102_4928052.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-03T11:56:43+08:00",
+      "fields": {
+        "registrationStart": "2026-11-23",
+        "registrationEnd": "2026-11-23",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "四、报名与资格审核 （一）报名时间：即日起至2026年11月23日 （二）报名方法： 1.下载《北京人民艺术剧院面向2027年应届毕业生公开招聘报名登记表》（附件2）",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "北京人民艺术剧院演员岗位面向2027年应届毕业生公开招聘公告_"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "身份证",
+            "学信网证明",
+            "个人简历",
+            "成绩单"
+          ],
+          "evidence": {
+            "身份证": "2.本人身份证正反面复印件（正反面在同一页）；",
+            "学信网证明": "4.2026年应届毕业生需同时提交学信网学历和学位验证。",
+            "个人简历": "6.个人简历。",
+            "成绩单": "留学生需提交毕业证书、成绩单及成绩单翻译件、教育部留学服务中心学历认定或学校开具的证明（含翻译件）等材料复印件；"
+          }
         }
       }
     }
