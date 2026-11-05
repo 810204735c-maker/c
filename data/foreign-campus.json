@@ -1,10 +1,165 @@
 {
   "schemaVersion": 1,
   "channel": "foreign-campus",
-  "generatedAt": "2026-11-04T11:02:01+08:00",
+  "generatedAt": "2026-11-05T11:32:08+08:00",
   "targetGraduateYear": "2027",
   "total": 5,
   "campaigns": [
+    {
+      "id": "foreign_e481419c0e156efecd7a",
+      "campaignKey": "deutsche-bank|2027|graduate_program|annual|general",
+      "channel": "foreign",
+      "company": {
+        "id": "deutsche-bank",
+        "name": "德意志银行",
+        "nameEn": "Deutsche Bank",
+        "ownership": "foreign_owned",
+        "homeCountryOrRegion": "德国",
+        "industryTags": [
+          "金融"
+        ]
+      },
+      "title": "Deutsche Bank China 2027 Graduate Programme",
+      "titleLanguage": "en",
+      "url": "https://careers.db.com/students-graduates/your-application/",
+      "source": {
+        "id": "deutsche-bank-apac-graduates",
+        "name": "德意志银行亚太毕业生项目",
+        "tier": "official_verified"
+      },
+      "alternateSources": [],
+      "official": true,
+      "publishedAt": "2026-11-05",
+      "dateEstimated": true,
+      "graduateYears": [
+        "2027"
+      ],
+      "campaignType": "graduate_program",
+      "season": "annual",
+      "employmentType": "full_time",
+      "cities": [],
+      "jobFunctions": [],
+      "educationLevels": [],
+      "industryTags": [
+        "金融"
+      ],
+      "englishRequirements": [],
+      "deadline": "2026-10-18",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "7 Sep - 18 Oct 2026",
+      "summary": "China 2027 Graduate Programme Investment Bank: Fixed Income & Currencies Corporate Bank 7 Sep - 18 Oct 2026 To be eligible for the 2027 Graduate Programme, you must: Complete your studies (all final exams, coursework and have no outstanding",
+      "status": "expired",
+      "collector": "德意志银行亚太毕业生项目",
+      "collectedAt": "2026-11-05T11:32:08+08:00",
+      "firstSeenAt": "2026-08-23T00:39:44+08:00",
+      "lastSeenAt": "2026-11-05T11:32:08+08:00"
+    },
+    {
+      "id": "foreign_2b0bb5d7a93cc275361e",
+      "campaignKey": "deloitte|2027|graduate_program|annual|general",
+      "channel": "foreign",
+      "company": {
+        "id": "deloitte",
+        "name": "德勤",
+        "nameEn": "Deloitte",
+        "ownership": "foreign_controlled",
+        "homeCountryOrRegion": "英国",
+        "industryTags": [
+          "咨询/专业服务"
+        ]
+      },
+      "title": "Deloitte China 2027 Graduate Program",
+      "titleLanguage": "en",
+      "url": "https://www.deloitte.com/cn/en/careers/explore-your-fit/students/graduate-program.html",
+      "source": {
+        "id": "deloitte-china-graduate",
+        "name": "德勤中国 Graduate Program",
+        "tier": "official_verified"
+      },
+      "alternateSources": [],
+      "official": true,
+      "publishedAt": "2026-11-05",
+      "dateEstimated": true,
+      "graduateYears": [
+        "2027"
+      ],
+      "campaignType": "graduate_program",
+      "season": "annual",
+      "employmentType": "full_time",
+      "cities": [],
+      "jobFunctions": [
+        "财务",
+        "咨询"
+      ],
+      "educationLevels": [],
+      "industryTags": [
+        "咨询/专业服务"
+      ],
+      "englishRequirements": [],
+      "deadline": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "summary": "2027 Graduate Recruitment is now live — Join Us and Make Your Impact Print Share Our 2027 graduate program provides first-hand exposure to our culture, people, and society. As a graduate, you'll have a wealth of career paths and possibiliti",
+      "status": "deadline_unknown",
+      "collector": "德勤中国 Graduate Program",
+      "collectedAt": "2026-11-05T11:32:08+08:00",
+      "firstSeenAt": "2026-08-23T00:39:44+08:00",
+      "lastSeenAt": "2026-11-05T11:32:08+08:00"
+    },
+    {
+      "id": "foreign_d787c34744edd2daf9e1",
+      "campaignKey": "shell|2027|graduate_program|annual|graduateprogramme2027china",
+      "channel": "foreign",
+      "company": {
+        "id": "shell",
+        "name": "壳牌",
+        "nameEn": "Shell",
+        "ownership": "foreign_owned",
+        "homeCountryOrRegion": "英国",
+        "industryTags": [
+          "能源",
+          "工业/制造"
+        ]
+      },
+      "title": "Shell Graduate Programme 2027 - China",
+      "titleLanguage": "en",
+      "url": "https://shell.wd3.myworkdayjobs.com/ShellCareers/job/Shell-Graduate-Programme-2027---China_R205121",
+      "source": {
+        "id": "shell-graduate-programme-2027-china",
+        "name": "Shell Graduate Programme 2027 - China",
+        "tier": "official_verified"
+      },
+      "alternateSources": [],
+      "official": true,
+      "publishedAt": "2026-11-05",
+      "dateEstimated": true,
+      "graduateYears": [
+        "2027"
+      ],
+      "campaignType": "graduate_program",
+      "season": "annual",
+      "employmentType": "full_time",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "jobFunctions": [],
+      "educationLevels": [],
+      "industryTags": [
+        "能源",
+        "工业/制造"
+      ],
+      "englishRequirements": [],
+      "deadline": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "summary": "Shell Graduate Programme 2027 - China Beijing, China Worker Type: Regular Posting Start Date: October 2, 2026 Job Description: What’s the role Join us as a Graduate at Shell China where you will embark on a comprehensive 3-year programme de",
+      "status": "deadline_unknown",
+      "collector": "Shell Graduate Programme 2027 - China",
+      "collectedAt": "2026-11-05T11:32:08+08:00",
+      "firstSeenAt": "2026-08-23T01:09:50+08:00",
+      "lastSeenAt": "2026-11-05T11:32:08+08:00"
+    },
     {
       "id": "foreign_b77b138acbdea8011306",
       "campaignKey": "pwc|2027|campus_recruitment|annual|general",
@@ -64,161 +219,6 @@
         }
       },
       "firstSeenAt": "2026-08-23T00:39:44+08:00",
-      "lastSeenAt": "2026-11-04T11:02:01+08:00"
-    },
-    {
-      "id": "foreign_e481419c0e156efecd7a",
-      "campaignKey": "deutsche-bank|2027|graduate_program|annual|general",
-      "channel": "foreign",
-      "company": {
-        "id": "deutsche-bank",
-        "name": "德意志银行",
-        "nameEn": "Deutsche Bank",
-        "ownership": "foreign_owned",
-        "homeCountryOrRegion": "德国",
-        "industryTags": [
-          "金融"
-        ]
-      },
-      "title": "Deutsche Bank China 2027 Graduate Programme",
-      "titleLanguage": "en",
-      "url": "https://careers.db.com/students-graduates/your-application/",
-      "source": {
-        "id": "deutsche-bank-apac-graduates",
-        "name": "德意志银行亚太毕业生项目",
-        "tier": "official_verified"
-      },
-      "alternateSources": [],
-      "official": true,
-      "publishedAt": "2026-11-04",
-      "dateEstimated": true,
-      "graduateYears": [
-        "2027"
-      ],
-      "campaignType": "graduate_program",
-      "season": "annual",
-      "employmentType": "full_time",
-      "cities": [],
-      "jobFunctions": [],
-      "educationLevels": [],
-      "industryTags": [
-        "金融"
-      ],
-      "englishRequirements": [],
-      "deadline": "2026-10-18",
-      "deadlineConfidence": "high",
-      "deadlineEvidence": "7 Sep - 18 Oct 2026",
-      "summary": "China 2027 Graduate Programme Investment Bank: Fixed Income & Currencies Corporate Bank 7 Sep - 18 Oct 2026 To be eligible for the 2027 Graduate Programme, you must: Complete your studies (all final exams, coursework and have no outstanding",
-      "status": "expired",
-      "collector": "德意志银行亚太毕业生项目",
-      "collectedAt": "2026-11-04T11:02:01+08:00",
-      "firstSeenAt": "2026-08-23T00:39:44+08:00",
-      "lastSeenAt": "2026-11-04T11:02:01+08:00"
-    },
-    {
-      "id": "foreign_2b0bb5d7a93cc275361e",
-      "campaignKey": "deloitte|2027|graduate_program|annual|general",
-      "channel": "foreign",
-      "company": {
-        "id": "deloitte",
-        "name": "德勤",
-        "nameEn": "Deloitte",
-        "ownership": "foreign_controlled",
-        "homeCountryOrRegion": "英国",
-        "industryTags": [
-          "咨询/专业服务"
-        ]
-      },
-      "title": "Deloitte China 2027 Graduate Program",
-      "titleLanguage": "en",
-      "url": "https://www.deloitte.com/cn/en/careers/explore-your-fit/students/graduate-program.html",
-      "source": {
-        "id": "deloitte-china-graduate",
-        "name": "德勤中国 Graduate Program",
-        "tier": "official_verified"
-      },
-      "alternateSources": [],
-      "official": true,
-      "publishedAt": "2026-11-04",
-      "dateEstimated": true,
-      "graduateYears": [
-        "2027"
-      ],
-      "campaignType": "graduate_program",
-      "season": "annual",
-      "employmentType": "full_time",
-      "cities": [],
-      "jobFunctions": [
-        "财务",
-        "咨询"
-      ],
-      "educationLevels": [],
-      "industryTags": [
-        "咨询/专业服务"
-      ],
-      "englishRequirements": [],
-      "deadline": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "summary": "2027 Graduate Recruitment is now live — Join Us and Make Your Impact Print Share Our 2027 graduate program provides first-hand exposure to our culture, people, and society. As a graduate, you'll have a wealth of career paths and possibiliti",
-      "status": "deadline_unknown",
-      "collector": "德勤中国 Graduate Program",
-      "collectedAt": "2026-11-04T11:02:01+08:00",
-      "firstSeenAt": "2026-08-23T00:39:44+08:00",
-      "lastSeenAt": "2026-11-04T11:02:01+08:00"
-    },
-    {
-      "id": "foreign_d787c34744edd2daf9e1",
-      "campaignKey": "shell|2027|graduate_program|annual|graduateprogramme2027china",
-      "channel": "foreign",
-      "company": {
-        "id": "shell",
-        "name": "壳牌",
-        "nameEn": "Shell",
-        "ownership": "foreign_owned",
-        "homeCountryOrRegion": "英国",
-        "industryTags": [
-          "能源",
-          "工业/制造"
-        ]
-      },
-      "title": "Shell Graduate Programme 2027 - China",
-      "titleLanguage": "en",
-      "url": "https://shell.wd3.myworkdayjobs.com/ShellCareers/job/Shell-Graduate-Programme-2027---China_R205121",
-      "source": {
-        "id": "shell-graduate-programme-2027-china",
-        "name": "Shell Graduate Programme 2027 - China",
-        "tier": "official_verified"
-      },
-      "alternateSources": [],
-      "official": true,
-      "publishedAt": "2026-11-04",
-      "dateEstimated": true,
-      "graduateYears": [
-        "2027"
-      ],
-      "campaignType": "graduate_program",
-      "season": "annual",
-      "employmentType": "full_time",
-      "cities": [
-        "北京",
-        "上海"
-      ],
-      "jobFunctions": [],
-      "educationLevels": [],
-      "industryTags": [
-        "能源",
-        "工业/制造"
-      ],
-      "englishRequirements": [],
-      "deadline": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "summary": "Shell Graduate Programme 2027 - China Beijing, China Worker Type: Regular Posting Start Date: October 2, 2026 Job Description: What’s the role Join us as a Graduate at Shell China where you will embark on a comprehensive 3-year programme de",
-      "status": "deadline_unknown",
-      "collector": "Shell Graduate Programme 2027 - China",
-      "collectedAt": "2026-11-04T11:02:01+08:00",
-      "firstSeenAt": "2026-08-23T01:09:50+08:00",
       "lastSeenAt": "2026-11-04T11:02:01+08:00"
     },
     {
@@ -284,13 +284,20 @@
     }
   ],
   "todaySummary": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "bootstrap": false,
     "addedCount": 0,
     "baselineCount": 0,
     "items": []
   },
   "summaryHistory": [
+    {
+      "date": "2026-11-05",
+      "bootstrap": false,
+      "addedCount": 0,
+      "baselineCount": 0,
+      "items": []
+    },
     {
       "date": "2026-11-04",
       "bootstrap": false,
@@ -332,13 +339,6 @@
       "addedCount": 0,
       "baselineCount": 0,
       "items": []
-    },
-    {
-      "date": "2026-10-29",
-      "bootstrap": false,
-      "addedCount": 0,
-      "baselineCount": 0,
-      "items": []
     }
   ],
   "sourceStatus": [
@@ -354,9 +354,10 @@
       "id": "pwc-china-students",
       "name": "普华永道中国学生招聘",
       "tier": "official_verified",
-      "status": "ok",
-      "count": 1,
-      "pendingReviewCount": 0
+      "status": "error",
+      "count": 0,
+      "pendingReviewCount": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "deutsche-bank-apac-graduates",

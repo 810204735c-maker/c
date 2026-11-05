@@ -10883,7 +10883,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202609/t20260929_34074113.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-29T10:28:58+08:00",
+      "fetchedAt": "2026-11-05T11:31:57+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -11738,7 +11738,7 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202610/t20261012_34079439.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-29T10:28:58+08:00",
+      "fetchedAt": "2026-11-05T11:31:57+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -11930,7 +11930,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36058707/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-29T10:28:58+08:00",
+      "fetchedAt": "2026-11-05T11:31:57+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -12616,7 +12616,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36078063/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-29T10:28:58+08:00",
+      "fetchedAt": "2026-11-05T11:31:57+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -12642,7 +12642,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261020/t0035_1444248.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-29T10:28:58+08:00",
+      "fetchedAt": "2026-11-05T11:31:57+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -13166,7 +13166,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261027/t0035_1444352.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-29T10:28:58+08:00",
+      "fetchedAt": "2026-11-05T11:31:57+08:00",
       "fields": {
         "registrationStart": "2026-11-05",
         "registrationEnd": "2026-11-05",
@@ -13205,7 +13205,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261026/t0035_1444316.html": {
       "status": "ok",
-      "fetchedAt": "2026-10-29T10:28:58+08:00",
+      "fetchedAt": "2026-11-05T11:31:57+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -13773,6 +13773,274 @@
           "methods": [],
           "materialTags": [],
           "evidence": {}
+        }
+      }
+    },
+    "https://rst.hubei.gov.cn/hbrsksw/zlplks/hbssydwzpks/zkgg/202611/t20261105_6065662.shtml": {
+      "status": "ok",
+      "fetchedAt": "2026-11-05T11:31:57+08:00",
+      "fields": {
+        "registrationStart": "2026-11-06",
+        "registrationEnd": "2026-11-20",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名起止时间：2026年11月6日9:00—11月20日18:00",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "学历要求为本科及以上、硕士研究生及以上的岗位，面试采取结构化面试方式进行，主要考察个人综合素质、岗位匹配程度等。",
+            "应届": "湖北省气象部门2027年度事业单位公开招聘应届高校毕业生公告 （第1号）--湖北省人事考试网"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "成绩单"
+          ],
+          "evidence": {
+            "网上报名": "网上报名地址：湖北省人事考试院（https://rst.hubei.gov.cn/hbrsksw/）。",
+            "成绩单": "应聘人员在网上报名时应将加盖学校公章的成绩单一并上传，否则资格审查不予通过。"
+          }
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36130336/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-05T11:31:57+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "中国煤炭地质总局2027年度应届高校毕业生招聘公告－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261104_4932176.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-05T11:31:57+08:00",
+      "fields": {
+        "registrationStart": "2026-11-13",
+        "registrationEnd": "2026-11-13",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "四、报名时间及程序 （一）报名时间：即日起至2026年11月13日17:00 （二）报名方式：采取网上报名、线上资格审核 （三）报名程序： 1.网上报名 应聘人员请登录首都师范大学附属育新学校网站（http://www.yuxinschoo",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届",
+            "教师资格证"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "报名截止后，学校招聘工作小组将根据招聘岗位的具体条件，对应聘人员网上提交的相关信息进行资格审查，报考人员可登录学校网站和公招网查询是否通过资格审查，初审未通过的不另行通知。",
+            "教师资格证": "（五）具备应聘岗位所需的学历（学位）要求、学科背景、理论业务知识和实际工作能力，取得与招聘岗位相对应的教师资格证或教师资格考试合格证明（师范生需提供学校出具的免试认定证明或师范生教师职业能力证书）；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "资格证书"
+          ],
+          "evidence": {
+            "网上报名": "（二）报名方式：采取网上报名、线上资格审核",
+            "报名表": "（1）公招网导出的《应聘人员报名表》；",
+            "资格证书": "（五）具备应聘岗位所需的学历（学位）要求、学科背景、理论业务知识和实际工作能力，取得与招聘岗位相对应的教师资格证或教师资格考试合格证明（师范生需提供学校出具的免试认定证明或师范生教师职业能力证书）；"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261104_4932111.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-05T11:31:57+08:00",
+      "fields": {
+        "registrationStart": "2026-11-13",
+        "registrationEnd": "2026-11-13",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "二、招聘程序 （一）报名 1.报名时间 即日起至2026年11月13日17时 2.报名方式 此次招聘采取网络报名的方式",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "工作经历证明"
+          ],
+          "evidence": {
+            "网上报名": "请报名人员按以下方式完成在线报名。",
+            "工作经历证明": "对拟进入面试人员进行资格复审，依据应聘人员提交的劳动合同、社保缴纳记录等材料对应聘人员的相关工作经历等报考资格条件进行复核。"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261104_4932042.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-05T11:31:57+08:00",
+      "fields": {
+        "registrationStart": "2026-11-09",
+        "registrationEnd": "2026-11-13",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间：2026年11月9日—11月13日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "成绩单"
+          ],
+          "evidence": {
+            "报名表": "符合招聘条件者须完整填写附件2《北京市朝阳区卫生健康委员会所属事业单位2026年公开招聘医学定向生报名表》（以下简称《报名表》）通过发送电子邮件方式将《报名表》发送至朝阳区卫生健康委邮箱，邮箱地址cyqygzxrsk@bjchy.gov.c",
+            "成绩单": "4.成绩单；"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261104_4931611.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-05T11:31:57+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届",
+            "教师资格证"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "例如：岗位及要求表中要求仅限本科学历的，硕士研究生和博士研究生不能以本科学历报考。",
+            "应届": "（二）应届毕业生",
+            "教师资格证": "应聘高中教师岗位应具有高中及以上教师资格证书；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "学信网证明",
+            "资格证书",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "网上报名": "（一）网上报名",
+            "报名表": "资格复审应提供《东城区教委所属事业单位公开招聘工作人员考生报名表》（登录报名系统https://www.qgsydw.com/xxywzlzt/bmzt/2497打印），并在表中“诚信承诺本人签名”处手签姓名。",
+            "身份证": "本人身份证（正反面）、户口簿（或户口卡）本人页及首页；",
+            "学信网证明": "国家承认的学历证书、学位证书及教育部学历学位认证书（从中国高等学校学生信息网https://www.chsi.com.cn/自行下载并打印《教育部学历证书电子注册备案表》《中国高等教育学位在线验证报告》）；",
+            "资格证书": "应聘高中教师岗位应具有高中及以上教师资格证书；",
+            "成绩单": "已毕业的提供学历证书、学位证书，即将毕业的提供全部课程成绩单（毕业院校教务主管部门盖章）。",
+            "就业推荐表": "2026年毕业生需提供明确毕业生培养方式、生源地、学历、学制和毕业时间的统招证明（学校就业主管部门盖章的普通高校毕业生就业推荐表上注明“统招”或“非定向”的可提供就业推荐表，无需另外开具统招证明）；"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20261103/t0035_1444491.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-05T11:31:57+08:00",
+      "fields": {
+        "registrationStart": "2026-11-20",
+        "registrationEnd": "2026-11-20",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "五、招聘办法 （一）报名 报名时间自公告发布之日起至2026年11月20日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届",
+            "中共党员"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "3.普通高校应届或非应届毕业生，具有硕士研究生及以上学历，并取得硕士及以上学位。",
+            "应届": "3.普通高校应届或非应届毕业生，具有硕士研究生及以上学历，并取得硕士及以上学位。",
+            "中共党员": "2.政治立场坚定，遵守中华人民共和国宪法和法律法规，拥护中国共产党领导和社会主义制度，具有良好的政治素质和道德品行，中共党员优先；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "身份证",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "报名表": "1.《应聘人员报名表》（详见附件）；",
+            "身份证": "2.身份证正反面扫描件；",
+            "就业推荐表": "5.未毕业的应届毕业生提供学校盖章的毕业生就业推荐表扫描件，如无毕业生就业推荐表，需提供学生证扫描件；"
+          }
         }
       }
     }
