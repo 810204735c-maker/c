@@ -1,10 +1,71 @@
 {
   "schemaVersion": 1,
   "channel": "foreign-campus",
-  "generatedAt": "2026-11-05T11:32:08+08:00",
+  "generatedAt": "2026-11-06T11:27:55+08:00",
   "targetGraduateYear": "2027",
   "total": 5,
   "campaigns": [
+    {
+      "id": "foreign_b77b138acbdea8011306",
+      "campaignKey": "pwc|2027|campus_recruitment|annual|general",
+      "channel": "foreign",
+      "company": {
+        "id": "pwc",
+        "name": "普华永道",
+        "nameEn": "PwC",
+        "ownership": "foreign_controlled",
+        "homeCountryOrRegion": "英国",
+        "industryTags": [
+          "咨询/专业服务"
+        ]
+      },
+      "title": "PwC China 2027 Campus Recruitment",
+      "titleLanguage": "en",
+      "url": "https://www.pwccn.com/en/careers/students.html",
+      "source": {
+        "id": "pwc-china-students",
+        "name": "普华永道中国学生招聘",
+        "tier": "official_verified"
+      },
+      "alternateSources": [],
+      "official": true,
+      "publishedAt": "2026-11-06",
+      "dateEstimated": true,
+      "graduateYears": [
+        "2027"
+      ],
+      "campaignType": "campus_recruitment",
+      "season": "annual",
+      "employmentType": "full_time",
+      "cities": [],
+      "jobFunctions": [],
+      "educationLevels": [
+        "本科"
+      ],
+      "industryTags": [
+        "咨询/专业服务"
+      ],
+      "englishRequirements": [],
+      "deadline": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "summary": "2027 graduates with a bachelor’s degree or above, and all majors are eligible. Apply now Application journey Online application Online assessment Meet with PwC PwC Superday Receiving your offer Offer celebration Start from August 2026 Submi",
+      "status": "deadline_unknown",
+      "collector": "普华永道中国学生招聘",
+      "collectedAt": "2026-11-06T11:27:55+08:00",
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [
+          "网上报名"
+        ],
+        "materialTags": [],
+        "evidence": {
+          "网上报名": " and all majors are eligible. Apply now Application journey Online application Online assessment Meet with PwC PwC Super"
+        }
+      },
+      "firstSeenAt": "2026-08-23T00:39:44+08:00",
+      "lastSeenAt": "2026-11-06T11:27:55+08:00"
+    },
     {
       "id": "foreign_e481419c0e156efecd7a",
       "campaignKey": "deutsche-bank|2027|graduate_program|annual|general",
@@ -29,7 +90,7 @@
       },
       "alternateSources": [],
       "official": true,
-      "publishedAt": "2026-11-05",
+      "publishedAt": "2026-11-06",
       "dateEstimated": true,
       "graduateYears": [
         "2027"
@@ -50,9 +111,9 @@
       "summary": "China 2027 Graduate Programme Investment Bank: Fixed Income & Currencies Corporate Bank 7 Sep - 18 Oct 2026 To be eligible for the 2027 Graduate Programme, you must: Complete your studies (all final exams, coursework and have no outstanding",
       "status": "expired",
       "collector": "德意志银行亚太毕业生项目",
-      "collectedAt": "2026-11-05T11:32:08+08:00",
+      "collectedAt": "2026-11-06T11:27:55+08:00",
       "firstSeenAt": "2026-08-23T00:39:44+08:00",
-      "lastSeenAt": "2026-11-05T11:32:08+08:00"
+      "lastSeenAt": "2026-11-06T11:27:55+08:00"
     },
     {
       "id": "foreign_2b0bb5d7a93cc275361e",
@@ -78,7 +139,7 @@
       },
       "alternateSources": [],
       "official": true,
-      "publishedAt": "2026-11-05",
+      "publishedAt": "2026-11-06",
       "dateEstimated": true,
       "graduateYears": [
         "2027"
@@ -102,9 +163,9 @@
       "summary": "2027 Graduate Recruitment is now live — Join Us and Make Your Impact Print Share Our 2027 graduate program provides first-hand exposure to our culture, people, and society. As a graduate, you'll have a wealth of career paths and possibiliti",
       "status": "deadline_unknown",
       "collector": "德勤中国 Graduate Program",
-      "collectedAt": "2026-11-05T11:32:08+08:00",
+      "collectedAt": "2026-11-06T11:27:55+08:00",
       "firstSeenAt": "2026-08-23T00:39:44+08:00",
-      "lastSeenAt": "2026-11-05T11:32:08+08:00"
+      "lastSeenAt": "2026-11-06T11:27:55+08:00"
     },
     {
       "id": "foreign_d787c34744edd2daf9e1",
@@ -131,7 +192,7 @@
       },
       "alternateSources": [],
       "official": true,
-      "publishedAt": "2026-11-05",
+      "publishedAt": "2026-11-06",
       "dateEstimated": true,
       "graduateYears": [
         "2027"
@@ -156,70 +217,9 @@
       "summary": "Shell Graduate Programme 2027 - China Beijing, China Worker Type: Regular Posting Start Date: October 2, 2026 Job Description: What’s the role Join us as a Graduate at Shell China where you will embark on a comprehensive 3-year programme de",
       "status": "deadline_unknown",
       "collector": "Shell Graduate Programme 2027 - China",
-      "collectedAt": "2026-11-05T11:32:08+08:00",
+      "collectedAt": "2026-11-06T11:27:55+08:00",
       "firstSeenAt": "2026-08-23T01:09:50+08:00",
-      "lastSeenAt": "2026-11-05T11:32:08+08:00"
-    },
-    {
-      "id": "foreign_b77b138acbdea8011306",
-      "campaignKey": "pwc|2027|campus_recruitment|annual|general",
-      "channel": "foreign",
-      "company": {
-        "id": "pwc",
-        "name": "普华永道",
-        "nameEn": "PwC",
-        "ownership": "foreign_controlled",
-        "homeCountryOrRegion": "英国",
-        "industryTags": [
-          "咨询/专业服务"
-        ]
-      },
-      "title": "PwC China 2027 Campus Recruitment",
-      "titleLanguage": "en",
-      "url": "https://www.pwccn.com/en/careers/students.html",
-      "source": {
-        "id": "pwc-china-students",
-        "name": "普华永道中国学生招聘",
-        "tier": "official_verified"
-      },
-      "alternateSources": [],
-      "official": true,
-      "publishedAt": "2026-11-04",
-      "dateEstimated": true,
-      "graduateYears": [
-        "2027"
-      ],
-      "campaignType": "campus_recruitment",
-      "season": "annual",
-      "employmentType": "full_time",
-      "cities": [],
-      "jobFunctions": [],
-      "educationLevels": [
-        "本科"
-      ],
-      "industryTags": [
-        "咨询/专业服务"
-      ],
-      "englishRequirements": [],
-      "deadline": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "summary": "2027 graduates with a bachelor’s degree or above, and all majors are eligible. Apply now Application journey Online application Online assessment Meet with PwC PwC Superday Receiving your offer Offer celebration Start from August 2026 Submi",
-      "status": "deadline_unknown",
-      "collector": "普华永道中国学生招聘",
-      "collectedAt": "2026-11-04T11:02:01+08:00",
-      "applicationHints": {
-        "schemaVersion": 1,
-        "methods": [
-          "网上报名"
-        ],
-        "materialTags": [],
-        "evidence": {
-          "网上报名": " and all majors are eligible. Apply now Application journey Online application Online assessment Meet with PwC PwC Super"
-        }
-      },
-      "firstSeenAt": "2026-08-23T00:39:44+08:00",
-      "lastSeenAt": "2026-11-04T11:02:01+08:00"
+      "lastSeenAt": "2026-11-06T11:27:55+08:00"
     },
     {
       "id": "foreign_68f27a4e03dea2fc9b49",
@@ -284,13 +284,20 @@
     }
   ],
   "todaySummary": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "bootstrap": false,
     "addedCount": 0,
     "baselineCount": 0,
     "items": []
   },
   "summaryHistory": [
+    {
+      "date": "2026-11-06",
+      "bootstrap": false,
+      "addedCount": 0,
+      "baselineCount": 0,
+      "items": []
+    },
     {
       "date": "2026-11-05",
       "bootstrap": false,
@@ -332,13 +339,6 @@
       "addedCount": 0,
       "baselineCount": 0,
       "items": []
-    },
-    {
-      "date": "2026-10-30",
-      "bootstrap": false,
-      "addedCount": 0,
-      "baselineCount": 0,
-      "items": []
     }
   ],
   "sourceStatus": [
@@ -354,10 +354,9 @@
       "id": "pwc-china-students",
       "name": "普华永道中国学生招聘",
       "tier": "official_verified",
-      "status": "error",
-      "count": 0,
-      "pendingReviewCount": 0,
-      "error": "HTTP Error 403: Forbidden"
+      "status": "ok",
+      "count": 1,
+      "pendingReviewCount": 0
     },
     {
       "id": "deutsche-bank-apac-graduates",
