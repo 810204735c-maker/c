@@ -13479,7 +13479,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36108870/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-02T10:34:36+08:00",
+      "fetchedAt": "2026-11-09T10:43:09+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -14388,6 +14388,105 @@
           "evidence": {
             "学历学位证明": "月11日8:30-11:30、13:00-16:00，将证明材料原件和复印件（身份证、入伍登记表、退伍证、立功受奖证书、毕业证、学位证）送至省政务服务中心（吉林省长春市南关区人民大街9999号）省人力资源社会保障厅一楼8号窗口（咨询电话：0"
           }
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36148630/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-09T10:43:09+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2027"
+          ],
+          "evidence": {
+            "2027届": "中国南方航空2027届“明珠优才管培生计划”招聘启动－国务院国有资产监督管理委员会"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20261109/36ea0c3b4da54acbbf412fa147a75701.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-09T10:43:09+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "上海市气象局2027年度应届高校毕业生招聘公告_招聘公告_上海市人力资源和社会保障局"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "学历学位证明",
+            "个人简历"
+          ],
+          "evidence": {
+            "网上报名": "1.网上报名",
+            "学历学位证明": "8.一般应在2027年12月31日前取得学历毕业证、学位证。",
+            "个人简历": "（1）请有意申报相关岗位的人员如实填写个人简历电子版（附件2，填写后转换为PDF格式且小于2M）并于11月18日前发送到smsrsc@163.com电子邮箱。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20261106/t0035_1444547.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-09T10:43:09+08:00",
+      "fields": {
+        "registrationStart": "2026-11-18",
+        "registrationEnd": "2026-11-18",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间:即日—2026年11月18日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "1.具有临床相关专业硕士研究生及以上学历（高级职称人员可放宽至大学本科学历）；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     }
