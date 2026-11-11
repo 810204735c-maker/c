@@ -14655,6 +14655,78 @@
           }
         }
       }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20261109/t0035_1444550.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-11T10:50:36+08:00",
+      "fields": {
+        "registrationStart": "2026-11-19",
+        "registrationEnd": "2026-11-19",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间：公告发布之日起至2026年11月19日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "具有博士学位，或具有硕士学位并聘任中级职称；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "学历学位证明",
+            "个人简历"
+          ],
+          "evidence": {
+            "学历学位证明": "本次招聘采用电子邮件方式报名，请应聘者将个人简历、最高学历学位证书、资格证书、医师执业证书、住院医师规培合格证书电子版等材料扫描件发送至电子邮箱：hr_gw@shaphc.org，并请注明：姓名+应聘岗位。",
+            "个人简历": "本次招聘采用电子邮件方式报名，请应聘者将个人简历、最高学历学位证书、资格证书、医师执业证书、住院医师规培合格证书电子版等材料扫描件发送至电子邮箱：hr_gw@shaphc.org，并请注明：姓名+应聘岗位。"
+          }
+        }
+      }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20261109/t0035_1444574.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-11T10:50:36+08:00",
+      "fields": {
+        "registrationStart": "2026-11-20",
+        "registrationEnd": "2026-11-20",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间：即日起至2026年11月20日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "资格证书",
+            "近期照片"
+          ],
+          "evidence": {
+            "报名表": "近期免冠彩色正面证件照、居民身份证、学历学位证书、岗位要求的或报名表中提及的专业技术、职业资格证书、科研成果或其他相关证明材料等。",
+            "学历学位证明": "近期免冠彩色正面证件照、居民身份证、学历学位证书、岗位要求的或报名表中提及的专业技术、职业资格证书、科研成果或其他相关证明材料等。",
+            "资格证书": "近期免冠彩色正面证件照、居民身份证、学历学位证书、岗位要求的或报名表中提及的专业技术、职业资格证书、科研成果或其他相关证明材料等。",
+            "近期照片": "近期免冠彩色正面证件照、居民身份证、学历学位证书、岗位要求的或报名表中提及的专业技术、职业资格证书、科研成果或其他相关证明材料等。"
+          }
+        }
+      }
     }
   }
 }
