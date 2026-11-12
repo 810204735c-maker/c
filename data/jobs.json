@@ -1,7 +1,191 @@
 {
-  "generatedAt": "2026-11-11T10:50:36+08:00",
-  "total": 62,
+  "generatedAt": "2026-11-12T11:52:29+08:00",
+  "total": 66,
   "jobs": [
+    {
+      "id": "bf1bccc1443803cc",
+      "title": "中国航空器材集团有限公司2027届校园招聘公告",
+      "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36176853/content.html",
+      "source": "国务院国资委",
+      "collector": "国务院国资委招聘",
+      "publishedAt": "2026-11-12",
+      "dateEstimated": false,
+      "category": "央国企",
+      "location": "全国",
+      "audience": "应届",
+      "registrationStart": null,
+      "registrationEnd": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "deadline": null,
+      "summary": "[11-12]",
+      "official": true,
+      "collectedAt": "2026-11-12T11:52:29+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "应届"
+        ],
+        "englishRequirements": [],
+        "graduateYears": [
+          "2027"
+        ],
+        "evidence": {
+          "应届": "中国航空器材集团有限公司2027届校园招聘公告－国务院国有资产监督管理委员会",
+          "2027届": "中国航空器材集团有限公司2027届校园招聘公告－国务院国有资产监督管理委员会"
+        }
+      }
+    },
+    {
+      "id": "e6f795112059a5fb",
+      "title": "上海市行政管理学校（上海市珠峰中学）2026教师公开招聘简章（第二批）",
+      "url": "https://rsj.sh.gov.cn/tzpgg_17408/20261111/t0035_1444619.html",
+      "source": "上海市事业单位招聘公告",
+      "collector": "上海市事业单位招聘公告",
+      "publishedAt": "2026-11-12",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "上海",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": "2026-11-22",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "报名截止日期：2026年11月22日",
+      "deadline": "2026-11-22",
+      "summary": "2026-11-12",
+      "official": true,
+      "collectedAt": "2026-11-12T11:52:29+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "硕士",
+          "教师资格证"
+        ],
+        "englishRequirements": [],
+        "graduateYears": [],
+        "evidence": {
+          "硕士": "（三）应聘人员须有硕士研究生及以上学历和相应学位。",
+          "教师资格证": "（四）持有相应学科的高中（中职）教师资格证书。"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [],
+        "materialTags": [
+          "资格证书"
+        ],
+        "evidence": {
+          "资格证书": "（四）持有相应学科的高中（中职）教师资格证书。"
+        }
+      }
+    },
+    {
+      "id": "7ad06292814689a3",
+      "title": "上海健康医学院2026年公开招聘工作人员公告（第三批）",
+      "url": "https://rsj.sh.gov.cn/tzpgg_17408/20261111/t0035_1444607.html",
+      "source": "上海市事业单位招聘公告",
+      "collector": "上海市事业单位招聘公告",
+      "publishedAt": "2026-11-12",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "上海",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": "2026-11-20",
+      "deadlineConfidence": "high",
+      "deadlineEvidence": "报名截止时间：2026年11月20日",
+      "deadline": "2026-11-20",
+      "summary": "2026-11-12",
+      "official": true,
+      "collectedAt": "2026-11-12T11:52:29+08:00",
+      "profileHints": {
+        "schemaVersion": 3,
+        "roleTags": [],
+        "majorTags": [],
+        "qualificationTags": [
+          "应届"
+        ],
+        "englishRequirements": [],
+        "graduateYears": [],
+        "evidence": {
+          "应届": "2.任职要求：身心健康，品德良好，热爱教育事业，符合学校招聘规定的条件。"
+        }
+      },
+      "applicationHints": {
+        "schemaVersion": 1,
+        "methods": [],
+        "materialTags": [
+          "学历学位证明"
+        ],
+        "evidence": {
+          "学历学位证明": "请应聘人员填写《上海健康医学院应聘人员基本信息表》（附件2），并将学历学位证书、职称、工作经历、职业资格、所获荣誉称号等证明材料的扫描件通过电子邮件以附件形式发送至学校招聘邮箱：jkyxyhr@sumhs.edu.cn，邮件主题请注明姓名及"
+        }
+      }
+    },
+    {
+      "id": "a1c15d40b54bd61b",
+      "title": "水利部在京直属单位（水利水电规划设计总院、水利部建设管理与质量安全中心）公开招聘高层次专业技术人员公告",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261110_598811.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-11-11",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "deadline": null,
+      "summary": "2026-11-11",
+      "official": true,
+      "collectedAt": "2026-11-12T11:52:29+08:00"
+    },
+    {
+      "id": "04d1d327f3e48a9a",
+      "title": "民政部有关所属单位2026年度社会公开招聘公告",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261110_598885.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-11-11",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "deadline": null,
+      "summary": "2026-11-11",
+      "official": true,
+      "collectedAt": "2026-11-12T11:52:29+08:00"
+    },
+    {
+      "id": "dfdaf32875d7d2a4",
+      "title": "国家卫生健康委直属和联系单位2027年度公开招聘人员公告",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261110_598823.html",
+      "source": "人力资源社会保障部",
+      "collector": "中国公共招聘网事业单位",
+      "publishedAt": "2026-11-11",
+      "dateEstimated": false,
+      "category": "事业单位",
+      "location": "全国",
+      "audience": "不限",
+      "registrationStart": null,
+      "registrationEnd": null,
+      "deadlineConfidence": "unknown",
+      "deadlineEvidence": "",
+      "deadline": null,
+      "summary": "2026-11-11",
+      "official": true,
+      "collectedAt": "2026-11-12T11:52:29+08:00"
+    },
     {
       "id": "f393f3e076b4afd2",
       "title": "科技部直属事业单位（中国科学技术信息研究所）2026年度面向社会公开招聘工作人员公告",
@@ -20,7 +204,7 @@
       "deadline": null,
       "summary": "2026-11-10",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "985da50d0003e868",
@@ -40,7 +224,7 @@
       "deadline": null,
       "summary": "2026-11-10",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -89,7 +273,7 @@
       "deadline": null,
       "summary": "2026-11-10",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "65517a33956eb032",
@@ -109,7 +293,7 @@
       "deadline": null,
       "summary": "[11-10]",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "4b46593fc8e60354",
@@ -129,7 +313,7 @@
       "deadline": "2026-11-19",
       "summary": "2026-11-10",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -174,7 +358,7 @@
       "deadline": "2026-11-20",
       "summary": "2026-11-10",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [],
@@ -210,7 +394,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-11-09",
       "official": true,
-      "collectedAt": "2026-11-10T12:39:52+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -267,7 +451,7 @@
       "deadline": null,
       "summary": "[11-09]",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -300,7 +484,7 @@
       "deadline": null,
       "summary": "2026-11-09",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -348,7 +532,7 @@
       "deadline": "2026-11-18",
       "summary": "2026-11-09",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -381,7 +565,7 @@
       "deadline": null,
       "summary": "[11-06]",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "883fb36fca352332",
@@ -401,7 +585,7 @@
       "deadline": "2026-11-18",
       "summary": "2026-11-06",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -456,7 +640,7 @@
       "deadline": null,
       "summary": "2026-11-05",
       "official": true,
-      "collectedAt": "2026-11-10T12:39:52+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "f4ac1879581c41c3",
@@ -476,7 +660,7 @@
       "deadline": "2026-11-20",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -524,7 +708,7 @@
       "deadline": null,
       "summary": "2026-11-05",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -584,7 +768,7 @@
       "deadline": null,
       "summary": "[11-05]",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -617,7 +801,7 @@
       "deadline": "2026-11-18",
       "summary": "2026-11-05",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -662,7 +846,7 @@
       "deadline": "2026-11-13",
       "summary": "2026-11-05",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -711,7 +895,7 @@
       "deadline": "2026-11-30",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -768,7 +952,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -821,7 +1005,7 @@
       "deadline": "2026-11-13",
       "summary": "2026-11-04",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -871,7 +1055,7 @@
       "deadline": "2026-11-13",
       "summary": "2026-11-04",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [
@@ -904,7 +1088,7 @@
       "deadline": "2026-11-13",
       "summary": "2026-11-04",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [],
@@ -936,7 +1120,7 @@
       "deadline": null,
       "summary": "2026-11-04",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -996,7 +1180,7 @@
       "deadline": null,
       "summary": "[11-04]",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "982c295fef3a3e71",
@@ -1016,7 +1200,7 @@
       "deadline": "2026-11-20",
       "summary": "2026-11-04",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1067,7 +1251,7 @@
       "deadline": null,
       "summary": "2026-11-02",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1129,7 +1313,7 @@
       "deadline": null,
       "summary": "2026-11-02",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "c47559b5bdc48955",
@@ -1149,7 +1333,7 @@
       "deadline": null,
       "summary": "2026-11-02",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "59ec7d053cdd3ac3",
@@ -1169,7 +1353,7 @@
       "deadline": null,
       "summary": "2026-11-02",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "898977537c1e1d85",
@@ -1189,7 +1373,7 @@
       "deadline": null,
       "summary": "2026-11-02",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "36c913facf7ba779",
@@ -1209,7 +1393,7 @@
       "deadline": null,
       "summary": "2026-11-02",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1261,7 +1445,7 @@
       "deadline": "2026-11-23",
       "summary": "2026-11-02",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1310,7 +1494,7 @@
       "deadline": null,
       "summary": "[2026-11-02]",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [],
@@ -1340,7 +1524,7 @@
       "deadline": null,
       "summary": "[11-02]",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1376,7 +1560,7 @@
       "deadline": "2026-11-12",
       "summary": "2026-10-30",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1423,7 +1607,7 @@
       "deadline": null,
       "summary": "2026-10-30",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "2cd3407f651eb801",
@@ -1443,7 +1627,7 @@
       "deadline": "2026-11-13",
       "summary": "2026-10-30",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1496,7 +1680,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-10-29",
       "official": true,
-      "collectedAt": "2026-11-10T12:39:52+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1555,7 +1739,7 @@
       "deadline": "2028-05-31",
       "summary": "能建绿色氢氨新能源（松原）有限公司（以下简称松原公司）是中能建氢能源有限公司（以下简称氢能公司）的控... 16 2026.10 10-16",
       "official": false,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1598,7 +1782,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-10-27",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1631,7 +1815,7 @@
       "deadline": null,
       "summary": "2026-10-27",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1664,7 +1848,7 @@
       "deadline": null,
       "summary": "2026-10-23",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "624b5e04fff87694",
@@ -1684,7 +1868,7 @@
       "deadline": null,
       "summary": "2026-10-23",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "0ac1309f7b55311b",
@@ -1704,7 +1888,7 @@
       "deadline": null,
       "summary": "2026-10-23",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "2292e8378e9e8b81",
@@ -1724,7 +1908,7 @@
       "deadline": null,
       "summary": "",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -1790,7 +1974,7 @@
       "deadline": null,
       "summary": "2026-10-22",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "ad280eb797097b5d",
@@ -1810,7 +1994,7 @@
       "deadline": null,
       "summary": "[10-22]",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "6b1da0fac9619e33",
@@ -1830,7 +2014,7 @@
       "deadline": null,
       "summary": "2026-10-22",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "0f09c86ad88bc534",
@@ -1850,7 +2034,7 @@
       "deadline": null,
       "summary": "[10-21]",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1884,9 +2068,9 @@
       "deadlineConfidence": "unknown",
       "deadlineEvidence": "",
       "deadline": null,
-      "summary": "[10-21]",
+      "summary": "[10-21] var purl=\"../../../n2588035/n2588325/n2588350/index_7325475\" var org= jQuery(\"#comp_7325475\").html(); function goPub(uu){ if(pageName==maxPageNum) { pageName=0;} if(pageNam",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1919,7 +2103,7 @@
       "deadline": null,
       "summary": "[10-21]",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1952,7 +2136,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-10-19",
       "official": true,
-      "collectedAt": "2026-11-10T12:39:52+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -1994,42 +2178,6 @@
       }
     },
     {
-      "id": "b705dcaca4035e10",
-      "title": "航空工业集团下属企业招聘2027届校园招聘启动",
-      "url": "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36064990/content.html",
-      "source": "国务院国资委",
-      "collector": "国务院国资委招聘",
-      "publishedAt": "2026-10-19",
-      "dateEstimated": false,
-      "category": "央国企",
-      "location": "全国",
-      "audience": "应届",
-      "registrationStart": null,
-      "registrationEnd": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "deadline": null,
-      "summary": "[10-19] var purl=\"../../../n2588035/n2588325/n2588350/index_7325475\" var org= jQuery(\"#comp_7325475\").html(); function goPub(uu){ if(pageName==maxPageNum) { pageName=0;} if(pageNam",
-      "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
-      "profileHints": {
-        "schemaVersion": 3,
-        "roleTags": [],
-        "majorTags": [],
-        "qualificationTags": [
-          "应届"
-        ],
-        "englishRequirements": [],
-        "graduateYears": [
-          "2027"
-        ],
-        "evidence": {
-          "应届": "航空工业集团下属企业招聘2027届校园招聘启动－国务院国有资产监督管理委员会",
-          "2027届": "航空工业集团下属企业招聘2027届校园招聘启动－国务院国有资产监督管理委员会"
-        }
-      }
-    },
-    {
       "id": "c4f2f286c631cda9",
       "title": "能建绿氢新能源（松原）有限公司招聘公告",
       "url": "http://www.ceehe.ceec.net.cn/art/2026/10/16/art_60241_2066.html",
@@ -2047,7 +2195,7 @@
       "deadline": "2027-10-08",
       "summary": "能建绿氢新能源（松原）有限公司（以下简称松原绿氢公司）是中能建氢能源有限公司（以下简称氢能公司）的控... 27 2026.04 04-27",
       "official": false,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "applicationHints": {
         "schemaVersion": 1,
         "methods": [],
@@ -2077,7 +2225,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -2139,7 +2287,7 @@
       "deadline": "2026-12-31",
       "summary": "2026-10-12",
       "official": true,
-      "collectedAt": "2026-11-10T12:39:52+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [],
@@ -2176,26 +2324,6 @@
       }
     },
     {
-      "id": "87f2263a1be9efd3",
-      "title": "中国农业科学院2026年度第三批统一公开招聘公告",
-      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202610/t20261010_589712.html",
-      "source": "人力资源社会保障部",
-      "collector": "中国公共招聘网事业单位",
-      "publishedAt": "2026-10-10",
-      "dateEstimated": false,
-      "category": "事业单位",
-      "location": "全国",
-      "audience": "不限",
-      "registrationStart": null,
-      "registrationEnd": null,
-      "deadlineConfidence": "unknown",
-      "deadlineEvidence": "",
-      "deadline": null,
-      "summary": "2026-10-10",
-      "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00"
-    },
-    {
       "id": "2cca65a27468a2b7",
       "title": "2026年福建医科大学附属协和医院公开招聘博士学位人员方案",
       "url": "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202610/t20261010_7222850.htm",
@@ -2213,7 +2341,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -2265,7 +2393,7 @@
       "deadline": null,
       "summary": "2026-10-09",
       "official": true,
-      "collectedAt": "2026-11-10T12:39:52+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "c1fb00d293bd86bb",
@@ -2285,7 +2413,7 @@
       "deadline": null,
       "summary": "2026-10-09",
       "official": true,
-      "collectedAt": "2026-11-10T12:39:52+08:00"
+      "collectedAt": "2026-11-12T11:52:29+08:00"
     },
     {
       "id": "b742ffe08fcfcc6b",
@@ -2305,7 +2433,7 @@
       "deadline": "2026-12-31",
       "summary": "",
       "official": true,
-      "collectedAt": "2026-11-11T10:50:36+08:00",
+      "collectedAt": "2026-11-12T11:52:29+08:00",
       "profileHints": {
         "schemaVersion": 3,
         "roleTags": [
@@ -2355,7 +2483,7 @@
     {
       "name": "中国公共招聘网事业单位",
       "status": "ok",
-      "count": 13
+      "count": 15
     },
     {
       "name": "国家广播电视总局公告公示",
@@ -2421,9 +2549,8 @@
     },
     {
       "name": "湖南省事业单位招聘",
-      "status": "error",
-      "count": 0,
-      "error": "<urlopen error [Errno 101] Network is unreachable>"
+      "status": "ok",
+      "count": 7
     },
     {
       "name": "吉林省人社厅招聘公告",
@@ -2443,7 +2570,7 @@
     {
       "name": "上海市事业单位招聘公告",
       "status": "ok",
-      "count": 12
+      "count": 14
     }
   ]
 }
