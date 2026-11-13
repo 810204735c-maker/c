@@ -14908,6 +14908,36 @@
           "evidence": {}
         }
       }
+    },
+    "https://rsj.sh.gov.cn/tzpgg_17408/20261112/t0035_1444688.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-13T11:26:42+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": "2026-11-22",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名截止时间：即日起至2026年11月22日",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "硕士": "（1）医师岗位：呼吸内科、胸心外科、肿瘤科、麻醉科等专业，临床医师具备硕士及以上学位，具有医师资格和住院医师规范化培养合格证书，独立工作能力强，具有良好的沟通能力、团队协作精神和较强的科研能力,45周岁以下。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
     }
   }
 }
