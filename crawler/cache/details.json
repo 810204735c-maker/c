@@ -6051,7 +6051,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4945757.html": {
       "status": "error",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-15T10:45:53+08:00",
       "error": "<urlopen error _ssl.c:994: The handshake operation timed out>"
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35816109/content.html": {
@@ -6726,7 +6726,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4949166.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-08T10:32:30+08:00",
+      "fetchedAt": "2026-11-15T10:45:53+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
