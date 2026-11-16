@@ -112,7 +112,7 @@
     {
       "name": "教育部公务员招录",
       "kind": "html",
-      "url": "https://www.moe.gov.cn/s78/A04/gongzuo/moe_450/",
+      "url": "https://hudong.moe.gov.cn/jyb_xwfb/moe_2082/siju/rss/jggwyzl/",
       "category": "公务员",
       "allowedDomains": ["moe.gov.cn"],
       "maxItems": 50,

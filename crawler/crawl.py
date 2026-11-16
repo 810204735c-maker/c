@@ -51,7 +51,7 @@ except ModuleNotFoundError:  # Support `python crawler/crawl.py`.
 SHANGHAI = shanghai_timezone()
 USER_AGENT = "Mozilla/5.0 (compatible; JobRadarCN/1.0; public-link-collector)"
 RECRUITMENT_TERMS = (
-    "招聘", "招募", "招考", "招录", "录用", "选调", "遴选", "校园招聘", "社会招聘", "补充录用",
+    "招聘", "招募", "招考", "招录", "考录", "录用", "选调", "遴选", "校园招聘", "社会招聘", "补充录用",
 )
 NOISE_TERMS = (
     "培训班", "辅导班", "备考课程", "真题解析", "协议班", "考试培训", "广告",
