@@ -156,3 +156,7 @@ python crawler/foreign_crawl.py --config crawler/foreign_sources.json --companie
 - 搜索 RSS 只用于发现链接；最终链接仍须命中官方域名白名单。
 - 静态站无法代替报名系统，也无法保证岗位在你查看时仍开放。报名资格、岗位表、截止时间、考试安排和录用结果均以原公告为准。
 - 若 Actions 采集成功但页面未更新，检查 Pages 的 Source 是否选择了 `GitHub Actions`，并重新运行工作流。
+
+## 本地备考题库
+
+湖北定向选调常识时政 500 题已存入 `data/hubei_question_bank.sqlite`。题干、选项、原书答案、解析和页码均可用于聊天抽题；每次出题会重新打乱选项。使用说明见 [题库文档](docs/question-bank.md)。

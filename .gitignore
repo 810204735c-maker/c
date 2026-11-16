@@ -5,3 +5,8 @@ Thumbs.db
 _site/
 .idea/
 .vscode/
+.playwright-cli/
+tmp/question_bank*/
+tmp/page1.jpg
+/公园之西_页面已转正.pdf
+/暮春之雪_页面已转正.pdf
