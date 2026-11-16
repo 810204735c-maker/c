@@ -54,6 +54,20 @@ HTML_FIXTURE = """<!doctype html><html><body>
 
 
 class CrawlTests(unittest.TestCase):
+    def test_education_ministry_source_uses_current_official_listing(self):
+        config_path = Path(__file__).resolve().parents[1] / "crawler" / "sources.json"
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+        source = next(
+            item for item in config["sources"]
+            if item["name"] == "教育部公务员招录"
+        )
+
+        self.assertEqual(
+            source["url"],
+            "https://hudong.moe.gov.cn/jyb_xwfb/moe_2082/siju/rss/jggwyzl/",
+        )
+        self.assertEqual(source["allowedDomains"], ["moe.gov.cn"])
+
     def test_august_22_expansion_sources_are_official_and_allowlisted(self):
         required = {
             "广东省事业单位招聘公告": ("hrss.gd.gov.cn", "招聘公告"),
@@ -167,6 +181,26 @@ class CrawlTests(unittest.TestCase):
         self.assertEqual(jobs[0]["publishedAt"], "2026-07-16")
         self.assertEqual(jobs[0]["category"], "央国企")
         self.assertTrue(jobs[0]["url"].startswith("https://www.sasac.gov.cn/"))
+
+    def test_parse_html_accepts_official_civil_service_exam_recruitment_title(self):
+        source = {
+            "name": "教育部公务员招录",
+            "url": "https://hudong.moe.gov.cn/jyb_xwfb/moe_2082/siju/rss/jggwyzl/",
+            "category": "公务员",
+            "allowedDomains": ["moe.gov.cn"],
+            "maxItems": 50,
+        }
+        html = (
+            '<li><a href="./202610/t20261014_1455803.html">'
+            '关于教育部2027年度公务员考录职位要求的说明</a>'
+            '<span>2026-10-14</span></li>'
+        )
+
+        jobs = parse_html(html, source, NOW)
+
+        self.assertEqual(len(jobs), 1)
+        self.assertEqual(jobs[0]["publishedAt"], "2026-10-14")
+        self.assertEqual(jobs[0]["category"], "公务员")
 
     def test_parse_html_rejects_navigation_labels_without_a_date(self):
         source = {
