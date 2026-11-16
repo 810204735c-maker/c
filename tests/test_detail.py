@@ -138,7 +138,7 @@ class DetailTests(unittest.TestCase):
                     "status": "ok",
                     "fetchedAt": "2026-07-22T14:00:00+08:00",
                     "fields": {
-                        "registrationWindowSchemaVersion": 2,
+                        "registrationWindowSchemaVersion": 3,
                         "registrationStart": "2026-07-20",
                         "registrationEnd": "2026-07-25",
                         "deadlineConfidence": "high",
@@ -217,7 +217,7 @@ class DetailTests(unittest.TestCase):
         self.assertEqual(jobs[0]["deadline"], "2026-07-25")
         self.assertEqual(
             updated["entries"][JOB["url"]]["fields"]["registrationWindowSchemaVersion"],
-            2,
+            3,
         )
 
     def test_old_profile_hint_schema_refreshes_success_cache(self):

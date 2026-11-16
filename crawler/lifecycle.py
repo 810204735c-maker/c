@@ -7,7 +7,7 @@ import html
 import re
 
 
-REGISTRATION_WINDOW_SCHEMA_VERSION = 2
+REGISTRATION_WINDOW_SCHEMA_VERSION = 3
 _DATE_PATTERN = re.compile(
     r"(?:(?P<year>20\d{2})\s*[年./\-]\s*)?"
     r"(?P<month>\d{1,2})\s*[月./\-]\s*"
@@ -19,6 +19,11 @@ _REGISTRATION_CONTEXT = re.compile(
     r"(?:网上|现场)?报名"
     r"(?!表|材料|条件|资格|要求|流程|系统|入口)"
     r"(?:时间|日期|期限|起止|截止|开始|结束|为|[:：])"
+)
+_APPLICANT_ACTION_CONTEXT = re.compile(
+    r"(?:应聘|报考)人员请于"
+    r".{0,100}?"
+    r"(?:登录.{0,30}?(?:报名系统|报名平台)|将.{0,30}?(?:应聘|报名)材料.{0,20}?发送至.{0,20}?邮箱)"
 )
 
 
@@ -64,7 +69,11 @@ def _registration_clauses(text: str) -> list[str]:
     return [
         clause.strip()
         for clause in _CLAUSE_SEPARATOR.split(cleaned)
-        if clause.strip() and _REGISTRATION_CONTEXT.search(clause)
+        if clause.strip()
+        and (
+            _REGISTRATION_CONTEXT.search(clause)
+            or _APPLICANT_ACTION_CONTEXT.search(clause)
+        )
     ]
 
 

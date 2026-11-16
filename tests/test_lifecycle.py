@@ -8,6 +8,31 @@ NOW = datetime(2026, 7, 20, 2, 30, tzinfo=timezone.utc)
 
 
 class RegistrationWindowTests(unittest.TestCase):
+    def test_applicant_login_range_is_registration_window(self):
+        result = extract_registration_window(
+            "应聘人员请于2026年9月14日0:00至2026年9月18日23:59登录报名系统报名。",
+            NOW,
+        )
+
+        self.assertEqual(result["registrationStart"], "2026-09-14")
+        self.assertEqual(result["registrationEnd"], "2026-09-18")
+
+    def test_applicant_email_material_deadline_is_registration_end(self):
+        result = extract_registration_window(
+            "应聘人员请于2026年9月24日前将应聘材料发送至以下邮箱。",
+            NOW,
+        )
+
+        self.assertEqual(result["registrationEnd"], "2026-09-24")
+
+    def test_applicant_exam_login_range_is_not_registration_window(self):
+        result = extract_registration_window(
+            "报考人员请于2026年9月24日至9月25日登录考试系统打印准考证。",
+            NOW,
+        )
+
+        self.assertIsNone(result["registrationEnd"])
+
     def test_registration_range_ignores_later_exam_dates(self):
         result = extract_registration_window(
             "报名时间：7月10日9:00至7月20日17:00，7月21日打印准考证，7月25日笔试。",
