@@ -573,7 +573,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35428690/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-05-29",
@@ -609,7 +609,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260424_1963395.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -639,7 +639,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260416_1963335.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-04-22",
@@ -669,7 +669,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260403_1962991.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-04-20",
         "registrationEnd": "2026-04-20",
@@ -740,7 +740,7 @@
     },
     "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/zpgg/202607/t20260723_5981936.shtml": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-07-24",
         "registrationEnd": "2026-07-31",
@@ -777,7 +777,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202603/t20260316_1962788.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -803,7 +803,7 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202602/t20260210_1962581.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-02-24",
         "registrationEnd": "2026-02-24",
@@ -1050,7 +1050,7 @@
     },
     "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/zpgg/202607/t20260727_5984486.shtml": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-07-29",
         "registrationEnd": "2026-08-07",
@@ -1221,7 +1221,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c35714069/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-08-24",
@@ -1747,7 +1747,7 @@
     },
     "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/zpgg/202608/t20260803_5987944.shtml": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-08-04",
         "registrationEnd": "2026-08-13",
@@ -1784,7 +1784,7 @@
     },
     "http://www.ceehe.ceec.net.cn/art/2026/4/27/art_60241_1926.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-05-20",
@@ -1823,7 +1823,7 @@
     },
     "https://www.tsinghua.edu.cn/rsc/info/1044/2013.htm": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-04-29",
         "registrationEnd": "2026-04-29",
@@ -1898,7 +1898,7 @@
     },
     "https://www.tsinghua.edu.cn/rsc/info/1044/2012.htm": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-05-07",
         "registrationEnd": "2026-05-07",
@@ -1937,7 +1937,7 @@
     },
     "https://zwgk.mct.gov.cn/zfxxgkml/rsxx/gwyzkly/202507/t20250704_960996.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -1963,7 +1963,7 @@
     },
     "https://www.tsinghua.edu.cn/rsc/info/1044/1983.htm": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2025-12-29",
         "registrationEnd": "2025-12-29",
@@ -2013,7 +2013,7 @@
     },
     "https://www.tsinghua.edu.cn/rsc/info/1044/1953.htm": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2025-05-06",
         "registrationEnd": "2025-05-06",
@@ -2053,7 +2053,7 @@
     },
     "http://www.ceehe.ceec.net.cn/art/2026/3/13/art_60241_1883.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-04-12",
@@ -3272,7 +3272,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zc/202603/t20260321_7114300.htm": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -4790,7 +4790,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4943820.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-08-25",
         "registrationEnd": "2026-09-30",
@@ -5042,7 +5042,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4878994.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -5068,7 +5068,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4848983.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-02-02",
         "registrationEnd": "2026-02-04",
@@ -5904,7 +5904,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4946438.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-08-31",
         "registrationEnd": "2026-09-04",
@@ -11089,7 +11089,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202609/t20260930_7220872.htm": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-10-08",
         "registrationEnd": "2026-10-15",
@@ -12107,7 +12107,7 @@
     },
     "http://www.ceehe.ceec.net.cn/art/2026/10/16/art_60241_2066.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2027-10-08",
@@ -12192,7 +12192,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202610/t20261016_7237044.htm": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -12942,7 +12942,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpfa/202610/t20261023_7239842.htm": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -13235,7 +13235,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261029/t0035_1444434.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-11-12",
         "registrationEnd": "2026-11-12",
@@ -13299,7 +13299,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261029/t0035_1444435.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-11-02",
         "registrationEnd": "2026-11-13",
@@ -14046,7 +14046,7 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36125967/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -14072,7 +14072,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261105/t0035_1444537.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-11-11",
         "registrationEnd": "2026-11-18",
@@ -14117,34 +14117,13 @@
       }
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202611/t20261105_34096233.html": {
-      "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
-      "fields": {
-        "registrationStart": null,
-        "registrationEnd": null,
-        "deadlineConfidence": "unknown",
-        "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
-        "profileHints": {
-          "schemaVersion": 3,
-          "roleTags": [],
-          "majorTags": [],
-          "qualificationTags": [],
-          "englishRequirements": [],
-          "graduateYears": [],
-          "evidence": {}
-        },
-        "applicationHints": {
-          "schemaVersion": 1,
-          "methods": [],
-          "materialTags": [],
-          "evidence": {}
-        }
-      }
+      "status": "error",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
+      "error": "timed out"
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261105_4933871.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -14195,7 +14174,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261104/t0035_1444520.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-11-18",
         "registrationEnd": "2026-11-18",
@@ -14231,7 +14210,7 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261105/t0035_1444536.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-11-13",
@@ -14271,7 +14250,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202611/t20261105_7245409.htm": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-11-09",
         "registrationEnd": "2026-11-30",
@@ -14319,7 +14298,7 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202611/t20261105_7245418.htm": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
@@ -14363,7 +14342,7 @@
     },
     "https://hrss.jl.gov.cn/gg/202611/t20261106_9740144.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -14941,7 +14920,7 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261113_4944882.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-14T11:21:55+08:00",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
       "fields": {
         "registrationStart": "2026-11-24",
         "registrationEnd": "2026-11-24",
@@ -15332,6 +15311,46 @@
           "evidence": {
             "报名表": "下载并填写《上海国际问题研究院应聘报名表》",
             "学历学位证明": "将报名表、身份证、学历学位证书、科研成果目录及代表性论文等材料压缩为1个文件包，发送至邮箱zhaopin@siis.org.cn，邮件主题注明“姓名+研究方向”。"
+          }
+        }
+      }
+    },
+    "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4982450.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-21T12:00:49+08:00",
+      "fields": {
+        "registrationStart": "2026-11-25",
+        "registrationEnd": "2026-12-08",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "首批报名时间为2026年11月25日8:00至2026年12月8日17:00",
+        "registrationWindowSchemaVersion": 2,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "2026届": "2026届毕业生和社会上具有国家承认学历的人员。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "学历学位证明",
+            "个人简历",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "学历学位证明": "2.毕业证、学位证书（PDF格式，毕业证、学位证书各1个文件，港澳台学习、国外留学人员还需提供教育部留学服务中心国（境）外学历、学位认证书）；",
+            "个人简历": "应聘人员在公告规定的报名时间内将个人简历和佐证材料同时发送各用人单位招聘邮箱及人力资源处招聘邮箱（见附件2）进行报名。",
+            "成绩单": "列入专业目录（没有专业代码）的，可选择招聘专业中相近专业报考，所学专业必修课程须与报考岗位要求的专业主要课程基本一致，并在资格审核时提供毕业证书、所学专业课程成绩单（须教务处盖章）、院校出具的课程对比情况说明及毕业院校设置专业的依据等材料。",
+            "就业推荐表": "4.国内普通高校2026届毕业生须在2026年12月31日前取得相应的毕业证书、学位证书（报名时未取得最高学历和学位证书的，须提交相应的就业推荐表（表中内容要信息完备）和学习成绩单）；"
           }
         }
       }
