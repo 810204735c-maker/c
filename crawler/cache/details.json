@@ -15375,6 +15375,476 @@
           }
         }
       }
+    },
+    "http://www.hunan.gov.cn/hnszf/xxgk/rsxx/klzp/202611/t20261116_34102641.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-22T19:06:12+08:00",
+      "fields": {
+        "registrationStart": "2026-11-19",
+        "registrationEnd": "2026-11-24",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名时间：2026年11月19日至11月24日",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [
+            "综合文字"
+          ],
+          "majorTags": [],
+          "qualificationTags": [
+            "中共党员",
+            "工作经历"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "综合文字": "省政府研究室文字综合岗位3名。",
+            "中共党员": "5.具有大学本科以上文化程度（有学士学位），政治面貌要求为中共党员（含预备党员）。",
+            "工作经历": "3.具有2年以上基层工作经历和2年以上公务员（或参照公务员法管理机关、单位工作人员）工作经历。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "身份证",
+            "学历学位证明"
+          ],
+          "evidence": {
+            "身份证": "1.本人身份证复印件。",
+            "学历学位证明": "报考人员所提交的学历学位证书，如属国内取得的，需同时提供网络查询页面打印件或复印件；"
+          }
+        }
+      }
+    },
+    "http://www.hunan.gov.cn/hnszf/xxgk/rsxx/klzp/202611/t20261103_34093826.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-22T19:06:12+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)报名 1.报名时间 A类岗位:自公告发布之日至2026年12月31日",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届",
+            "中共党员"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "应届": "(6)招聘岗位对专业研究方向有要求的,毕业证专业与岗位要求专业一致的无需提供专业证明材料,暂未发放毕业证的应届毕业生及所学专业为上一级学科的应聘人员须提供就读学校出具的专业证明材料(导师签字且毕业学院盖章);",
+            "中共党员": "(4)招聘岗位政治面貌要求是中共党员(含预备党员)的,应聘人员须提供所在基层党组织开具的党员身份证明(加盖党组织公章,自公告发布之日(不含)前6个月内开具的党员身份证明有效);",
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "工作经历证明",
+            "成绩单"
+          ],
+          "evidence": {
+            "网上报名": "B类岗位:采取网上报名的方式,每人限报一个岗位,多报则取消应聘资格。",
+            "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件;",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件;",
+            "工作经历证明": "(5)招聘岗位明确要求有工作经历的,应聘人员须提供工作经历证明(加盖工作单位公章或人事部门公章);",
+            "成绩单": "(9)出国留学人员须提供毕业论文和成绩单的原件及中文翻译件。"
+          }
+        }
+      }
+    },
+    "http://www.hunan.gov.cn/hnszf/xxgk/rsxx/klzp/202611/t20261103_34093834.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-22T19:06:12+08:00",
+      "fields": {
+        "registrationStart": "2026-11-02",
+        "registrationEnd": "2026-11-10",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)报名 1.报名时间 2026年11月2日0:00至2026年11月10日24:00 2.报名方式 采取网上报名的方式",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届",
+            "中共党员"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "应届": "(5)招聘岗位对专业研究方向有要求的,毕业证专业与岗位要求专业一致的无需提供专业证明材料,暂未发毕业证的应届毕业生及所学专业为上一级学科的应聘人员须提供就读学校出具的专业证明材料(导师签字且毕业学院盖章);",
+            "中共党员": "(4)招聘岗位政治面貌要求是中共党员(含预备党员)的,应聘人员须提供所在基层党组织开具的党员身份证明(加盖党组织公章,自公告发布之日(不含)前6个月开具的党员身份证明有效);",
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明"
+          ],
+          "evidence": {
+            "网上报名": "采取网上报名的方式,每人限报一个岗位,多报则取消应聘资格。",
+            "报名表": "(1)请应聘者自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件;",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件;"
+          }
+        }
+      }
+    },
+    "http://www.hunan.gov.cn/hnszf/xxgk/rsxx/klzp/202611/t20261103_34093831.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-22T19:06:12+08:00",
+      "fields": {
+        "registrationStart": "2026-10-30",
+        "registrationEnd": "2026-11-09",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)报名 1.报名时间 2026年10月30日0:00至2026年11月9日24:00",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "工作经历证明"
+          ],
+          "evidence": {
+            "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关证明材料原件;",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关证明材料原件;",
+            "工作经历证明": "(4)招聘岗位明确要求有工作经历的,应聘人员必须提供工作经历证明(加盖工作单位公章或人事部门公章);"
+          }
+        }
+      }
+    },
+    "http://www.hunan.gov.cn/hnszf/xxgk/rsxx/klzp/202610/t20261026_34088644.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-22T19:06:12+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "（二）报名 1.报名时间 自公告发布之日起至2026年12月31日",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "应届": "（4）招聘岗位对专业研究方向有要求的，毕业证专业与岗位要求专业一致的无需提供专业证明材料，暂未发放毕业证的应届毕业生及所学专业为上一级学科的应聘人员须提供就读学校出具的专业证明材料（导师签字且毕业学院盖章）；",
+            "2026届": "2.在读高校学生（指2027年及以后毕业的毕业生，2026届毕业生可根据条件报考）；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "现场报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "个人简历",
+            "工作经历证明",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "现场报名": "采取现场报名和邮箱报名相结合的方式。",
+            "报名表": "（1）请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》（见附件2），须在承诺栏手写签名；",
+            "学历学位证明": "（2）本人有效身份证（正反面）、学历学位证书原件（或学信网教育部学历证书电子注册备案表）和岗位要求的资格证书及其他相关证明材料原件，2026届毕业生还须提供毕业生就业推荐表（需盖学校公章）；",
+            "学信网证明": "（2）本人有效身份证（正反面）、学历学位证书原件（或学信网教育部学历证书电子注册备案表）和岗位要求的资格证书及其他相关证明材料原件，2026届毕业生还须提供毕业生就业推荐表（需盖学校公章）；",
+            "个人简历": "（7）应聘人员须提供个人自荐材料，含个人简历、科研成果代表论文、科研课题、各类代表性的奖励证书（不超过3份）等。",
+            "工作经历证明": "（5）招聘岗位明确要求有工作经历的，应聘人员须提供工作经历证明（加盖工作单位公章或人事部门公章）；",
+            "就业推荐表": "（2）本人有效身份证（正反面）、学历学位证书原件（或学信网教育部学历证书电子注册备案表）和岗位要求的资格证书及其他相关证明材料原件，2026届毕业生还须提供毕业生就业推荐表（需盖学校公章）；"
+          }
+        }
+      }
+    },
+    "http://www.hunan.gov.cn/hnszf/xxgk/rsxx/klzp/202610/t20261020_34085033.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-22T19:06:12+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "应届": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,应届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "工作经历证明",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,应届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,应届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "工作经历证明": "(4)招聘岗位明确要求有工作经历的,应聘人员须提供工作经历证明(加盖工作单位公章或人事部门公章);",
+            "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,应届毕业生还须提供毕业生就业推荐表(需盖学校公章);"
+          }
+        }
+      }
+    },
+    "http://www.hunan.gov.cn/hnszf/xxgk/rsxx/klzp/202609/t20260930_34075233.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-22T19:06:12+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "工作经历证明"
+          ],
+          "evidence": {
+            "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件;",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件;",
+            "工作经历证明": "(4)招聘岗位明确要求有工作经历的,应聘人员须提供工作经历证明(加盖工作单位公章或人事部门公章);"
+          }
+        }
+      }
+    },
+    "http://www.hunan.gov.cn/hnszf/xxgk/rsxx/klzp/202609/t20260918_34067702.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-22T19:06:12+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "硕士",
+            "应届",
+            "中共党员"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "硕士": "学校前身为1161年创办的长沙城南书院,1903年始立为湖南师范馆,举办现代师范教育,2008年升格为本科,2019年列为湖南省本科第一批招生高校,2024年获批硕士学位授予单位。",
+            "应届": "(5)招聘岗位对专业研究方向有要求的,毕业证专业与岗位要求专业不一致或暂未有毕业证的应届毕业生或所学专业为上一级学科,须提供就读学校出具的专业证明材料(导师签字且毕业学院盖章);",
+            "中共党员": "(4)招聘岗位政治面貌要求是中共党员(含预备党员)的,应聘人员须提供所在基层党组织开具的党员身份证明(加盖党组织公章,自报名之日起前6个月内开具的党员身份证明有效);",
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "近期照片"
+          ],
+          "evidence": {
+            "网上报名": "(1)采取网上报名的方式,每人限报一个岗位,多报则取消应聘资格。",
+            "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件;",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及其他相关证明材料原件;",
+            "近期照片": "范学院人才招聘网→点击右上角“登录”,登录报名系统→在菜单栏点击“我的应聘”→创建简历,并填写简历信息,上传近期清晰免冠证件照片及相关报名材料→在菜单栏点击“招聘岗位”,选择对应的岗位名称,仔细核对报名信息并确认后提交审核→等待审核,并关注"
+          }
+        }
+      }
+    },
+    "http://www.hunan.gov.cn/hnszf/xxgk/rsxx/klzp/202609/t20260918_34067699.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-22T19:06:12+08:00",
+      "fields": {
+        "registrationStart": "2026-12-31",
+        "registrationEnd": "2026-12-31",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "(二)报名 1.报名时间 自公告发布之日至2026年12月31日",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [
+            "2026"
+          ],
+          "evidence": {
+            "应届": "(4)招聘岗位对专业研究方向有要求的,毕业证专业与岗位要求专业一致的无需提供专业证明材料,暂未发毕业证的应届毕业生及所学专业为上一级学科的应聘人员须提供就读学校出具的专业证明材料(导师签字且毕业学院盖章);",
+            "2026届": "2.在读高校学生(指2027年及以后毕业的毕业生,2026届毕业生可根据条件报考);"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "报名表": "(1)请应聘人员自行下载并如实填写《湖南省事业单位公开招聘人员报名表》(见附件2),须在承诺栏手写签名;",
+            "学历学位证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "学信网证明": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);",
+            "就业推荐表": "(2)本人有效身份证(正反面)、学历学位证书原件(或学信网教育部学历证书电子注册备案表)和岗位要求的资格证书及相关材料原件,2026届毕业生还须提供毕业生就业推荐表(需盖学校公章);"
+          }
+        }
+      }
+    },
+    "http://www.hunan.gov.cn/hnszf/xxgk/rsxx/klzp/202609/t20260902_34055310.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-22T19:06:12+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "工作经历"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "工作经历": "3.具有2年以上基层工作经历和2年以上公务员（或参照公务员法管理机关、单位工作人员）工作经历（含试用期）。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "身份证",
+            "学历学位证明"
+          ],
+          "evidence": {
+            "网上报名": "报名人员应将审核盖章后的《报名推荐表》制作成电子文档（扫描或拍摄，电子文档须处理为jpg格式），上传至网上报名系统。",
+            "身份证": "复审材料包括本人身份证、准考证、《报名推荐表》原件、学历学位证书原件等。",
+            "学历学位证明": "复审材料包括本人身份证、准考证、《报名推荐表》原件、学历学位证书原件等。"
+          }
+        }
+      }
+    },
+    "http://www.hunan.gov.cn/hnszf/xxgk/rsxx/klzp/202608/t20260812_34043691.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-22T19:06:12+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
     }
   }
 }
