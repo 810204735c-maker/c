@@ -609,13 +609,13 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202604/t20260424_1963395.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-21T12:00:49+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -777,13 +777,13 @@
     },
     "https://www.stats.gov.cn/fw/gwyzl/sydwzl/202603/t20260316_1962788.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-21T12:00:49+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -1937,13 +1937,13 @@
     },
     "https://zwgk.mct.gov.cn/zfxxgkml/rsxx/gwyzkly/202507/t20250704_960996.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-21T12:00:49+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -3272,13 +3272,13 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zc/202603/t20260321_7114300.htm": {
       "status": "ok",
-      "fetchedAt": "2026-11-21T12:00:49+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [
@@ -5042,13 +5042,13 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4878994.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-21T12:00:49+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -6766,13 +6766,13 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4949166.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-22T11:15:00+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [
@@ -7862,13 +7862,13 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4953420.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-17T13:06:24+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
-        "registrationStart": null,
-        "registrationEnd": null,
-        "deadlineConfidence": "unknown",
-        "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationStart": "2026-09-14",
+        "registrationEnd": "2026-09-18",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "（三）打印准考证 报名成功的应聘人员请于2026年10月8日9:00起登录报名系统“全国事业单位招聘网”（网址https://www.qgsydw.com）",
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -12404,13 +12404,13 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36076038/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -12467,13 +12467,13 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36075409/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -12616,13 +12616,13 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36078063/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -12942,13 +12942,13 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpfa/202610/t20261023_7239842.htm": {
       "status": "ok",
-      "fetchedAt": "2026-11-21T12:00:49+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [
@@ -13479,13 +13479,13 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36108870/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-16T10:48:43+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -13512,13 +13512,13 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261102_4928095.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-17T13:06:24+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -13565,13 +13565,13 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202610/t20261030_596996.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-17T13:06:24+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -13591,13 +13591,13 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202610/t20261030_596998.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-17T13:06:24+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -13617,13 +13617,13 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202610/t20261030_596986.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-17T13:06:24+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -13643,13 +13643,13 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202610/t20261030_596985.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-17T13:06:24+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -13752,13 +13752,13 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36126081/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -13817,13 +13817,13 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36130336/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -13953,13 +13953,13 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261104_4931611.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14046,13 +14046,13 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36125967/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-21T12:00:49+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14117,19 +14117,40 @@
       }
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202611/t20261105_34096233.html": {
-      "status": "error",
-      "fetchedAt": "2026-11-22T11:15:00+08:00",
-      "error": "<urlopen error [Errno 101] Network is unreachable>"
-    },
-    "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261105_4933871.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-21T12:00:49+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261105_4933871.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14342,13 +14363,13 @@
     },
     "https://hrss.jl.gov.cn/gg/202611/t20261106_9740144.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-21T12:00:49+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14372,13 +14393,13 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36148630/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-16T10:48:43+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14402,13 +14423,13 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261109/36ea0c3b4da54acbbf412fa147a75701.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-16T10:48:43+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14471,13 +14492,13 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261109_598731.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-17T13:06:24+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14497,13 +14518,13 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261110_4939696.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-17T13:06:24+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14537,13 +14558,13 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261109_598730.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-17T13:06:24+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14563,13 +14584,13 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36165273/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-17T13:06:24+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14709,13 +14730,13 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36176853/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14812,13 +14833,13 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261110_598811.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14838,13 +14859,13 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261110_598885.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14864,13 +14885,13 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261110_598823.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14996,13 +15017,13 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261113_599332.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-16T14:15:30+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -15022,13 +15043,13 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261113_599333.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-16T14:15:30+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -15048,13 +15069,13 @@
     },
     "https://hudong.moe.gov.cn/jyb_xwfb/moe_2082/siju/rss/jggwyzl/202610/t20261014_1455803.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-16T14:15:30+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -15115,13 +15136,13 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261117_599699.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-18T12:30:15+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -15141,13 +15162,13 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261117_599721.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-18T12:30:15+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -15197,13 +15218,13 @@
     },
     "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36212308/content.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -15229,13 +15250,13 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261118_599809.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -15255,13 +15276,13 @@
     },
     "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261119_599950.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-20T12:01:07+08:00",
+      "fetchedAt": "2026-11-22T18:52:55+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
