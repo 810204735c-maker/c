@@ -68,6 +68,22 @@ class CrawlTests(unittest.TestCase):
         )
         self.assertEqual(source["allowedDomains"], ["moe.gov.cn"])
 
+    def test_hunan_source_uses_provincial_government_https_listing(self):
+        config_path = Path(__file__).resolve().parents[1] / "crawler" / "sources.json"
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+        source = next(
+            item for item in config["sources"]
+            if item["name"] == "湖南省事业单位招聘"
+        )
+
+        self.assertEqual(
+            source["url"],
+            "https://www.hunan.gov.cn/hnszf/xxgk/rsxx/klzp/rsxx.html",
+        )
+        self.assertEqual(source["allowedDomains"], ["hunan.gov.cn"])
+        self.assertEqual(source["emptyPageMarker"], "考录招聘")
+        self.assertNotIn("allowHttpReason", source)
+
     def test_august_22_expansion_sources_are_official_and_allowlisted(self):
         required = {
             "广东省事业单位招聘公告": ("hrss.gd.gov.cn", "招聘公告"),
@@ -93,7 +109,7 @@ class CrawlTests(unittest.TestCase):
 
     def test_weekly_expansion_sources_are_official_and_allowlisted(self):
         required = {
-            "湖南省事业单位招聘": ("http://", ["hunan.gov.cn"]),
+            "湖南省事业单位招聘": ("https://", ["hunan.gov.cn"]),
             "吉林省人社厅招聘公告": ("https://", ["jl.gov.cn"]),
             "福建省事业单位公开招聘": ("https://", ["fujian.gov.cn"]),
         }
@@ -112,7 +128,6 @@ class CrawlTests(unittest.TestCase):
             self.assertEqual(source["allowedDomains"], domains)
             self.assertTrue(source.get("allowEmpty"))
             self.assertTrue(source.get("emptyPageMarker"))
-        self.assertIn("GitHub Actions", selected["湖南省事业单位招聘"]["allowHttpReason"])
 
     def test_focus_sources_are_official_and_allowlisted(self):
         required = {
