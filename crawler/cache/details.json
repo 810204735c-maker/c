@@ -6766,7 +6766,7 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4949166.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-15T10:45:53+08:00",
+      "fetchedAt": "2026-11-22T11:15:00+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
@@ -14118,8 +14118,8 @@
     },
     "http://rst.hunan.gov.cn/rst/xxgk/zpzl/sydwzp/202611/t20261105_34096233.html": {
       "status": "error",
-      "fetchedAt": "2026-11-21T12:00:49+08:00",
-      "error": "timed out"
+      "fetchedAt": "2026-11-22T11:15:00+08:00",
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261105_4933871.html": {
       "status": "ok",
