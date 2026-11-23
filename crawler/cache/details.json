@@ -6051,13 +6051,13 @@
     },
     "https://hrss.gd.gov.cn/zwgk/sydwzp/zpgg/content/post_4945757.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-16T10:48:43+08:00",
+      "fetchedAt": "2026-11-23T11:44:48+08:00",
       "fields": {
         "registrationStart": "2026-09-01",
         "registrationEnd": "2026-09-30",
         "deadlineConfidence": "high",
         "deadlineEvidence": "首批报名时间为2026年9月1日9:00至2026年9月30日16:00",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14462,13 +14462,13 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261106/t0035_1444547.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-16T10:48:43+08:00",
+      "fetchedAt": "2026-11-23T11:44:48+08:00",
       "fields": {
         "registrationStart": "2026-11-18",
         "registrationEnd": "2026-11-18",
         "deadlineConfidence": "high",
         "deadlineEvidence": "报名时间:即日—2026年11月18日",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14985,13 +14985,13 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261113/t0035_1444699.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-16T10:48:43+08:00",
+      "fetchedAt": "2026-11-23T11:44:48+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
         "deadlineConfidence": "high",
         "deadlineEvidence": "2.报名时间 自发布之日起至2026年12月31日（招满即止）",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
