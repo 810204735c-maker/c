@@ -9488,13 +9488,13 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpfa/202609/t20260917_7214858.htm": {
       "status": "ok",
-      "fetchedAt": "2026-10-09T10:58:06+08:00",
+      "fetchedAt": "2026-11-24T14:58:25+08:00",
       "fields": {
         "registrationStart": "2026-09-18",
         "registrationEnd": "2026-09-28",
         "deadlineConfidence": "high",
         "deadlineEvidence": "四、报名和资格审查 1.报名时间：2026年9月18日至9:00—2026年9月28日16:00 2.报名方式：本次考试采取网上报名的方式进行",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [
@@ -11617,13 +11617,13 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202610/t20261010_7222850.htm": {
       "status": "ok",
-      "fetchedAt": "2026-11-17T13:06:24+08:00",
+      "fetchedAt": "2026-11-24T14:58:25+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
         "deadlineConfidence": "high",
         "deadlineEvidence": "四、报名和资格审查 1.报名时间：方案发布之日起至2026年12月31日",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [
@@ -12137,13 +12137,13 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/zpfa/202610/t20261016_7226730.htm": {
       "status": "ok",
-      "fetchedAt": "2026-10-17T09:20:59+08:00",
+      "fetchedAt": "2026-11-24T14:58:25+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": null,
         "deadlineConfidence": "unknown",
         "deadlineEvidence": "",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [
@@ -15099,13 +15099,13 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261116/t0035_1444751.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-17T13:06:24+08:00",
+      "fetchedAt": "2026-11-24T14:58:25+08:00",
       "fields": {
         "registrationStart": "2027-12-31",
         "registrationEnd": "2027-12-31",
         "deadlineConfidence": "high",
         "deadlineEvidence": "三、招聘流程 （一）应聘方式 1.报名时间：即日起至2027年12月31日",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [
@@ -15843,6 +15843,261 @@
           "methods": [],
           "materialTags": [],
           "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261123_600179.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-24T14:58:25+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261123_600180.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-24T14:58:25+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261123_600182.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-24T14:58:25+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261123_600173.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-24T14:58:25+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261123_600158.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-24T14:58:25+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261123_600169.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-24T14:58:25+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261123_600170.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-24T14:58:25+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "http://wap.sasac.gov.cn/n2588035/n2588325/n2588350/c36238371/content.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-24T14:58:25+08:00",
+      "fields": {
+        "registrationStart": "2026-11-14",
+        "registrationEnd": "2026-11-29",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "报名程序及相关说明 报名时间 2026年11月14日至2026年11月29日18:00",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名",
+            "现场报名"
+          ],
+          "materialTags": [],
+          "evidence": {
+            "网上报名": "招聘工作分为网上报名、资格审查、笔试、面试、考察、入职体检、正式录用等主要环节。",
+            "现场报名": "2.本次招聘仅接受网上报名，不接受现场报名及信件寄送，每名应聘者仅可报名1个岗位，请谨慎选择；"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261124_4956233.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-24T14:58:25+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "教师资格证"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "教师资格证": "（5）岗位要求的其他资格条件：具有相应学段教师资格，具有高级专业技术职称，且近两年考核等次均为合格（称职）及以上等次。"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "身份证",
+            "个人简历",
+            "资格证书"
+          ],
+          "evidence": {
+            "网上报名": "（一）网上报名及资格初审",
+            "身份证": "2.本人身份证正反面（须在有效期内）；",
+            "个人简历": "（1）个人简历及荣誉情况；",
+            "资格证书": "4.与招聘岗位相对应的本人教师资格证书；"
+          }
         }
       }
     }
