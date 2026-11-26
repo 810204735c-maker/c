@@ -10728,13 +10728,13 @@
     },
     "https://rst.fujian.gov.cn/zw/ztzl/zxzt/sydwrczp/gccrczpfa/202609/t20260928_7219040.htm": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-26T13:08:56+08:00",
       "fields": {
         "registrationStart": "2026-12-31",
         "registrationEnd": "2026-12-31",
         "deadlineConfidence": "high",
         "deadlineEvidence": "四、报名和资格审查 1.报名时间：方案自发布之日起至2026年12月31日",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [
@@ -13068,13 +13068,13 @@
     },
     "http://www.ceehe.ceec.net.cn/art/2026/10/27/art_60241_2074.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-26T13:08:56+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2028-05-31",
         "deadlineConfidence": "high",
         "deadlineEvidence": "四、其他事项 1.报名时间截止至2028年5月31日",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -13778,13 +13778,13 @@
     },
     "https://rst.hubei.gov.cn/hbrsksw/zlplks/hbssydwzpks/zkgg/202611/t20261105_6065662.shtml": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-26T13:08:56+08:00",
       "fields": {
         "registrationStart": "2026-11-06",
         "registrationEnd": "2026-11-20",
         "deadlineConfidence": "high",
         "deadlineEvidence": "报名起止时间：2026年11月6日9:00—11月20日18:00",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -13847,13 +13847,13 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261104_4932176.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-26T13:08:56+08:00",
       "fields": {
         "registrationStart": "2026-11-13",
         "registrationEnd": "2026-11-13",
         "deadlineConfidence": "high",
         "deadlineEvidence": "四、报名时间及程序 （一）报名时间：即日起至2026年11月13日17:00 （二）报名方式：采取网上报名、线上资格审核 （三）报名程序： 1.网上报名 应聘人员请登录首都师范大学附属育新学校网站（http://www.yuxinschoo",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -13888,13 +13888,13 @@
     },
     "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261104_4932111.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-26T13:08:56+08:00",
       "fields": {
         "registrationStart": "2026-11-13",
         "registrationEnd": "2026-11-13",
         "deadlineConfidence": "high",
         "deadlineEvidence": "二、招聘程序 （一）报名 1.报名时间 即日起至2026年11月13日17时 2.报名方式 此次招聘采取网络报名的方式",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14004,13 +14004,13 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261103/t0035_1444491.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-26T13:08:56+08:00",
       "fields": {
         "registrationStart": "2026-11-20",
         "registrationEnd": "2026-11-20",
         "deadlineConfidence": "high",
         "deadlineEvidence": "五、招聘办法 （一）报名 报名时间自公告发布之日起至2026年11月20日",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14763,13 +14763,13 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261111/t0035_1444619.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-26T13:08:56+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-11-22",
         "deadlineConfidence": "high",
         "deadlineEvidence": "报名截止日期：2026年11月22日",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -14799,13 +14799,13 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261111/t0035_1444607.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-19T12:13:57+08:00",
+      "fetchedAt": "2026-11-26T13:08:56+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-11-20",
         "deadlineConfidence": "high",
         "deadlineEvidence": "报名截止时间：2026年11月20日",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -16097,6 +16097,85 @@
             "身份证": "2.本人身份证正反面（须在有效期内）；",
             "个人简历": "（1）个人简历及荣誉情况；",
             "资格证书": "4.与招聘岗位相对应的本人教师资格证书；"
+          }
+        }
+      }
+    },
+    "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261125_4957768.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-26T13:08:56+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [
+            "网上报名"
+          ],
+          "materialTags": [
+            "身份证",
+            "学历学位证明"
+          ],
+          "evidence": {
+            "网上报名": "本次事业单位公开招聘采取网上报名方式，应聘人员请于 2026年11月30日9:00—12月4日16:00登录西城区政府网站卫生健康栏目（网址http://www.bjxch.gov.cn/xcfw/wsjk.html），进入“北京市西城区卫",
+            "身份证": "3.本人身份证、户口簿（集体户口的需出示集体户口首页复印件和本人户口页）；",
+            "学历学位证明": "4.学历学位证书，在职学历需提供学历在线认证证明；"
+          }
+        }
+      }
+    },
+    "https://hrss.jl.gov.cn/gg/202611/t20261125_9750751.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-26T13:08:56+08:00",
+      "fields": {
+        "registrationStart": "2026-11-30",
+        "registrationEnd": "2026-12-04",
+        "deadlineConfidence": "high",
+        "deadlineEvidence": "（二）报名时间 2026年11月30日至12月4日",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [
+            "应届"
+          ],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {
+            "应届": "1.定向、委培应届毕业生报考，须征得定向、委培单位同意；"
+          }
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [
+            "报名表",
+            "学历学位证明",
+            "学信网证明",
+            "党员证明",
+            "成绩单",
+            "就业推荐表"
+          ],
+          "evidence": {
+            "报名表": "报名人员需填写《2026年吉林省省直事业单位公开招聘工作人员报名表》（附件2）；",
+            "学历学位证明": "高校各学习阶段的学历学位证书及认证（国内学历学位认证在“学信网”查询生成；",
+            "学信网证明": "高校各学习阶段的学历学位证书及认证（国内学历学位认证在“学信网”查询生成；",
+            "党员证明": "岗位要求的相关资格证、工作经历、党员证明等佐证材料。",
+            "成绩单": "证书专业为一级学科的，须上传成绩单和毕业论文等佐证材料。",
+            "就业推荐表": "2026年毕业生尚未取得学历学位证书的，提供学校核发的就业推荐表；"
           }
         }
       }
