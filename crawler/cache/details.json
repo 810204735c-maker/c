@@ -14911,13 +14911,13 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261112/t0035_1444688.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-20T12:01:07+08:00",
+      "fetchedAt": "2026-11-27T13:05:05+08:00",
       "fields": {
         "registrationStart": null,
         "registrationEnd": "2026-11-22",
         "deadlineConfidence": "high",
         "deadlineEvidence": "报名截止时间：即日起至2026年11月22日",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -15302,13 +15302,13 @@
     },
     "https://rsj.sh.gov.cn/tzpgg_17408/20261118/t0035_1444802.html": {
       "status": "ok",
-      "fetchedAt": "2026-11-20T12:01:07+08:00",
+      "fetchedAt": "2026-11-27T13:05:05+08:00",
       "fields": {
         "registrationStart": "2026-12-04",
         "registrationEnd": "2026-12-04",
         "deadlineConfidence": "high",
         "deadlineEvidence": "二、招聘流程与安排 （一）报名与资格审查 1.报名时间：即日起至2026年12月4日",
-        "registrationWindowSchemaVersion": 2,
+        "registrationWindowSchemaVersion": 3,
         "profileHints": {
           "schemaVersion": 3,
           "roleTags": [],
@@ -16177,6 +16177,84 @@
             "成绩单": "证书专业为一级学科的，须上传成绩单和毕业论文等佐证材料。",
             "就业推荐表": "2026年毕业生尚未取得学历学位证书的，提供学校核发的就业推荐表；"
           }
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261126_601218.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-27T13:05:05+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261125_601008.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-27T13:05:05+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
+        }
+      }
+    },
+    "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261125_601056.html": {
+      "status": "ok",
+      "fetchedAt": "2026-11-27T13:05:05+08:00",
+      "fields": {
+        "registrationStart": null,
+        "registrationEnd": null,
+        "deadlineConfidence": "unknown",
+        "deadlineEvidence": "",
+        "registrationWindowSchemaVersion": 3,
+        "profileHints": {
+          "schemaVersion": 3,
+          "roleTags": [],
+          "majorTags": [],
+          "qualificationTags": [],
+          "englishRequirements": [],
+          "graduateYears": [],
+          "evidence": {}
+        },
+        "applicationHints": {
+          "schemaVersion": 1,
+          "methods": [],
+          "materialTags": [],
+          "evidence": {}
         }
       }
     }
